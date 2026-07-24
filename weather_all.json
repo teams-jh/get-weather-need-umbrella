@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "updated_at": "2026-07-24T14:38:44Z",
+    "source": "OpenWeatherMap",
+    "total_locations": 15
+  },
+  "data": {
+    "seoul": {
+      "id": "seoul",
+      "name": "서울",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "recommendation": {
+        "state_code": "UMBRELLA",
+        "message": "비가 꽤 많이 와요. 우산 챙길까요?",
+        "max_temp": 24.5
+      }
+    },
+    "incheon": {
+      "id": "incheon",
+      "name": "인천",
+      "lat": 37.4563,
+      "lon": 126.7052,
+      "recommendation": {
+        "state_code": "NONE",
+        "message": "가볍게 빈손으로 나가도 좋아요.",
+        "max_temp": 25.0
+      }
+    },
+    "suwon": {
+      "id": "suwon",
+      "name": "수원",
+      "lat": 37.2636,
+      "lon": 127.0286,
+      "recommendation": {
+        "state_code": "NONE",
+        "message": "가볍게 빈손으로 나가도 좋아요.",
+        "max_temp": 26.2
+      }
+    },
+    "chuncheon": {
+      "id": "chuncheon",
+      "name": "춘천",
+      "lat": 37.8813,
+      "lon": 127.7298,
+      "recommendation": {
+        "state_code": "NONE",
+        "message": "가볍게 빈손으로 나가도 좋아요.",
+        "max_temp": 25.0
+      }
+    },
+    "gangneung": {
+      "id": "gangneung",
+      "name": "강릉",
+      "lat": 37.7519,
+      "lon": 128.8761,
+      "recommendation": {
+        "state_code": "NONE",
+        "message": "가볍게 빈손으로 나가도 좋아요.",
+        "max_temp": 25.0
+      }
+    },
+    "cheongju": {
+      "id": "cheongju",
+      "name": "청주",
+      "lat": 36.6424,
+      "lon": 127.489,
+      "recommendation": {
+        "state_code": "NONE",
+        "message": "가볍게 빈손으로 나가도 좋아요.",
+        "max_temp": 25.0
+      }
+    },
+    "daejeon": {
+      "id": "daejeon",
+      "name": "대전",
+      "lat": 36.3504,
+      "lon": 127.3845,
+      "recommendation": {
+        "state_code": "NONE",
+        "message": "가볍게 빈손으로 나가도 좋아요.",
+        "max_temp": 25.0
+      }
+    },
+    "jeonju": {
+      "id": "jeonju",
+      "name": "전주",
+      "lat": 35.8242,
+      "lon": 127.148,
+      "recommendation": {
+        "state_code": "NONE",
+        "message": "가볍게 빈손으로 나가도 좋아요.",
+        "max_temp": 25.0
+      }
+    },
+    "gwangju": {
+      "id": "gwangju",
+      "name": "광주",
+      "lat": 35.1595,
+      "lon": 126.8526,
+      "recommendation": {
+        "state_code": "NONE",
+        "message": "가볍게 빈손으로 나가도 좋아요.",
+        "max_temp": 25.0
+      }
+    },
+    "mokpo": {
+      "id": "mokpo",
+      "name": "목포",
+      "lat": 34.8118,
+      "lon": 126.3922,
+      "recommendation": {
+        "state_code": "NONE",
+        "message": "가볍게 빈손으로 나가도 좋아요.",
+        "max_temp": 25.0
+      }
+    },
+    "daegu": {
+      "id": "daegu",
+      "name": "대구",
+      "lat": 35.8714,
+      "lon": 128.6014,
+      "recommendation": {
+        "state_code": "NONE",
+        "message": "가볍게 빈손으로 나가도 좋아요.",
+        "max_temp": 25.0
+      }
+    },
+    "pohang": {
+      "id": "pohang",
+      "name": "포항",
+      "lat": 36.019,
+      "lon": 129.3435,
+      "recommendation": {
+        "state_code": "NONE",
+        "message": "가볍게 빈손으로 나가도 좋아요.",
+        "max_temp": 25.0
+      }
+    },
+    "busan": {
+      "id": "busan",
+      "name": "부산",
+      "lat": 35.1796,
+      "lon": 129.0756,
+      "recommendation": {
+        "state_code": "PARASOL",
+        "message": "볕이 뜨거워요. 양산 챙길까요?",
+        "max_temp": 28.4
+      }
+    },
+    "ulsan": {
+      "id": "ulsan",
+      "name": "울산",
+      "lat": 35.5384,
+      "lon": 129.3114,
+      "recommendation": {
+        "state_code": "NONE",
+        "message": "가볍게 빈손으로 나가도 좋아요.",
+        "max_temp": 25.0
+      }
+    },
+    "jeju": {
+      "id": "jeju",
+      "name": "제주",
+      "lat": 33.4996,
+      "lon": 126.5312,
+      "recommendation": {
+        "state_code": "NONE",
+        "message": "가볍게 빈손으로 나가도 좋아요.",
+        "max_temp": 25.0
+      }
+    }
+  }
+}
