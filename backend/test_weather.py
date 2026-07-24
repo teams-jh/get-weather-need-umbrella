@@ -1,7 +1,7 @@
 import pytest
 from datetime import datetime, timezone, timedelta
 from main import evaluate_weather, evaluate_weather_v2, is_daytime_kst
-
+ 
 KST = timezone(timedelta(hours=9))
 
 def test_daytime_kst_filtering():
