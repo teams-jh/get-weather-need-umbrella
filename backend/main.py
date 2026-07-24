@@ -1,6 +1,5 @@
 import sys
 import io
-sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding='utf-8')
 import json
 import os
 from datetime import datetime, timezone, timedelta
@@ -342,5 +341,7 @@ def generate_weather_json(api_key: str = None, output_path: str = "weather_all.j
     return output
 
 if __name__ == "__main__":
+    if hasattr(sys.stdout, "detach"):
+        sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding='utf-8')
     api_key_env = os.environ.get("OPENWEATHER_API_KEY")
     generate_weather_json(api_key=api_key_env)
