@@ -29,8 +29,9 @@ jobs:
           pip install -r backend/requirements.txt
 
       - name: Run pytest unit tests
+        working-directory: ./backend
         run: |
-          PYTHONPATH=backend pytest backend/test_weather.py
+          pytest test_weather.py
 
       - name: Fetch and generate weather JSON
         env:
