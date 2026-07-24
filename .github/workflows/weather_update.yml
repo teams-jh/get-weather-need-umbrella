@@ -41,11 +41,12 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action Bot"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git fetch origin main
+          git rebase origin/main
           git add weather_all.json
-          if ! git diff --quiet || ! git diff --staged --quiet; then
+          if ! git diff --staged --quiet; then
             git commit -m "chore: auto-update weather_all.json [skip ci]"
-            git pull --rebase origin main
             git push origin main
           fi
