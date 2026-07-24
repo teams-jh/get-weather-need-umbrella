@@ -1,3 +1,6 @@
+import sys
+import io
+sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding='utf-8')
 import json
 import os
 from datetime import datetime, timezone, timedelta
