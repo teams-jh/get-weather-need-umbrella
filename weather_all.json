@@ -1,7 +1,8 @@
 {
   "meta": {
-    "updated_at": "2026-07-24T14:38:44Z",
-    "source": "OpenWeatherMap",
+    "version": "2.0",
+    "updated_at": "2026-07-24T16:32:03Z",
+    "source": "OpenWeatherMap One Call API 4.0",
     "total_locations": 15
   },
   "data": {
@@ -12,8 +13,14 @@
       "lon": 126.978,
       "recommendation": {
         "state_code": "UMBRELLA",
-        "message": "비가 꽤 많이 와요. 우산 챙길까요?",
-        "max_temp": 24.5
+        "title": "오후 14:15부터 비 소식이 있어요",
+        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+        "rain_start_time": "14:15",
+        "max_temp": 24.5,
+        "feels_like_max": 25.8,
+        "max_uvi": 4.2,
+        "temp_diff": 6.5,
+        "alert_event": null
       }
     },
     "incheon": {
@@ -23,8 +30,14 @@
       "lon": 126.7052,
       "recommendation": {
         "state_code": "NONE",
-        "message": "가볍게 빈손으로 나가도 좋아요.",
-        "max_temp": 25.0
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
       }
     },
     "suwon": {
@@ -34,8 +47,14 @@
       "lon": 127.0286,
       "recommendation": {
         "state_code": "NONE",
-        "message": "가볍게 빈손으로 나가도 좋아요.",
-        "max_temp": 26.2
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
       }
     },
     "chuncheon": {
@@ -44,9 +63,15 @@
       "lat": 37.8813,
       "lon": 127.7298,
       "recommendation": {
-        "state_code": "NONE",
-        "message": "가볍게 빈손으로 나가도 좋아요.",
-        "max_temp": 25.0
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 11.5°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "rain_start_time": null,
+        "max_temp": 23.0,
+        "feels_like_max": 23.5,
+        "max_uvi": 4.0,
+        "temp_diff": 11.5,
+        "alert_event": null
       }
     },
     "gangneung": {
@@ -55,9 +80,15 @@
       "lat": 37.7519,
       "lon": 128.8761,
       "recommendation": {
-        "state_code": "NONE",
-        "message": "가볍게 빈손으로 나가도 좋아요.",
-        "max_temp": 25.0
+        "state_code": "ALERT",
+        "title": "호우주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": "11:00",
+        "max_temp": 21.0,
+        "feels_like_max": 22.0,
+        "max_uvi": 2.0,
+        "temp_diff": 4.0,
+        "alert_event": "호우주의보"
       }
     },
     "cheongju": {
@@ -67,8 +98,14 @@
       "lon": 127.489,
       "recommendation": {
         "state_code": "NONE",
-        "message": "가볍게 빈손으로 나가도 좋아요.",
-        "max_temp": 25.0
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
       }
     },
     "daejeon": {
@@ -78,8 +115,14 @@
       "lon": 127.3845,
       "recommendation": {
         "state_code": "NONE",
-        "message": "가볍게 빈손으로 나가도 좋아요.",
-        "max_temp": 25.0
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
       }
     },
     "jeonju": {
@@ -89,8 +132,14 @@
       "lon": 127.148,
       "recommendation": {
         "state_code": "NONE",
-        "message": "가볍게 빈손으로 나가도 좋아요.",
-        "max_temp": 25.0
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
       }
     },
     "gwangju": {
@@ -100,8 +149,14 @@
       "lon": 126.8526,
       "recommendation": {
         "state_code": "NONE",
-        "message": "가볍게 빈손으로 나가도 좋아요.",
-        "max_temp": 25.0
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
       }
     },
     "mokpo": {
@@ -111,8 +166,14 @@
       "lon": 126.3922,
       "recommendation": {
         "state_code": "NONE",
-        "message": "가볍게 빈손으로 나가도 좋아요.",
-        "max_temp": 25.0
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
       }
     },
     "daegu": {
@@ -122,8 +183,14 @@
       "lon": 128.6014,
       "recommendation": {
         "state_code": "NONE",
-        "message": "가볍게 빈손으로 나가도 좋아요.",
-        "max_temp": 25.0
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
       }
     },
     "pohang": {
@@ -133,8 +200,14 @@
       "lon": 129.3435,
       "recommendation": {
         "state_code": "NONE",
-        "message": "가볍게 빈손으로 나가도 좋아요.",
-        "max_temp": 25.0
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
       }
     },
     "busan": {
@@ -144,8 +217,14 @@
       "lon": 129.0756,
       "recommendation": {
         "state_code": "PARASOL",
-        "message": "볕이 뜨거워요. 양산 챙길까요?",
-        "max_temp": 28.4
+        "title": "자외선이 '높음' 단계예요",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
+        "rain_start_time": null,
+        "max_temp": 29.4,
+        "feels_like_max": 31.2,
+        "max_uvi": 7.8,
+        "temp_diff": 7.0,
+        "alert_event": null
       }
     },
     "ulsan": {
@@ -155,8 +234,14 @@
       "lon": 129.3114,
       "recommendation": {
         "state_code": "NONE",
-        "message": "가볍게 빈손으로 나가도 좋아요.",
-        "max_temp": 25.0
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
       }
     },
     "jeju": {
@@ -166,8 +251,14 @@
       "lon": 126.5312,
       "recommendation": {
         "state_code": "NONE",
-        "message": "가볍게 빈손으로 나가도 좋아요.",
-        "max_temp": 25.0
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
       }
     }
   }
