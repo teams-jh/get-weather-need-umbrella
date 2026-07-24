@@ -22,17 +22,17 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r backend/requirements.txt
+          pip install -r requirements.txt
 
       - name: Run pytest unit tests
         run: |
-          pytest backend/test_weather.py
+          pytest test_weather.py
 
       - name: Fetch and generate weather JSON
         env:
           OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
         run: |
-          python backend/main.py
+          python main.py
 
       - name: Commit and push changes
         run: |
