@@ -220,15 +220,27 @@ def evaluate_weather(forecast_list: List[Dict[str, Any]]) -> Dict[str, Any]:
 
 def generate_weather_json(api_key: str = None, output_path: str = "weather_all.json") -> Dict[str, Any]:
     """
-    15개 거점 도시 날씨 수집 및 weather_all.json V2 생성
+    50개 거점 도시 날씨 수집 및 weather_all.json V2 생성
     """
     import requests
 
     result_data = {}
 
-    # 디폴트 거점 데이터 (15개 도시 다양하게 5개 상태 커버하도록 구성)
+    default_none_preset = {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": None,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": None
+    }
+
+    # 디폴트 거점 데이터 (주요 거점 시뮬레이션 프리셋)
     default_states_preset = {
-        "seoul": {
+        "seoul_south": {
             "state_code": "UMBRELLA",
             "title": "오후 14:15부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
@@ -239,7 +251,7 @@ def generate_weather_json(api_key: str = None, output_path: str = "weather_all.j
             "temp_diff": 6.5,
             "alert_event": None
         },
-        "busan": {
+        "busan_center": {
             "state_code": "PARASOL",
             "title": "자외선이 '높음' 단계예요",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
@@ -250,7 +262,7 @@ def generate_weather_json(api_key: str = None, output_path: str = "weather_all.j
             "temp_diff": 7.0,
             "alert_event": None
         },
-        "suwon": {
+        "gyeonggi_suwon": {
             "state_code": "NONE",
             "title": "가볍게 빈손으로 나가도 좋아요",
             "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
@@ -261,7 +273,7 @@ def generate_weather_json(api_key: str = None, output_path: str = "weather_all.j
             "temp_diff": 6.0,
             "alert_event": None
         },
-        "chuncheon": {
+        "gangwon_chuncheon": {
             "state_code": "JACKET",
             "title": "낮과 밤의 기온 차가 11.5°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
@@ -272,7 +284,7 @@ def generate_weather_json(api_key: str = None, output_path: str = "weather_all.j
             "temp_diff": 11.5,
             "alert_event": None
         },
-        "gangneung": {
+        "gangwon_gangneung": {
             "state_code": "ALERT",
             "title": "호우주의보 발령 중",
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
@@ -289,6 +301,9 @@ def generate_weather_json(api_key: str = None, output_path: str = "weather_all.j
         loc_id = loc["id"]
         lat = loc["lat"]
         lon = loc["lon"]
+        group = loc.get("group", "")
+        display_name = loc.get("display_name", "")
+        full_name = f"{group}_{display_name}" if group and display_name and group != display_name else (group or display_name or loc.get("name", loc_id))
 
         if api_key:
             # 1. One Call API (3.0 / 4.0 구독 규격 엔드포인트) 시도
@@ -310,15 +325,17 @@ def generate_weather_json(api_key: str = None, output_path: str = "weather_all.j
                     print(f"Successfully fetched real weather for {loc_id} via 2.5 Free API!")
                 except Exception as e2:
                     print(f"2.5 Free API fetch also failed for {loc_id}: {e2}, using preset fallback.")
-                    preset = default_states_preset.get(loc_id, default_states_preset["suwon"])
+                    preset = default_states_preset.get(loc_id, default_none_preset)
                     recommendation = preset
         else:
-            preset = default_states_preset.get(loc_id, default_states_preset["suwon"])
+            preset = default_states_preset.get(loc_id, default_none_preset)
             recommendation = preset
 
         result_data[loc_id] = {
             "id": loc_id,
-            "name": loc["name"],
+            "name": full_name,
+            "group": group,
+            "display_name": display_name,
             "lat": lat,
             "lon": lon,
             "recommendation": recommendation

@@ -1,33 +1,18 @@
 {
   "meta": {
     "version": "2.0",
-    "updated_at": "2026-07-24T22:01:27Z",
+    "updated_at": "2026-07-24T23:17:55Z",
     "source": "OpenWeatherMap One Call API 4.0",
-    "total_locations": 15
+    "total_locations": 50
   },
   "data": {
-    "seoul": {
-      "id": "seoul",
-      "name": "서울",
-      "lat": 37.5665,
-      "lon": 126.978,
-      "recommendation": {
-        "state_code": "UMBRELLA",
-        "title": "오후 14:15부터 비 소식이 있어요",
-        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "14:15",
-        "max_temp": 24.5,
-        "feels_like_max": 25.8,
-        "max_uvi": 4.2,
-        "temp_diff": 6.5,
-        "alert_event": null
-      }
-    },
-    "incheon": {
-      "id": "incheon",
-      "name": "인천",
-      "lat": 37.4563,
-      "lon": 126.7052,
+    "seoul_center": {
+      "id": "seoul_center",
+      "name": "서울_종로",
+      "group": "서울",
+      "display_name": "종로",
+      "lat": 37.57,
+      "lon": 126.9796,
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
@@ -40,9 +25,87 @@
         "alert_event": null
       }
     },
-    "suwon": {
-      "id": "suwon",
-      "name": "수원",
+    "seoul_south": {
+      "id": "seoul_south",
+      "name": "서울_강남",
+      "group": "서울",
+      "display_name": "강남",
+      "lat": 37.4979,
+      "lon": 127.0276,
+      "recommendation": {
+        "state_code": "UMBRELLA",
+        "title": "오후 14:15부터 비 소식이 있어요",
+        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+        "rain_start_time": "14:15",
+        "max_temp": 24.5,
+        "feels_like_max": 25.8,
+        "max_uvi": 4.2,
+        "temp_diff": 6.5,
+        "alert_event": null
+      }
+    },
+    "seoul_east": {
+      "id": "seoul_east",
+      "name": "서울_송파",
+      "group": "서울",
+      "display_name": "송파",
+      "lat": 37.5145,
+      "lon": 127.1066,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "seoul_west": {
+      "id": "seoul_west",
+      "name": "서울_강서",
+      "group": "서울",
+      "display_name": "강서",
+      "lat": 37.5509,
+      "lon": 126.8495,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "seoul_north": {
+      "id": "seoul_north",
+      "name": "서울_노원",
+      "group": "서울",
+      "display_name": "노원",
+      "lat": 37.6542,
+      "lon": 127.0568,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "gyeonggi_suwon": {
+      "id": "gyeonggi_suwon",
+      "name": "경기_수원",
+      "group": "경기",
+      "display_name": "수원",
       "lat": 37.2636,
       "lon": 127.0286,
       "recommendation": {
@@ -57,9 +120,448 @@
         "alert_event": null
       }
     },
-    "chuncheon": {
-      "id": "chuncheon",
-      "name": "춘천",
+    "gyeonggi_seongnam": {
+      "id": "gyeonggi_seongnam",
+      "name": "경기_성남",
+      "group": "경기",
+      "display_name": "성남",
+      "lat": 37.3827,
+      "lon": 127.1189,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "gyeonggi_goyang": {
+      "id": "gyeonggi_goyang",
+      "name": "경기_고양",
+      "group": "경기",
+      "display_name": "고양",
+      "lat": 37.6583,
+      "lon": 126.832,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "gyeonggi_yongin": {
+      "id": "gyeonggi_yongin",
+      "name": "경기_용인",
+      "group": "경기",
+      "display_name": "용인",
+      "lat": 37.241,
+      "lon": 127.1775,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "gyeonggi_bucheon": {
+      "id": "gyeonggi_bucheon",
+      "name": "경기_부천",
+      "group": "경기",
+      "display_name": "부천",
+      "lat": 37.5034,
+      "lon": 126.766,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "gyeonggi_namyangju": {
+      "id": "gyeonggi_namyangju",
+      "name": "경기_남양주",
+      "group": "경기",
+      "display_name": "남양주",
+      "lat": 37.636,
+      "lon": 127.2165,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "gyeonggi_pyeongtaek": {
+      "id": "gyeonggi_pyeongtaek",
+      "name": "경기_평택",
+      "group": "경기",
+      "display_name": "평택",
+      "lat": 36.9921,
+      "lon": 127.1129,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "gyeonggi_uijeongbu": {
+      "id": "gyeonggi_uijeongbu",
+      "name": "경기_의정부",
+      "group": "경기",
+      "display_name": "의정부",
+      "lat": 37.7381,
+      "lon": 127.0339,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "incheon_center": {
+      "id": "incheon_center",
+      "name": "인천_남동",
+      "group": "인천",
+      "display_name": "남동",
+      "lat": 37.4475,
+      "lon": 126.7314,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "incheon_west": {
+      "id": "incheon_west",
+      "name": "인천_서구",
+      "group": "인천",
+      "display_name": "서구",
+      "lat": 37.5451,
+      "lon": 126.676,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "busan_center": {
+      "id": "busan_center",
+      "name": "부산_진구",
+      "group": "부산",
+      "display_name": "진구",
+      "lat": 35.1631,
+      "lon": 129.0536,
+      "recommendation": {
+        "state_code": "PARASOL",
+        "title": "자외선이 '높음' 단계예요",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
+        "rain_start_time": null,
+        "max_temp": 29.4,
+        "feels_like_max": 31.2,
+        "max_uvi": 7.8,
+        "temp_diff": 7.0,
+        "alert_event": null
+      }
+    },
+    "busan_east": {
+      "id": "busan_east",
+      "name": "부산_해운대",
+      "group": "부산",
+      "display_name": "해운대",
+      "lat": 35.1631,
+      "lon": 129.1636,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "busan_west": {
+      "id": "busan_west",
+      "name": "부산_사상",
+      "group": "부산",
+      "display_name": "사상",
+      "lat": 35.1526,
+      "lon": 128.9911,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "busan_south": {
+      "id": "busan_south",
+      "name": "부산_영도",
+      "group": "부산",
+      "display_name": "영도",
+      "lat": 35.0912,
+      "lon": 129.0679,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "daegu_center": {
+      "id": "daegu_center",
+      "name": "대구_중구",
+      "group": "대구",
+      "display_name": "중구",
+      "lat": 35.8669,
+      "lon": 128.5942,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "daegu_east": {
+      "id": "daegu_east",
+      "name": "대구_동구",
+      "group": "대구",
+      "display_name": "동구",
+      "lat": 35.8865,
+      "lon": 128.6355,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "daegu_west": {
+      "id": "daegu_west",
+      "name": "대구_달서",
+      "group": "대구",
+      "display_name": "달서",
+      "lat": 35.8299,
+      "lon": 128.5326,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "daejeon_center": {
+      "id": "daejeon_center",
+      "name": "대전_서구",
+      "group": "대전",
+      "display_name": "서구",
+      "lat": 36.3554,
+      "lon": 127.3838,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "daejeon_yuseong": {
+      "id": "daejeon_yuseong",
+      "name": "대전_유성",
+      "group": "대전",
+      "display_name": "유성",
+      "lat": 36.3622,
+      "lon": 127.3562,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "gwangju_center": {
+      "id": "gwangju_center",
+      "name": "광주_서구",
+      "group": "광주",
+      "display_name": "서구",
+      "lat": 35.152,
+      "lon": 126.8901,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "gwangju_gwangsan": {
+      "id": "gwangju_gwangsan",
+      "name": "광주_광산",
+      "group": "광주",
+      "display_name": "광산",
+      "lat": 35.1396,
+      "lon": 126.7936,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "ulsan_center": {
+      "id": "ulsan_center",
+      "name": "울산_남구",
+      "group": "울산",
+      "display_name": "남구",
+      "lat": 35.5437,
+      "lon": 129.33,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "ulsan_ulju": {
+      "id": "ulsan_ulju",
+      "name": "울산_울주",
+      "group": "울산",
+      "display_name": "울주",
+      "lat": 35.5387,
+      "lon": 129.1444,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "sejong_center": {
+      "id": "sejong_center",
+      "name": "세종",
+      "group": "세종",
+      "display_name": "세종",
+      "lat": 36.48,
+      "lon": 127.289,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "gangwon_chuncheon": {
+      "id": "gangwon_chuncheon",
+      "name": "강원_춘천",
+      "group": "강원",
+      "display_name": "춘천",
       "lat": 37.8813,
       "lon": 127.7298,
       "recommendation": {
@@ -74,9 +576,30 @@
         "alert_event": null
       }
     },
-    "gangneung": {
-      "id": "gangneung",
-      "name": "강릉",
+    "gangwon_wonju": {
+      "id": "gangwon_wonju",
+      "name": "강원_원주",
+      "group": "강원",
+      "display_name": "원주",
+      "lat": 37.3422,
+      "lon": 127.9202,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "gangwon_gangneung": {
+      "id": "gangwon_gangneung",
+      "name": "강원_강릉",
+      "group": "강원",
+      "display_name": "강릉",
       "lat": 37.7519,
       "lon": 128.8761,
       "recommendation": {
@@ -91,9 +614,11 @@
         "alert_event": "호우주의보"
       }
     },
-    "cheongju": {
-      "id": "cheongju",
-      "name": "청주",
+    "chungbuk_cheongju": {
+      "id": "chungbuk_cheongju",
+      "name": "충북_청주",
+      "group": "충북",
+      "display_name": "청주",
       "lat": 36.6424,
       "lon": 127.489,
       "recommendation": {
@@ -108,11 +633,13 @@
         "alert_event": null
       }
     },
-    "daejeon": {
-      "id": "daejeon",
-      "name": "대전",
-      "lat": 36.3504,
-      "lon": 127.3845,
+    "chungbuk_chungju": {
+      "id": "chungbuk_chungju",
+      "name": "충북_충주",
+      "group": "충북",
+      "display_name": "충주",
+      "lat": 36.9911,
+      "lon": 127.926,
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
@@ -125,9 +652,68 @@
         "alert_event": null
       }
     },
-    "jeonju": {
-      "id": "jeonju",
-      "name": "전주",
+    "chungnam_cheonan": {
+      "id": "chungnam_cheonan",
+      "name": "충남_천안",
+      "group": "충남",
+      "display_name": "천안",
+      "lat": 36.8151,
+      "lon": 127.1139,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "chungnam_asan": {
+      "id": "chungnam_asan",
+      "name": "충남_아산",
+      "group": "충남",
+      "display_name": "아산",
+      "lat": 36.7898,
+      "lon": 127.0018,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "chungnam_seosan": {
+      "id": "chungnam_seosan",
+      "name": "충남_서산",
+      "group": "충남",
+      "display_name": "서산",
+      "lat": 36.7801,
+      "lon": 126.4503,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "jeonbuk_jeonju": {
+      "id": "jeonbuk_jeonju",
+      "name": "전북_전주",
+      "group": "전북",
+      "display_name": "전주",
       "lat": 35.8242,
       "lon": 127.148,
       "recommendation": {
@@ -142,11 +728,13 @@
         "alert_event": null
       }
     },
-    "gwangju": {
-      "id": "gwangju",
-      "name": "광주",
-      "lat": 35.1595,
-      "lon": 126.8526,
+    "jeonbuk_gunsan": {
+      "id": "jeonbuk_gunsan",
+      "name": "전북_군산",
+      "group": "전북",
+      "display_name": "군산",
+      "lat": 35.9677,
+      "lon": 126.7366,
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
@@ -159,9 +747,30 @@
         "alert_event": null
       }
     },
-    "mokpo": {
-      "id": "mokpo",
-      "name": "목포",
+    "jeonbuk_iksan": {
+      "id": "jeonbuk_iksan",
+      "name": "전북_익산",
+      "group": "전북",
+      "display_name": "익산",
+      "lat": 35.9483,
+      "lon": 126.9578,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "jeonnam_mokpo": {
+      "id": "jeonnam_mokpo",
+      "name": "전남_목포",
+      "group": "전남",
+      "display_name": "목포",
       "lat": 34.8118,
       "lon": 126.3922,
       "recommendation": {
@@ -176,11 +785,13 @@
         "alert_event": null
       }
     },
-    "daegu": {
-      "id": "daegu",
-      "name": "대구",
-      "lat": 35.8714,
-      "lon": 128.6014,
+    "jeonnam_yeosu": {
+      "id": "jeonnam_yeosu",
+      "name": "전남_여수",
+      "group": "전남",
+      "display_name": "여수",
+      "lat": 34.7604,
+      "lon": 127.6622,
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
@@ -193,9 +804,30 @@
         "alert_event": null
       }
     },
-    "pohang": {
-      "id": "pohang",
-      "name": "포항",
+    "jeonnam_suncheon": {
+      "id": "jeonnam_suncheon",
+      "name": "전남_순천",
+      "group": "전남",
+      "display_name": "순천",
+      "lat": 34.9506,
+      "lon": 127.4872,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "gyeongbuk_pohang": {
+      "id": "gyeongbuk_pohang",
+      "name": "경북_포항",
+      "group": "경북",
+      "display_name": "포항",
       "lat": 36.019,
       "lon": 129.3435,
       "recommendation": {
@@ -210,28 +842,13 @@
         "alert_event": null
       }
     },
-    "busan": {
-      "id": "busan",
-      "name": "부산",
-      "lat": 35.1796,
-      "lon": 129.0756,
-      "recommendation": {
-        "state_code": "PARASOL",
-        "title": "자외선이 '높음' 단계예요",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "rain_start_time": null,
-        "max_temp": 29.4,
-        "feels_like_max": 31.2,
-        "max_uvi": 7.8,
-        "temp_diff": 7.0,
-        "alert_event": null
-      }
-    },
-    "ulsan": {
-      "id": "ulsan",
-      "name": "울산",
-      "lat": 35.5384,
-      "lon": 129.3114,
+    "gyeongbuk_gumi": {
+      "id": "gyeongbuk_gumi",
+      "name": "경북_구미",
+      "group": "경북",
+      "display_name": "구미",
+      "lat": 36.1195,
+      "lon": 128.3445,
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
@@ -244,11 +861,89 @@
         "alert_event": null
       }
     },
-    "jeju": {
-      "id": "jeju",
-      "name": "제주",
+    "gyeongbuk_andong": {
+      "id": "gyeongbuk_andong",
+      "name": "경북_안동",
+      "group": "경북",
+      "display_name": "안동",
+      "lat": 36.5684,
+      "lon": 128.7294,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "gyeongnam_changwon": {
+      "id": "gyeongnam_changwon",
+      "name": "경남_창원",
+      "group": "경남",
+      "display_name": "창원",
+      "lat": 35.2279,
+      "lon": 128.6811,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "gyeongnam_jinju": {
+      "id": "gyeongnam_jinju",
+      "name": "경남_진주",
+      "group": "경남",
+      "display_name": "진주",
+      "lat": 35.1802,
+      "lon": 128.1076,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "jeju_jeju": {
+      "id": "jeju_jeju",
+      "name": "제주_제주시",
+      "group": "제주",
+      "display_name": "제주시",
       "lat": 33.4996,
       "lon": 126.5312,
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "max_temp": 22.5,
+        "feels_like_max": 22.0,
+        "max_uvi": 3.5,
+        "temp_diff": 6.0,
+        "alert_event": null
+      }
+    },
+    "jeju_seogwipo": {
+      "id": "jeju_seogwipo",
+      "name": "제주_서귀포",
+      "group": "제주",
+      "display_name": "서귀포",
+      "lat": 33.2541,
+      "lon": 126.5601,
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",

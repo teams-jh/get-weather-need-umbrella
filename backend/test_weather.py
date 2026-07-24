@@ -1,8 +1,45 @@
 import pytest
+import os
 from datetime import datetime, timezone, timedelta
-from main import evaluate_weather, evaluate_weather_v2, is_daytime_kst
- 
+from locations import HUB_LOCATIONS
+from main import generate_weather_json, evaluate_weather, evaluate_weather_v2, is_daytime_kst
+
 KST = timezone(timedelta(hours=9))
+
+def test_hub_locations_structure():
+    """HUB_LOCATIONS 50개 거점 정보 스키마 및 무결성 검증"""
+    assert len(HUB_LOCATIONS) == 50
+
+    ids = set()
+    for loc in HUB_LOCATIONS:
+        assert "id" in loc and isinstance(loc["id"], str)
+        assert loc["id"] not in ids, f"중복된 location id: {loc['id']}"
+        ids.add(loc["id"])
+
+        assert "group" in loc and len(loc["group"]) > 0
+        assert "display_name" in loc and len(loc["display_name"]) > 0
+        assert "lat" in loc and 33.0 <= loc["lat"] <= 39.0
+        assert "lon" in loc and 124.0 <= loc["lon"] <= 132.0
+
+def test_generate_weather_json_schema():
+    """50개 권역별 생성 JSON 스키마 (name: 서울_강남 형태 및 group/display_name) 검증"""
+    test_out = "_test_weather_all.json"
+    try:
+        result = generate_weather_json(api_key=None, output_path=test_out)
+
+        assert result["meta"]["total_locations"] == 50
+        assert len(result["data"]) == 50
+
+        # 예시: seoul_south (서울_강남) 검증
+        seoul_south = result["data"].get("seoul_south")
+        assert seoul_south is not None
+        assert seoul_south["group"] == "서울"
+        assert seoul_south["display_name"] == "강남"
+        assert seoul_south["name"] == "서울_강남"
+        assert "recommendation" in seoul_south
+    finally:
+        if os.path.exists(test_out):
+            os.remove(test_out)
 
 def test_daytime_kst_filtering():
     """KST 낮 시간대(09:00 ~ 18:00) 필터링 유틸리티 테스트"""
