@@ -283,11 +283,15 @@ def evaluate_weather(forecast_list: List[Dict[str, Any]], now_ts: Optional[float
         "alert_event": None
     }
 
-def generate_weather_json(api_key: str = None, output_path: str = "weather_all.json") -> Dict[str, Any]:
+def generate_weather_json(api_key: str = None, output_path: Optional[str] = None) -> Dict[str, Any]:
     """
     50개 거점 도시 날씨 수집 및 weather_all.json V2 생성
     """
     import requests
+
+    if not output_path:
+        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        output_path = os.path.join(base_dir, "weather_all.json")
 
     result_data = {}
 
@@ -389,6 +393,8 @@ def generate_weather_json(api_key: str = None, output_path: str = "weather_all.j
                 recommendation = evaluate_weather_v2(api_data)
                 onecall_count += 1
             except Exception as e:
+                if onecall_count == 0 and forecast25_count == 0 and dummy_count == 0:
+                    print(f"[NOTE] One Call 3.0/4.0 API 호출 거부/실패 ({loc_id}): {e}. 2.5 Forecast API로 시도합니다...")
                 # 2. 무료 기본 2.5 Forecast API 파이프라인 Fallback
                 try:
                     url_25 = f"https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={api_key}&units=metric"
@@ -452,8 +458,28 @@ def generate_weather_json(api_key: str = None, output_path: str = "weather_all.j
     print("==================================================")
     return output
 
+def load_env_file():
+    """ .env 파일에서 OPENWEATHER_API_KEY 자동 로드 """
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    env_paths = [
+        os.path.join(base_dir, ".env"),
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
+    ]
+    for env_path in env_paths:
+        if os.path.exists(env_path):
+            with open(env_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith("#") and "=" in line:
+                        k, v = line.split("=", 1)
+                        os.environ[k.strip()] = v.strip().strip('"').strip("'")
+            break
+
 if __name__ == "__main__":
     if hasattr(sys.stdout, "detach"):
         sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding='utf-8')
+    load_env_file()
     api_key_env = os.environ.get("OPENWEATHER_API_KEY")
-    generate_weather_json(api_key=api_key_env)
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    target_json_path = os.path.join(project_root, "weather_all.json")
+    generate_weather_json(api_key=api_key_env, output_path=target_json_path)
