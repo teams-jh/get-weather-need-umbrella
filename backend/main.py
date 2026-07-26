@@ -384,17 +384,27 @@ def generate_weather_json(api_key: str = None, output_path: Optional[str] = None
         full_name = f"{group}_{display_name}" if group and display_name and group != display_name else (group or display_name or loc.get("name", loc_id))
 
         if api_key:
-            # 1. One Call API 4.0 엔드포인트 시도
-            try:
-                url = f"https://api.openweathermap.org/data/4.0/onecall?lat={lat}&lon={lon}&appid={api_key}&units=metric"
-                resp = requests.get(url, timeout=10)
-                resp.raise_for_status()
-                api_data = resp.json()
+            # 1. One Call API 4.0 엔드포인트 시도 (공식 규격: /data/4.0/onecall/current 및 /data/3.0/onecall)
+            api_data = None
+            onecall_err = None
+            for url_template in [
+                f"https://api.openweathermap.org/data/4.0/onecall/current?lat={lat}&lon={lon}&appid={api_key}&units=metric",
+                f"https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&appid={api_key}&units=metric"
+            ]:
+                try:
+                    resp = requests.get(url_template, timeout=10)
+                    resp.raise_for_status()
+                    api_data = resp.json()
+                    break
+                except Exception as ex:
+                    onecall_err = ex
+
+            if api_data:
                 recommendation = evaluate_weather_v2(api_data)
                 onecall_count += 1
-            except Exception as e:
+            else:
                 if onecall_count == 0 and forecast25_count == 0 and dummy_count == 0:
-                    print(f"[NOTE] One Call API 4.0 호출 실패 ({loc_id}): {e}. 2.5 Forecast API로 시도합니다...")
+                    print(f"[NOTE] One Call API 4.0 호출 실패 ({loc_id}): {onecall_err}. 2.5 Forecast API로 시도합니다...")
                 # 2. 무료 기본 2.5 Forecast API 파이프라인 Fallback
                 try:
                     url_25 = f"https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={api_key}&units=metric"
