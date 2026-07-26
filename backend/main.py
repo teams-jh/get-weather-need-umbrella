@@ -373,7 +373,7 @@ def generate_weather_json(api_key: str = None, output_path: str = "weather_all.j
     output = {
         "meta": {
             "version": "2.0",
-            "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "updated_at": datetime.now(KST).strftime("%Y-%m-%dT%H:%M:%S+09:00"),
             "source": "OpenWeatherMap One Call API 4.0",
             "total_locations": len(HUB_LOCATIONS)
         },
