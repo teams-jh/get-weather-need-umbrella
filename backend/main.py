@@ -384,9 +384,9 @@ def generate_weather_json(api_key: str = None, output_path: Optional[str] = None
         full_name = f"{group}_{display_name}" if group and display_name and group != display_name else (group or display_name or loc.get("name", loc_id))
 
         if api_key:
-            # 1. One Call API (3.0 / 4.0 구독 규격 엔드포인트) 시도
+            # 1. One Call API 4.0 엔드포인트 시도
             try:
-                url = f"https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&appid={api_key}&units=metric"
+                url = f"https://api.openweathermap.org/data/4.0/onecall?lat={lat}&lon={lon}&appid={api_key}&units=metric"
                 resp = requests.get(url, timeout=10)
                 resp.raise_for_status()
                 api_data = resp.json()
@@ -394,7 +394,7 @@ def generate_weather_json(api_key: str = None, output_path: Optional[str] = None
                 onecall_count += 1
             except Exception as e:
                 if onecall_count == 0 and forecast25_count == 0 and dummy_count == 0:
-                    print(f"[NOTE] One Call 3.0/4.0 API 호출 거부/실패 ({loc_id}): {e}. 2.5 Forecast API로 시도합니다...")
+                    print(f"[NOTE] One Call API 4.0 호출 실패 ({loc_id}): {e}. 2.5 Forecast API로 시도합니다...")
                 # 2. 무료 기본 2.5 Forecast API 파이프라인 Fallback
                 try:
                     url_25 = f"https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={api_key}&units=metric"
