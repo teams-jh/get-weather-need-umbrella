@@ -53,11 +53,28 @@ def evaluate_weather_v2(api_data: Dict[str, Any], now_ts: Optional[float] = None
     minutely = api_data.get("minutely", [])
     hourly = api_data.get("hourly", [])
 
-    max_temp = daily.get("temp", {}).get("max", current.get("temp", 25.0))
-    min_temp = daily.get("temp", {}).get("min", max_temp - 5.0)
-    feels_like_max = daily.get("feels_like", {}).get("day", current.get("feels_like", max_temp))
-    max_uvi = daily.get("uvi", current.get("uvi", 3.0))
-    temp_diff = max(0.0, max_temp - min_temp)
+    # KST 기준 오늘 23:59:59 타임스탬프 계산 (현재 시각 이후~오늘 남아있는 시간 대상)
+    dt_kst_now = datetime.fromtimestamp(now_ts, tz=KST)
+    end_of_today_ts = datetime(dt_kst_now.year, dt_kst_now.month, dt_kst_now.day, 23, 59, 59, tzinfo=KST).timestamp()
+
+    # 현재 시각(-300초 오차)부터 KST 오늘 23:59:59까지의 hourly 예보 필터링
+    remaining_hourly = [
+        item for item in hourly
+        if now_ts - 300 <= item.get("dt", 0) <= end_of_today_ts
+    ]
+
+    if remaining_hourly:
+        max_temp = max(item.get("temp", current.get("temp", 25.0)) for item in remaining_hourly)
+        feels_like_max = max(item.get("feels_like", current.get("feels_like", max_temp)) for item in remaining_hourly)
+        max_uvi = max(item.get("uvi", 0.0) for item in remaining_hourly)
+    else:
+        max_temp = current.get("temp", daily.get("temp", {}).get("max", 25.0))
+        feels_like_max = current.get("feels_like", daily.get("feels_like", {}).get("day", max_temp))
+        max_uvi = current.get("uvi", daily.get("uvi", 3.0))
+
+    daily_max = daily.get("temp", {}).get("max", max_temp)
+    daily_min = daily.get("temp", {}).get("min", daily_max - 5.0)
+    temp_diff = max(0.0, daily_max - daily_min)
 
     # 1. ALERT (기상 특보 최우선)
     if alerts:
@@ -164,9 +181,22 @@ def evaluate_weather(forecast_list: List[Dict[str, Any]], now_ts: Optional[float
     if now_ts is None:
         now_ts = datetime.now(timezone.utc).timestamp()
 
-    # 현재 시각 이후의 예보만 대상으로 선택
-    valid_forecasts = [f for f in forecast_list if f.get("dt", 0) >= now_ts - 1800]
-    target_forecasts = valid_forecasts if valid_forecasts else forecast_list
+    # KST 기준 오늘 23:59:59 타임스탬프 계산 (현재 시각 이후~오늘 남아있는 시간 대상)
+    dt_kst_now = datetime.fromtimestamp(now_ts, tz=KST)
+    end_of_today_ts = datetime(dt_kst_now.year, dt_kst_now.month, dt_kst_now.day, 23, 59, 59, tzinfo=KST).timestamp()
+
+    # 현재 시각(-1800초 오차 허용)부터 오늘 23:59:59까지 남아있는 예보만 선택
+    today_remaining_forecasts = [
+        f for f in forecast_list
+        if now_ts - 1800 <= f.get("dt", 0) <= end_of_today_ts
+    ]
+
+    # 만약 오늘 남은 예보가 없다면(밤 11시 이후 등), 향후 가장 가까운 예보 사용
+    if not today_remaining_forecasts:
+        future_forecasts = [f for f in forecast_list if f.get("dt", 0) >= now_ts - 1800]
+        target_forecasts = future_forecasts[:2] if future_forecasts else forecast_list[:1]
+    else:
+        target_forecasts = today_remaining_forecasts
 
     has_precipitation = False
     rain_start_str: Optional[str] = None
@@ -174,8 +204,9 @@ def evaluate_weather(forecast_list: List[Dict[str, Any]], now_ts: Optional[float
     min_temp = 999.0
 
     for item in target_forecasts:
-        temp_max_item = item.get("main", {}).get("temp_max", item.get("main", {}).get("temp", 0.0))
-        temp_min_item = item.get("main", {}).get("temp_min", item.get("main", {}).get("temp", 0.0))
+        temp_item = item.get("main", {}).get("temp", 0.0)
+        temp_max_item = item.get("main", {}).get("temp_max", temp_item)
+        temp_min_item = item.get("main", {}).get("temp_min", temp_item)
         if temp_max_item > max_temp:
             max_temp = temp_max_item
         if temp_min_item < min_temp:
@@ -190,7 +221,12 @@ def evaluate_weather(forecast_list: List[Dict[str, Any]], now_ts: Optional[float
                     dt_kst = datetime.fromtimestamp(item.get("dt", 0), tz=KST)
                     rain_start_str = dt_kst.strftime("%H:%M")
 
-    temp_diff = max(0.0, max_temp - min_temp) if min_temp != 999.0 else 5.0
+    if max_temp == -999.0:
+        max_temp = 20.0
+    if min_temp == 999.0:
+        min_temp = max_temp - 5.0
+
+    temp_diff = max(0.0, max_temp - min_temp)
 
     # 1. UMBRELLA (비/눈 감지)
     if has_precipitation:
@@ -326,6 +362,15 @@ def generate_weather_json(api_key: str = None, output_path: str = "weather_all.j
         }
     }
 
+    onecall_count = 0
+    forecast25_count = 0
+    dummy_count = 0
+
+    if not api_key:
+        print("[WARNING] OPENWEATHER_API_KEY가 감지되지 않았습니다. preset 더미 데이터로 생성합니다.")
+    else:
+        print("[INFO] OPENWEATHER_API_KEY가 감지되었습니다. 실시간 날씨 데이터 조회를 시작합니다...")
+
     for loc in HUB_LOCATIONS:
         loc_id = loc["id"]
         lat = loc["lat"]
@@ -342,8 +387,8 @@ def generate_weather_json(api_key: str = None, output_path: str = "weather_all.j
                 resp.raise_for_status()
                 api_data = resp.json()
                 recommendation = evaluate_weather_v2(api_data)
+                onecall_count += 1
             except Exception as e:
-                print(f"One Call API disabled/unauthorized for {loc_id} ({e}). Trying 2.5 Forecast Free API...")
                 # 2. 무료 기본 2.5 Forecast API 파이프라인 Fallback
                 try:
                     url_25 = f"https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={api_key}&units=metric"
@@ -351,14 +396,16 @@ def generate_weather_json(api_key: str = None, output_path: str = "weather_all.j
                     resp_25.raise_for_status()
                     forecast_list = resp_25.json().get("list", [])
                     recommendation = evaluate_weather(forecast_list)
-                    print(f"Successfully fetched real weather for {loc_id} via 2.5 Free API!")
+                    forecast25_count += 1
                 except Exception as e2:
-                    print(f"2.5 Free API fetch also failed for {loc_id}: {e2}, using preset fallback.")
+                    print(f"[FALLBACK] API fetch failed for {loc_id}: {e2}. Using preset dummy data.")
                     preset = default_states_preset.get(loc_id, default_none_preset)
                     recommendation = preset
+                    dummy_count += 1
         else:
             preset = default_states_preset.get(loc_id, default_none_preset)
             recommendation = preset
+            dummy_count += 1
 
         result_data[loc_id] = {
             "id": loc_id,
@@ -370,11 +417,22 @@ def generate_weather_json(api_key: str = None, output_path: str = "weather_all.j
             "recommendation": recommendation
         }
 
+    # 데이터 출처 메타정보 문자열 세팅
+    if onecall_count > 0:
+        data_source_str = f"OpenWeatherMap One Call API 4.0 (Real Data - {onecall_count}/{len(HUB_LOCATIONS)})"
+    elif forecast25_count > 0:
+        data_source_str = f"OpenWeatherMap 2.5 Forecast Free API (Real Data - {forecast25_count}/{len(HUB_LOCATIONS)})"
+    else:
+        data_source_str = "Preset Dummy Data (No API Key)"
+
+    if dummy_count > 0 and (onecall_count > 0 or forecast25_count > 0):
+        data_source_str += f" (Partial Dummy: {dummy_count})"
+
     output = {
         "meta": {
             "version": "2.0",
             "updated_at": datetime.now(KST).strftime("%Y-%m-%dT%H:%M:%S+09:00"),
-            "source": "OpenWeatherMap One Call API 4.0",
+            "source": data_source_str,
             "total_locations": len(HUB_LOCATIONS)
         },
         "data": result_data
@@ -383,7 +441,15 @@ def generate_weather_json(api_key: str = None, output_path: str = "weather_all.j
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"Successfully generated {output_path} with {len(result_data)} locations (V2 Schema).")
+    print("==================================================")
+    print(f"[SUMMARY] Weather Data Generation Completed!")
+    print(f" - Output File   : {output_path}")
+    print(f" - Data Source   : {data_source_str}")
+    print(f" - Total Cities  : {len(result_data)}")
+    print(f" - Real 4.0 API  : {onecall_count}")
+    print(f" - Real 2.5 API  : {forecast25_count}")
+    print(f" - Dummy Presets : {dummy_count}")
+    print("==================================================")
     return output
 
 if __name__ == "__main__":
