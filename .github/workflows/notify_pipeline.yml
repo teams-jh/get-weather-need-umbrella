@@ -1,0 +1,31 @@
+name: Hourly Umbrella Notification Pipeline
+
+on:
+  schedule:
+    # 매시 정각 (UTC 기준 0분 = KST 매시 00분)
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  run-notification-scheduler:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r backend/requirements.txt
+
+      - name: Run Umbrella Notification Scheduler
+        env:
+          FIREBASE_SERVICE_ACCOUNT_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY }}
+          ENABLE_REAL_TOSS_PUSH: 'true'
+        run: |
+          python backend/notify_scheduler.py

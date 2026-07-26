@@ -16,7 +16,26 @@ def is_daytime_kst(dt_timestamp: int) -> bool:
     dt_kst = datetime.fromtimestamp(dt_timestamp, tz=KST)
     return 9 <= dt_kst.hour <= 18
 
-def evaluate_weather_v2(api_data: Dict[str, Any]) -> Dict[str, Any]:
+def format_rain_title(rain_start_str: Optional[str]) -> str:
+    """
+    "14:15" -> "오후 2:15부터 비 소식이 있어요"
+    "09:30" -> "오전 9:30부터 비 소식이 있어요"
+    """
+    if not rain_start_str or ":" not in rain_start_str:
+        return "비 소식이 있어요"
+    try:
+        parts = rain_start_str.split(":")
+        hour = int(parts[0])
+        minute = parts[1]
+        ampm = "오후" if hour >= 12 else "오전"
+        hour_12 = hour if hour <= 12 else hour - 12
+        if hour_12 == 0:
+            hour_12 = 12
+        return f"{ampm} {hour_12}:{minute}부터 비 소식이 있어요"
+    except Exception:
+        return "비 소식이 있어요"
+
+def evaluate_weather_v2(api_data: Dict[str, Any], now_ts: Optional[float] = None) -> Dict[str, Any]:
     """
     prd2.md 알고리즘 명세에 따른 날씨 판별 함수 (V2):
     1. alerts (기상 특보) -> ALERT
@@ -25,6 +44,9 @@ def evaluate_weather_v2(api_data: Dict[str, Any]) -> Dict[str, Any]:
     4. temp_diff (일교차) >= 10.0도 -> JACKET
     5. 기타 -> NONE
     """
+    if now_ts is None:
+        now_ts = datetime.now(timezone.utc).timestamp()
+
     alerts = api_data.get("alerts", [])
     current = api_data.get("current", {})
     daily = api_data.get("daily", [{}])[0] if api_data.get("daily") else {}
@@ -52,33 +74,37 @@ def evaluate_weather_v2(api_data: Dict[str, Any]) -> Dict[str, Any]:
             "alert_event": event_name
         }
 
-    # 2. UMBRELLA (강수 감지 및 비 시작 시간 추적)
+    # 2. UMBRELLA (현재 시각 이후의 강수 감지 및 비 시작 시간 추적)
     rain_start_str: Optional[str] = None
 
-    # 2-1. 15분 단위(minutely) 강수 체크
+    # 2-1. 15분 단위(minutely) 강수 체크 (현재 시각 이후만)
     for item in minutely:
-        precip = item.get("precipitation", 0)
-        if precip > 0:
-            dt_kst = datetime.fromtimestamp(item.get("dt", 0), tz=KST)
-            rain_start_str = dt_kst.strftime("%H:%M")
-            break
+        dt = item.get("dt", 0)
+        if dt >= now_ts - 300:  # 5분 전 오차 범위 허용
+            precip = item.get("precipitation", 0)
+            if precip > 0:
+                dt_kst = datetime.fromtimestamp(dt, tz=KST)
+                rain_start_str = dt_kst.strftime("%H:%M")
+                break
 
-    # 2-2. 15분 단위 데이터가 없고 hourly에서 강수인 경우
+    # 2-2. 15분 단위 데이터가 없고 hourly에서 강수인 경우 (현재 시각 이후만)
     if not rain_start_str and hourly:
         for item in hourly:
-            weather_entries = item.get("weather", [])
-            for w in weather_entries:
-                if w.get("id", 800) < 700 or item.get("pop", 0) >= 0.5:
-                    dt_kst = datetime.fromtimestamp(item.get("dt", 0), tz=KST)
-                    rain_start_str = dt_kst.strftime("%H:%M")
+            dt = item.get("dt", 0)
+            if dt >= now_ts - 1800:  # 30분 전 오차 범위 허용
+                weather_entries = item.get("weather", [])
+                for w in weather_entries:
+                    if w.get("id", 800) < 700 or item.get("pop", 0) >= 0.5:
+                        dt_kst = datetime.fromtimestamp(dt, tz=KST)
+                        rain_start_str = dt_kst.strftime("%H:%M")
+                        break
+                if rain_start_str:
                     break
-            if rain_start_str:
-                break
 
     if rain_start_str:
         return {
             "state_code": "UMBRELLA",
-            "title": f"오후 {rain_start_str}부터 비 소식이 있어요" if int(rain_start_str.split(":")[0]) >= 12 else f"오전 {rain_start_str}부터 비 소식이 있어요",
+            "title": format_rain_title(rain_start_str),
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
             "rain_start_time": rain_start_str,
             "max_temp": round(max_temp, 1),
@@ -131,19 +157,23 @@ def evaluate_weather_v2(api_data: Dict[str, Any]) -> Dict[str, Any]:
         "alert_event": None
     }
 
-def evaluate_weather(forecast_list: List[Dict[str, Any]]) -> Dict[str, Any]:
+def evaluate_weather(forecast_list: List[Dict[str, Any]], now_ts: Optional[float] = None) -> Dict[str, Any]:
     """
     2.5 무료 API 예보 데이터 기반 5대 준비물 상태 판별 함수
     """
-    daytime_forecasts = [f for f in forecast_list if is_daytime_kst(f.get("dt", 0))]
-    target_forecasts = daytime_forecasts if daytime_forecasts else forecast_list[:4]
+    if now_ts is None:
+        now_ts = datetime.now(timezone.utc).timestamp()
+
+    # 현재 시각 이후의 예보만 대상으로 선택
+    valid_forecasts = [f for f in forecast_list if f.get("dt", 0) >= now_ts - 1800]
+    target_forecasts = valid_forecasts if valid_forecasts else forecast_list
 
     has_precipitation = False
     rain_start_str: Optional[str] = None
     max_temp = -999.0
     min_temp = 999.0
 
-    for item in forecast_list:
+    for item in target_forecasts:
         temp_max_item = item.get("main", {}).get("temp_max", item.get("main", {}).get("temp", 0.0))
         temp_min_item = item.get("main", {}).get("temp_min", item.get("main", {}).get("temp", 0.0))
         if temp_max_item > max_temp:
@@ -154,7 +184,7 @@ def evaluate_weather(forecast_list: List[Dict[str, Any]]) -> Dict[str, Any]:
         # 비/눈 감지 및 시작시간 파싱
         weather_entries = item.get("weather", [])
         for w in weather_entries:
-            if w.get("id", 800) < 700:
+            if w.get("id", 800) < 700 or item.get("pop", 0) >= 0.5:
                 has_precipitation = True
                 if not rain_start_str:
                     dt_kst = datetime.fromtimestamp(item.get("dt", 0), tz=KST)
@@ -164,10 +194,9 @@ def evaluate_weather(forecast_list: List[Dict[str, Any]]) -> Dict[str, Any]:
 
     # 1. UMBRELLA (비/눈 감지)
     if has_precipitation:
-        time_hint = rain_start_str if rain_start_str else "오늘"
         return {
             "state_code": "UMBRELLA",
-            "title": f"오후 {time_hint}부터 비 소식이 있어요" if time_hint != "오늘" and int(time_hint.split(":")[0]) >= 12 else f"{time_hint} 비 소식이 있어요",
+            "title": format_rain_title(rain_start_str),
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
             "max_temp": round(max_temp, 1),
             "feels_like_max": round(max_temp, 1),
