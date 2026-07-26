@@ -48,7 +48,13 @@ def evaluate_weather_v2(api_data: Dict[str, Any], now_ts: Optional[float] = None
         now_ts = datetime.now(timezone.utc).timestamp()
 
     alerts = api_data.get("alerts", [])
-    current = api_data.get("current", {})
+    
+    # OpenWeather 4.0 /current 엔드포인트 규격 ("data" 배열 구조) 호환 처리
+    if "data" in api_data and isinstance(api_data["data"], list) and len(api_data["data"]) > 0:
+        current = api_data["data"][0]
+    else:
+        current = api_data.get("current", {})
+
     daily = api_data.get("daily", [{}])[0] if api_data.get("daily") else {}
     minutely = api_data.get("minutely", [])
     hourly = api_data.get("hourly", [])
@@ -76,6 +82,9 @@ def evaluate_weather_v2(api_data: Dict[str, Any], now_ts: Optional[float] = None
     daily_min = daily.get("temp", {}).get("min", daily_max - 5.0)
     temp_diff = max(0.0, daily_max - daily_min)
 
+    current_temp = current.get("temp", max_temp)
+    current_feels_like = current.get("feels_like", feels_like_max)
+
     # 1. ALERT (기상 특보 최우선)
     if alerts:
         event_name = alerts[0].get("event", "기상 특보")
@@ -84,6 +93,8 @@ def evaluate_weather_v2(api_data: Dict[str, Any], now_ts: Optional[float] = None
             "title": f"{event_name} 발령 중",
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
             "rain_start_time": None,
+            "current_temp": round(current_temp, 1),
+            "current_feels_like": round(current_feels_like, 1),
             "max_temp": round(max_temp, 1),
             "feels_like_max": round(feels_like_max, 1),
             "max_uvi": round(max_uvi, 1),
@@ -124,6 +135,8 @@ def evaluate_weather_v2(api_data: Dict[str, Any], now_ts: Optional[float] = None
             "title": format_rain_title(rain_start_str),
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
             "rain_start_time": rain_start_str,
+            "current_temp": round(current_temp, 1),
+            "current_feels_like": round(current_feels_like, 1),
             "max_temp": round(max_temp, 1),
             "feels_like_max": round(feels_like_max, 1),
             "max_uvi": round(max_uvi, 1),
@@ -140,6 +153,8 @@ def evaluate_weather_v2(api_data: Dict[str, Any], now_ts: Optional[float] = None
             "title": title_msg,
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
             "rain_start_time": None,
+            "current_temp": round(current_temp, 1),
+            "current_feels_like": round(current_feels_like, 1),
             "max_temp": round(max_temp, 1),
             "feels_like_max": round(feels_like_max, 1),
             "max_uvi": round(max_uvi, 1),
@@ -154,6 +169,8 @@ def evaluate_weather_v2(api_data: Dict[str, Any], now_ts: Optional[float] = None
             "title": f"낮과 밤의 기온 차가 {round(temp_diff)}°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
             "rain_start_time": None,
+            "current_temp": round(current_temp, 1),
+            "current_feels_like": round(current_feels_like, 1),
             "max_temp": round(max_temp, 1),
             "feels_like_max": round(feels_like_max, 1),
             "max_uvi": round(max_uvi, 1),
@@ -167,6 +184,8 @@ def evaluate_weather_v2(api_data: Dict[str, Any], now_ts: Optional[float] = None
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": None,
+        "current_temp": round(current_temp, 1),
+        "current_feels_like": round(current_feels_like, 1),
         "max_temp": round(max_temp, 1),
         "feels_like_max": round(feels_like_max, 1),
         "max_uvi": round(max_uvi, 1),
@@ -228,12 +247,18 @@ def evaluate_weather(forecast_list: List[Dict[str, Any]], now_ts: Optional[float
 
     temp_diff = max(0.0, max_temp - min_temp)
 
+    first_item = target_forecasts[0] if target_forecasts else {}
+    current_temp = first_item.get("main", {}).get("temp", max_temp)
+    current_feels_like = first_item.get("main", {}).get("feels_like", current_temp)
+
     # 1. UMBRELLA (비/눈 감지)
     if has_precipitation:
         return {
             "state_code": "UMBRELLA",
             "title": format_rain_title(rain_start_str),
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+            "current_temp": round(current_temp, 1),
+            "current_feels_like": round(current_feels_like, 1),
             "max_temp": round(max_temp, 1),
             "feels_like_max": round(max_temp, 1),
             "max_uvi": 3.0,
@@ -248,6 +273,8 @@ def evaluate_weather(forecast_list: List[Dict[str, Any]], now_ts: Optional[float
             "state_code": "PARASOL",
             "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
+            "current_temp": round(current_temp, 1),
+            "current_feels_like": round(current_feels_like, 1),
             "max_temp": round(max_temp, 1),
             "feels_like_max": round(max_temp + 1.5, 1),
             "max_uvi": 7.5,
@@ -262,6 +289,8 @@ def evaluate_weather(forecast_list: List[Dict[str, Any]], now_ts: Optional[float
             "state_code": "JACKET",
             "title": f"낮과 밤의 기온 차가 {round(temp_diff)}°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+            "current_temp": round(current_temp, 1),
+            "current_feels_like": round(current_feels_like, 1),
             "max_temp": round(max_temp, 1),
             "feels_like_max": round(max_temp, 1),
             "max_uvi": 4.0,
@@ -275,6 +304,8 @@ def evaluate_weather(forecast_list: List[Dict[str, Any]], now_ts: Optional[float
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "current_temp": round(current_temp, 1),
+        "current_feels_like": round(current_feels_like, 1),
         "max_temp": round(max_temp, 1),
         "feels_like_max": round(max_temp, 1),
         "max_uvi": 3.5,
@@ -300,6 +331,8 @@ def generate_weather_json(api_key: str = None, output_path: Optional[str] = None
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": None,
+        "current_temp": 22.0,
+        "current_feels_like": 21.5,
         "max_temp": 22.5,
         "feels_like_max": 22.0,
         "max_uvi": 3.5,
@@ -314,6 +347,8 @@ def generate_weather_json(api_key: str = None, output_path: Optional[str] = None
             "title": "오후 14:15부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
             "rain_start_time": "14:15",
+            "current_temp": 23.0,
+            "current_feels_like": 24.0,
             "max_temp": 24.5,
             "feels_like_max": 25.8,
             "max_uvi": 4.2,
