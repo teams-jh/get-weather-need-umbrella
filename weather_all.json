@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "2.0",
-    "updated_at": "2026-07-26T19:22:26+09:00",
+    "updated_at": "2026-07-26T19:32:47+09:00",
     "source": "OpenWeatherMap 2.5 Forecast Free API (Real Data - 50/50)",
     "total_locations": 50
   },
@@ -17,10 +17,10 @@
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29.9,
-        "feels_like_max": 31.4,
+        "max_temp": 28.2,
+        "feels_like_max": 29.7,
         "max_uvi": 7.5,
-        "temp_diff": 1.8,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -36,10 +36,10 @@
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 30.1,
-        "feels_like_max": 31.6,
+        "max_temp": 28.3,
+        "feels_like_max": 29.8,
         "max_uvi": 7.5,
-        "temp_diff": 1.8,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -55,10 +55,10 @@
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 30.2,
-        "feels_like_max": 31.7,
+        "max_temp": 28.3,
+        "feels_like_max": 29.8,
         "max_uvi": 7.5,
-        "temp_diff": 1.9,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -74,10 +74,10 @@
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29.9,
-        "feels_like_max": 31.4,
+        "max_temp": 28.3,
+        "feels_like_max": 29.8,
         "max_uvi": 7.5,
-        "temp_diff": 1.6,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -93,10 +93,10 @@
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 30.1,
-        "feels_like_max": 31.6,
+        "max_temp": 28.2,
+        "feels_like_max": 29.7,
         "max_uvi": 7.5,
-        "temp_diff": 1.8,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -112,10 +112,10 @@
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29.9,
-        "feels_like_max": 31.4,
+        "max_temp": 28.1,
+        "feels_like_max": 29.6,
         "max_uvi": 7.5,
-        "temp_diff": 1.8,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -131,10 +131,10 @@
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 30.2,
-        "feels_like_max": 31.7,
+        "max_temp": 28.3,
+        "feels_like_max": 29.8,
         "max_uvi": 7.5,
-        "temp_diff": 1.9,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -150,10 +150,10 @@
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29.7,
-        "feels_like_max": 31.2,
+        "max_temp": 28.1,
+        "feels_like_max": 29.6,
         "max_uvi": 7.5,
-        "temp_diff": 1.6,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -166,13 +166,13 @@
       "lat": 37.241,
       "lon": 127.1775,
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29.3,
-        "feels_like_max": 30.8,
-        "max_uvi": 7.5,
-        "temp_diff": 1.9,
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "max_temp": 27.4,
+        "feels_like_max": 27.4,
+        "max_uvi": 3.5,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -185,13 +185,13 @@
       "lat": 37.5034,
       "lon": 126.766,
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29.4,
-        "feels_like_max": 30.9,
-        "max_uvi": 7.5,
-        "temp_diff": 1.5,
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "max_temp": 27.9,
+        "feels_like_max": 27.9,
+        "max_uvi": 3.5,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -207,10 +207,10 @@
         "state_code": "UMBRELLA",
         "title": "오후 9:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "max_temp": 28.1,
-        "feels_like_max": 28.1,
+        "max_temp": 26.0,
+        "feels_like_max": 26.0,
         "max_uvi": 3.0,
-        "temp_diff": 2.1,
+        "temp_diff": 0.0,
         "rain_start_time": "21:00",
         "alert_event": null
       }
@@ -223,13 +223,13 @@
       "lat": 36.9921,
       "lon": 127.1129,
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29.7,
-        "feels_like_max": 31.2,
-        "max_uvi": 7.5,
-        "temp_diff": 1.8,
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "max_temp": 27.9,
+        "feels_like_max": 27.9,
+        "max_uvi": 3.5,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -242,13 +242,13 @@
       "lat": 37.7381,
       "lon": 127.0339,
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29.2,
-        "feels_like_max": 30.7,
-        "max_uvi": 7.5,
-        "temp_diff": 1.8,
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "max_temp": 27.4,
+        "feels_like_max": 27.4,
+        "max_uvi": 3.5,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -261,13 +261,13 @@
       "lat": 37.4475,
       "lon": 126.7314,
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 28.4,
-        "feels_like_max": 29.9,
-        "max_uvi": 7.5,
-        "temp_diff": 1.3,
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "max_temp": 27.1,
+        "feels_like_max": 27.1,
+        "max_uvi": 3.5,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -280,13 +280,13 @@
       "lat": 37.5451,
       "lon": 126.676,
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 28.5,
-        "feels_like_max": 30.0,
-        "max_uvi": 7.5,
-        "temp_diff": 1.3,
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "max_temp": 27.2,
+        "feels_like_max": 27.2,
+        "max_uvi": 3.5,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -302,10 +302,10 @@
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29.4,
-        "feels_like_max": 30.9,
+        "max_temp": 28.0,
+        "feels_like_max": 29.5,
         "max_uvi": 7.5,
-        "temp_diff": 1.4,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -321,10 +321,10 @@
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29.0,
-        "feels_like_max": 30.5,
+        "max_temp": 28.4,
+        "feels_like_max": 29.9,
         "max_uvi": 7.5,
-        "temp_diff": 0.6,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -340,10 +340,10 @@
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29.9,
-        "feels_like_max": 31.4,
+        "max_temp": 28.4,
+        "feels_like_max": 29.9,
         "max_uvi": 7.5,
-        "temp_diff": 1.5,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -359,10 +359,10 @@
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29.1,
-        "feels_like_max": 30.6,
+        "max_temp": 28.3,
+        "feels_like_max": 29.8,
         "max_uvi": 7.5,
-        "temp_diff": 0.8,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -378,10 +378,10 @@
         "state_code": "UMBRELLA",
         "title": "오후 9:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "max_temp": 33.0,
-        "feels_like_max": 33.0,
+        "max_temp": 28.7,
+        "feels_like_max": 28.7,
         "max_uvi": 3.0,
-        "temp_diff": 4.3,
+        "temp_diff": 0.0,
         "rain_start_time": "21:00",
         "alert_event": null
       }
@@ -397,10 +397,10 @@
         "state_code": "UMBRELLA",
         "title": "오후 9:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "max_temp": 32.9,
-        "feels_like_max": 32.9,
+        "max_temp": 28.2,
+        "feels_like_max": 28.2,
         "max_uvi": 3.0,
-        "temp_diff": 4.6,
+        "temp_diff": 0.0,
         "rain_start_time": "21:00",
         "alert_event": null
       }
@@ -416,10 +416,10 @@
         "state_code": "UMBRELLA",
         "title": "오후 9:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "max_temp": 32.8,
-        "feels_like_max": 32.8,
+        "max_temp": 28.2,
+        "feels_like_max": 28.2,
         "max_uvi": 3.0,
-        "temp_diff": 4.5,
+        "temp_diff": 0.0,
         "rain_start_time": "21:00",
         "alert_event": null
       }
@@ -435,10 +435,10 @@
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29.9,
-        "feels_like_max": 31.4,
+        "max_temp": 28.2,
+        "feels_like_max": 29.7,
         "max_uvi": 7.5,
-        "temp_diff": 1.7,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -454,10 +454,10 @@
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29.8,
-        "feels_like_max": 31.3,
+        "max_temp": 28.1,
+        "feels_like_max": 29.6,
         "max_uvi": 7.5,
-        "temp_diff": 1.7,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -470,13 +470,13 @@
       "lat": 35.152,
       "lon": 126.8901,
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29,
-        "feels_like_max": 30.5,
-        "max_uvi": 7.5,
-        "temp_diff": 2.9,
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "max_temp": 26.1,
+        "feels_like_max": 26.1,
+        "max_uvi": 3.5,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -489,13 +489,13 @@
       "lat": 35.1396,
       "lon": 126.7936,
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 28.6,
-        "feels_like_max": 30.1,
-        "max_uvi": 7.5,
-        "temp_diff": 2.8,
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "max_temp": 25.8,
+        "feels_like_max": 25.8,
+        "max_uvi": 3.5,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -511,10 +511,10 @@
         "state_code": "UMBRELLA",
         "title": "오후 9:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "max_temp": 29.4,
-        "feels_like_max": 29.4,
+        "max_temp": 27.1,
+        "feels_like_max": 27.1,
         "max_uvi": 3.0,
-        "temp_diff": 2.2,
+        "temp_diff": 0.0,
         "rain_start_time": "21:00",
         "alert_event": null
       }
@@ -530,10 +530,10 @@
         "state_code": "UMBRELLA",
         "title": "오후 9:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "max_temp": 29.9,
-        "feels_like_max": 29.9,
+        "max_temp": 27.0,
+        "feels_like_max": 27.0,
         "max_uvi": 3.0,
-        "temp_diff": 2.9,
+        "temp_diff": 0.0,
         "rain_start_time": "21:00",
         "alert_event": null
       }
@@ -549,10 +549,10 @@
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29,
-        "feels_like_max": 30.5,
+        "max_temp": 29.2,
+        "feels_like_max": 30.7,
         "max_uvi": 7.5,
-        "temp_diff": 0.3,
+        "temp_diff": 0.5,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -568,10 +568,10 @@
         "state_code": "UMBRELLA",
         "title": "오후 9:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "max_temp": 28.0,
-        "feels_like_max": 28.0,
+        "max_temp": 25.6,
+        "feels_like_max": 25.6,
         "max_uvi": 3.0,
-        "temp_diff": 2.5,
+        "temp_diff": 0.0,
         "rain_start_time": "21:00",
         "alert_event": null
       }
@@ -587,10 +587,10 @@
         "state_code": "UMBRELLA",
         "title": "오후 9:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "max_temp": 27.4,
-        "feels_like_max": 27.4,
+        "max_temp": 25.4,
+        "feels_like_max": 25.4,
         "max_uvi": 3.0,
-        "temp_diff": 2.0,
+        "temp_diff": 0.0,
         "rain_start_time": "21:00",
         "alert_event": null
       }
@@ -606,10 +606,10 @@
         "state_code": "UMBRELLA",
         "title": "오후 9:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "max_temp": 26.6,
-        "feels_like_max": 26.6,
+        "max_temp": 25.2,
+        "feels_like_max": 25.2,
         "max_uvi": 3.0,
-        "temp_diff": 1.4,
+        "temp_diff": 0.0,
         "rain_start_time": "21:00",
         "alert_event": null
       }
@@ -644,10 +644,10 @@
         "state_code": "UMBRELLA",
         "title": "오후 9:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "max_temp": 29.1,
-        "feels_like_max": 29.1,
+        "max_temp": 27.4,
+        "feels_like_max": 27.4,
         "max_uvi": 3.0,
-        "temp_diff": 1.7,
+        "temp_diff": 0.0,
         "rain_start_time": "21:00",
         "alert_event": null
       }
@@ -663,10 +663,10 @@
         "state_code": "UMBRELLA",
         "title": "오후 9:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "max_temp": 29.7,
-        "feels_like_max": 29.7,
+        "max_temp": 28.0,
+        "feels_like_max": 28.0,
         "max_uvi": 3.0,
-        "temp_diff": 1.8,
+        "temp_diff": 0.0,
         "rain_start_time": "21:00",
         "alert_event": null
       }
@@ -679,13 +679,13 @@
       "lat": 36.7898,
       "lon": 127.0018,
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29.9,
-        "feels_like_max": 31.4,
-        "max_uvi": 7.5,
-        "temp_diff": 1.9,
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "max_temp": 28.0,
+        "feels_like_max": 28.0,
+        "max_uvi": 3.5,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -701,10 +701,10 @@
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
-        "max_temp": 27.9,
-        "feels_like_max": 27.9,
+        "max_temp": 26.4,
+        "feels_like_max": 26.4,
         "max_uvi": 3.5,
-        "temp_diff": 1.5,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -717,13 +717,13 @@
       "lat": 35.8242,
       "lon": 127.148,
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29.1,
-        "feels_like_max": 30.6,
-        "max_uvi": 7.5,
-        "temp_diff": 2.3,
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "max_temp": 26.7,
+        "feels_like_max": 26.7,
+        "max_uvi": 3.5,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -736,13 +736,13 @@
       "lat": 35.9677,
       "lon": 126.7366,
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 28.1,
-        "feels_like_max": 29.6,
-        "max_uvi": 7.5,
-        "temp_diff": 1.4,
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "max_temp": 26.7,
+        "feels_like_max": 26.7,
+        "max_uvi": 3.5,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -755,13 +755,13 @@
       "lat": 35.9483,
       "lon": 126.9578,
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 28.6,
-        "feels_like_max": 30.1,
-        "max_uvi": 7.5,
-        "temp_diff": 1.9,
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "max_temp": 26.7,
+        "feels_like_max": 26.7,
+        "max_uvi": 3.5,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -777,10 +777,10 @@
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
-        "max_temp": 26.8,
-        "feels_like_max": 26.8,
+        "max_temp": 26.1,
+        "feels_like_max": 26.1,
         "max_uvi": 3.5,
-        "temp_diff": 0.7,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -793,13 +793,13 @@
       "lat": 34.7604,
       "lon": 127.6622,
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 28.2,
-        "feels_like_max": 29.7,
-        "max_uvi": 7.5,
-        "temp_diff": 1.7,
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "max_temp": 26.4,
+        "feels_like_max": 26.4,
+        "max_uvi": 3.5,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -812,13 +812,13 @@
       "lat": 34.9506,
       "lon": 127.4872,
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 31.0,
-        "feels_like_max": 32.5,
-        "max_uvi": 7.5,
-        "temp_diff": 3.2,
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "max_temp": 27.8,
+        "feels_like_max": 27.8,
+        "max_uvi": 3.5,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -834,10 +834,10 @@
         "state_code": "UMBRELLA",
         "title": "오후 9:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "max_temp": 28.3,
-        "feels_like_max": 28.3,
+        "max_temp": 25.8,
+        "feels_like_max": 25.8,
         "max_uvi": 3.0,
-        "temp_diff": 2.5,
+        "temp_diff": 0.0,
         "rain_start_time": "21:00",
         "alert_event": null
       }
@@ -853,10 +853,10 @@
         "state_code": "UMBRELLA",
         "title": "오후 9:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "max_temp": 30.5,
-        "feels_like_max": 30.5,
+        "max_temp": 27.8,
+        "feels_like_max": 27.8,
         "max_uvi": 3.0,
-        "temp_diff": 2.7,
+        "temp_diff": 0.0,
         "rain_start_time": "21:00",
         "alert_event": null
       }
@@ -872,10 +872,10 @@
         "state_code": "UMBRELLA",
         "title": "오후 9:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "max_temp": 30.0,
-        "feels_like_max": 30.0,
+        "max_temp": 26.2,
+        "feels_like_max": 26.2,
         "max_uvi": 3.0,
-        "temp_diff": 3.8,
+        "temp_diff": 0.0,
         "rain_start_time": "21:00",
         "alert_event": null
       }
@@ -891,10 +891,10 @@
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 31.2,
-        "feels_like_max": 32.7,
+        "max_temp": 28.5,
+        "feels_like_max": 30.0,
         "max_uvi": 7.5,
-        "temp_diff": 2.7,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -907,13 +907,13 @@
       "lat": 35.1802,
       "lon": 128.1076,
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29.3,
-        "feels_like_max": 30.8,
-        "max_uvi": 7.5,
-        "temp_diff": 2.6,
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "max_temp": 26.7,
+        "feels_like_max": 26.7,
+        "max_uvi": 3.5,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -926,13 +926,13 @@
       "lat": 33.4996,
       "lon": 126.5312,
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 29.6,
-        "feels_like_max": 31.1,
-        "max_uvi": 7.5,
-        "temp_diff": 1.8,
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "max_temp": 27.8,
+        "feels_like_max": 27.8,
+        "max_uvi": 3.5,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
@@ -945,13 +945,13 @@
       "lat": 33.2541,
       "lon": 126.5601,
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "max_temp": 28.6,
-        "feels_like_max": 30.1,
-        "max_uvi": 7.5,
-        "temp_diff": 1.1,
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "max_temp": 27.5,
+        "feels_like_max": 27.5,
+        "max_uvi": 3.5,
+        "temp_diff": 0.0,
         "rain_start_time": null,
         "alert_event": null
       }
