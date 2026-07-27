@@ -1,0 +1,57 @@
+name: Send Smart Message Test
+
+on:
+  workflow_dispatch:
+    inputs:
+      deployment_id:
+        description: Deployment UUID from Apps in Toss Console
+        required: true
+        type: string
+      anon_key:
+        description: Recipient anonKey
+        required: true
+        type: string
+      message_context:
+        description: JSON object containing the approved template variables
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  send-test-message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r backend/requirements.txt
+
+      - name: Prepare Toss mTLS credentials
+        env:
+          TOSS_MTLS_CERT: ${{ secrets.TOSS_MTLS_CERT }}
+          TOSS_MTLS_KEY: ${{ secrets.TOSS_MTLS_KEY }}
+        run: |
+          cert_path="$RUNNER_TEMP/toss-mtls-cert.pem"
+          key_path="$RUNNER_TEMP/toss-mtls-key.pem"
+          printf '%s' "$TOSS_MTLS_CERT" > "$cert_path"
+          printf '%s' "$TOSS_MTLS_KEY" > "$key_path"
+          chmod 600 "$cert_path" "$key_path"
+          echo "TOSS_MTLS_CERT_PATH=$cert_path" >> "$GITHUB_ENV"
+          echo "TOSS_MTLS_KEY_PATH=$key_path" >> "$GITHUB_ENV"
+
+      - name: Send test message
+        env:
+          TOSS_TEST_DEPLOYMENT_ID: ${{ inputs.deployment_id }}
+          TOSS_TEST_ANON_KEY: ${{ inputs.anon_key }}
+          TOSS_TEST_MESSAGE_CONTEXT: ${{ inputs.message_context }}
+        run: python backend/send_test_smart_message.py
