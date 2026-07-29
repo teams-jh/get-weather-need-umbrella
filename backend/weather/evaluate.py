@@ -9,7 +9,7 @@ prd2.md 판별 알고리즘. 출처와 무관한 단 하나의 판정 경로.
 우선순위: ALERT > UMBRELLA > PARASOL > JACKET > NONE
 """
 from datetime import datetime, timedelta, timezone
-from typing import Any, Dict, Optional
+from typing import Any, Dict, List, Optional
 
 from weather.providers.base import WeatherBundle
 
@@ -52,6 +52,49 @@ def _or(value: Optional[float], fallback: float) -> float:
 def _end_of_today_ts(now_ts: float) -> float:
     now_kst = datetime.fromtimestamp(now_ts, tz=KST)
     return datetime(now_kst.year, now_kst.month, now_kst.day, 23, 59, 59, tzinfo=KST).timestamp()
+
+
+def is_night_at(now_ts: float) -> bool:
+    """KST 기준 19시부터 다음 날 6시 전까지를 야간으로 표시한다."""
+    hour = datetime.fromtimestamp(now_ts, tz=KST).hour
+    return hour >= 19 or hour < 6
+
+
+ALERT_TYPE_KEYWORDS = (
+    # 긴 표현을 먼저 검사한다. "지진해일"이 "해일"로 잘리는 것을 막는다.
+    ("지진해일", ("지진해일", "tsunami")),
+    ("태풍", ("태풍", "typhoon", "hurricane", "tropical cyclone")),
+    ("열대야", ("열대야", "tropical night")),
+    ("폭염", ("폭염", "heat")),
+    ("한파", ("한파", "cold")),
+    ("호우", ("호우", "heavy rain", "flash flood", "flood")),
+    ("대설", ("대설", "blizzard", "snow")),
+    ("강풍", ("강풍", "strong wind", "high wind", "wind")),
+    ("풍랑", ("풍랑", "wave")),
+    ("건조", ("건조", "dry")),
+    ("황사", ("황사", "yellow dust", "dust")),
+    ("해일", ("해일", "storm surge")),
+)
+
+def alert_type_of(event_name: str) -> str:
+    """기상청·OpenWeather 특보명을 앱에서 쓸 한국어 유형으로 정규화한다."""
+    normalized = event_name.lower()
+    for alert_type, keywords in ALERT_TYPE_KEYWORDS:
+        if any(keyword in normalized for keyword in keywords):
+            return alert_type
+    return "기타"
+
+
+def _alert_details(alerts: List[str]) -> Dict[str, Any]:
+    """동시에 발효된 특보의 원문과 중복 없는 유형을 함께 보존한다."""
+    events = list(dict.fromkeys(alerts))
+    types = list(dict.fromkeys(alert_type_of(event) for event in events))
+    return {
+        "alert_event": events[0],  # 기존 소비자와의 호환성
+        "alert_events": events,
+        "alert_type": types[0],
+        "alert_types": types,
+    }
 
 
 def _find_rain_start(bundle: WeatherBundle, now_ts: float) -> Optional[str]:
@@ -112,31 +155,29 @@ def evaluate(bundle: WeatherBundle, now_ts: Optional[float] = None) -> Dict[str,
         "temp_diff": round(temp_diff, 1),
     }
 
-    # 1. ALERT — 기상 특보가 있으면 다른 조건을 보지 않는다.
+    # 각 준비물은 독립적으로 판정한다. 배열 순서는 기존 대표 상태 우선순위와 같다.
+    preparations: List[Dict[str, Any]] = []
+    alert_details: Dict[str, Any] = {"alert_event": None}
     if bundle.alerts:
-        event_name = bundle.alerts[0]
-        return {
-            "state_code": "ALERT",
-            "title": f"{event_name} 발령 중",
+        details = _alert_details(bundle.alerts)
+        alert_details = details
+        preparations.append({
+            "type": "ALERT",
+            "title": f"{details['alert_event']} 발령 중",
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "rain_start_time": None,
-            **measurements,
-            "alert_event": event_name,
-        }
+            **details,
+        })
 
-    # 2. UMBRELLA — 현재 시각 이후의 강수
+    # 특보 종류와 무관하게 실제 강수 예보가 있을 때만 우산을 추가한다.
     rain_start = _find_rain_start(bundle, now_ts)
     if rain_start:
-        return {
-            "state_code": "UMBRELLA",
+        preparations.append({
+            "type": "UMBRELLA",
             "title": format_rain_title(rain_start),
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
             "rain_start_time": rain_start,
-            **measurements,
-            "alert_event": None,
-        }
+        })
 
-    # 3. PARASOL — 자외선이 높거나 기온이 높을 때
     if max_uvi >= UVI_PARASOL_THRESHOLD or max_temp >= TEMP_PARASOL_THRESHOLD:
         uv_level = "매우 높음" if max_uvi >= 8.0 else ("높음" if max_uvi >= UVI_PARASOL_THRESHOLD else "보통")
         title = (
@@ -144,27 +185,34 @@ def evaluate(bundle: WeatherBundle, now_ts: Optional[float] = None) -> Dict[str,
             if max_uvi >= UVI_PARASOL_THRESHOLD
             else "볕이 뜨거워요. 양산 챙길까요?"
         )
-        return {
-            "state_code": "PARASOL",
+        preparations.append({
+            "type": "PARASOL",
             "title": title,
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-            "rain_start_time": None,
-            **measurements,
-            "alert_event": None,
-        }
+        })
 
-    # 4. JACKET — 일교차가 클 때
     if temp_diff >= TEMP_DIFF_JACKET_THRESHOLD:
-        return {
-            "state_code": "JACKET",
+        preparations.append({
+            "type": "JACKET",
             "title": f"낮과 밤의 기온 차가 {round(temp_diff)}°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
-            "rain_start_time": None,
+        })
+
+    if preparations:
+        primary = preparations[0]
+        return {
+            "state_code": primary["type"],
+            "title": primary["title"],
+            "message": primary["message"],
+            # ALERT가 대표여도 우산 준비물의 시작 시각은 알림에 계속 제공한다.
+            "rain_start_time": rain_start,
             **measurements,
-            "alert_event": None,
+            **alert_details,
+            "preparations": preparations,
+            "is_night": is_night_at(now_ts),
         }
 
-    # 5. NONE
+    # 준비할 것이 없는 경우만 NONE 이다.
     return {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
@@ -172,4 +220,6 @@ def evaluate(bundle: WeatherBundle, now_ts: Optional[float] = None) -> Dict[str,
         "rain_start_time": None,
         **measurements,
         "alert_event": None,
+        "preparations": [],
+        "is_night": is_night_at(now_ts),
     }

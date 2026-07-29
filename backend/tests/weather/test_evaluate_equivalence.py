@@ -156,14 +156,16 @@ FIXTURES = {
 
 @pytest.mark.parametrize("name", sorted(FIXTURES))
 def test_evaluate_matches_golden(name):
-    """provider 정규화를 거친 판정이 리팩터링 이전 결과와 완전히 일치해야 한다"""
-    assert evaluate(bundle_from_onecall(FIXTURES[name]), now_ts=NOW) == EXPECTED[name], f"[{name}] 판정 불일치"
+    """기존 공개 필드는 유지하고, 새 준비물 필드는 별도 계약으로 더한다."""
+    actual = evaluate(bundle_from_onecall(FIXTURES[name]), now_ts=NOW)
+    assert {key: actual[key] for key in EXPECTED[name]} == EXPECTED[name], f"[{name}] 판정 불일치"
 
 
 @pytest.mark.parametrize("name", sorted(FIXTURES))
 def test_key_order_preserved(name):
-    """weather_all.json 의 필드 순서가 바뀌지 않아야 한다"""
-    assert list(evaluate(bundle_from_onecall(FIXTURES[name]), now_ts=NOW)) == list(EXPECTED[name])
+    """새 preparations 는 기존 공개 필드 뒤에만 추가한다."""
+    actual = evaluate(bundle_from_onecall(FIXTURES[name]), now_ts=NOW)
+    assert list(actual)[:len(EXPECTED[name])] == list(EXPECTED[name])
 
 
 def test_golden_covers_every_fixture():

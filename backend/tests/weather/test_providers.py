@@ -89,6 +89,78 @@ def test_parse_warning_title_ignores_non_warning():
     assert kma._parse_warning_title("") == []
 
 
+# --- 특보 유형 정규화 -------------------------------------------------------
+
+@pytest.mark.parametrize(
+    ("event", "alert_type"),
+    [
+        ("폭염경보", "폭염"),
+        ("열대야주의보", "열대야"),
+        ("태풍경보", "태풍"),
+        ("Heavy rain warning", "호우"),
+        ("Tsunami Watch", "지진해일"),
+    ],
+)
+def test_alert_type_is_normalized_for_both_providers(event, alert_type):
+    assert evaluate(WeatherBundle(source="test", alerts=[event]))["alert_type"] == alert_type
+
+
+def test_alert_keeps_all_active_events_and_types():
+    verdict = evaluate(WeatherBundle(source="test", alerts=["폭염경보", "열대야주의보", "폭염경보"]))
+
+    assert verdict["alert_event"] == "폭염경보"
+    assert verdict["alert_events"] == ["폭염경보", "열대야주의보"]
+    assert verdict["alert_type"] == "폭염"
+    assert verdict["alert_types"] == ["폭염", "열대야"]
+    assert verdict["title"] == "폭염경보 발령 중"
+
+
+def test_rain_alert_and_forecast_return_independent_preparations():
+    now = int(at(2026, 7, 28, 12, 0).timestamp())
+    verdict = evaluate(
+        WeatherBundle(
+            source="test",
+            alerts=["호우경보"],
+            hourly=[HourlyPoint(dt=now + 3600, is_precip=True)],
+        ),
+        now_ts=now,
+    )
+
+    assert verdict["state_code"] == "ALERT"
+    assert verdict["rain_start_time"] == "13:00"
+    assert [item["type"] for item in verdict["preparations"]] == ["ALERT", "UMBRELLA"]
+
+
+def test_all_matching_preparations_are_returned_without_alert_inference():
+    now = int(at(2026, 7, 28, 12, 0).timestamp())
+    verdict = evaluate(
+        WeatherBundle(
+            source="test",
+            alerts=["폭염주의보"],
+            hourly=[HourlyPoint(dt=now + 3600, is_precip=True, temp=31.0, uvi=7.0)],
+            daily_max=31.0,
+            daily_min=19.0,
+        ),
+        now_ts=now,
+    )
+
+    assert verdict["state_code"] == "ALERT"
+    assert [item["type"] for item in verdict["preparations"]] == [
+        "ALERT", "UMBRELLA", "PARASOL", "JACKET",
+    ]
+
+
+def test_alert_without_other_measurements_only_returns_alert_preparation():
+    verdict = evaluate(WeatherBundle(source="test", alerts=["폭염주의보"]))
+    assert [item["type"] for item in verdict["preparations"]] == ["ALERT"]
+
+
+def test_is_night_uses_kst_hour():
+    assert evaluate(WeatherBundle(source="test"), now_ts=int(at(2026, 7, 28, 5).timestamp()))["is_night"] is True
+    assert evaluate(WeatherBundle(source="test"), now_ts=int(at(2026, 7, 28, 6).timestamp()))["is_night"] is False
+    assert evaluate(WeatherBundle(source="test"), now_ts=int(at(2026, 7, 28, 19).timestamp()))["is_night"] is True
+
+
 # --- 기상청 발표 기준시각 ---------------------------------------------------
 
 def test_ncst_base_waits_for_publication():

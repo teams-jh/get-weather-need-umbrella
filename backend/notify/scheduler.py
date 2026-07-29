@@ -14,9 +14,6 @@ KST = timezone(timedelta(hours=9))
 # 발송 대상 유스케이스. 순서가 곧 처리 순서입니다.
 USE_CASES = ("morning", "preRain", "evening", "alert", "weekend")
 
-# 우산이 필요한 상태 코드
-UMBRELLA_STATES = ("UMBRELLA", "ALERT")
-
 # 발송해도 되는 거점 상태. weather.pipeline 의 STATUS_OK 와 같은 값입니다.
 # 실제 응답으로 채워진 거점만 해당하며, 수집 실패(failed)나 프리셋(preset)은
 # 발송 대상이 아닙니다. 없는 날씨를 지어내 알리느니 알리지 않는 편이 낫습니다.
@@ -286,6 +283,16 @@ def has_weekend_rain(weather_data: dict, kst_now: datetime) -> bool:
     return False
 
 
+def has_preparation(recommendation: dict, preparation_type: str) -> bool:
+    """새 산출물의 독립 준비물 판정을 읽고, 구 산출물은 안전하게 호환한다."""
+    preparations = recommendation.get("preparations")
+    if isinstance(preparations, list):
+        return any(item.get("type") == preparation_type for item in preparations if isinstance(item, dict))
+    # 구 산출물에는 ALERT가 우산 상태로 섞여 있었지만, 실제 강수 여부가 없으므로
+    # UMBRELLA일 때만 호환 처리한다.
+    return recommendation.get("state_code", "NONE") == preparation_type
+
+
 def should_send_notification(
     use_case: str,
     user_doc: dict,
@@ -326,7 +333,7 @@ def should_send_notification(
     if use_case == "morning":
         if last_notified.get("morning") == today_str:
             return False, ""
-        if recommendation.get("state_code", "NONE") in UMBRELLA_STATES:
+        if has_preparation(recommendation, "UMBRELLA"):
             return True, today_str
         return False, ""
 
@@ -350,13 +357,13 @@ def should_send_notification(
     if use_case == "evening":
         if last_notified.get("evening") == today_str:
             return False, ""
-        if recommendation.get("state_code", "NONE") in UMBRELLA_STATES:
+        if has_preparation(recommendation, "UMBRELLA"):
             return True, today_str
         return False, ""
 
     # 4. 기상 특보 긴급 알림
     if use_case == "alert":
-        alert_event = recommendation.get("alert_event")
+        alert_event = recommendation.get("alert_event") if has_preparation(recommendation, "ALERT") else None
         if not alert_event:
             return False, ""
         alert_key = f"{today_str}_{alert_event}"

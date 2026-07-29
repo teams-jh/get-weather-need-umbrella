@@ -12,7 +12,10 @@
       "feels_like_max": 21.0,
       "max_uvi": 2.0,
       "temp_diff": 6.0,
-      "alert_event": "호우경보"
+      "alert_event": "호우경보",
+      "alert_events": ["호우경보"],
+      "alert_type": "호우",
+      "alert_types": ["호우"]
     },
     "alert_event_기본값": {
       "state_code": "ALERT",
@@ -25,7 +28,10 @@
       "feels_like_max": 22.0,
       "max_uvi": 3.0,
       "temp_diff": 6.0,
-      "alert_event": "기상 특보"
+      "alert_event": "기상 특보",
+      "alert_events": ["기상 특보"],
+      "alert_type": "기타",
+      "alert_types": ["기타"]
     },
     "umbrella_minutely": {
       "state_code": "UMBRELLA",
