@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "2.1",
-    "updated_at": "2026-07-30T04:28:04+09:00",
+    "updated_at": "2026-07-30T07:08:25+09:00",
     "status": "ok",
     "source": "OpenWeatherMap One Call API 3.0 50 (Real Data - 50/50)",
     "total_locations": 50,
@@ -19,18 +19,18 @@
       "lat": 37.57,
       "lon": 126.9796,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25.6,
-        "current_feels_like": 26.5,
+        "current_temp": 25.9,
+        "current_feels_like": 26.8,
         "max_temp": 32.2,
         "feels_like_max": 34.6,
         "max_uvi": 9.7,
-        "temp_diff": 6.8,
+        "temp_diff": 6.5,
         "alert_event": null,
         "preparations": [
           {
@@ -39,7 +39,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -67,18 +67,18 @@
       "lat": 37.4979,
       "lon": 127.0276,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25.8,
-        "current_feels_like": 26.8,
+        "current_temp": 26.1,
+        "current_feels_like": 26.1,
         "max_temp": 32.3,
         "feels_like_max": 35.0,
         "max_uvi": 9.8,
-        "temp_diff": 6.7,
+        "temp_diff": 6.4,
         "alert_event": null,
         "preparations": [
           {
@@ -87,7 +87,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -115,18 +115,18 @@
       "lat": 37.5145,
       "lon": 127.1066,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25.9,
-        "current_feels_like": 26.9,
+        "current_temp": 26.3,
+        "current_feels_like": 26.3,
         "max_temp": 32.8,
         "feels_like_max": 35.6,
         "max_uvi": 9.7,
-        "temp_diff": 7.1,
+        "temp_diff": 6.8,
         "alert_event": null,
         "preparations": [
           {
@@ -135,7 +135,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -163,18 +163,18 @@
       "lat": 37.5509,
       "lon": 126.8495,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염경보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 25.9,
-        "current_feels_like": 26.8,
+        "current_temp": 26.3,
+        "current_feels_like": 26.3,
         "max_temp": 31.4,
         "feels_like_max": 34.7,
         "max_uvi": 9.7,
-        "temp_diff": 5.7,
+        "temp_diff": 5.4,
         "alert_event": "폭염경보",
         "alert_events": [
           "폭염경보"
@@ -203,7 +203,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -231,18 +231,18 @@
       "lat": 37.6542,
       "lon": 127.0568,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25.7,
-        "current_feels_like": 26.7,
+        "current_temp": 26.1,
+        "current_feels_like": 26.1,
         "max_temp": 33.2,
         "feels_like_max": 36.4,
         "max_uvi": 9.7,
-        "temp_diff": 7.7,
+        "temp_diff": 7.3,
         "alert_event": null,
         "preparations": [
           {
@@ -251,7 +251,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -279,18 +279,18 @@
       "lat": 37.2636,
       "lon": 127.0286,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 26.0,
-        "current_feels_like": 26.0,
+        "current_temp": 26.3,
+        "current_feels_like": 26.3,
         "max_temp": 31.3,
         "feels_like_max": 34.1,
         "max_uvi": 9.8,
-        "temp_diff": 5.5,
+        "temp_diff": 5.3,
         "alert_event": null,
         "preparations": [
           {
@@ -299,7 +299,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -327,18 +327,18 @@
       "lat": 37.3827,
       "lon": 127.1189,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 26.0,
-        "current_feels_like": 26.0,
+        "current_temp": 26.3,
+        "current_feels_like": 26.3,
         "max_temp": 32.4,
         "feels_like_max": 34.7,
         "max_uvi": 9.8,
-        "temp_diff": 6.7,
+        "temp_diff": 6.4,
         "alert_event": null,
         "preparations": [
           {
@@ -347,7 +347,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -375,18 +375,18 @@
       "lat": 37.6583,
       "lon": 126.832,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25.6,
-        "current_feels_like": 26.6,
+        "current_temp": 26,
+        "current_feels_like": 26,
         "max_temp": 32.2,
         "feels_like_max": 35.5,
         "max_uvi": 9.7,
-        "temp_diff": 6.7,
+        "temp_diff": 6.4,
         "alert_event": null,
         "preparations": [
           {
@@ -395,7 +395,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -423,18 +423,18 @@
       "lat": 37.241,
       "lon": 127.1775,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25.2,
-        "current_feels_like": 26.1,
+        "current_temp": 25.5,
+        "current_feels_like": 26.3,
         "max_temp": 30.9,
         "feels_like_max": 32.6,
         "max_uvi": 9.8,
-        "temp_diff": 5.9,
+        "temp_diff": 5.6,
         "alert_event": null,
         "preparations": [
           {
@@ -443,7 +443,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -471,18 +471,18 @@
       "lat": 37.5034,
       "lon": 126.766,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25.8,
-        "current_feels_like": 26.8,
+        "current_temp": 26.2,
+        "current_feels_like": 26.2,
         "max_temp": 30.5,
         "feels_like_max": 34.2,
         "max_uvi": 9.7,
-        "temp_diff": 4.9,
+        "temp_diff": 4.5,
         "alert_event": null,
         "preparations": [
           {
@@ -491,7 +491,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -519,18 +519,18 @@
       "lat": 37.636,
       "lon": 127.2165,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 23.8,
-        "current_feels_like": 24.6,
+        "current_temp": 24.4,
+        "current_feels_like": 25.2,
         "max_temp": 32.2,
         "feels_like_max": 34.4,
         "max_uvi": 9.7,
-        "temp_diff": 8.6,
+        "temp_diff": 8.2,
         "alert_event": null,
         "preparations": [
           {
@@ -539,7 +539,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -567,14 +567,14 @@
       "lat": 36.9921,
       "lon": 127.1129,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 26.7,
-        "current_feels_like": 29.0,
+        "current_temp": 26.8,
+        "current_feels_like": 29.1,
         "max_temp": 30.8,
         "feels_like_max": 35.9,
         "max_uvi": 9.8,
@@ -587,7 +587,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -615,18 +615,18 @@
       "lat": 37.7381,
       "lon": 127.0339,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 24.8,
-        "current_feels_like": 25.8,
+        "current_temp": 25.3,
+        "current_feels_like": 26.2,
         "max_temp": 32.6,
         "feels_like_max": 35.5,
         "max_uvi": 9.7,
-        "temp_diff": 7.9,
+        "temp_diff": 7.6,
         "alert_event": null,
         "preparations": [
           {
@@ -635,7 +635,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -663,18 +663,18 @@
       "lat": 37.4475,
       "lon": 126.7314,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25.3,
-        "current_feels_like": 26.2,
+        "current_temp": 25.6,
+        "current_feels_like": 26.5,
         "max_temp": 29.1,
         "feels_like_max": 32.5,
         "max_uvi": 9.8,
-        "temp_diff": 4.0,
+        "temp_diff": 3.7,
         "alert_event": null,
         "preparations": [
           {
@@ -683,7 +683,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -711,18 +711,18 @@
       "lat": 37.5451,
       "lon": 126.676,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25.6,
-        "current_feels_like": 26.6,
+        "current_temp": 25.9,
+        "current_feels_like": 26.8,
         "max_temp": 29.2,
         "feels_like_max": 33.3,
         "max_uvi": 9.7,
-        "temp_diff": 3.7,
+        "temp_diff": 3.5,
         "alert_event": null,
         "preparations": [
           {
@@ -731,7 +731,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -759,18 +759,18 @@
       "lat": 35.1631,
       "lon": 129.0536,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염경보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 25.6,
-        "current_feels_like": 26.4,
+        "current_temp": 25.9,
+        "current_feels_like": 26.6,
         "max_temp": 34.1,
         "feels_like_max": 36.4,
         "max_uvi": 9.9,
-        "temp_diff": 8.7,
+        "temp_diff": 8.4,
         "alert_event": "폭염경보",
         "alert_events": [
           "폭염경보"
@@ -799,7 +799,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -827,14 +827,14 @@
       "lat": 35.1631,
       "lon": 129.1636,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
         "current_temp": 27.1,
-        "current_feels_like": 29.8,
+        "current_feels_like": 29.6,
         "max_temp": 31.2,
         "feels_like_max": 34.8,
         "max_uvi": 9.9,
@@ -847,7 +847,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -875,18 +875,18 @@
       "lat": 35.1526,
       "lon": 128.9911,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염경보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 25.8,
-        "current_feels_like": 26.6,
+        "current_temp": 26.1,
+        "current_feels_like": 26.1,
         "max_temp": 34.8,
         "feels_like_max": 37.1,
         "max_uvi": 10.1,
-        "temp_diff": 9.2,
+        "temp_diff": 8.9,
         "alert_event": "폭염경보",
         "alert_events": [
           "폭염경보"
@@ -915,7 +915,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -943,18 +943,18 @@
       "lat": 35.0912,
       "lon": 129.0679,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 26.3,
-        "current_feels_like": 26.3,
+        "current_temp": 26.2,
+        "current_feels_like": 26.2,
         "max_temp": 31.9,
         "feels_like_max": 35.6,
         "max_uvi": 9.9,
-        "temp_diff": 5.8,
+        "temp_diff": 5.7,
         "alert_event": null,
         "preparations": [
           {
@@ -963,7 +963,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -991,32 +991,27 @@
       "lat": 35.8669,
       "lon": 128.5942,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25.3,
+        "current_temp": 26.2,
         "current_feels_like": 26.2,
         "max_temp": 35.4,
         "feels_like_max": 37.5,
         "max_uvi": 10.0,
-        "temp_diff": 10.4,
+        "temp_diff": 9.8,
         "alert_event": null,
         "preparations": [
           {
             "type": "PARASOL",
             "title": "자외선이 '매우 높음' 단계예요",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
-          },
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 10°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -1044,32 +1039,27 @@
       "lat": 35.8865,
       "lon": 128.6355,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25.0,
-        "current_feels_like": 25.9,
+        "current_temp": 26.1,
+        "current_feels_like": 26.1,
         "max_temp": 35.4,
         "feels_like_max": 37.4,
         "max_uvi": 10.0,
-        "temp_diff": 10.6,
+        "temp_diff": 9.9,
         "alert_event": null,
         "preparations": [
           {
             "type": "PARASOL",
             "title": "자외선이 '매우 높음' 단계예요",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
-          },
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 11°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -1097,18 +1087,18 @@
       "lat": 35.8299,
       "lon": 128.5326,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25,
-        "current_feels_like": 25.9,
+        "current_temp": 25.9,
+        "current_feels_like": 26.7,
         "max_temp": 35.4,
         "feels_like_max": 37.1,
         "max_uvi": 10.0,
-        "temp_diff": 10.6,
+        "temp_diff": 10.0,
         "alert_event": null,
         "preparations": [
           {
@@ -1118,11 +1108,11 @@
           },
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 11°C나 돼요",
+            "title": "낮과 밤의 기온 차가 10°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -1150,14 +1140,14 @@
       "lat": 36.3554,
       "lon": 127.3838,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 27.4,
-        "current_feels_like": 29.7,
+        "current_temp": 27.3,
+        "current_feels_like": 29.3,
         "max_temp": 31.9,
         "feels_like_max": 35.6,
         "max_uvi": 10.0,
@@ -1170,7 +1160,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -1198,14 +1188,14 @@
       "lat": 36.3622,
       "lon": 127.3562,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 27.3,
-        "current_feels_like": 29.4,
+        "current_temp": 27.2,
+        "current_feels_like": 29.1,
         "max_temp": 31.8,
         "feels_like_max": 35.2,
         "max_uvi": 10.0,
@@ -1218,7 +1208,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -1246,18 +1236,18 @@
       "lat": 35.152,
       "lon": 126.8901,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 23.4,
-        "current_feels_like": 24.4,
+        "current_temp": 24.6,
+        "current_feels_like": 25.5,
         "max_temp": 32.9,
         "feels_like_max": 36.4,
         "max_uvi": 10.1,
-        "temp_diff": 9.6,
+        "temp_diff": 9.2,
         "alert_event": null,
         "preparations": [
           {
@@ -1266,7 +1256,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -1294,18 +1284,18 @@
       "lat": 35.1396,
       "lon": 126.7936,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 23.2,
-        "current_feels_like": 24.1,
+        "current_temp": 24.4,
+        "current_feels_like": 25.2,
         "max_temp": 32.2,
         "feels_like_max": 35.3,
         "max_uvi": 10.1,
-        "temp_diff": 9.1,
+        "temp_diff": 8.7,
         "alert_event": null,
         "preparations": [
           {
@@ -1314,7 +1304,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -1342,18 +1332,18 @@
       "lat": 35.5437,
       "lon": 129.33,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 24.9,
-        "current_feels_like": 25.6,
+        "current_temp": 26.1,
+        "current_feels_like": 26.1,
         "max_temp": 36.1,
         "feels_like_max": 38.6,
         "max_uvi": 9.6,
-        "temp_diff": 11.4,
+        "temp_diff": 10.7,
         "alert_event": null,
         "preparations": [
           {
@@ -1367,7 +1357,7 @@
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -1395,18 +1385,18 @@
       "lat": 35.5387,
       "lon": 129.1444,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 24.1,
-        "current_feels_like": 24.9,
+        "current_temp": 25.7,
+        "current_feels_like": 26.4,
         "max_temp": 38.0,
         "feels_like_max": 38.9,
         "max_uvi": 9.6,
-        "temp_diff": 14.2,
+        "temp_diff": 13.3,
         "alert_event": null,
         "preparations": [
           {
@@ -1416,11 +1406,11 @@
           },
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 14°C나 돼요",
+            "title": "낮과 밤의 기온 차가 13°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -1448,14 +1438,14 @@
       "lat": 36.48,
       "lon": 127.289,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 27.9,
-        "current_feels_like": 29.9,
+        "current_temp": 27.7,
+        "current_feels_like": 29.6,
         "max_temp": 32.0,
         "feels_like_max": 35.7,
         "max_uvi": 10.0,
@@ -1468,7 +1458,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -1496,18 +1486,18 @@
       "lat": 37.8813,
       "lon": 127.7298,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 23.1,
-        "current_feels_like": 24.1,
+        "current_temp": 24.2,
+        "current_feels_like": 25.2,
         "max_temp": 34.1,
         "feels_like_max": 38.2,
         "max_uvi": 9.8,
-        "temp_diff": 11.0,
+        "temp_diff": 10.5,
         "alert_event": null,
         "preparations": [
           {
@@ -1521,7 +1511,7 @@
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -1549,14 +1539,14 @@
       "lat": 37.3422,
       "lon": 127.9202,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 23.8,
-        "current_feels_like": 24.6,
+        "current_temp": 24.4,
+        "current_feels_like": 25.2,
         "max_temp": 31.7,
         "feels_like_max": 34.0,
         "max_uvi": 9.7,
@@ -1569,7 +1559,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -1597,18 +1587,18 @@
       "lat": 37.7519,
       "lon": 128.8761,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25.2,
-        "current_feels_like": 25.9,
+        "current_temp": 25.4,
+        "current_feels_like": 26.1,
         "max_temp": 34.2,
         "feels_like_max": 38.0,
         "max_uvi": 9.8,
-        "temp_diff": 9.3,
+        "temp_diff": 9.0,
         "alert_event": null,
         "preparations": [
           {
@@ -1617,7 +1607,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -1645,14 +1635,14 @@
       "lat": 36.6424,
       "lon": 127.489,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 28.6,
-        "current_feels_like": 29.9,
+        "current_temp": 28.2,
+        "current_feels_like": 29.3,
         "max_temp": 31.5,
         "feels_like_max": 36.5,
         "max_uvi": 9.8,
@@ -1665,7 +1655,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -1693,14 +1683,14 @@
       "lat": 36.9911,
       "lon": 127.926,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 26.2,
-        "current_feels_like": 26.2,
+        "current_temp": 26.4,
+        "current_feels_like": 26.4,
         "max_temp": 31.6,
         "feels_like_max": 36.3,
         "max_uvi": 8.6,
@@ -1713,7 +1703,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -1741,14 +1731,14 @@
       "lat": 36.8151,
       "lon": 127.1139,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
         "current_temp": 27.0,
-        "current_feels_like": 29.0,
+        "current_feels_like": 28.9,
         "max_temp": 31,
         "feels_like_max": 36.4,
         "max_uvi": 9.8,
@@ -1761,7 +1751,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -1789,14 +1779,14 @@
       "lat": 36.7898,
       "lon": 127.0018,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 27.0,
-        "current_feels_like": 29.3,
+        "current_temp": 27.1,
+        "current_feels_like": 29.4,
         "max_temp": 31.6,
         "feels_like_max": 36.6,
         "max_uvi": 9.8,
@@ -1829,7 +1819,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -1857,14 +1847,14 @@
       "lat": 36.7801,
       "lon": 126.4503,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25.3,
-        "current_feels_like": 26.2,
+        "current_temp": 26.0,
+        "current_feels_like": 26.0,
         "max_temp": 29.5,
         "feels_like_max": 34.1,
         "max_uvi": 9.9,
@@ -1877,7 +1867,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -1905,14 +1895,14 @@
       "lat": 35.8242,
       "lon": 127.148,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 25.0,
-        "current_feels_like": 25.9,
+        "current_temp": 25.6,
+        "current_feels_like": 26.6,
         "max_temp": 31.1,
         "feels_like_max": 35.4,
         "max_uvi": 10.0,
@@ -1945,7 +1935,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -1973,14 +1963,14 @@
       "lat": 35.9677,
       "lon": 126.7366,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25.5,
-        "current_feels_like": 26.5,
+        "current_temp": 25.8,
+        "current_feels_like": 26.8,
         "max_temp": 29,
         "feels_like_max": 34.1,
         "max_uvi": 10.0,
@@ -1993,7 +1983,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -2021,14 +2011,14 @@
       "lat": 35.9483,
       "lon": 126.9578,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 25.1,
-        "current_feels_like": 26.1,
+        "current_temp": 25.6,
+        "current_feels_like": 26.6,
         "max_temp": 30.3,
         "feels_like_max": 35.1,
         "max_uvi": 10.0,
@@ -2061,7 +2051,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -2089,13 +2079,13 @@
       "lat": 34.8118,
       "lon": 126.3922,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25.3,
+        "current_temp": 25.2,
         "current_feels_like": 26.2,
         "max_temp": 27.1,
         "feels_like_max": 30.3,
@@ -2109,7 +2099,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -2137,18 +2127,18 @@
       "lat": 34.7604,
       "lon": 127.6622,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 23.9,
-        "current_feels_like": 24.8,
+        "current_temp": 24.2,
+        "current_feels_like": 25.0,
         "max_temp": 32.2,
         "feels_like_max": 35.5,
         "max_uvi": 10.0,
-        "temp_diff": 8.4,
+        "temp_diff": 8.2,
         "alert_event": null,
         "preparations": [
           {
@@ -2157,7 +2147,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -2185,18 +2175,18 @@
       "lat": 34.9506,
       "lon": 127.4872,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 23.7,
-        "current_feels_like": 24.6,
+        "current_temp": 24.6,
+        "current_feels_like": 25.4,
         "max_temp": 34.7,
         "feels_like_max": 37.2,
         "max_uvi": 10.2,
-        "temp_diff": 11.2,
+        "temp_diff": 10.6,
         "alert_event": null,
         "preparations": [
           {
@@ -2210,7 +2200,7 @@
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -2238,18 +2228,18 @@
       "lat": 36.019,
       "lon": 129.3435,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25.1,
-        "current_feels_like": 25.8,
+        "current_temp": 25.6,
+        "current_feels_like": 26.3,
         "max_temp": 35.8,
         "feels_like_max": 37.9,
         "max_uvi": 10.0,
-        "temp_diff": 11.1,
+        "temp_diff": 10.6,
         "alert_event": null,
         "preparations": [
           {
@@ -2263,7 +2253,7 @@
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -2291,18 +2281,18 @@
       "lat": 36.1195,
       "lon": 128.3445,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25.4,
-        "current_feels_like": 26.4,
+        "current_temp": 25.9,
+        "current_feels_like": 26.8,
         "max_temp": 33.9,
         "feels_like_max": 36.8,
         "max_uvi": 10.0,
-        "temp_diff": 8.7,
+        "temp_diff": 8.3,
         "alert_event": null,
         "preparations": [
           {
@@ -2311,7 +2301,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -2339,18 +2329,18 @@
       "lat": 36.5684,
       "lon": 128.7294,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 22.6,
-        "current_feels_like": 23.5,
+        "current_temp": 23.7,
+        "current_feels_like": 24.5,
         "max_temp": 33.4,
         "feels_like_max": 35.5,
         "max_uvi": 10.0,
-        "temp_diff": 10.9,
+        "temp_diff": 10.5,
         "alert_event": null,
         "preparations": [
           {
@@ -2360,11 +2350,11 @@
           },
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 11°C나 돼요",
+            "title": "낮과 밤의 기온 차가 10°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -2392,18 +2382,18 @@
       "lat": 35.2279,
       "lon": 128.6811,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25.6,
-        "current_feels_like": 26.5,
+        "current_temp": 26.3,
+        "current_feels_like": 26.3,
         "max_temp": 37.4,
         "feels_like_max": 39.1,
         "max_uvi": 10.1,
-        "temp_diff": 12.1,
+        "temp_diff": 11.6,
         "alert_event": null,
         "preparations": [
           {
@@ -2417,7 +2407,7 @@
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -2445,18 +2435,18 @@
       "lat": 35.1802,
       "lon": 128.1076,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 23.4,
-        "current_feels_like": 24.2,
+        "current_temp": 24.6,
+        "current_feels_like": 25.3,
         "max_temp": 36.1,
         "feels_like_max": 37.5,
         "max_uvi": 10.2,
-        "temp_diff": 13.0,
+        "temp_diff": 12.2,
         "alert_event": null,
         "preparations": [
           {
@@ -2466,11 +2456,11 @@
           },
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 13°C나 돼요",
+            "title": "낮과 밤의 기온 차가 12°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -2498,18 +2488,18 @@
       "lat": 33.4996,
       "lon": 126.5312,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 26.2,
-        "current_feels_like": 26.2,
+        "current_temp": 27.0,
+        "current_feels_like": 30.3,
         "max_temp": 30.8,
         "feels_like_max": 36.2,
         "max_uvi": 10.2,
-        "temp_diff": 4.7,
+        "temp_diff": 4.8,
         "alert_event": null,
         "preparations": [
           {
@@ -2518,7 +2508,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
@@ -2546,18 +2536,18 @@
       "lat": 33.2541,
       "lon": 126.5601,
       "status": "ok",
-      "fetched_at": "2026-07-30T04:28:04+09:00",
+      "fetched_at": "2026-07-30T07:08:25+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '매우 높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 26.1,
-        "current_feels_like": 26.1,
+        "current_temp": 26.6,
+        "current_feels_like": 26.6,
         "max_temp": 31.6,
         "feels_like_max": 36.7,
         "max_uvi": 10.2,
-        "temp_diff": 5.6,
+        "temp_diff": 5.4,
         "alert_event": null,
         "preparations": [
           {
@@ -2566,7 +2556,7 @@
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
-        "is_night": true
+        "is_night": false
       },
       "forecast": [
         {
