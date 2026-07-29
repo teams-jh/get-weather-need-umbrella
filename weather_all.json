@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "2.1",
-    "updated_at": "2026-07-29T23:24:25+09:00",
+    "updated_at": "2026-07-29T23:58:09+09:00",
     "status": "ok",
     "source": "OpenWeatherMap One Call API 3.0 50 (Real Data - 50/50)",
     "total_locations": 50,
@@ -19,19 +19,21 @@
       "lat": 37.57,
       "lon": 126.9796,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.7,
-        "current_feels_like": 26.7,
-        "max_temp": 26.7,
-        "feels_like_max": 26.7,
+        "current_temp": 26.4,
+        "current_feels_like": 26.4,
+        "max_temp": 26.4,
+        "feels_like_max": 26.4,
         "max_uvi": 0,
         "temp_diff": 5.5,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -59,19 +61,21 @@
       "lat": 37.4979,
       "lon": 127.0276,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.8,
-        "current_feels_like": 29.4,
-        "max_temp": 26.8,
-        "feels_like_max": 29.4,
+        "current_temp": 26.5,
+        "current_feels_like": 26.5,
+        "max_temp": 26.5,
+        "feels_like_max": 26.5,
         "max_uvi": 0,
         "temp_diff": 5.5,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -99,19 +103,21 @@
       "lat": 37.5145,
       "lon": 127.1066,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.8,
-        "current_feels_like": 29.6,
-        "max_temp": 26.8,
-        "feels_like_max": 29.6,
+        "current_temp": 26.6,
+        "current_feels_like": 26.6,
+        "max_temp": 26.6,
+        "feels_like_max": 26.6,
         "max_uvi": 0,
         "temp_diff": 5.9,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -139,19 +145,42 @@
       "lat": 37.5509,
       "lon": 126.8495,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "Heat Warning Change 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 26.8,
-        "current_feels_like": 29.5,
-        "max_temp": 26.8,
-        "feels_like_max": 29.5,
+        "current_temp": 26.6,
+        "current_feels_like": 26.6,
+        "max_temp": 26.6,
+        "feels_like_max": 26.6,
         "max_uvi": 0,
         "temp_diff": 4.8,
-        "alert_event": "Heat Warning Change"
+        "alert_event": "Heat Warning Change",
+        "alert_events": [
+          "Heat Warning Change"
+        ],
+        "alert_type": "폭염",
+        "alert_types": [
+          "폭염"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "Heat Warning Change 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "Heat Warning Change",
+            "alert_events": [
+              "Heat Warning Change"
+            ],
+            "alert_type": "폭염",
+            "alert_types": [
+              "폭염"
+            ]
+          }
+        ],
+        "is_night": true
       },
       "forecast": [
         {
@@ -179,19 +208,21 @@
       "lat": 37.6542,
       "lon": 127.0568,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.9,
-        "current_feels_like": 29.5,
-        "max_temp": 26.9,
-        "feels_like_max": 29.5,
+        "current_temp": 26.6,
+        "current_feels_like": 26.6,
+        "max_temp": 26.6,
+        "feels_like_max": 26.6,
         "max_uvi": 0,
         "temp_diff": 6.2,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -219,19 +250,21 @@
       "lat": 37.2636,
       "lon": 127.0286,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.6,
-        "current_feels_like": 26.6,
-        "max_temp": 26.6,
-        "feels_like_max": 26.6,
+        "current_temp": 26.5,
+        "current_feels_like": 26.5,
+        "max_temp": 26.5,
+        "feels_like_max": 26.5,
         "max_uvi": 0,
         "temp_diff": 4.4,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -259,19 +292,21 @@
       "lat": 37.3827,
       "lon": 127.1189,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.7,
-        "current_feels_like": 29.3,
-        "max_temp": 26.7,
-        "feels_like_max": 29.3,
+        "current_temp": 26.5,
+        "current_feels_like": 26.5,
+        "max_temp": 26.5,
+        "feels_like_max": 26.5,
         "max_uvi": 0,
         "temp_diff": 5.6,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -299,19 +334,21 @@
       "lat": 37.6583,
       "lon": 126.832,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.7,
-        "current_feels_like": 29.3,
-        "max_temp": 26.7,
-        "feels_like_max": 29.3,
+        "current_temp": 26.5,
+        "current_feels_like": 26.5,
+        "max_temp": 26.5,
+        "feels_like_max": 26.5,
         "max_uvi": 0,
         "temp_diff": 5.6,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -339,19 +376,21 @@
       "lat": 37.241,
       "lon": 127.1775,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 25.8,
-        "current_feels_like": 26.5,
-        "max_temp": 25.8,
-        "feels_like_max": 26.5,
+        "current_temp": 25.7,
+        "current_feels_like": 26.6,
+        "max_temp": 25.7,
+        "feels_like_max": 26.6,
         "max_uvi": 0,
         "temp_diff": 4.8,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -379,19 +418,21 @@
       "lat": 37.5034,
       "lon": 126.766,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.5,
-        "current_feels_like": 26.5,
-        "max_temp": 26.5,
-        "feels_like_max": 26.5,
+        "current_temp": 26.3,
+        "current_feels_like": 26.3,
+        "max_temp": 26.3,
+        "feels_like_max": 26.3,
         "max_uvi": 0,
         "temp_diff": 4.1,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -419,19 +460,21 @@
       "lat": 37.636,
       "lon": 127.2165,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 24.7,
-        "current_feels_like": 25.4,
-        "max_temp": 24.7,
-        "feels_like_max": 25.4,
+        "current_temp": 24.4,
+        "current_feels_like": 25.2,
+        "max_temp": 24.4,
+        "feels_like_max": 25.2,
         "max_uvi": 0,
         "temp_diff": 6.8,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -459,19 +502,21 @@
       "lat": 36.9921,
       "lon": 127.1129,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
         "current_temp": 26.8,
-        "current_feels_like": 29.1,
+        "current_feels_like": 29.7,
         "max_temp": 26.8,
-        "feels_like_max": 29.1,
+        "feels_like_max": 29.7,
         "max_uvi": 0,
         "temp_diff": 3.2,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -499,19 +544,21 @@
       "lat": 37.7381,
       "lon": 127.0339,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.1,
-        "current_feels_like": 26.1,
-        "max_temp": 26.1,
-        "feels_like_max": 26.1,
+        "current_temp": 25.8,
+        "current_feels_like": 26.6,
+        "max_temp": 25.8,
+        "feels_like_max": 26.6,
         "max_uvi": 0,
         "temp_diff": 6.5,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -539,19 +586,21 @@
       "lat": 37.4475,
       "lon": 126.7314,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 25.9,
-        "current_feels_like": 26.8,
-        "max_temp": 25.9,
-        "feels_like_max": 26.8,
+        "current_temp": 25.7,
+        "current_feels_like": 26.6,
+        "max_temp": 25.7,
+        "feels_like_max": 26.6,
         "max_uvi": 0,
         "temp_diff": 3.4,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -579,19 +628,21 @@
       "lat": 37.5451,
       "lon": 126.676,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.2,
-        "current_feels_like": 26.2,
-        "max_temp": 26.2,
-        "feels_like_max": 26.2,
+        "current_temp": 25.9,
+        "current_feels_like": 25.9,
+        "max_temp": 25.9,
+        "feels_like_max": 25.9,
         "max_uvi": 0,
         "temp_diff": 3.2,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -619,19 +670,42 @@
       "lat": 35.1631,
       "lon": 129.0536,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "Heat Emergency Warning Change 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 28.2,
-        "current_feels_like": 30.7,
-        "max_temp": 28.2,
-        "feels_like_max": 30.7,
+        "current_temp": 27.7,
+        "current_feels_like": 30.0,
+        "max_temp": 27.7,
+        "feels_like_max": 30.0,
         "max_uvi": 0,
         "temp_diff": 6.9,
-        "alert_event": "Heat Emergency Warning Change"
+        "alert_event": "Heat Emergency Warning Change",
+        "alert_events": [
+          "Heat Emergency Warning Change"
+        ],
+        "alert_type": "폭염",
+        "alert_types": [
+          "폭염"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "Heat Emergency Warning Change 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "Heat Emergency Warning Change",
+            "alert_events": [
+              "Heat Emergency Warning Change"
+            ],
+            "alert_type": "폭염",
+            "alert_types": [
+              "폭염"
+            ]
+          }
+        ],
+        "is_night": true
       },
       "forecast": [
         {
@@ -659,19 +733,27 @@
       "lat": 35.1631,
       "lon": 129.1636,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 29.2,
-        "current_feels_like": 32.6,
-        "max_temp": 29.2,
-        "feels_like_max": 32.6,
+        "current_temp": 29.0,
+        "current_feels_like": 32.2,
+        "max_temp": 29.0,
+        "feels_like_max": 32.2,
         "max_uvi": 0,
         "temp_diff": 4.8,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "PARASOL",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
+            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+          }
+        ],
+        "is_night": true
       },
       "forecast": [
         {
@@ -699,19 +781,42 @@
       "lat": 35.1526,
       "lon": 128.9911,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "Heat Emergency Warning Change 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 28.4,
-        "current_feels_like": 31.1,
-        "max_temp": 28.4,
-        "feels_like_max": 31.1,
+        "current_temp": 27.9,
+        "current_feels_like": 30.4,
+        "max_temp": 27.9,
+        "feels_like_max": 30.4,
         "max_uvi": 0,
         "temp_diff": 7.2,
-        "alert_event": "Heat Emergency Warning Change"
+        "alert_event": "Heat Emergency Warning Change",
+        "alert_events": [
+          "Heat Emergency Warning Change"
+        ],
+        "alert_type": "폭염",
+        "alert_types": [
+          "폭염"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "Heat Emergency Warning Change 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "Heat Emergency Warning Change",
+            "alert_events": [
+              "Heat Emergency Warning Change"
+            ],
+            "alert_type": "폭염",
+            "alert_types": [
+              "폭염"
+            ]
+          }
+        ],
+        "is_night": true
       },
       "forecast": [
         {
@@ -739,19 +844,27 @@
       "lat": 35.0912,
       "lon": 129.0679,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 28.4,
-        "current_feels_like": 31.7,
-        "max_temp": 28.4,
-        "feels_like_max": 31.7,
+        "current_temp": 28.3,
+        "current_feels_like": 31.3,
+        "max_temp": 28.3,
+        "feels_like_max": 31.3,
         "max_uvi": 0,
         "temp_diff": 4.8,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "PARASOL",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
+            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+          }
+        ],
+        "is_night": true
       },
       "forecast": [
         {
@@ -779,19 +892,21 @@
       "lat": 35.8669,
       "lon": 128.5942,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 27.0,
-        "current_feels_like": 29.8,
-        "max_temp": 27.0,
-        "feels_like_max": 29.8,
+        "current_temp": 26.5,
+        "current_feels_like": 26.5,
+        "max_temp": 26.5,
+        "feels_like_max": 26.5,
         "max_uvi": 0,
         "temp_diff": 8.4,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -819,19 +934,21 @@
       "lat": 35.8865,
       "lon": 128.6355,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.7,
-        "current_feels_like": 29.3,
-        "max_temp": 26.7,
-        "feels_like_max": 29.3,
+        "current_temp": 26.1,
+        "current_feels_like": 26.1,
+        "max_temp": 26.1,
+        "feels_like_max": 26.1,
         "max_uvi": 0,
         "temp_diff": 8.5,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -859,19 +976,21 @@
       "lat": 35.8299,
       "lon": 128.5326,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.8,
-        "current_feels_like": 29.3,
-        "max_temp": 26.8,
-        "feels_like_max": 29.3,
+        "current_temp": 26.2,
+        "current_feels_like": 26.2,
+        "max_temp": 26.2,
+        "feels_like_max": 26.2,
         "max_uvi": 0,
         "temp_diff": 8.5,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -899,19 +1018,21 @@
       "lat": 36.3554,
       "lon": 127.3838,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 27.3,
-        "current_feels_like": 29.3,
-        "max_temp": 27.3,
-        "feels_like_max": 29.3,
+        "current_temp": 27.4,
+        "current_feels_like": 30.6,
+        "max_temp": 27.4,
+        "feels_like_max": 30.6,
         "max_uvi": 0,
         "temp_diff": 3.4,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -939,19 +1060,21 @@
       "lat": 36.3622,
       "lon": 127.3562,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
         "current_temp": 27.2,
-        "current_feels_like": 29.1,
+        "current_feels_like": 30.3,
         "max_temp": 27.2,
-        "feels_like_max": 29.1,
+        "feels_like_max": 30.3,
         "max_uvi": 0,
         "temp_diff": 3.5,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -979,19 +1102,21 @@
       "lat": 35.152,
       "lon": 126.8901,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 24.4,
-        "current_feels_like": 25.4,
-        "max_temp": 24.4,
-        "feels_like_max": 25.4,
+        "current_temp": 24.1,
+        "current_feels_like": 25.1,
+        "max_temp": 24.1,
+        "feels_like_max": 25.1,
         "max_uvi": 0,
-        "temp_diff": 9.2,
-        "alert_event": null
+        "temp_diff": 9.4,
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1019,19 +1144,21 @@
       "lat": 35.1396,
       "lon": 126.7936,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 24.3,
-        "current_feels_like": 25.2,
-        "max_temp": 24.3,
-        "feels_like_max": 25.2,
+        "current_temp": 23.9,
+        "current_feels_like": 24.8,
+        "max_temp": 23.9,
+        "feels_like_max": 24.8,
         "max_uvi": 0,
-        "temp_diff": 8.8,
-        "alert_event": null
+        "temp_diff": 9.0,
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1059,19 +1186,21 @@
       "lat": 35.5437,
       "lon": 129.33,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.8,
-        "current_feels_like": 28.8,
-        "max_temp": 26.8,
-        "feels_like_max": 28.8,
+        "current_temp": 26.3,
+        "current_feels_like": 26.3,
+        "max_temp": 26.3,
+        "feels_like_max": 26.3,
         "max_uvi": 0,
         "temp_diff": 9.7,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1099,19 +1228,27 @@
       "lat": 35.5387,
       "lon": 129.1444,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 11°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 26.0,
-        "current_feels_like": 26.0,
-        "max_temp": 26.0,
-        "feels_like_max": 26.0,
+        "current_temp": 25.4,
+        "current_feels_like": 26.1,
+        "max_temp": 25.4,
+        "feels_like_max": 26.1,
         "max_uvi": 0,
-        "temp_diff": 10.9,
-        "alert_event": null
+        "temp_diff": 11.3,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1139,19 +1276,21 @@
       "lat": 36.48,
       "lon": 127.289,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 27.8,
-        "current_feels_like": 29.5,
-        "max_temp": 27.8,
-        "feels_like_max": 29.5,
+        "current_temp": 27.9,
+        "current_feels_like": 31.3,
+        "max_temp": 27.9,
+        "feels_like_max": 31.3,
         "max_uvi": 0,
         "temp_diff": 3.1,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1179,19 +1318,21 @@
       "lat": 37.8813,
       "lon": 127.7298,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 24.4,
-        "current_feels_like": 25.5,
-        "max_temp": 24.4,
-        "feels_like_max": 25.5,
+        "current_temp": 24.3,
+        "current_feels_like": 25.3,
+        "max_temp": 24.3,
+        "feels_like_max": 25.3,
         "max_uvi": 0,
-        "temp_diff": 8.4,
-        "alert_event": null
+        "temp_diff": 8.6,
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1219,19 +1360,21 @@
       "lat": 37.3422,
       "lon": 127.9202,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 23.9,
-        "current_feels_like": 24.8,
-        "max_temp": 23.9,
-        "feels_like_max": 24.8,
+        "current_temp": 23.8,
+        "current_feels_like": 24.7,
+        "max_temp": 23.8,
+        "feels_like_max": 24.7,
         "max_uvi": 0,
-        "temp_diff": 6.4,
-        "alert_event": null
+        "temp_diff": 6.5,
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1259,19 +1402,21 @@
       "lat": 37.7519,
       "lon": 128.8761,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.2,
-        "current_feels_like": 26.2,
-        "max_temp": 26.2,
-        "feels_like_max": 26.2,
+        "current_temp": 25.9,
+        "current_feels_like": 26.8,
+        "max_temp": 25.9,
+        "feels_like_max": 26.8,
         "max_uvi": 0,
         "temp_diff": 9.1,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1299,19 +1444,27 @@
       "lat": 36.6424,
       "lon": 127.489,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 28.2,
-        "current_feels_like": 29.2,
-        "max_temp": 28.2,
-        "feels_like_max": 29.2,
+        "current_temp": 28.5,
+        "current_feels_like": 31.8,
+        "max_temp": 28.5,
+        "feels_like_max": 31.8,
         "max_uvi": 0,
         "temp_diff": 2.2,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "PARASOL",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
+            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+          }
+        ],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1339,19 +1492,21 @@
       "lat": 36.9911,
       "lon": 127.926,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.0,
-        "current_feels_like": 26.0,
-        "max_temp": 26.0,
-        "feels_like_max": 26.0,
+        "current_temp": 25.9,
+        "current_feels_like": 26.9,
+        "max_temp": 25.9,
+        "feels_like_max": 26.9,
         "max_uvi": 0,
         "temp_diff": 4.5,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1379,19 +1534,21 @@
       "lat": 36.8151,
       "lon": 127.1139,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
         "current_temp": 27.0,
-        "current_feels_like": 28.8,
+        "current_feels_like": 29.9,
         "max_temp": 27.0,
-        "feels_like_max": 28.8,
+        "feels_like_max": 29.9,
         "max_uvi": 0,
         "temp_diff": 3.2,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1419,19 +1576,42 @@
       "lat": 36.7898,
       "lon": 127.0018,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "Heat Advisory Change 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 27.0,
-        "current_feels_like": 29.2,
+        "current_feels_like": 30.0,
         "max_temp": 27.0,
-        "feels_like_max": 29.2,
+        "feels_like_max": 30.0,
         "max_uvi": 0,
         "temp_diff": 3.8,
-        "alert_event": "Heat Advisory Change"
+        "alert_event": "Heat Advisory Change",
+        "alert_events": [
+          "Heat Advisory Change"
+        ],
+        "alert_type": "폭염",
+        "alert_types": [
+          "폭염"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "Heat Advisory Change 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "Heat Advisory Change",
+            "alert_events": [
+              "Heat Advisory Change"
+            ],
+            "alert_type": "폭염",
+            "alert_types": [
+              "폭염"
+            ]
+          }
+        ],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1459,19 +1639,21 @@
       "lat": 36.7801,
       "lon": 126.4503,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 25.6,
+        "current_temp": 25.5,
         "current_feels_like": 26.5,
-        "max_temp": 25.6,
+        "max_temp": 25.5,
         "feels_like_max": 26.5,
         "max_uvi": 0,
         "temp_diff": 4.2,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1499,19 +1681,42 @@
       "lat": 35.8242,
       "lon": 127.148,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "Heat Advisory Change 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 25.3,
-        "current_feels_like": 26.3,
-        "max_temp": 25.3,
-        "feels_like_max": 26.3,
+        "current_temp": 25.1,
+        "current_feels_like": 26.2,
+        "max_temp": 25.1,
+        "feels_like_max": 26.2,
         "max_uvi": 0,
-        "temp_diff": 5.9,
-        "alert_event": "Heat Advisory Change"
+        "temp_diff": 6.1,
+        "alert_event": "Heat Advisory Change",
+        "alert_events": [
+          "Heat Advisory Change"
+        ],
+        "alert_type": "폭염",
+        "alert_types": [
+          "폭염"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "Heat Advisory Change 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "Heat Advisory Change",
+            "alert_events": [
+              "Heat Advisory Change"
+            ],
+            "alert_type": "폭염",
+            "alert_types": [
+              "폭염"
+            ]
+          }
+        ],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1539,19 +1744,21 @@
       "lat": 35.9677,
       "lon": 126.7366,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.0,
-        "current_feels_like": 26.0,
-        "max_temp": 26.0,
-        "feels_like_max": 26.0,
+        "current_temp": 25.8,
+        "current_feels_like": 26.8,
+        "max_temp": 25.8,
+        "feels_like_max": 26.8,
         "max_uvi": 0,
         "temp_diff": 3.2,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1579,19 +1786,42 @@
       "lat": 35.9483,
       "lon": 126.9578,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "Heat Advisory Change 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 25.6,
-        "current_feels_like": 26.5,
-        "max_temp": 25.6,
-        "feels_like_max": 26.5,
+        "current_temp": 25.4,
+        "current_feels_like": 26.4,
+        "max_temp": 25.4,
+        "feels_like_max": 26.4,
         "max_uvi": 0,
         "temp_diff": 5.0,
-        "alert_event": "Heat Advisory Change"
+        "alert_event": "Heat Advisory Change",
+        "alert_events": [
+          "Heat Advisory Change"
+        ],
+        "alert_type": "폭염",
+        "alert_types": [
+          "폭염"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "Heat Advisory Change 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "Heat Advisory Change",
+            "alert_events": [
+              "Heat Advisory Change"
+            ],
+            "alert_type": "폭염",
+            "alert_types": [
+              "폭염"
+            ]
+          }
+        ],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1619,19 +1849,21 @@
       "lat": 34.8118,
       "lon": 126.3922,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.0,
-        "current_feels_like": 26.0,
-        "max_temp": 26.0,
-        "feels_like_max": 26.0,
+        "current_temp": 25.7,
+        "current_feels_like": 26.6,
+        "max_temp": 25.7,
+        "feels_like_max": 26.6,
         "max_uvi": 0,
-        "temp_diff": 1.4,
-        "alert_event": null
+        "temp_diff": 1.6,
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1659,19 +1891,21 @@
       "lat": 34.7604,
       "lon": 127.6622,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 25.7,
-        "current_feels_like": 26.6,
-        "max_temp": 25.7,
-        "feels_like_max": 26.6,
+        "current_temp": 25.2,
+        "current_feels_like": 26.1,
+        "max_temp": 25.2,
+        "feels_like_max": 26.1,
         "max_uvi": 0,
         "temp_diff": 7.2,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1699,19 +1933,21 @@
       "lat": 34.9506,
       "lon": 127.4872,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 25.2,
-        "current_feels_like": 26.1,
-        "max_temp": 25.2,
-        "feels_like_max": 26.1,
+        "current_temp": 24.9,
+        "current_feels_like": 25.8,
+        "max_temp": 24.9,
+        "feels_like_max": 25.8,
         "max_uvi": 0,
-        "temp_diff": 9.6,
-        "alert_event": null
+        "temp_diff": 9.7,
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1739,19 +1975,27 @@
       "lat": 36.019,
       "lon": 129.3435,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 11°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 26.6,
-        "current_feels_like": 26.6,
-        "max_temp": 26.6,
-        "feels_like_max": 26.6,
+        "current_temp": 26.2,
+        "current_feels_like": 26.2,
+        "max_temp": 26.2,
+        "feels_like_max": 26.2,
         "max_uvi": 0,
         "temp_diff": 10.8,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1779,19 +2023,21 @@
       "lat": 36.1195,
       "lon": 128.3445,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.5,
-        "current_feels_like": 26.5,
-        "max_temp": 26.5,
-        "feels_like_max": 26.5,
+        "current_temp": 26.2,
+        "current_feels_like": 26.2,
+        "max_temp": 26.2,
+        "feels_like_max": 26.2,
         "max_uvi": 0,
         "temp_diff": 7.6,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1819,19 +2065,21 @@
       "lat": 36.5684,
       "lon": 128.7294,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 24.0,
-        "current_feels_like": 24.8,
-        "max_temp": 24.0,
-        "feels_like_max": 24.8,
+        "current_temp": 23.3,
+        "current_feels_like": 24.1,
+        "max_temp": 23.3,
+        "feels_like_max": 24.1,
         "max_uvi": 0,
-        "temp_diff": 8.6,
-        "alert_event": null
+        "temp_diff": 8.9,
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1859,19 +2107,27 @@
       "lat": 35.2279,
       "lon": 128.6811,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 10°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 28.5,
-        "current_feels_like": 31.7,
-        "max_temp": 28.5,
-        "feels_like_max": 31.7,
+        "current_temp": 27.7,
+        "current_feels_like": 30.7,
+        "max_temp": 27.7,
+        "feels_like_max": 30.7,
         "max_uvi": 0,
         "temp_diff": 10.4,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1899,19 +2155,27 @@
       "lat": 35.1802,
       "lon": 128.1076,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 11°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 25.9,
-        "current_feels_like": 26.6,
-        "max_temp": 25.9,
-        "feels_like_max": 26.6,
+        "current_temp": 25.1,
+        "current_feels_like": 25.9,
+        "max_temp": 25.1,
+        "feels_like_max": 25.9,
         "max_uvi": 0,
         "temp_diff": 11.3,
-        "alert_event": null
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1939,19 +2203,21 @@
       "lat": 33.4996,
       "lon": 126.5312,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.4,
-        "current_feels_like": 26.4,
-        "max_temp": 26.4,
-        "feels_like_max": 26.4,
+        "current_temp": 26.2,
+        "current_feels_like": 26.2,
+        "max_temp": 26.2,
+        "feels_like_max": 26.2,
         "max_uvi": 0,
-        "temp_diff": 4.3,
-        "alert_event": null
+        "temp_diff": 4.5,
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
@@ -1979,19 +2245,21 @@
       "lat": 33.2541,
       "lon": 126.5601,
       "status": "ok",
-      "fetched_at": "2026-07-29T23:24:25+09:00",
+      "fetched_at": "2026-07-29T23:58:09+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 26.5,
-        "current_feels_like": 26.5,
-        "max_temp": 26.5,
-        "feels_like_max": 26.5,
+        "current_temp": 26.4,
+        "current_feels_like": 26.4,
+        "max_temp": 26.4,
+        "feels_like_max": 26.4,
         "max_uvi": 0,
-        "temp_diff": 4.5,
-        "alert_event": null
+        "temp_diff": 4.6,
+        "alert_event": null,
+        "preparations": [],
+        "is_night": true
       },
       "forecast": [
         {
