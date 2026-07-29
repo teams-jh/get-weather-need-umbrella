@@ -85,9 +85,28 @@ def alert_type_of(event_name: str) -> str:
     return "기타"
 
 
+def alert_display_name(event_name: str) -> str:
+    """공급자 특보 원문을 사용자에게 보여줄 한국어 특보명으로 정규화한다."""
+    # 기상청 특보명은 이미 한국어 정식 명칭이므로 바꾸지 않는다.
+    if any("가" <= char <= "힣" for char in event_name):
+        return event_name
+
+    alert_type = alert_type_of(event_name)
+    if alert_type == "기타":
+        return "기상 특보"
+
+    normalized = event_name.lower()
+    if "warning" in normalized:
+        return f"{alert_type}경보"
+    if "advisory" in normalized:
+        return f"{alert_type}주의보"
+    if "watch" in normalized:
+        return f"{alert_type} 예비특보"
+    return f"{alert_type} 특보"
+
 def _alert_details(alerts: List[str]) -> Dict[str, Any]:
-    """동시에 발효된 특보의 원문과 중복 없는 유형을 함께 보존한다."""
-    events = list(dict.fromkeys(alerts))
+    """동시에 발효된 특보를 사용자용 한국어 명칭과 유형으로 정리한다."""
+    events = list(dict.fromkeys(alert_display_name(event) for event in alerts))
     types = list(dict.fromkeys(alert_type_of(event) for event in events))
     return {
         "alert_event": events[0],  # 기존 소비자와의 호환성
