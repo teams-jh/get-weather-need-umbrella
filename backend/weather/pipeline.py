@@ -181,7 +181,7 @@ def generate_weather_json(
     if not output_path:
         output_path = WEATHER_JSON
 
-    provider_name = provider_name or DEFAULT_PROVIDER
+    provider_name = provider_name or os.environ.get("WEATHER_PROVIDER") or DEFAULT_PROVIDER
     provider = get_provider(provider_name)
     if kma_service_key is None:
         kma_service_key = os.environ.get("KMA_SERVICE_KEY")
