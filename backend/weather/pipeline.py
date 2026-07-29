@@ -191,9 +191,9 @@ def generate_weather_json(
     dual_run = bool(api_key) and bool(kma_service_key) and not kma_is_primary
 
     # 특보는 기상청이 기준일 때도 필요하다. 비교용으로만 받으면 전환 후 ALERT 가 사라진다.
-    # 기준이 기상청이면 api_key 가 곧 기상청 서비스키다.
-    if kma_is_primary and api_key:
-        alerts_by_station = _prefetch_kma_alerts(HUB_LOCATIONS, api_key)
+    # kma_is_primary 일 때는 kma_service_key 를, 없으면 api_key 를 쓴다.
+    if kma_is_primary and (kma_service_key or api_key):
+        alerts_by_station = _prefetch_kma_alerts(HUB_LOCATIONS, kma_service_key or api_key)
     elif dual_run:
         alerts_by_station = _prefetch_kma_alerts(HUB_LOCATIONS, kma_service_key)
     else:
@@ -228,12 +228,13 @@ def generate_weather_json(
         집계는 순서를 지키려고 호출자 쪽에서 순차로 한다.
         """
         outcome: Dict[str, Any] = {"loc": loc, "bundle": None, "kma": None, "error": None, "errors": []}
-        if api_key:
+        primary_key = (kma_service_key or api_key) if kma_is_primary else api_key
+        if primary_key:
             try:
                 if kma_is_primary:
-                    outcome["bundle"] = kma.fetch(loc, api_key, alerts=_alerts_for(loc))
+                    outcome["bundle"] = kma.fetch(loc, primary_key, alerts=_alerts_for(loc))
                 else:
-                    outcome["bundle"] = provider.fetch(loc, api_key)
+                    outcome["bundle"] = provider.fetch(loc, primary_key)
             except ProviderError as error:
                 # 사유는 산출물에 그대로 남긴다. 실패한 거점을 나중에 추적하려면 필요하다.
                 outcome["error"] = str(error)
@@ -247,7 +248,7 @@ def generate_weather_json(
                 outcome["errors"].append(f"[COMPARE] {loc['id']} 기상청 조회 실패: {error}")
         return outcome
 
-    if api_key or dual_run:
+    if api_key or (kma_is_primary and kma_service_key) or dual_run:
         with ThreadPoolExecutor(max_workers=FETCH_WORKERS) as pool:
             outcomes = list(pool.map(collect, HUB_LOCATIONS))
     else:
