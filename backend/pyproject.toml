@@ -1,0 +1,10 @@
+[tool.pytest.ini_options]
+# 테스트는 tests/ 에만 둔다. 소스와 섞이면 무엇이 코드고 무엇이 검증인지 흐려진다.
+testpaths = ["tests"]
+
+# backend 를 임포트 루트로 고정한다. 이게 없으면 pytest 가 테스트 파일이 있는
+# tests/ 를 sys.path 에 넣어서 `from weather...` 같은 임포트가 풀리지 않는다.
+pythonpath = ["."]
+
+# 실패 위치를 짧게 보여준다.
+addopts = "--tb=short"

@@ -17,3 +17,12 @@ venv/
 ENV/
 .vscode/
 .idea/
+
+# 자격 증명. 공개 저장소이므로 절대 커밋되면 안 된다.
+serviceAccountKey.json
+*.json.key
+need-umbrella-*.json
+*.pem
+
+# 이중화 비교 산출물 (수집 실행 시 생성, 커밋하지 않음)
+weather_compare.json

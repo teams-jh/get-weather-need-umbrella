@@ -1,6 +1,6 @@
 import pytest
 
-import send_test_smart_message as workflow
+import notify.manual_message as workflow
 
 
 def test_build_request_uses_fixed_template_and_user_key(monkeypatch):

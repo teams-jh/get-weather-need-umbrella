@@ -1,8 +1,10 @@
 import pytest
 import os
 from datetime import datetime, timezone, timedelta
-from locations import HUB_LOCATIONS
-from main import generate_weather_json, evaluate_weather, evaluate_weather_v2, is_daytime_kst
+from locations.hubs import HUB_LOCATIONS
+from weather.evaluate import evaluate
+from weather.pipeline import generate_weather_json
+from weather.providers.openweather import bundle_from_onecall
 
 KST = timezone(timedelta(hours=9))
 
@@ -36,18 +38,13 @@ def test_generate_weather_json_schema():
         assert seoul_south["group"] == "서울"
         assert seoul_south["display_name"] == "강남"
         assert seoul_south["name"] == "서울_강남"
-        assert "recommendation" in seoul_south
+        # 키가 없으면 수집이 전부 실패한다. 거점 식별 정보는 그대로 남기되
+        # 판정은 지어내지 않는다.
+        assert seoul_south["status"] == "failed"
+        assert "recommendation" not in seoul_south
     finally:
         if os.path.exists(test_out):
             os.remove(test_out)
-
-def test_daytime_kst_filtering():
-    """KST 낮 시간대(09:00 ~ 18:00) 필터링 유틸리티 테스트"""
-    dt_12 = int(datetime(2026, 7, 24, 12, 0, tzinfo=KST).timestamp())
-    assert is_daytime_kst(dt_12) is True
-
-    dt_22 = int(datetime(2026, 7, 24, 22, 0, tzinfo=KST).timestamp())
-    assert is_daytime_kst(dt_22) is False
 
 def test_v2_alert_state():
     """V2 엣지케이스 1: alerts 배열이 존재할 경우 최우선 ALERT 반환"""
@@ -56,7 +53,7 @@ def test_v2_alert_state():
         "current": {"temp": 22.0, "uvi": 2.0},
         "daily": [{"temp": {"min": 18.0, "max": 24.0}, "uvi": 2.0}]
     }
-    result = evaluate_weather_v2(mock_data)
+    result = evaluate(bundle_from_onecall(mock_data))
     assert result["state_code"] == "ALERT"
     assert result["alert_event"] == "호우경보"
 
@@ -69,7 +66,7 @@ def test_v2_umbrella_state():
         "minutely": [{"dt": dt_rain, "precipitation": 1.5}],
         "daily": [{"temp": {"min": 18.0, "max": 25.0}, "uvi": 3.0}]
     }
-    result = evaluate_weather_v2(mock_data, now_ts=now_ts)
+    result = evaluate(bundle_from_onecall(mock_data), now_ts=now_ts)
     assert result["state_code"] == "UMBRELLA"
     assert result["rain_start_time"] == "14:15"
     assert result["title"] == "오후 2:15부터 비 소식이 있어요"
@@ -84,7 +81,7 @@ def test_v2_umbrella_past_rain_ignored():
         "hourly": [{"dt": past_rain_dt, "pop": 0.9, "weather": [{"id": 500}]}],
         "daily": [{"temp": {"min": 18.0, "max": 23.0}, "uvi": 3.0}]
     }
-    result = evaluate_weather_v2(mock_data, now_ts=now_dt)
+    result = evaluate(bundle_from_onecall(mock_data), now_ts=now_dt)
     assert result["state_code"] == "NONE"  # 과거 비는 무시됨
 
 
@@ -95,7 +92,7 @@ def test_v2_parasol_state_uvi():
         "minutely": [],
         "daily": [{"temp": {"min": 18.0, "max": 26.0}, "uvi": 7.8}]
     }
-    result = evaluate_weather_v2(mock_data)
+    result = evaluate(bundle_from_onecall(mock_data))
     assert result["state_code"] == "PARASOL"
     assert result["max_uvi"] == 7.8
 
@@ -106,7 +103,7 @@ def test_v2_jacket_state_temp_diff():
         "minutely": [],
         "daily": [{"temp": {"min": 12.0, "max": 23.5}, "uvi": 4.0}]
     }
-    result = evaluate_weather_v2(mock_data)
+    result = evaluate(bundle_from_onecall(mock_data))
     assert result["state_code"] == "JACKET"
     assert result["temp_diff"] == 11.5
 
@@ -117,5 +114,5 @@ def test_v2_none_state():
         "minutely": [],
         "daily": [{"temp": {"min": 18.0, "max": 23.0}, "uvi": 3.5}]
     }
-    result = evaluate_weather_v2(mock_data)
+    result = evaluate(bundle_from_onecall(mock_data))
     assert result["state_code"] == "NONE"

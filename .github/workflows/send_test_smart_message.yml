@@ -15,6 +15,7 @@ on:
         description: JSON object containing the approved template variables
         required: true
         type: string
+        default: "{}"
 
 permissions:
   contents: read
@@ -54,4 +55,5 @@ jobs:
           TOSS_TEST_DEPLOYMENT_ID: ${{ inputs.deployment_id }}
           TOSS_TEST_ANON_KEY: ${{ inputs.anon_key }}
           TOSS_TEST_MESSAGE_CONTEXT: ${{ inputs.message_context }}
-        run: python backend/send_test_smart_message.py
+        working-directory: ./backend
+        run: python -m scripts.send_test_message
