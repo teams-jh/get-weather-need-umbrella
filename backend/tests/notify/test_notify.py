@@ -54,6 +54,10 @@ def umbrella_weather(rain_start_time="14:00"):
     return {"recommendation": {"state_code": "UMBRELLA", "rain_start_time": rain_start_time}}
 
 
+def prepared_weather(*types):
+    return {"recommendation": {"state_code": types[0], "preparations": [{"type": item} for item in types]}}
+
+
 # --- 리워드 이용권 ---
 
 def test_is_ad_pass_valid():
@@ -97,6 +101,16 @@ def test_expired_ad_pass_also_blocks_weather_alert():
     should_send, dedup = should_send_notification("alert", valid_user, weather, now)
     assert should_send is True
     assert dedup == "2026-07-28_호우주의보"
+
+
+def test_umbrella_notifications_use_independent_preparation():
+    now = kst(TUESDAY, 7)
+    user = make_user()
+    heat_alert = {"recommendation": {"state_code": "ALERT", "alert_event": "폭염주의보", "preparations": [{"type": "ALERT"}]}}
+    alert_with_rain = prepared_weather("ALERT", "UMBRELLA")
+
+    assert should_send_notification("morning", user, heat_alert, now)[0] is False
+    assert should_send_notification("morning", user, alert_with_rain, now)[0] is True
 
 
 # --- 시간 게이트 ---

@@ -76,3 +76,33 @@ cd backend && uvicorn api.app:app --host 0.0.0.0 --port 8000
 동작으로 오판하기 때문입니다. 다만 일부 거점이 실패해도 런 전체를 실패시키지 않고
 성공한 거점은 그대로 게시합니다. 부분 실패로 게시를 막으면 앱이 과거 날씨를 현재인
 것처럼 보여주게 되어 같은 종류의 거짓말이 됩니다.
+
+### `recommendation` 의 준비물
+
+`state_code` 는 대표 준비물 하나만 가리킵니다. 실제로는 특보·비·자외선·일교차가
+동시에 성립할 수 있으므로, 성립한 준비물을 전부 `preparations` 배열로 함께 내보냅니다.
+배열 순서는 우선순위(ALERT > UMBRELLA > PARASOL > JACKET)와 같고 `preparations[0]`
+이 곧 `state_code` 입니다. 준비할 것이 없으면 `state_code` 는 `NONE`, 배열은 빈 배열입니다.
+
+```jsonc
+{
+  "state_code": "ALERT",          // 대표 준비물 (기존 필드, 그대로 유지)
+  "alert_event": "호우경보",       // 대표 특보 (기존 필드, 그대로 유지)
+  "alert_events": ["호우경보", "강풍주의보"],  // 동시 발효된 특보 전부
+  "alert_type": "호우",            // 특보명을 정규화한 유형
+  "alert_types": ["호우", "강풍"],
+  "is_night": true,               // KST 19시~익일 6시
+  "preparations": [
+    { "type": "ALERT",    "title": "...", "message": "...", "alert_type": "호우" },
+    { "type": "UMBRELLA", "title": "...", "message": "...", "rain_start_time": "14:15" }
+  ]
+}
+```
+
+기존 필드는 이름·순서·값이 모두 그대로이고 새 필드는 뒤에 더하기만 했습니다
+(`tests/weather/test_evaluate_equivalence.py` 가 이를 검증합니다). 따라서 구 버전
+소비자는 그대로 동작합니다.
+
+특보가 떴다고 우산이 필요한 것은 아닙니다. 폭염·건조·황사 특보에는 비가 없으므로
+`UMBRELLA` 준비물이 붙지 않습니다. 우산 관련 판단은 `state_code` 가 아니라
+`preparations` 에 `type == "UMBRELLA"` 가 있는지로 하십시오.
