@@ -31,7 +31,7 @@ def recipient_header() -> dict[str, str]:
 
 
 def message_context() -> dict[str, Any]:
-    raw_context = required_env("TOSS_TEST_MESSAGE_CONTEXT")
+    raw_context = os.getenv("TOSS_TEST_MESSAGE_CONTEXT") or "{}"
     try:
         context = json.loads(raw_context)
     except json.JSONDecodeError as error:
@@ -68,7 +68,3 @@ def send_test_message() -> dict[str, Any]:
     if not response.ok or payload.get("resultType") != "SUCCESS":
         raise RuntimeError(f"Toss test message request failed ({response.status_code}): {payload}")
     return payload
-
-
-if __name__ == "__main__":
-    print(json.dumps(send_test_message(), ensure_ascii=False, indent=2))

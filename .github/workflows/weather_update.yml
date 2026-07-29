@@ -1,13 +1,14 @@
 name: Weather Data Sync Pipeline
 
+# 예보 수집은 이 저장소가 기준이다. 프론트엔드는 여기서 커밋된 weather_all.json 을
+# 직접 읽고, 원격을 못 읽으면 폴백 없이 오류 화면을 띄운다. 따라서 이 워크플로가
+# 멈추면 앱의 날씨도 멈춘다.
 on:
   schedule:
-    # 매일 06:00, 12:00, 18:00 KST (UTC 21:00, 03:00, 09:00) 자동 실행
-    # - cron: '0 21,3,9 * * *'      
-    # KST (한국 시간): 0, 3, 6, 7, 8, 9, 11, 13, 15, 17, 18, 19, 21, 23시
-    # UTC (협정 세계시): 0, 2, 4, 6, 8, 9, 10, 12, 14, 15, 18, 21, 22, 23시
+    # UTC 기준. 알림 집중 시간대(출근 06~09시, 퇴근 17~19시 KST)는 1시간 간격,
+    # 그 외에는 2~3시간 간격으로 돈다.
+    # 돌발 비 알림이 "비 시작 60~120분 전"을 판정하려면 예보가 그만큼 신선해야 한다.
     - cron: '0 0,2,4,6,8,9,10,12,14,15,18,21,22,23 * * *'
-
 
   workflow_dispatch: # GitHub 웹 UI에서 수동 실행 지원
 
@@ -33,20 +34,38 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r backend/requirements.txt
 
-      - name: Run pytest unit tests
-        working-directory: ./backend
-        run: |
-          pytest test_weather.py
-
+      # 테스트는 여기서 돌리지 않는다. 예보 수집은 시간에 매인 작업이라,
+      # 무관한 테스트 실패로 데이터 갱신이 멈추면 안 된다. 검증은 ci.yml 이 맡는다.
       - name: Fetch and generate weather JSON
+        working-directory: ./backend
         env:
           OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
-        run: |
-          python backend/main.py
+          # 설정되어 있으면 기상청을 함께 조회해 비교한다 (출력에는 영향 없음).
+          KMA_SERVICE_KEY: ${{ secrets.KMA_SERVICE_KEY }}
+        # -m 으로 실행해야 backend 가 임포트 루트가 된다. 파일 경로로 실행하면
+        # sys.path 에 scripts/ 만 올라가 weather·locations 를 찾지 못한다.
+        run: python -m scripts.generate_weather
 
+      - name: Upload provider comparison
+        if: ${{ hashFiles('weather_compare.json') != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: weather-compare
+          path: weather_compare.json
+          retention-days: 30
+
+      # 커버리지 확인보다 커밋이 먼저다. 일부 거점이 실패했다고 게시를 막으면
+      # 성공한 거점의 갱신까지 멈추고, 앱은 과거 날씨를 현재인 것처럼 보여준다.
+      # 실패한 거점은 산출물 안에 status="failed" 로 남아 소비자가 걸러낸다.
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
           git add weather_all.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update weather_all.json [skip ci]" && git push)
+
+      # 게시가 끝난 뒤에 실패율을 본다. 여기서 실패해도 데이터는 이미 나가 있고,
+      # 런이 빨갛게 남아 대량 장애를 사람이 인지할 수 있다.
+      - name: Check collection coverage
+        working-directory: ./backend
+        run: python -m scripts.check_coverage
