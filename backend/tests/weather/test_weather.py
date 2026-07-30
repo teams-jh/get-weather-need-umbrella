@@ -85,6 +85,61 @@ def test_v2_umbrella_past_rain_ignored():
     assert result["state_code"] == "NONE"  # 과거 비는 무시됨
 
 
+def test_v2_umbrella_tomorrow_rain_is_ignored_after_evening():
+    """저녁에는 내일 강수 예보가 우산 상태나 시작 시각에 반영되지 않는다."""
+    now_dt = datetime(2026, 7, 24, 20, 0, tzinfo=KST)
+    next_midnight = now_dt + timedelta(hours=4)
+    tomorrow_rain = now_dt + timedelta(days=1, hours=-3)
+    mock_data = {
+        "alerts": [],
+        "minutely": [{"dt": int(next_midnight.timestamp()), "precipitation": 1.0}],
+        "hourly": [{"dt": int(tomorrow_rain.timestamp()), "pop": 0.9, "weather": [{"id": 500}]}],
+        "daily": [{"temp": {"min": 18.0, "max": 23.0}, "uvi": 3.0}],
+    }
+
+    result = evaluate(bundle_from_onecall(mock_data), now_ts=int(now_dt.timestamp()))
+
+    assert result["state_code"] == "NONE"
+    assert result["rain_start_time"] is None
+    assert result["preparations"] == []
+
+
+def test_v2_umbrella_today_hourly_rain_is_kept_before_midnight():
+    """저녁에도 오늘 자정 전 시간별 강수는 우산 상태로 유지한다."""
+    now_dt = datetime(2026, 7, 24, 20, 0, tzinfo=KST)
+    today_rain = now_dt + timedelta(hours=3)
+    mock_data = {
+        "alerts": [],
+        "hourly": [{"dt": int(today_rain.timestamp()), "pop": 0.9, "weather": [{"id": 500}]}],
+        "daily": [{"temp": {"min": 18.0, "max": 23.0}, "uvi": 3.0}],
+    }
+
+    result = evaluate(bundle_from_onecall(mock_data), now_ts=int(now_dt.timestamp()))
+
+    assert result["state_code"] == "UMBRELLA"
+    assert result["rain_start_time"] == "23:00"
+
+
+def test_v2_umbrella_includes_last_second_before_midnight_only():
+    """23:59:59 강수는 포함하고 다음 날 00:00 강수는 제외한다."""
+    now_dt = datetime(2026, 7, 24, 20, 0, tzinfo=KST)
+    last_second = datetime(2026, 7, 24, 23, 59, 59, tzinfo=KST)
+    next_midnight = datetime(2026, 7, 25, 0, 0, tzinfo=KST)
+    mock_data = {
+        "alerts": [],
+        "minutely": [
+            {"dt": int(last_second.timestamp()), "precipitation": 1.0},
+            {"dt": int(next_midnight.timestamp()), "precipitation": 1.0},
+        ],
+        "daily": [{"temp": {"min": 18.0, "max": 23.0}, "uvi": 3.0}],
+    }
+
+    result = evaluate(bundle_from_onecall(mock_data), now_ts=int(now_dt.timestamp()))
+
+    assert result["state_code"] == "UMBRELLA"
+    assert result["rain_start_time"] == "23:59"
+
+
 def test_v2_parasol_state_uvi():
     """V2 엣지케이스 3: UVI >= 6.0 (높음) 감지 시 PARASOL 반환"""
     mock_data = {

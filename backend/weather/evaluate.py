@@ -117,17 +117,17 @@ def _alert_details(alerts: List[str]) -> Dict[str, Any]:
     }
 
 
-def _find_rain_start(bundle: WeatherBundle, now_ts: float) -> Optional[str]:
+def _find_rain_start(bundle: WeatherBundle, now_ts: float, end_ts: float) -> Optional[str]:
     """
-    현재 시각 이후의 첫 강수 시각을 "HH:MM" 으로 찾는다.
+    현재 시각부터 KST 기준 오늘 자정까지의 첫 강수 시각을 "HH:MM" 으로 찾는다.
     분 단위 자료를 먼저 보고, 없으면 시간 단위로 넘어간다.
     """
     for point in bundle.minutely:
-        if point.dt >= now_ts - MINUTELY_GRACE_SEC and point.precipitation > 0:
+        if now_ts - MINUTELY_GRACE_SEC <= point.dt <= end_ts and point.precipitation > 0:
             return datetime.fromtimestamp(point.dt, tz=KST).strftime("%H:%M")
 
     for point in bundle.hourly:
-        if point.dt >= now_ts - HOURLY_GRACE_SEC and point.is_precip:
+        if now_ts - HOURLY_GRACE_SEC <= point.dt <= end_ts and point.is_precip:
             return datetime.fromtimestamp(point.dt, tz=KST).strftime("%H:%M")
 
     return None
@@ -189,7 +189,7 @@ def evaluate(bundle: WeatherBundle, now_ts: Optional[float] = None) -> Dict[str,
         })
 
     # 특보 종류와 무관하게 실제 강수 예보가 있을 때만 우산을 추가한다.
-    rain_start = _find_rain_start(bundle, now_ts)
+    rain_start = _find_rain_start(bundle, now_ts, end_of_today)
     if rain_start:
         preparations.append({
             "type": "UMBRELLA",
