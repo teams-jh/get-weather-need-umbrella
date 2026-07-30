@@ -17,9 +17,8 @@ from itsdangerous import BadSignature, URLSafeTimedSerializer
 TOSS_API_BASE = os.getenv('TOSS_API_BASE_URL', 'https://apps-in-toss-api.toss.im')
 SESSION_COOKIE = 'need_umbrella_session'
 SESSION_MAX_AGE = 60 * 60 * 24 * 14
-# 신규 유저에게 제공하는 임시 이용권 기간. 프론트엔드 getDefaultUserData와 반드시 일치해야 합니다.
-# 광고를 활성화하면 3일로 되돌립니다.
-INITIAL_AD_PASS_DAYS = 365
+# 신규 유저 이용권 기간. 프론트엔드 getDefaultUserData와 반드시 일치해야 합니다.
+INITIAL_AD_PASS_DAYS = 3
 serializer = URLSafeTimedSerializer(os.environ['SESSION_SECRET_KEY'])
 
 app = FastAPI(title='Need Umbrella API')
