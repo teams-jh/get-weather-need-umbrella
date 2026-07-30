@@ -190,12 +190,10 @@ def generate_weather_json(
     kma_is_primary = provider_name == kma.NAME
     dual_run = bool(api_key) and bool(kma_service_key) and not kma_is_primary
 
-    # 특보는 기상청이 기준일 때도 필요하다. 비교용으로만 받으면 전환 후 ALERT 가 사라진다.
-    # kma_is_primary 일 때는 kma_service_key 를, 없으면 api_key 를 쓴다.
-    if kma_is_primary and (kma_service_key or api_key):
+    # 특보는 기상청이 기준이거나 kma_service_key 가 있을 때 항상 선조회한다.
+    use_kma_alerts = bool(kma_service_key) or (kma_is_primary and bool(api_key))
+    if use_kma_alerts:
         alerts_by_station = _prefetch_kma_alerts(HUB_LOCATIONS, kma_service_key or api_key)
-    elif dual_run:
-        alerts_by_station = _prefetch_kma_alerts(HUB_LOCATIONS, kma_service_key)
     else:
         alerts_by_station = {}
 
@@ -219,7 +217,9 @@ def generate_weather_json(
             print("[ERROR] API 키가 감지되지 않았습니다. 모든 거점을 수집 실패로 기록합니다.")
     else:
         print(f"[INFO] 기준 provider: {provider_name}. 실시간 날씨 조회를 시작합니다...")
-    if dual_run:
+    if use_kma_alerts and not kma_is_primary:
+        print(f"[INFO] 하이브리드: 예보는 {provider_name}, 특보는 기상청(관서 {len(alerts_by_station)}곳 선조회)을 사용합니다.")
+    elif dual_run:
         print(f"[INFO] 이중화: 기상청을 함께 조회해 비교합니다 (관서 {len(alerts_by_station)}곳 특보 선조회).")
 
     def collect(loc: Dict[str, Any]) -> Dict[str, Any]:
@@ -235,6 +235,9 @@ def generate_weather_json(
                     outcome["bundle"] = kma.fetch(loc, primary_key, alerts=_alerts_for(loc))
                 else:
                     outcome["bundle"] = provider.fetch(loc, primary_key)
+                    # OpenWeather 가 기준이더라도 KMA 특보 키가 제공되었으면 특보는 기상청으로 합성
+                    if use_kma_alerts:
+                        outcome["bundle"].alerts = _alerts_for(loc)
             except ProviderError as error:
                 # 사유는 산출물에 그대로 남긴다. 실패한 거점을 나중에 추적하려면 필요하다.
                 outcome["error"] = str(error)
@@ -332,9 +335,14 @@ def generate_weather_json(
         result_data[loc_id] = entry
 
     failed_count = len(failed_locations)
+    kma_hybrid_used = (not kma_is_primary) and use_kma_alerts
+
     if real_count > 0:
         detail = ", ".join(f"{name} {count}" for name, count in sorted(sources_seen.items()))
-        source = f"{detail} (Real Data - {real_count}/{len(HUB_LOCATIONS)})"
+        if kma_hybrid_used:
+            source = f"{detail} + KMA Alerts (Hybrid Real Data - {real_count}/{len(HUB_LOCATIONS)})"
+        else:
+            source = f"{detail} (Real Data - {real_count}/{len(HUB_LOCATIONS)})"
         if preset_count:
             source += f" (Preset: {preset_count})"
         if failed_count:
@@ -347,6 +355,11 @@ def generate_weather_json(
         source = "Collection Failed (No Data)"
         run_status = STATUS_FAILED
 
+    meta_providers = {
+        "forecast": detail if real_count > 0 else "None",
+        "alerts": "기상청 특보 조회서비스" if use_kma_alerts else ("OpenWeatherMap Alerts" if real_count > 0 else "None"),
+    }
+
     output = {
         "meta": {
             # 2.1 부터 거점마다 status 를 갖는다. 소비자는 status == "ok" 인
@@ -357,6 +370,7 @@ def generate_weather_json(
             "updated_at": run_at,
             "status": run_status,
             "source": source,
+            "providers": meta_providers,
             "total_locations": len(HUB_LOCATIONS),
             "success_count": real_count,
             "preset_count": preset_count,

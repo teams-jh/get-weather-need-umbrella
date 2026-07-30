@@ -32,6 +32,8 @@ def load_env_file() -> None:
             for line in f:
                 line = line.strip()
                 if line and not line.startswith("#") and "=" in line:
-                    key, value = line.split("=", 1)
-                    os.environ[key.strip()] = value.strip().strip('"').strip("'")
+                    k_part, v_part = line.split("=", 1)
+                    key_str, val_str = k_part.strip(), v_part.strip().strip('"').strip("'")
+                    if key_str not in os.environ:
+                        os.environ[key_str] = val_str
         return
