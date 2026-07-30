@@ -77,6 +77,22 @@ cd backend && uvicorn api.app:app --host 0.0.0.0 --port 8000
 성공한 거점은 그대로 게시합니다. 부분 실패로 게시를 막으면 앱이 과거 날씨를 현재인
 것처럼 보여주게 되어 같은 종류의 거짓말이 됩니다.
 
+### 수집 출처 (`meta.providers`)
+
+예보와 특보는 출처가 다를 수 있으므로 각각 기록합니다. `KMA_SERVICE_KEY` 가 설정되면
+예보는 OpenWeather 를 쓰고 **특보만 기상청 것으로 대체하는 하이브리드**로 동작합니다.
+OpenWeather 특보는 영문 이벤트명이고, 국내 특보는 기상청이 발표 주체이기 때문입니다.
+
+```jsonc
+"meta": {
+  "source": "OpenWeatherMap One Call API 3.0 50 + KMA Alerts (Hybrid Real Data - 50/50)",
+  "providers": {
+    "forecast": "OpenWeatherMap One Call API 3.0 50",
+    "alerts": "기상청 특보 조회서비스"   // 키가 없으면 "OpenWeatherMap Alerts"
+  }
+}
+```
+
 ### `recommendation` 의 준비물
 
 `state_code` 는 대표 준비물 하나만 가리킵니다. 실제로는 특보·비·자외선·일교차가
