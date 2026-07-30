@@ -40,7 +40,8 @@ jobs:
         working-directory: ./backend
         env:
           OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
-          # 설정되어 있으면 기상청을 함께 조회해 비교한다 (출력에는 영향 없음).
+          # 설정되어 있으면 특보를 기상청에서 받아 산출물에 넣는다 (하이브리드).
+          # 예보는 그대로 OPENWEATHER_API_KEY 로 받고, 판정 비교도 함께 수행한다.
           KMA_SERVICE_KEY: ${{ secrets.KMA_SERVICE_KEY }}
         # -m 으로 실행해야 backend 가 임포트 루트가 된다. 파일 경로로 실행하면
         # sys.path 에 scripts/ 만 올라가 weather·locations 를 찾지 못한다.

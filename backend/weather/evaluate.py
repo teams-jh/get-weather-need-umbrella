@@ -104,6 +104,7 @@ def alert_display_name(event_name: str) -> str:
         return f"{alert_type} 예비특보"
     return f"{alert_type} 특보"
 
+
 def _alert_details(alerts: List[str]) -> Dict[str, Any]:
     """동시에 발효된 특보를 사용자용 한국어 명칭과 유형으로 정리한다."""
     events = list(dict.fromkeys(alert_display_name(event) for event in alerts))

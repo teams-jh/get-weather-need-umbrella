@@ -180,3 +180,48 @@ def test_forecast25_response_flows_through_to_a_verdict():
     forecast = [{"dt": 1, "main": {"temp": 20.0}, "weather": [{"id": 800}]}]
     verdict = evaluate(openweather.bundle_from_forecast25(forecast))
     assert verdict["state_code"] in {"NONE", "PARASOL", "JACKET", "UMBRELLA"}
+
+
+def test_kma_alerts_replace_openweather_alerts_in_hybrid_mode(monkeypatch, out_path):
+    """
+    하이브리드: 예보는 OpenWeather, 특보는 기상청을 쓴다.
+
+    OpenWeather 특보는 영문 이벤트명이라 사용자에게 그대로 보여줄 수 없고, 국내 특보는
+    기상청이 발표 주체다. KMA_SERVICE_KEY 가 있으면 특보만 기상청 것으로 갈아끼운다.
+    """
+    monkeypatch.setattr(
+        openweather, "fetch",
+        lambda loc, api_key=None: _bundle(openweather.SOURCE, alerts=["Heat Warning"]),
+    )
+    monkeypatch.setattr(kma, "fetch_alerts", lambda stn_id, key, now=None: ["호우경보"])
+    monkeypatch.setattr(kma, "fetch", lambda loc, key=None, alerts=None, now=None: _bundle(kma.SOURCE))
+
+    result = main.generate_weather_json(
+        api_key="ow-key", output_path=out_path, kma_service_key="kma-key",
+    )
+
+    recommendation = result["data"]["seoul_south"]["recommendation"]
+    assert recommendation["alert_event"] == "호우경보", "특보는 기상청 것으로 대체되어야 한다"
+    assert recommendation["state_code"] == "ALERT"
+
+    # 어느 출처를 썼는지 산출물만 보고 알 수 있어야 한다.
+    assert result["meta"]["providers"]["alerts"] == "기상청 특보 조회서비스"
+    assert openweather.SOURCE in result["meta"]["providers"]["forecast"]
+    assert "Hybrid" in result["meta"]["source"]
+
+
+def test_openweather_alerts_are_kept_without_a_kma_key(monkeypatch, out_path):
+    """기상청 키가 없으면 기존대로 OpenWeather 특보를 그대로 쓴다"""
+    monkeypatch.setattr(
+        openweather, "fetch",
+        lambda loc, api_key=None: _bundle(openweather.SOURCE, alerts=["Heat Warning"]),
+    )
+
+    result = main.generate_weather_json(
+        api_key="ow-key", output_path=out_path, kma_service_key=None,
+    )
+
+    # 영문 원문은 evaluate 가 한국어 표시명으로 정규화한다.
+    assert result["data"]["seoul_south"]["recommendation"]["alert_event"] == "폭염경보"
+    assert result["meta"]["providers"]["alerts"] == "OpenWeatherMap Alerts"
+    assert "Hybrid" not in result["meta"]["source"]

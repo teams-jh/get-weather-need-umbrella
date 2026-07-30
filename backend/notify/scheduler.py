@@ -131,6 +131,11 @@ def normalize_location_id(location_id: str, weather_map: dict) -> str:
     return DEFAULT_LOCATION_ID
 
 
+def notification_location_id(user_doc: dict):
+    """새 알림 거점을 우선하고, 이전 사용자 문서의 locationId도 호환합니다."""
+    return user_doc.get("notificationLocationId") or user_doc.get("locationId")
+
+
 def init_firebase_admin():
     """Firebase Admin SDK 초기화 (환경 변수 또는 JSON 파일 지원)"""
     try:
@@ -392,7 +397,11 @@ def process_notifications_for_users(users: list, weather_map: dict, now_dt: date
         # must never enter the real Toss Smart Message delivery pipeline.
         if str(user.get("userKey", "")).startswith("local:"):
             continue
-        loc_id = normalize_location_id(user.get("locationId", DEFAULT_LOCATION_ID), weather_map)
+        raw_location_id = notification_location_id(user)
+        if not raw_location_id:
+            # 신규 사용자가 GPS를 허용하지 않았고 알림 지역도 직접 고르지 않은 경우입니다.
+            continue
+        loc_id = normalize_location_id(raw_location_id, weather_map)
         weather = weather_map.get(loc_id, {})
         # 수집에 실패한 거점은 조용히 건너뜁니다. weather_map 에서 실패 거점을
         # 아예 빼면 normalize_location_id 가 기본 거점으로 폴백해 그 지역
@@ -400,7 +409,7 @@ def process_notifications_for_users(users: list, weather_map: dict, now_dt: date
         if weather.get("status", SENDABLE_STATUS) != SENDABLE_STATUS:
             skipped_locations.add(loc_id)
             continue
-        loc_name = user.get("locationName") or weather.get("name", "")
+        loc_name = user.get("notificationLocationName") or user.get("locationName") or weather.get("name", "")
 
         for use_case in USE_CASES:
             should_send, dedup_val = should_send_notification(use_case, user, weather, now_dt)
