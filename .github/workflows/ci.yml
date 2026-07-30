@@ -24,6 +24,41 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      # backend/ 는 need-umbrella 에서 미러링되지만 워크플로는 그대로 남는다.
+      # 그래서 저쪽에서 scripts/ 의 진입점 이름을 바꾸면, 여기 워크플로는 없는
+      # 모듈을 부르게 되고 다음 수집이나 발송에서야 터진다. send_test_message 는
+      # 수동 전용이라 정작 필요할 때 발견된다.
+      #
+      # 테스트로는 못 잡는다. 진입점 4개 중 tests/ 가 임포트하는 것은
+      # check_coverage 뿐이라, 나머지는 이름이 바뀌어도 pytest 가 통과한다.
+      #
+      # 이 잡은 push: [main] 에서도 돌기 때문에 미러링이 떨어지는 즉시 확인된다.
+      # 파일 존재만 보므로 의존성 설치 앞에 둔다.
+      - name: 워크플로가 부르는 backend 진입점이 실제로 있는지 확인
+        run: |
+          set -uo pipefail
+
+          modules=$(grep -rhoE 'python -m scripts\.[a-z_]+' .github/workflows/ \
+                      | sed 's/.*scripts\.//' | sort -u) || true
+
+          # 진입점을 하나도 못 찾았다면 워크플로의 호출 방식이 바뀐 것이다.
+          # 그대로 통과시키면 이 검사가 조용히 무력해진다.
+          if [ -z "$modules" ]; then
+            echo "::error::워크플로에서 'python -m scripts.*' 호출을 찾지 못했습니다. 이 검사의 패턴을 함께 고치세요."
+            exit 1
+          fi
+
+          status=0
+          for m in $modules; do
+            if [ -f "backend/scripts/$m.py" ]; then
+              echo "  ok      backend/scripts/$m.py"
+            else
+              echo "::error::워크플로가 부르는 backend/scripts/$m.py 가 없습니다. need-umbrella 에서 이름이 바뀌었는지 확인하세요."
+              status=1
+            fi
+          done
+          exit $status
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
