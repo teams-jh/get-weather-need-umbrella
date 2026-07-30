@@ -43,7 +43,7 @@ FIRESTORE_BATCH_SIZE = 400
 # 않도록 두 배인 6시간을 상한으로 둡니다. 두 번 연속 실패하면 발송을 건너뜁니다.
 MAX_WEATHER_AGE_SECONDS = int(os.environ.get("MAX_WEATHER_AGE_SECONDS", 6 * 3600))
 
-# 프론트엔드 초기 버전이 저장한 구형 locationId를 현재 거점 ID로 매핑합니다.
+# 예전 거점 ID가 들어오더라도 현재 거점 ID로 정규화합니다.
 LEGACY_LOCATION_ALIASES = {
     "SEOUL_GANGNAM": "seoul_south",
     "BUSAN_HAEUNDAE": "busan_east",
@@ -124,7 +124,7 @@ def load_weather_map(path: str = None, now_dt: datetime = None) -> dict:
 
 
 def normalize_location_id(location_id: str, weather_map: dict) -> str:
-    """유저 문서의 locationId를 weather_all.json의 거점 ID 체계로 정규화합니다."""
+    """알림 거점 ID를 weather_all.json의 거점 ID 체계로 정규화합니다."""
     if location_id in weather_map:
         return location_id
     aliased = LEGACY_LOCATION_ALIASES.get(location_id)
@@ -134,8 +134,8 @@ def normalize_location_id(location_id: str, weather_map: dict) -> str:
 
 
 def notification_location_id(user_doc: dict):
-    """새 알림 거점을 우선하고, 이전 사용자 문서의 locationId도 호환합니다."""
-    return user_doc.get("notificationLocationId") or user_doc.get("locationId")
+    """알림 발송 기준 거점을 반환합니다."""
+    return user_doc.get("notificationLocationId")
 
 
 def init_firebase_admin():
@@ -484,7 +484,7 @@ def process_notifications_for_users(users: list, weather_map: dict, now_dt: date
         if weather.get("status", SENDABLE_STATUS) != SENDABLE_STATUS:
             skipped_locations.add(loc_id)
             continue
-        loc_name = user.get("notificationLocationName") or user.get("locationName") or weather.get("name", "")
+        loc_name = user.get("notificationLocationName") or weather.get("name", "")
 
         for use_case in USE_CASES:
             if use_case == "alert":

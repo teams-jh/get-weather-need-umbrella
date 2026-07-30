@@ -15,8 +15,8 @@ def build_mock_users(now):
     return [
         {
             "userKey": "anon_user_seoul_01",
-            "locationId": "SEOUL_GANGNAM",  # 구형 ID -> seoul_south로 정규화되는지 확인용
-            "locationName": "서울 강남",
+            "notificationLocationId": "SEOUL_GANGNAM",  # 구형 ID -> seoul_south로 정규화되는지 확인용
+            "notificationLocationName": "서울 강남",
             "isNotificationEnabled": True,
             "notificationTypes": {
                 "morning": True, "preRain": True, "evening": True, "alert": True, "weekend": True,
@@ -27,8 +27,8 @@ def build_mock_users(now):
         },
         {
             "userKey": "anon_user_busan_02",
-            "locationId": "busan_east",
-            "locationName": "부산 해운대",
+            "notificationLocationId": "busan_east",
+            "notificationLocationName": "부산 해운대",
             "isNotificationEnabled": True,
             "notificationTypes": {
                 "morning": True, "preRain": True, "evening": True, "alert": True, "weekend": True,

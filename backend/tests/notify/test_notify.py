@@ -36,8 +36,8 @@ def make_user(**overrides):
     now = datetime.now(timezone.utc)
     user = {
         "userKey": "anon-key-01",
-        "locationId": "seoul_south",
-        "locationName": "서울 강남",
+        "notificationLocationId": "seoul_south",
+        "notificationLocationName": "서울 강남",
         "isNotificationEnabled": True,
         "notificationTypes": {
             "morning": True,
@@ -306,9 +306,9 @@ def test_normalize_location_id_maps_legacy_ids():
 def test_process_notifications_uses_real_weather_map():
     now = kst(TUESDAY, 12, 30)
     users = [
-        make_user(userKey="anon-seoul", locationId="SEOUL_GANGNAM"),
-        make_user(userKey="anon-busan", locationId="busan_east"),
-        make_user(userKey="local:browser-fallback", locationId="seoul_south"),
+        make_user(userKey="anon-seoul", notificationLocationId="SEOUL_GANGNAM"),
+        make_user(userKey="anon-busan", notificationLocationId="busan_east"),
+        make_user(userKey="local:browser-fallback", notificationLocationId="seoul_south"),
     ]
     weather_map = {
         "seoul_south": umbrella_weather("14:00"),
@@ -324,25 +324,25 @@ def test_process_notifications_uses_real_weather_map():
     assert dispatch_list[0]["locationId"] == "seoul_south"
 
 
-def test_notification_location_field_overrides_legacy_location():
+def test_legacy_location_fields_are_not_used_for_notification_delivery():
     now = kst(TUESDAY, 12, 30)
     user = make_user(
+        notificationLocationId=None,
+        notificationLocationName=None,
         locationId="seoul_south",
-        notificationLocationId="busan_east",
-        notificationLocationName="부산 해운대",
+        locationName="서울 강남",
     )
     weather_map = {
         "seoul_south": umbrella_weather("14:00"),
-        "busan_east": {"recommendation": {"state_code": "NONE", "rain_start_time": None}},
     }
 
-    # 새 알림 거점이 비 예보가 없으므로, 레거시 서울 값으로 보내면 안 됩니다.
+    # 레거시 위치 필드만으로는 발송하면 안 됩니다.
     assert process_notifications_for_users([user], weather_map, now) == []
 
 
 def test_pipeline_dispatches_each_new_alert_event_separately():
     now = kst(TUESDAY, 12)
-    user = make_user(userKey="anon-alert", locationId="seoul_south")
+    user = make_user(userKey="anon-alert", notificationLocationId="seoul_south")
     weather_map = {
         "seoul_south": {
             "recommendation": {
@@ -378,7 +378,7 @@ def test_successful_alerts_are_stored_by_event_name():
 
 def test_user_without_notification_location_is_not_dispatched():
     now = kst(TUESDAY, 12, 30)
-    user = make_user(locationId=None, locationName=None)
+    user = make_user(notificationLocationId=None, notificationLocationName=None)
     weather_map = {"seoul_south": umbrella_weather("14:00")}
 
     assert process_notifications_for_users([user], weather_map, now) == []
@@ -388,8 +388,8 @@ def test_failed_locations_are_not_dispatched():
     """수집에 실패한 거점은 발송하지 않습니다. 없는 날씨를 알릴 수는 없습니다."""
     now = kst(TUESDAY, 12, 30)
     users = [
-        make_user(userKey="anon-seoul", locationId="seoul_south"),
-        make_user(userKey="anon-busan", locationId="busan_east"),
+        make_user(userKey="anon-seoul", notificationLocationId="seoul_south"),
+        make_user(userKey="anon-busan", notificationLocationId="busan_east"),
     ]
     weather_map = {
         # 실패 거점에는 recommendation 키가 아예 없습니다.
@@ -405,7 +405,7 @@ def test_failed_locations_are_not_dispatched():
 def test_preset_locations_are_not_dispatched():
     """프리셋(더미)으로 채워진 거점도 발송 대상이 아닙니다."""
     now = kst(TUESDAY, 12, 30)
-    users = [make_user(userKey="anon-seoul", locationId="seoul_south")]
+    users = [make_user(userKey="anon-seoul", notificationLocationId="seoul_south")]
     weather_map = {"seoul_south": {"status": "preset", **umbrella_weather("14:00")}}
 
     assert process_notifications_for_users(users, weather_map, now) == []
@@ -418,7 +418,7 @@ def test_failed_location_does_not_fall_back_to_default_location():
     엔트리를 남기고 status 로 거르는 방식이어야 합니다.
     """
     now = kst(TUESDAY, 12, 30)
-    users = [make_user(userKey="anon-gangneung", locationId="gangwon_gangneung")]
+    users = [make_user(userKey="anon-gangneung", notificationLocationId="gangwon_gangneung")]
     weather_map = {
         "seoul_south": {"status": "ok", **umbrella_weather("14:00")},
         "gangwon_gangneung": {"status": "failed", "error": "조회 실패"},
