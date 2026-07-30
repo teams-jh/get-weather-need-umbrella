@@ -24,12 +24,14 @@ MORNING_HOUR_MIN = 6
 MORNING_HOUR_MAX = 9
 DEFAULT_MORNING_TIME = "07:30"
 
-# 퇴근 알림 / 주말 알림 발송 시간대(KST)
-EVENING_HOURS = (17, 18)
-WEEKEND_HOURS = (18, 19)
+# 정시 알림은 기준 시각부터 이 시간만큼 장애 복구 발송을 허용합니다.
+SCHEDULED_NOTIFICATION_RECOVERY = timedelta(hours=2)
+EVENING_TIME = (18, 0)
+WEEKEND_TIME = (19, 0)
 
-# 돌발 비 알림은 비 시작 60~120분 전에만 발송합니다.
-PRE_RAIN_MIN_MINUTES = 60
+# 돌발 비 알림은 비 시작 60~120분 전에는 일반 발송하고, 20~59분 전에는
+# 스케줄러 지연/실패를 복구하기 위해 같은 템플릿으로 발송합니다.
+PRE_RAIN_MIN_MINUTES = 20
 PRE_RAIN_MAX_MINUTES = 120
 PRE_RAIN_COOLDOWN_SECONDS = 6 * 3600
 
@@ -183,6 +185,21 @@ def fetch_active_users_from_firestore() -> list:
         return []
 
 
+def last_notified_updates(dispatched_items: list) -> dict:
+    """성공한 발송 항목을 Firestore ``lastNotified`` 병합 값으로 묶습니다."""
+    updates: dict = {}
+    for item in dispatched_items:
+        user_updates = updates.setdefault(item["userKey"], {})
+        # 특보는 같은 유저에게 여러 건이 한 번에 성공할 수 있으므로, 특보명별로
+        # 마지막 발송 날짜를 보관합니다. 다른 유스케이스는 기존 단일 키를 유지합니다.
+        alert_event = item.get("alertEvent")
+        if alert_event:
+            user_updates.setdefault("alerts", {})[alert_event] = item["updateDedupKey"]
+        else:
+            user_updates[item["useCase"]] = item["updateDedupKey"]
+    return updates
+
+
 def update_last_notified_batch(dispatched_items: list) -> int:
     """
     발송에 성공한 항목들의 lastNotified를 Firestore 배치 쓰기로 한 번에 갱신합니다.
@@ -191,9 +208,7 @@ def update_last_notified_batch(dispatched_items: list) -> int:
     if not dispatched_items:
         return 0
 
-    updates: dict = {}
-    for item in dispatched_items:
-        updates.setdefault(item["userKey"], {})[item["useCase"]] = item["updateDedupKey"]
+    updates = last_notified_updates(dispatched_items)
 
     init_firebase_admin()
     try:
@@ -242,27 +257,42 @@ def has_active_ad_pass(user_doc: dict, now_dt: datetime) -> bool:
     return is_ad_pass_valid(ad_pass.get("expiresAt", ""), now_dt)
 
 
-def resolve_morning_hour(user_doc: dict) -> int:
+def resolve_morning_time(user_doc: dict) -> tuple[int, int]:
     """
-    유저가 지정한 morningTime의 '시'를 구합니다.
-    스케줄러가 매시 정각에만 돌기 때문에 분 단위는 비교하지 않고 시 단위로만 매칭합니다.
+    유저가 지정한 morningTime의 시·분을 구합니다.
+    허용 시각(06~09시)을 벗어나면 시만 기존 정책처럼 경계값으로 보정합니다.
     """
     raw = user_doc.get("morningTime") or DEFAULT_MORNING_TIME
     try:
-        hour = int(str(raw).split(":")[0])
+        hour_str, minute_str = str(raw).split(":")[:2]
+        hour = int(hour_str)
+        minute = int(minute_str)
     except (ValueError, IndexError):
-        hour = int(DEFAULT_MORNING_TIME.split(":")[0])
-    return min(max(hour, MORNING_HOUR_MIN), MORNING_HOUR_MAX)
+        hour, minute = map(int, DEFAULT_MORNING_TIME.split(":"))
+    if not 0 <= minute <= 59:
+        minute = int(DEFAULT_MORNING_TIME.split(":")[1])
+    return min(max(hour, MORNING_HOUR_MIN), MORNING_HOUR_MAX), minute
+
+
+def resolve_morning_hour(user_doc: dict) -> int:
+    """기존 호출부 호환용: 설정된 출근 알림의 시를 반환합니다."""
+    return resolve_morning_time(user_doc)[0]
+
+
+def is_in_recovery_window(kst_now: datetime, hour: int, minute: int) -> bool:
+    """기준 시각부터 2시간 동안 첫 성공 발송을 허용합니다."""
+    target = kst_now.replace(hour=hour, minute=minute, second=0, microsecond=0)
+    return target <= kst_now <= target + SCHEDULED_NOTIFICATION_RECOVERY
 
 
 def is_within_window(use_case: str, kst_now: datetime, user_doc: dict) -> bool:
     """유스케이스별 발송 허용 시간대(KST) 검사."""
     if use_case == "morning":
-        return kst_now.hour == resolve_morning_hour(user_doc)
+        return is_in_recovery_window(kst_now, *resolve_morning_time(user_doc))
     if use_case == "evening":
-        return kst_now.weekday() < 5 and kst_now.hour in EVENING_HOURS
+        return kst_now.weekday() < 5 and is_in_recovery_window(kst_now, *EVENING_TIME)
     if use_case == "weekend":
-        return kst_now.weekday() == 4 and kst_now.hour in WEEKEND_HOURS
+        return kst_now.weekday() == 4 and is_in_recovery_window(kst_now, *WEEKEND_TIME)
     # preRain과 alert은 날씨 조건이 성립하는 즉시 발송해야 하므로 시간 제한이 없습니다.
     return True
 
@@ -296,6 +326,52 @@ def has_preparation(recommendation: dict, preparation_type: str) -> bool:
     # 구 산출물에는 ALERT가 우산 상태로 섞여 있었지만, 실제 강수 여부가 없으므로
     # UMBRELLA일 때만 호환 처리한다.
     return recommendation.get("state_code", "NONE") == preparation_type
+
+
+def active_alert_events(recommendation: dict) -> list[str]:
+    """현재 발효 중인 특보명을 중복 없이 반환하고 구 산출물도 지원합니다."""
+    if not has_preparation(recommendation, "ALERT"):
+        return []
+
+    raw_events = recommendation.get("alert_events")
+    if not isinstance(raw_events, list):
+        raw_events = [recommendation.get("alert_event")]
+
+    events = []
+    for event in raw_events:
+        name = str(event).strip() if event else ""
+        if name and name not in events:
+            events.append(name)
+    return events
+
+
+def should_send_alert_event(last_notified: dict, event: str, today_str: str) -> bool:
+    """특보명별로 KST 하루 한 번만 발송합니다.
+
+    기존 단일 ``lastNotified.alert`` 값은 배포 직후 같은 특보를 중복 발송하지
+    않도록 읽기 호환만 합니다. 새 값은 ``lastNotified.alerts`` 맵에 기록됩니다.
+    """
+    alert_dates = last_notified.get("alerts", {})
+    if isinstance(alert_dates, dict) and alert_dates.get(event) == today_str:
+        return False
+    return last_notified.get("alert") != f"{today_str}_{event}"
+
+
+def alert_events_to_send(user_doc: dict, weather_data: dict, now_dt: datetime) -> list[str]:
+    """알림 권한·날씨 상태·특보명별 중복 방지를 통과한 특보 목록을 반환합니다."""
+    if not user_doc.get("isNotificationEnabled", True) or not has_active_ad_pass(user_doc, now_dt):
+        return []
+    if not user_doc.get("notificationTypes", {}).get("alert", True):
+        return []
+    if weather_data.get("status", SENDABLE_STATUS) != SENDABLE_STATUS:
+        return []
+
+    kst_now = now_dt.astimezone(KST)
+    last_notified = user_doc.get("lastNotified", {}) or {}
+    return [
+        event for event in active_alert_events(weather_data.get("recommendation") or {})
+        if should_send_alert_event(last_notified, event, kst_now.strftime("%Y-%m-%d"))
+    ]
 
 
 def should_send_notification(
@@ -368,13 +444,12 @@ def should_send_notification(
 
     # 4. 기상 특보 긴급 알림
     if use_case == "alert":
-        alert_event = recommendation.get("alert_event") if has_preparation(recommendation, "ALERT") else None
-        if not alert_event:
+        alert_events = alert_events_to_send(user_doc, weather_data, now_dt)
+        if not alert_events:
             return False, ""
-        alert_key = f"{today_str}_{alert_event}"
-        if last_notified.get("alert") == alert_key:
-            return False, ""
-        return True, alert_key
+        # 이 함수의 기존 단일 반환 형식은 유지합니다. 실제 파이프라인은 아래에서
+        # 모든 특보명을 개별 dispatch 항목으로 확장합니다.
+        return True, f"{today_str}_{alert_events[0]}"
 
     # 5. 금요일 주말 비 소식 알림 (금요일 18~19시)
     if use_case == "weekend":
@@ -412,6 +487,18 @@ def process_notifications_for_users(users: list, weather_map: dict, now_dt: date
         loc_name = user.get("notificationLocationName") or user.get("locationName") or weather.get("name", "")
 
         for use_case in USE_CASES:
+            if use_case == "alert":
+                today_str = now_dt.astimezone(KST).strftime("%Y-%m-%d")
+                for event in alert_events_to_send(user, weather, now_dt):
+                    dispatch_list.append({
+                        "userKey": user["userKey"],
+                        "useCase": use_case,
+                        "locationId": loc_id,
+                        "locationName": loc_name,
+                        "alertEvent": event,
+                        "updateDedupKey": today_str,
+                    })
+                continue
             should_send, dedup_val = should_send_notification(use_case, user, weather, now_dt)
             if should_send:
                 dispatch_list.append({

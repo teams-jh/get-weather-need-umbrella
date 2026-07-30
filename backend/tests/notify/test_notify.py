@@ -4,15 +4,19 @@ from datetime import datetime, timezone, timedelta
 
 from notify.scheduler import (
     KST,
+    active_alert_events,
+    alert_events_to_send,
     has_active_ad_pass,
     has_weekend_rain,
     is_ad_pass_valid,
     is_within_window,
+    last_notified_updates,
     load_weather_map,
     minutes_until_rain,
     normalize_location_id,
     process_notifications_for_users,
     resolve_morning_hour,
+    resolve_morning_time,
     should_send_notification,
     weather_age_seconds,
 )
@@ -103,8 +107,35 @@ def test_expired_ad_pass_also_blocks_weather_alert():
     assert dedup == "2026-07-28_호우주의보"
 
 
+def test_alert_events_are_sent_once_per_name_each_day():
+    now = kst(TUESDAY, 12, 0)
+    user = make_user()
+    weather = {
+        "recommendation": {
+            "state_code": "ALERT",
+            "alert_events": ["폭염주의보", "열대야주의보", "폭염주의보"],
+            "preparations": [{"type": "ALERT"}],
+        }
+    }
+
+    assert active_alert_events(weather["recommendation"]) == ["폭염주의보", "열대야주의보"]
+    assert alert_events_to_send(user, weather, now) == ["폭염주의보", "열대야주의보"]
+
+    user["lastNotified"] = {"alerts": {"폭염주의보": "2026-07-28"}}
+    assert alert_events_to_send(user, weather, now) == ["열대야주의보"]
+    assert alert_events_to_send(user, weather, kst((2026, 7, 29), 12)) == ["폭염주의보", "열대야주의보"]
+
+
+def test_legacy_alert_deduplication_is_honored_for_same_day():
+    now = kst(TUESDAY, 12, 0)
+    user = make_user(lastNotified={"alert": "2026-07-28_호우주의보"})
+    weather = {"recommendation": {"state_code": "ALERT", "alert_event": "호우주의보"}}
+
+    assert alert_events_to_send(user, weather, now) == []
+
+
 def test_umbrella_notifications_use_independent_preparation():
-    now = kst(TUESDAY, 7)
+    now = kst(TUESDAY, 7, 30)
     user = make_user()
     heat_alert = {"recommendation": {"state_code": "ALERT", "alert_event": "폭염주의보", "preparations": [{"type": "ALERT"}]}}
     alert_with_rain = prepared_weather("ALERT", "UMBRELLA")
@@ -122,30 +153,35 @@ def test_resolve_morning_hour_clamps_to_allowed_range():
     assert resolve_morning_hour({"morningTime": "23:00"}) == 9   # 상한 클램프
     assert resolve_morning_hour({}) == 7                          # 기본값 07:30
     assert resolve_morning_hour({"morningTime": "쓰레기"}) == 7    # 파싱 실패 시 기본값
+    assert resolve_morning_time({"morningTime": "07:45"}) == (7, 45)
 
 
-def test_morning_window_matches_hour_bucket_not_exact_minute():
-    """크론이 매시 정각에만 돌기 때문에 07:30 설정도 07시에 매칭돼야 합니다."""
+def test_morning_window_uses_configured_minute_and_two_hour_recovery():
     user = make_user(morningTime="07:30")
-    assert is_within_window("morning", kst(TUESDAY, 7), user) is True
-    assert is_within_window("morning", kst(TUESDAY, 8), user) is False
+    assert is_within_window("morning", kst(TUESDAY, 7, 29), user) is False
+    assert is_within_window("morning", kst(TUESDAY, 7, 30), user) is True
+    assert is_within_window("morning", kst(TUESDAY, 9, 30), user) is True
+    assert is_within_window("morning", kst(TUESDAY, 9, 31), user) is False
     assert is_within_window("morning", kst(TUESDAY, 3), user) is False
 
 
 def test_evening_window_is_weekday_evening_only():
     user = make_user()
-    assert is_within_window("evening", kst(TUESDAY, 17), user) is True
+    assert is_within_window("evening", kst(TUESDAY, 17, 59), user) is False
     assert is_within_window("evening", kst(TUESDAY, 18), user) is True
-    assert is_within_window("evening", kst(TUESDAY, 16), user) is False
-    assert is_within_window("evening", kst(TUESDAY, 19), user) is False
+    assert is_within_window("evening", kst(TUESDAY, 19, 59), user) is True
+    assert is_within_window("evening", kst(TUESDAY, 20), user) is True
+    assert is_within_window("evening", kst(TUESDAY, 20, 1), user) is False
     # 토요일 저녁은 퇴근길 알림 대상이 아닙니다.
     assert is_within_window("evening", kst((2026, 8, 1), 17), user) is False
 
 
 def test_weekend_window_is_friday_evening_only():
     user = make_user()
-    assert is_within_window("weekend", kst(FRIDAY, 18), user) is True
+    assert is_within_window("weekend", kst(FRIDAY, 18, 59), user) is False
     assert is_within_window("weekend", kst(FRIDAY, 19), user) is True
+    assert is_within_window("weekend", kst(FRIDAY, 21), user) is True
+    assert is_within_window("weekend", kst(FRIDAY, 21, 1), user) is False
     assert is_within_window("weekend", kst(FRIDAY, 12), user) is False
     assert is_within_window("weekend", kst(TUESDAY, 18), user) is False
 
@@ -159,7 +195,8 @@ def test_pre_rain_and_alert_have_no_time_window():
 def test_morning_outside_window_is_not_dispatched():
     """날씨 조건을 만족해도 시간대가 아니면 발송하지 않습니다."""
     user = make_user(morningTime="07:30")
-    assert should_send_notification("morning", user, umbrella_weather(), kst(TUESDAY, 7))[0] is True
+    assert should_send_notification("morning", user, umbrella_weather(), kst(TUESDAY, 7))[0] is False
+    assert should_send_notification("morning", user, umbrella_weather(), kst(TUESDAY, 7, 43))[0] is True
     assert should_send_notification("morning", user, umbrella_weather(), kst(TUESDAY, 1))[0] is False
 
 
@@ -174,13 +211,15 @@ def test_minutes_until_rain():
     assert minutes_until_rain("잘못된값", now) is None
 
 
-def test_pre_rain_only_fires_between_60_and_120_minutes_ahead():
+def test_pre_rain_fires_between_20_and_120_minutes_ahead():
     user = make_user()
 
     # 90분 전 -> 발송
     assert should_send_notification("preRain", user, umbrella_weather("14:00"), kst(TUESDAY, 12, 30))[0] is True
-    # 30분 전 -> 너무 늦음
-    assert should_send_notification("preRain", user, umbrella_weather("14:00"), kst(TUESDAY, 13, 30))[0] is False
+    # 30분 전 -> 지연 복구 발송
+    assert should_send_notification("preRain", user, umbrella_weather("14:00"), kst(TUESDAY, 13, 30))[0] is True
+    # 19분 전 -> 너무 늦음
+    assert should_send_notification("preRain", user, umbrella_weather("14:00"), kst(TUESDAY, 13, 41))[0] is False
     # 180분 전 -> 너무 이름
     assert should_send_notification("preRain", user, umbrella_weather("14:00"), kst(TUESDAY, 11, 0))[0] is False
     # 이미 지나감
@@ -217,7 +256,7 @@ def test_has_weekend_rain_looks_at_upcoming_saturday_and_sunday():
 
 
 def test_weekend_notification_requires_forecast_rain():
-    now = kst(FRIDAY, 18)
+    now = kst(FRIDAY, 19)
     user = make_user()
 
     rainy = {"recommendation": {"state_code": "NONE"},
@@ -299,6 +338,42 @@ def test_notification_location_field_overrides_legacy_location():
 
     # 새 알림 거점이 비 예보가 없으므로, 레거시 서울 값으로 보내면 안 됩니다.
     assert process_notifications_for_users([user], weather_map, now) == []
+
+
+def test_pipeline_dispatches_each_new_alert_event_separately():
+    now = kst(TUESDAY, 12)
+    user = make_user(userKey="anon-alert", locationId="seoul_south")
+    weather_map = {
+        "seoul_south": {
+            "recommendation": {
+                "state_code": "ALERT",
+                "alert_events": ["폭염주의보", "열대야주의보"],
+                "preparations": [{"type": "ALERT"}],
+            }
+        }
+    }
+
+    dispatch_list = process_notifications_for_users([user], weather_map, now)
+
+    assert [(item["useCase"], item["alertEvent"], item["updateDedupKey"]) for item in dispatch_list] == [
+        ("alert", "폭염주의보", "2026-07-28"),
+        ("alert", "열대야주의보", "2026-07-28"),
+    ]
+
+
+def test_successful_alerts_are_stored_by_event_name():
+    updates = last_notified_updates([
+        {"userKey": "anon-alert", "useCase": "alert", "alertEvent": "폭염주의보", "updateDedupKey": "2026-07-28"},
+        {"userKey": "anon-alert", "useCase": "alert", "alertEvent": "열대야주의보", "updateDedupKey": "2026-07-28"},
+        {"userKey": "anon-alert", "useCase": "morning", "updateDedupKey": "2026-07-28"},
+    ])
+
+    assert updates == {
+        "anon-alert": {
+            "alerts": {"폭염주의보": "2026-07-28", "열대야주의보": "2026-07-28"},
+            "morning": "2026-07-28",
+        }
+    }
 
 
 def test_user_without_notification_location_is_not_dispatched():
