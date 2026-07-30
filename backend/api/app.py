@@ -17,8 +17,9 @@ from itsdangerous import BadSignature, URLSafeTimedSerializer
 TOSS_API_BASE = os.getenv('TOSS_API_BASE_URL', 'https://apps-in-toss-api.toss.im')
 SESSION_COOKIE = 'need_umbrella_session'
 SESSION_MAX_AGE = 60 * 60 * 24 * 14
-# 신규 유저에게 제공하는 리워드 이용권 기간. 프론트엔드 getDefaultUserData와 반드시 일치해야 합니다.
-INITIAL_AD_PASS_DAYS = 3
+# 신규 유저에게 제공하는 임시 이용권 기간. 프론트엔드 getDefaultUserData와 반드시 일치해야 합니다.
+# 광고를 활성화하면 3일로 되돌립니다.
+INITIAL_AD_PASS_DAYS = 365
 serializer = URLSafeTimedSerializer(os.environ['SESSION_SECRET_KEY'])
 
 app = FastAPI(title='Need Umbrella API')
@@ -82,7 +83,7 @@ def default_preferences(user_key: str) -> dict[str, Any]:
     now_dt = datetime.now(timezone.utc)
     now = now_dt.isoformat()
     expires_at = (now_dt + timedelta(days=INITIAL_AD_PASS_DAYS)).isoformat()
-    return {'userKey': user_key, 'locationId': 'SEOUL_GANGNAM', 'locationName': '서울 강남', 'isNotificationEnabled': False, 'notificationTypes': {'morning': True, 'preRain': True, 'evening': True, 'alert': True, 'weekend': True}, 'morningTime': '07:30', 'adPass': {'active': True, 'expiresAt': expires_at, 'lastAdWatchedAt': now, 'totalWatchCount': 0}, 'lastNotified': {}, 'createdAt': now, 'updatedAt': now}
+    return {'userKey': user_key, 'isNotificationEnabled': False, 'notificationTypes': {'morning': True, 'preRain': True, 'evening': True, 'alert': True, 'weekend': True}, 'morningTime': '07:30', 'adPass': {'active': True, 'expiresAt': expires_at, 'lastAdWatchedAt': now, 'totalWatchCount': 0}, 'lastNotified': {}, 'createdAt': now, 'updatedAt': now}
 
 
 @app.post('/v1/auth/toss/exchange')

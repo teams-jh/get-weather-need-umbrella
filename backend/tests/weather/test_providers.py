@@ -104,6 +104,7 @@ def test_parse_warning_title_ignores_non_warning():
 def test_alert_type_is_normalized_for_both_providers(event, alert_type):
     assert evaluate(WeatherBundle(source="test", alerts=[event]))["alert_type"] == alert_type
 
+
 @pytest.mark.parametrize(
     ("event", "display_name"),
     [
@@ -128,10 +129,12 @@ def test_alert_keeps_all_active_events_and_types():
     assert verdict["alert_types"] == ["폭염", "열대야"]
     assert verdict["title"] == "폭염경보 발령 중"
 
+
 def test_alert_display_events_deduplicate_after_normalization():
     verdict = evaluate(WeatherBundle(source="test", alerts=["Heat Warning", "Heat Warning Change"]))
     assert verdict["alert_events"] == ["폭염경보"]
     assert verdict["preparations"][0]["title"] == "폭염경보 발령 중"
+
 
 def test_rain_alert_and_forecast_return_independent_preparations():
     now = int(at(2026, 7, 28, 12, 0).timestamp())

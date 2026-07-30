@@ -285,6 +285,30 @@ def test_process_notifications_uses_real_weather_map():
     assert dispatch_list[0]["locationId"] == "seoul_south"
 
 
+def test_notification_location_field_overrides_legacy_location():
+    now = kst(TUESDAY, 12, 30)
+    user = make_user(
+        locationId="seoul_south",
+        notificationLocationId="busan_east",
+        notificationLocationName="부산 해운대",
+    )
+    weather_map = {
+        "seoul_south": umbrella_weather("14:00"),
+        "busan_east": {"recommendation": {"state_code": "NONE", "rain_start_time": None}},
+    }
+
+    # 새 알림 거점이 비 예보가 없으므로, 레거시 서울 값으로 보내면 안 됩니다.
+    assert process_notifications_for_users([user], weather_map, now) == []
+
+
+def test_user_without_notification_location_is_not_dispatched():
+    now = kst(TUESDAY, 12, 30)
+    user = make_user(locationId=None, locationName=None)
+    weather_map = {"seoul_south": umbrella_weather("14:00")}
+
+    assert process_notifications_for_users([user], weather_map, now) == []
+
+
 def test_failed_locations_are_not_dispatched():
     """수집에 실패한 거점은 발송하지 않습니다. 없는 날씨를 알릴 수는 없습니다."""
     now = kst(TUESDAY, 12, 30)
