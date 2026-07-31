@@ -236,6 +236,21 @@ def test_forecast25_bundle_leaves_uvi_unknown():
     assert all(h.uvi is None for h in bundle.hourly)
 
 
+def test_daily_forecast_records_first_rain_start_time_per_day():
+    points = [
+        HourlyPoint(dt=int(at(2026, 8, 1, 9).timestamp()), is_precip=False),
+        HourlyPoint(dt=int(at(2026, 8, 1, 15).timestamp()), is_precip=True),
+        HourlyPoint(dt=int(at(2026, 8, 1, 18).timestamp()), is_precip=True),
+        HourlyPoint(dt=int(at(2026, 8, 2, 7).timestamp()), is_precip=True),
+    ]
+
+    daily = base.daily_forecast_from_hourly(points)
+
+    assert [(day.date, day.rain_start_time) for day in daily] == [
+        ("2026-08-01", "15:00"), ("2026-08-02", "07:00"),
+    ]
+
+
 # --- 판정이 출처를 구분하지 않는지 ------------------------------------------
 
 def test_evaluate_is_source_agnostic():

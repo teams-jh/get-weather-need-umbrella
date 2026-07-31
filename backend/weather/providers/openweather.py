@@ -72,22 +72,28 @@ def _hourly_point(item: Dict[str, Any]) -> HourlyPoint:
     )
 
 
-def _daily_forecast_from_onecall(daily_list: List[Dict[str, Any]]) -> List[DailyPoint]:
+def _daily_forecast_from_onecall(
+    daily_list: List[Dict[str, Any]], hourly: List[HourlyPoint]
+) -> List[DailyPoint]:
     """
     One Call 의 daily 배열을 일자별 강수 요약으로 접는다.
     hourly(48시간)로 접는 것보다 멀리 보므로 이 출처에서는 이쪽을 쓴다.
     """
+    hourly_forecast = {day.date: day for day in daily_forecast_from_hourly(hourly)}
     forecast: List[DailyPoint] = []
     for item in daily_list:
         dt = item.get("dt")
         if not dt:
             continue
         pop = item.get("pop", 0) or 0
+        date = datetime.fromtimestamp(dt, tz=KST).strftime("%Y-%m-%d")
+        hourly_day = hourly_forecast.get(date)
         forecast.append(
             DailyPoint(
-                date=datetime.fromtimestamp(dt, tz=KST).strftime("%Y-%m-%d"),
+                date=date,
                 pop=pop,
                 has_rain=_is_precip(item.get("weather") or [], pop),
+                rain_start_time=hourly_day.rain_start_time if hourly_day else None,
             )
         )
     return forecast[:FORECAST_DAYS]
@@ -107,6 +113,8 @@ def bundle_from_onecall(raw: Dict[str, Any], source: str = SOURCE_ONECALL30) -> 
     daily_temp = daily.get("temp") or {}
     daily_feels = daily.get("feels_like") or {}
 
+    hourly = [_hourly_point(h) for h in (raw.get("hourly") or [])]
+
     return WeatherBundle(
         source=source,
         alerts=[a.get("event", "기상 특보") for a in (raw.get("alerts") or [])],
@@ -117,13 +125,13 @@ def bundle_from_onecall(raw: Dict[str, Any], source: str = SOURCE_ONECALL30) -> 
         daily_min=daily_temp.get("min"),
         daily_feels_like_day=daily_feels.get("day"),
         daily_uvi=daily.get("uvi"),
-        hourly=[_hourly_point(h) for h in (raw.get("hourly") or [])],
+        hourly=hourly,
         minutely=[
             MinutelyPoint(dt=m.get("dt", 0), precipitation=m.get("precipitation", 0) or 0)
             for m in (raw.get("minutely") or [])
         ],
         # 4.0 /current 에는 daily 가 없어 빈 목록이 된다. 주말 알림은 그때 발송을 건너뛴다.
-        daily_forecast=_daily_forecast_from_onecall(daily_list),
+        daily_forecast=_daily_forecast_from_onecall(daily_list, hourly),
     )
 
 

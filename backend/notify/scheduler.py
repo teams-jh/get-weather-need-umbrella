@@ -50,6 +50,13 @@ LEGACY_LOCATION_ALIASES = {
 }
 DEFAULT_LOCATION_ID = "seoul_south"
 
+# 준비물 알림에는 특보를 섞지 않는다. 특보는 별도 긴급 알림으로 발송한다.
+PREPARATION_DISPLAY_NAMES = {
+    "UMBRELLA": "우산",
+    "PARASOL": "양산",
+    "JACKET": "가벼운 외투",
+}
+
 
 def weather_json_path() -> str:
     """weather_all.json 경로. 환경 변수로 재정의할 수 있습니다."""
@@ -309,13 +316,27 @@ def minutes_until_rain(rain_start_time: str, kst_now: datetime):
     return (rain_dt - kst_now).total_seconds() / 60
 
 
+def weekend_rain_start(weather_data: dict, kst_now: datetime):
+    """이번 주말 중 가장 이른 강수 날짜와 시작 시각을 반환합니다."""
+    upcoming = [
+        (kst_now + timedelta(days=offset)).strftime("%Y-%m-%d")
+        for offset in (1, 2)
+    ]
+    forecast_by_date = {
+        day.get("date"): day
+        for day in weather_data.get("forecast", [])
+        if isinstance(day, dict)
+    }
+    for date in upcoming:
+        day = forecast_by_date.get(date)
+        if day and day.get("has_rain") and day.get("rain_start_time"):
+            return date, day["rain_start_time"]
+    return None
+
+
 def has_weekend_rain(weather_data: dict, kst_now: datetime) -> bool:
-    """이번 주말(금요일 기준 내일/모레)에 비 예보가 있는지 확인합니다."""
-    upcoming = {(kst_now + timedelta(days=offset)).strftime("%Y-%m-%d") for offset in (1, 2)}
-    for day in weather_data.get("forecast", []):
-        if day.get("date") in upcoming and day.get("has_rain"):
-            return True
-    return False
+    """이번 주말 비의 시작 시각까지 확인할 수 있을 때만 발송합니다."""
+    return weekend_rain_start(weather_data, kst_now) is not None
 
 
 def has_preparation(recommendation: dict, preparation_type: str) -> bool:
@@ -326,6 +347,15 @@ def has_preparation(recommendation: dict, preparation_type: str) -> bool:
     # 구 산출물에는 ALERT가 우산 상태로 섞여 있었지만, 실제 강수 여부가 없으므로
     # UMBRELLA일 때만 호환 처리한다.
     return recommendation.get("state_code", "NONE") == preparation_type
+
+
+def notification_preparation_names(recommendation: dict) -> list[str]:
+    """준비물 알림에 쓸 이름을 우선순위대로 중복 없이 반환합니다."""
+    return [
+        display_name
+        for preparation_type, display_name in PREPARATION_DISPLAY_NAMES.items()
+        if has_preparation(recommendation, preparation_type)
+    ]
 
 
 def active_alert_events(recommendation: dict) -> list[str]:
@@ -414,7 +444,7 @@ def should_send_notification(
     if use_case == "morning":
         if last_notified.get("morning") == today_str:
             return False, ""
-        if has_preparation(recommendation, "UMBRELLA"):
+        if notification_preparation_names(recommendation):
             return True, today_str
         return False, ""
 
@@ -438,7 +468,7 @@ def should_send_notification(
     if use_case == "evening":
         if last_notified.get("evening") == today_str:
             return False, ""
-        if has_preparation(recommendation, "UMBRELLA"):
+        if notification_preparation_names(recommendation):
             return True, today_str
         return False, ""
 
@@ -484,7 +514,8 @@ def process_notifications_for_users(users: list, weather_map: dict, now_dt: date
         if weather.get("status", SENDABLE_STATUS) != SENDABLE_STATUS:
             skipped_locations.add(loc_id)
             continue
-        loc_name = user.get("notificationLocationName") or weather.get("name", "")
+        notification_location_name = user.get("notificationLocationName") or weather.get("name", "")
+        recommendation = weather.get("recommendation") or {}
 
         for use_case in USE_CASES:
             if use_case == "alert":
@@ -494,20 +525,27 @@ def process_notifications_for_users(users: list, weather_map: dict, now_dt: date
                         "userKey": user["userKey"],
                         "useCase": use_case,
                         "locationId": loc_id,
-                        "locationName": loc_name,
+                        "notificationLocationName": notification_location_name,
                         "alertEvent": event,
                         "updateDedupKey": today_str,
                     })
                 continue
             should_send, dedup_val = should_send_notification(use_case, user, weather, now_dt)
             if should_send:
-                dispatch_list.append({
+                item = {
                     "userKey": user["userKey"],
                     "useCase": use_case,
                     "locationId": loc_id,
-                    "locationName": loc_name,
+                    "notificationLocationName": notification_location_name,
                     "updateDedupKey": dedup_val
-                })
+                }
+                if use_case in ("morning", "evening"):
+                    item["preparationNames"] = notification_preparation_names(recommendation)
+                elif use_case == "preRain":
+                    item["rainStartTime"] = recommendation.get("rain_start_time")
+                elif use_case == "weekend":
+                    item["weekendRainStart"] = weekend_rain_start(weather, now_dt.astimezone(KST))
+                dispatch_list.append(item)
 
     if skipped_locations:
         print(f"[Backend] Skipped {len(skipped_locations)} location(s) without usable weather: {sorted(skipped_locations)}")

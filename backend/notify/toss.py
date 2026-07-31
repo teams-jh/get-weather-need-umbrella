@@ -3,9 +3,9 @@
 #
 # 발송 문구는 토스 콘솔에 등록하고 검수 승인을 받은 템플릿에 고정되어 있습니다.
 # 파트너 서버는 templateSetCode로 템플릿을 지정하고, context로 템플릿 변수만 채웁니다.
-# 현재 등록된 템플릿들은 변수를 사용하지 않으므로 context는 빈 객체로 전송합니다.
 
 import os
+from datetime import datetime
 from typing import Dict, Any, List
 
 import requests
@@ -36,12 +36,54 @@ def template_code_for(use_case: str) -> str:
 
 
 def build_message_context(item: Dict[str, Any]) -> Dict[str, Any]:
-    """
-    템플릿 변수값을 만듭니다.
-    콘솔 템플릿이 변수를 선언하지 않는 동안에는 빈 객체를 보냅니다.
-    (context 자체는 API 필수 필드라 생략할 수 없습니다.)
-    """
-    return {}
+    """콘솔 템플릿의 유스케이스별 동적 변수값을 만듭니다."""
+    context = {"notificationLocationName": item.get("notificationLocationName", "")}
+    use_case = item.get("useCase")
+
+    if use_case in ("morning", "evening"):
+        context["preparationNames"] = join_preparation_names(item.get("preparationNames") or [])
+    elif use_case == "preRain":
+        context["rainStartTime"] = format_korean_time(item.get("rainStartTime"))
+    elif use_case == "alert":
+        context["alertEvent"] = item.get("alertEvent", "")
+    elif use_case == "weekend":
+        date_and_time = item.get("weekendRainStart") or ()
+        context["weekendRainStart"] = (
+            format_weekend_rain_start(*date_and_time)
+            if len(date_and_time) == 2 else ""
+        )
+
+    return context
+
+
+def join_preparation_names(names: List[str]) -> str:
+    """조사가 필요 없는 한국어 준비물 목록으로 조합합니다."""
+    return ", ".join(name for name in names if name)
+
+
+def format_korean_time(raw_time: Any) -> str:
+    """HH:MM 시각을 알림용 한국어 시각으로 변환합니다."""
+    try:
+        hour_text, minute_text = str(raw_time).split(":")[:2]
+        hour, minute = int(hour_text), int(minute_text)
+        if not 0 <= hour <= 23 or not 0 <= minute <= 59:
+            raise ValueError
+    except (ValueError, TypeError):
+        return ""
+
+    period = "오전" if hour < 12 else "오후"
+    hour_12 = hour % 12 or 12
+    return f"{period} {hour_12}시" if minute == 0 else f"{period} {hour_12}시 {minute}분"
+
+
+def format_weekend_rain_start(date: Any, raw_time: Any) -> str:
+    """YYYY-MM-DD와 HH:MM을 '토요일 오후 2시' 형식으로 변환합니다."""
+    try:
+        weekday = ("월", "화", "수", "목", "금", "토", "일")[datetime.fromisoformat(str(date)).weekday()]
+    except (ValueError, TypeError):
+        return ""
+    time = format_korean_time(raw_time)
+    return f"{weekday}요일 {time}" if time else ""
 
 
 def build_bulk_payload(use_case: str, items: List[Dict[str, Any]]) -> Dict[str, Any]:

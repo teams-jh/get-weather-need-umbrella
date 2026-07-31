@@ -134,7 +134,7 @@ def test_legacy_alert_deduplication_is_honored_for_same_day():
     assert alert_events_to_send(user, weather, now) == []
 
 
-def test_umbrella_notifications_use_independent_preparation():
+def test_preparation_notifications_exclude_alert_and_include_all_preparations():
     now = kst(TUESDAY, 7, 30)
     user = make_user()
     heat_alert = {"recommendation": {"state_code": "ALERT", "alert_event": "폭염주의보", "preparations": [{"type": "ALERT"}]}}
@@ -142,6 +142,8 @@ def test_umbrella_notifications_use_independent_preparation():
 
     assert should_send_notification("morning", user, heat_alert, now)[0] is False
     assert should_send_notification("morning", user, alert_with_rain, now)[0] is True
+    assert should_send_notification("morning", user, prepared_weather("PARASOL"), now)[0] is True
+    assert should_send_notification("evening", user, prepared_weather("JACKET"), kst(TUESDAY, 18))[0] is True
 
 
 # --- 시간 게이트 ---
@@ -239,11 +241,11 @@ def test_pre_rain_cooldown_blocks_repeat_within_six_hours():
 
 # --- 주말 알림 ---
 
-def test_has_weekend_rain_looks_at_upcoming_saturday_and_sunday():
+def test_has_weekend_rain_requires_a_known_start_time():
     friday = kst(FRIDAY, 18)
     rainy = {"forecast": [
         {"date": "2026-07-31", "has_rain": False},
-        {"date": "2026-08-01", "has_rain": True},
+        {"date": "2026-08-01", "has_rain": True, "rain_start_time": "14:00"},
     ]}
     dry = {"forecast": [
         {"date": "2026-07-31", "has_rain": True},   # 금요일 비는 주말 알림과 무관
@@ -260,7 +262,7 @@ def test_weekend_notification_requires_forecast_rain():
     user = make_user()
 
     rainy = {"recommendation": {"state_code": "NONE"},
-             "forecast": [{"date": "2026-08-01", "has_rain": True}]}
+             "forecast": [{"date": "2026-08-01", "has_rain": True, "rain_start_time": "14:00"}]}
     should_send, dedup = should_send_notification("weekend", user, rainy, now)
     assert should_send is True
     assert dedup == "2026-W31"
@@ -268,6 +270,19 @@ def test_weekend_notification_requires_forecast_rain():
     dry = {"recommendation": {"state_code": "NONE"},
            "forecast": [{"date": "2026-08-01", "has_rain": False}]}
     assert should_send_notification("weekend", user, dry, now)[0] is False
+
+
+def test_weekend_uses_saturday_even_when_sunday_starts_earlier_in_the_day():
+    now = kst(FRIDAY, 19)
+    user = make_user()
+    rainy = {"recommendation": {"state_code": "NONE"}, "forecast": [
+        {"date": "2026-08-01", "has_rain": True, "rain_start_time": "22:00"},
+        {"date": "2026-08-02", "has_rain": True, "rain_start_time": "06:00"},
+    ]}
+
+    dispatch = process_notifications_for_users([user], {"seoul_south": rainy}, now)
+
+    assert dispatch[0]["weekendRainStart"] == ("2026-08-01", "22:00")
 
 
 # --- 중복 방지 ---
@@ -429,20 +444,38 @@ def test_failed_location_does_not_fall_back_to_default_location():
 
 # --- 토스 발송 페이로드 ---
 
-def test_build_bulk_payload_uses_anon_key_and_empty_context():
+def test_build_bulk_payload_uses_anon_key_and_dynamic_context():
     items = [
-        {"userKey": "anon-1", "useCase": "morning"},
-        {"userKey": "anon-2", "useCase": "morning"},
+        {"userKey": "anon-1", "useCase": "morning", "notificationLocationName": "서울 강남", "preparationNames": ["우산", "양산"]},
+        {"userKey": "anon-2", "useCase": "morning", "notificationLocationName": "부산 해운대", "preparationNames": ["가벼운 외투"]},
     ]
     payload = build_bulk_payload("morning", items)
 
     assert payload["templateSetCode"] == "need-umbrella-NEED_UMBRELLA_MORNING"
     assert payload["contextList"] == [
-        {"anonKey": "anon-1", "context": {}},
-        {"anonKey": "anon-2", "context": {}},
+        {"anonKey": "anon-1", "context": {"notificationLocationName": "서울 강남", "preparationNames": "우산, 양산"}},
+        {"anonKey": "anon-2", "context": {"notificationLocationName": "부산 해운대", "preparationNames": "가벼운 외투"}},
     ]
     # 수신자는 헤더가 아니라 바디로만 전달합니다.
     assert "userKey" not in payload["contextList"][0]
+
+
+def test_dynamic_context_uses_only_message_specific_values():
+    assert build_bulk_payload("preRain", [{
+        "userKey": "anon-1", "useCase": "preRain", "notificationLocationName": "서울 강남", "rainStartTime": "14:15",
+    }])["contextList"][0]["context"] == {
+        "notificationLocationName": "서울 강남", "rainStartTime": "오후 2시 15분",
+    }
+    assert build_bulk_payload("alert", [{
+        "userKey": "anon-1", "useCase": "alert", "notificationLocationName": "서울 강남", "alertEvent": "호우주의보",
+    }])["contextList"][0]["context"] == {
+        "notificationLocationName": "서울 강남", "alertEvent": "호우주의보",
+    }
+    assert build_bulk_payload("weekend", [{
+        "userKey": "anon-1", "useCase": "weekend", "notificationLocationName": "서울 강남", "weekendRainStart": ("2026-08-01", "14:00"),
+    }])["contextList"][0]["context"] == {
+        "notificationLocationName": "서울 강남", "weekendRainStart": "토요일 오후 2시",
+    }
 
 
 def test_template_code_for_known_and_unknown_use_cases():

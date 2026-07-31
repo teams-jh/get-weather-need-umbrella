@@ -55,6 +55,9 @@ class DailyPoint:
     date: str  # KST 기준 YYYY-MM-DD
     pop: float = 0.0
     has_rain: bool = False
+    # 해당 날짜의 시간별 예보 중 첫 강수 시각(KST HH:MM). 일 단위 예보만
+    # 제공돼 시각을 특정할 수 없는 경우에는 None으로 둔다.
+    rain_start_time: Optional[str] = None
 
 
 def daily_forecast_from_hourly(hourly: List["HourlyPoint"]) -> List[DailyPoint]:
@@ -74,6 +77,8 @@ def daily_forecast_from_hourly(hourly: List["HourlyPoint"]) -> List[DailyPoint]:
         bucket.pop = max(bucket.pop, point.pop)
         if point.is_precip:
             bucket.has_rain = True
+            if bucket.rain_start_time is None:
+                bucket.rain_start_time = datetime.fromtimestamp(point.dt, tz=KST).strftime("%H:%M")
 
     return [buckets[key] for key in sorted(buckets)][:FORECAST_DAYS]
 
