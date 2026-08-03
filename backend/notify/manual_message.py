@@ -1,7 +1,7 @@
 """Send one Apps in Toss Smart Message test notification.
 
 This script is separate from the scheduler. It only sends when run explicitly,
-and always uses the fixed morning-notification template.
+and uses the dynamic-variable morning-notification template.
 """
 
 import json
@@ -10,9 +10,13 @@ from typing import Any
 
 import requests
 
-TEMPLATE_SET_CODE = "need-umbrella-NEED_UMBRELLA_MORNING"
+TEMPLATE_SET_CODE = "need-umbrella-NEED_UMBRELLA_MORNING_V2"
 TEST_MESSAGE_PATH = "/api-partner/v1/apps-in-toss/messenger/send-test-message"
 TOSS_API_BASE = os.getenv("TOSS_API_BASE_URL", "https://apps-in-toss-api.toss.im")
+DEFAULT_TEST_CONTEXT = {
+    "notificationLocationName": "서울 강남",
+    "preparationNames": "우산, 양산",
+}
 
 
 def required_env(name: str) -> str:
@@ -31,7 +35,10 @@ def recipient_header() -> dict[str, str]:
 
 
 def message_context() -> dict[str, Any]:
-    raw_context = os.getenv("TOSS_TEST_MESSAGE_CONTEXT") or "{}"
+    """아침 V2 템플릿의 필수 변수를 만들고 환경 변수로 재정의합니다."""
+    raw_context = os.getenv("TOSS_TEST_MESSAGE_CONTEXT")
+    if not raw_context:
+        return DEFAULT_TEST_CONTEXT.copy()
     try:
         context = json.loads(raw_context)
     except json.JSONDecodeError as error:
