@@ -20,11 +20,11 @@ REQUEST_TIMEOUT_SECONDS = 15
 
 # 유스케이스별 토스 콘솔 발송코드(templateSetCode) 매핑
 USE_CASE_TEMPLATE_CODES: Dict[str, str] = {
-    "morning": "need-umbrella-NEED_UMBRELLA_MORNING",
-    "preRain": "need-umbrella-NEED_UMBRELLA_PRE_RAIN",
-    "evening": "need-umbrella-NEED_UMBRELLA_EVENING",
-    "alert": "need-umbrella-NEED_UMBRELLA_ALERT",
-    "weekend": "need-umbrella-NEED_UMBRELLA_WEEKEND",
+    "morning": "need-umbrella-NEED_UMBRELLA_MORNING_V2",
+    "preRain": "need-umbrella-NEED_UMBRELLA_PRE_RAIN_V2",
+    "evening": "need-umbrella-NEED_UMBRELLA_EVENING_V2",
+    "alert": "need-umbrella-NEED_UMBRELLA_ALERT_V2",
+    "weekend": "need-umbrella-NEED_UMBRELLA_WEEKEND_V2",
 }
 
 

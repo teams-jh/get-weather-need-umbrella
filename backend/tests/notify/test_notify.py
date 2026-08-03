@@ -451,7 +451,7 @@ def test_build_bulk_payload_uses_anon_key_and_dynamic_context():
     ]
     payload = build_bulk_payload("morning", items)
 
-    assert payload["templateSetCode"] == "need-umbrella-NEED_UMBRELLA_MORNING"
+    assert payload["templateSetCode"] == "need-umbrella-NEED_UMBRELLA_MORNING_V2"
     assert payload["contextList"] == [
         {"anonKey": "anon-1", "context": {"notificationLocationName": "서울 강남", "preparationNames": "우산, 양산"}},
         {"anonKey": "anon-2", "context": {"notificationLocationName": "부산 해운대", "preparationNames": "가벼운 외투"}},
@@ -479,7 +479,7 @@ def test_dynamic_context_uses_only_message_specific_values():
 
 
 def test_template_code_for_known_and_unknown_use_cases():
-    assert template_code_for("preRain") == "need-umbrella-NEED_UMBRELLA_PRE_RAIN"
+    assert template_code_for("preRain") == "need-umbrella-NEED_UMBRELLA_PRE_RAIN_V2"
     assert template_code_for("unknown") == "need-umbrella-NEED_UMBRELLA_UNKNOWN"
 
 
