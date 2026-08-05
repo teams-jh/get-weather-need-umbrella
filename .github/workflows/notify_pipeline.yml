@@ -3,10 +3,10 @@ name: Hourly Umbrella Notification Pipeline
 # 실발송은 이 저장소에서만 돌린다. 다른 저장소에서 같이 돌리면 같은 유저에게
 # 두 번 발송을 시도하게 된다.
 on:
-  schedule:
+  #schedule:
     # 매시 정각 (UTC 분 = KST 분).
     # 시간 게이트(아침·퇴근·주말)가 시 단위로 판정하므로 매시 실행을 전제한다.
-    - cron: '0 * * * *'
+   # - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
