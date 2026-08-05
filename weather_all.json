@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "2.1",
-    "updated_at": "2026-08-06T06:02:03+09:00",
+    "updated_at": "2026-08-06T07:17:20+09:00",
     "status": "ok",
     "source": "OpenWeatherMap 2.5 Forecast Free API 50 + KMA Alerts (Hybrid Real Data - 50/50)",
     "providers": {
@@ -23,7 +23,7 @@
       "lat": 37.57,
       "lon": 126.9796,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염중대경보 발령 중",
@@ -99,7 +99,7 @@
       "lat": 37.4979,
       "lon": 127.0276,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염중대경보 발령 중",
@@ -175,7 +175,7 @@
       "lat": 37.5145,
       "lon": 127.1066,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염중대경보 발령 중",
@@ -251,7 +251,7 @@
       "lat": 37.5509,
       "lon": 126.8495,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염중대경보 발령 중",
@@ -327,7 +327,7 @@
       "lat": 37.6542,
       "lon": 127.0568,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염중대경보 발령 중",
@@ -403,7 +403,7 @@
       "lat": 37.2636,
       "lon": 127.0286,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염중대경보 발령 중",
@@ -479,7 +479,7 @@
       "lat": 37.3827,
       "lon": 127.1189,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염중대경보 발령 중",
@@ -555,7 +555,7 @@
       "lat": 37.6583,
       "lon": 126.832,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염중대경보 발령 중",
@@ -631,7 +631,7 @@
       "lat": 37.241,
       "lon": 127.1775,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염중대경보 발령 중",
@@ -707,7 +707,7 @@
       "lat": 37.5034,
       "lon": 126.766,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염중대경보 발령 중",
@@ -783,7 +783,7 @@
       "lat": 37.636,
       "lon": 127.2165,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염중대경보 발령 중",
@@ -859,7 +859,7 @@
       "lat": 36.9921,
       "lon": 127.1129,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염중대경보 발령 중",
@@ -935,7 +935,7 @@
       "lat": 37.7381,
       "lon": 127.0339,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염중대경보 발령 중",
@@ -1011,7 +1011,7 @@
       "lat": 37.4475,
       "lon": 126.7314,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염중대경보 발령 중",
@@ -1087,7 +1087,7 @@
       "lat": 37.5451,
       "lon": 126.676,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염중대경보 발령 중",
@@ -1163,7 +1163,7 @@
       "lat": 35.1631,
       "lon": 129.0536,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -1242,7 +1242,7 @@
       "lat": 35.1631,
       "lon": 129.1636,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -1321,14 +1321,14 @@
       "lat": 35.1526,
       "lon": 128.9911,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 26.4,
-        "current_feels_like": 26.4,
+        "current_temp": 26.5,
+        "current_feels_like": 26.5,
         "max_temp": 32.5,
         "feels_like_max": 36.1,
         "max_uvi": 0.0,
@@ -1400,14 +1400,14 @@
       "lat": 35.0912,
       "lon": 129.0679,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 26.7,
-        "current_feels_like": 29.0,
+        "current_feels_like": 29.1,
         "max_temp": 30.1,
         "feels_like_max": 34.3,
         "max_uvi": 0.0,
@@ -1479,7 +1479,7 @@
       "lat": 35.8669,
       "lon": 128.5942,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -1555,7 +1555,7 @@
       "lat": 35.8865,
       "lon": 128.6355,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -1631,7 +1631,7 @@
       "lat": 35.8299,
       "lon": 128.5326,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -1707,7 +1707,7 @@
       "lat": 36.3554,
       "lon": 127.3838,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염경보 발령 중",
@@ -1787,7 +1787,7 @@
       "lat": 36.3622,
       "lon": 127.3562,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염경보 발령 중",
@@ -1867,7 +1867,7 @@
       "lat": 35.152,
       "lon": 126.8901,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -1949,7 +1949,7 @@
       "lat": 35.1396,
       "lon": 126.7936,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -2031,7 +2031,7 @@
       "lat": 35.5437,
       "lon": 129.33,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -2110,7 +2110,7 @@
       "lat": 35.5387,
       "lon": 129.1444,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -2194,7 +2194,7 @@
       "lat": 36.48,
       "lon": 127.289,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염경보 발령 중",
@@ -2274,7 +2274,7 @@
       "lat": 37.8813,
       "lon": 127.7298,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -2354,7 +2354,7 @@
       "lat": 37.3422,
       "lon": 127.9202,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -2434,7 +2434,7 @@
       "lat": 37.7519,
       "lon": 128.8761,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -2514,7 +2514,7 @@
       "lat": 36.6424,
       "lon": 127.489,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
@@ -2570,7 +2570,7 @@
       "lat": 36.9911,
       "lon": 127.926,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "볕이 뜨거워요. 양산 챙길까요?",
@@ -2626,7 +2626,7 @@
       "lat": 36.8151,
       "lon": 127.1139,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염경보 발령 중",
@@ -2706,7 +2706,7 @@
       "lat": 36.7898,
       "lon": 127.0018,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염경보 발령 중",
@@ -2786,7 +2786,7 @@
       "lat": 36.7801,
       "lon": 126.4503,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염경보 발령 중",
@@ -2866,7 +2866,7 @@
       "lat": 35.8242,
       "lon": 127.148,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염경보 발령 중",
@@ -2946,7 +2946,7 @@
       "lat": 35.9677,
       "lon": 126.7366,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염경보 발령 중",
@@ -3026,7 +3026,7 @@
       "lat": 35.9483,
       "lon": 126.9578,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염경보 발령 중",
@@ -3106,7 +3106,7 @@
       "lat": 34.8118,
       "lon": 126.3922,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -3178,7 +3178,7 @@
       "lat": 34.7604,
       "lon": 127.6622,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -3249,7 +3249,7 @@
       "lat": 34.9506,
       "lon": 127.4872,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -3325,7 +3325,7 @@
       "lat": 36.019,
       "lon": 129.3435,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -3396,7 +3396,7 @@
       "lat": 36.1195,
       "lon": 128.3445,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -3472,7 +3472,7 @@
       "lat": 36.5684,
       "lon": 128.7294,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -3548,7 +3548,7 @@
       "lat": 35.2279,
       "lon": 128.6811,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -3632,7 +3632,7 @@
       "lat": 35.1802,
       "lon": 128.1076,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -3716,7 +3716,7 @@
       "lat": 33.4996,
       "lon": 126.5312,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
@@ -3791,7 +3791,7 @@
       "lat": 33.2541,
       "lon": 126.5601,
       "status": "ok",
-      "fetched_at": "2026-08-06T06:02:03+09:00",
+      "fetched_at": "2026-08-06T07:17:20+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "폭염주의보 발령 중",
