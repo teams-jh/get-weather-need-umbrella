@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "2.1",
-    "updated_at": "2026-08-25T14:01:52+09:00",
+    "updated_at": "2026-08-25T15:25:48+09:00",
     "status": "ok",
     "source": "OpenWeatherMap One Call API 3.0 50 + KMA Alerts (Hybrid Real Data - 50/50)",
     "providers": {
@@ -23,40 +23,20 @@
       "lat": 37.57,
       "lon": 126.9796,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 31.8,
-        "current_feels_like": 37.2,
-        "max_temp": 32.0,
-        "feels_like_max": 37.2,
-        "max_uvi": 5.0,
-        "temp_diff": 6.9,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_temp": 32.2,
+        "current_feels_like": 37.6,
+        "max_temp": 32.2,
+        "feels_like_max": 37.5,
+        "max_uvi": 2.2,
+        "temp_diff": 7.1,
+        "alert_event": null,
         "preparations": [
-          {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
           {
             "type": "PARASOL",
             "title": "볕이 뜨거워요. 양산 챙길까요?",
@@ -94,43 +74,23 @@
       "lat": 37.4979,
       "lon": 127.0276,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 31.9,
-        "current_feels_like": 37.5,
-        "max_temp": 32.3,
-        "feels_like_max": 37.8,
-        "max_uvi": 6.7,
-        "temp_diff": 6.9,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_temp": 33.8,
+        "current_feels_like": 40.8,
+        "max_temp": 33.6,
+        "feels_like_max": 40.6,
+        "max_uvi": 2.7,
+        "temp_diff": 8.4,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -165,40 +125,20 @@
       "lat": 37.5145,
       "lon": 127.1066,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 32.1,
-        "current_feels_like": 38.0,
-        "max_temp": 32.5,
-        "feels_like_max": 38.3,
-        "max_uvi": 5.5,
-        "temp_diff": 6.9,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_temp": 33.9,
+        "current_feels_like": 40.9,
+        "max_temp": 33.7,
+        "feels_like_max": 40.6,
+        "max_uvi": 2.2,
+        "temp_diff": 8.2,
+        "alert_event": null,
         "preparations": [
-          {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
           {
             "type": "PARASOL",
             "title": "볕이 뜨거워요. 양산 챙길까요?",
@@ -236,40 +176,20 @@
       "lat": 37.5509,
       "lon": 126.8495,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 32.0,
-        "current_feels_like": 37.7,
-        "max_temp": 32.2,
-        "feels_like_max": 37.7,
-        "max_uvi": 5.0,
-        "temp_diff": 6.7,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_temp": 32.5,
+        "current_feels_like": 39.2,
+        "max_temp": 32.5,
+        "feels_like_max": 38.8,
+        "max_uvi": 2.2,
+        "temp_diff": 7.0,
+        "alert_event": null,
         "preparations": [
-          {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
           {
             "type": "PARASOL",
             "title": "볕이 뜨거워요. 양산 챙길까요?",
@@ -287,7 +207,7 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 0,
+          "pop": 0.08,
           "has_rain": false,
           "rain_start_time": null
         },
@@ -307,40 +227,20 @@
       "lat": 37.6542,
       "lon": 127.0568,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 31.9,
-        "current_feels_like": 37.2,
-        "max_temp": 32.2,
-        "feels_like_max": 37.4,
-        "max_uvi": 5.5,
-        "temp_diff": 6.8,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_temp": 32.5,
+        "current_feels_like": 38.3,
+        "max_temp": 32.6,
+        "feels_like_max": 38.6,
+        "max_uvi": 2.2,
+        "temp_diff": 7.1,
+        "alert_event": null,
         "preparations": [
-          {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
           {
             "type": "PARASOL",
             "title": "볕이 뜨거워요. 양산 챙길까요?",
@@ -378,43 +278,23 @@
       "lat": 37.2636,
       "lon": 127.0286,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 31.7,
-        "current_feels_like": 38.7,
-        "max_temp": 32.1,
-        "feels_like_max": 38.9,
-        "max_uvi": 6.7,
-        "temp_diff": 6.9,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_temp": 33.7,
+        "current_feels_like": 40.5,
+        "max_temp": 33.5,
+        "feels_like_max": 40.4,
+        "max_uvi": 2.7,
+        "temp_diff": 8.5,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -449,43 +329,23 @@
       "lat": 37.3827,
       "lon": 127.1189,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 31.8,
-        "current_feels_like": 37.3,
-        "max_temp": 32.4,
-        "feels_like_max": 37.6,
-        "max_uvi": 6.7,
-        "temp_diff": 6.8,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_temp": 33.7,
+        "current_feels_like": 40.6,
+        "max_temp": 33.6,
+        "feels_like_max": 39.9,
+        "max_uvi": 2.7,
+        "temp_diff": 8.2,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -520,40 +380,20 @@
       "lat": 37.6583,
       "lon": 126.832,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 32.0,
-        "current_feels_like": 37.6,
-        "max_temp": 32.1,
-        "feels_like_max": 37.6,
-        "max_uvi": 5.0,
-        "temp_diff": 6.7,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_temp": 32.4,
+        "current_feels_like": 38.6,
+        "max_temp": 32.4,
+        "feels_like_max": 38.2,
+        "max_uvi": 2.2,
+        "temp_diff": 7.0,
+        "alert_event": null,
         "preparations": [
-          {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
           {
             "type": "PARASOL",
             "title": "볕이 뜨거워요. 양산 챙길까요?",
@@ -571,7 +411,7 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 0,
+          "pop": 0.27,
           "has_rain": false,
           "rain_start_time": null
         },
@@ -591,43 +431,23 @@
       "lat": 37.241,
       "lon": 127.1775,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 32.1,
-        "current_feels_like": 37.8,
-        "max_temp": 32.1,
-        "feels_like_max": 37.8,
-        "max_uvi": 6.7,
-        "temp_diff": 7.7,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_temp": 33.1,
+        "current_feels_like": 39.2,
+        "max_temp": 32.9,
+        "feels_like_max": 38.9,
+        "max_uvi": 2.7,
+        "temp_diff": 8.8,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -662,40 +482,20 @@
       "lat": 37.5034,
       "lon": 126.766,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 32,
-        "current_feels_like": 37.7,
-        "max_temp": 32.1,
-        "feels_like_max": 37.8,
-        "max_uvi": 5.0,
-        "temp_diff": 6.6,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_temp": 29.9,
+        "current_feels_like": 33.8,
+        "max_temp": 30.7,
+        "feels_like_max": 36.1,
+        "max_uvi": 2.2,
+        "temp_diff": 5.2,
+        "alert_event": null,
         "preparations": [
-          {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
           {
             "type": "PARASOL",
             "title": "볕이 뜨거워요. 양산 챙길까요?",
@@ -713,7 +513,7 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 0,
+          "pop": 0.13,
           "has_rain": false,
           "rain_start_time": null
         },
@@ -733,39 +533,25 @@
       "lat": 37.636,
       "lon": 127.2165,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 31.6,
-        "current_feels_like": 37.4,
-        "max_temp": 31.6,
-        "feels_like_max": 37.6,
-        "max_uvi": 5.5,
-        "temp_diff": 7.5,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "state_code": "UMBRELLA",
+        "title": "오후 4:00부터 비 소식이 있어요",
+        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+        "rain_start_time": "16:00",
+        "current_temp": 31.2,
+        "current_feels_like": 36.0,
+        "max_temp": 31.2,
+        "feels_like_max": 36.4,
+        "max_uvi": 2.2,
+        "temp_diff": 7.1,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
+            "type": "UMBRELLA",
+            "title": "오후 4:00부터 비 소식이 있어요",
+            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+            "rain_start_time": "16:00"
           },
           {
             "type": "PARASOL",
@@ -780,7 +566,7 @@
           "date": "2026-08-25",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": null
+          "rain_start_time": "16:00"
         },
         {
           "date": "2026-08-26",
@@ -804,43 +590,23 @@
       "lat": 36.9921,
       "lon": 127.1129,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 30.9,
-        "current_feels_like": 37.4,
-        "max_temp": 31.6,
-        "feels_like_max": 38.6,
-        "max_uvi": 7.8,
-        "temp_diff": 6.4,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_temp": 32.4,
+        "current_feels_like": 39.4,
+        "max_temp": 32.4,
+        "feels_like_max": 39.4,
+        "max_uvi": 3.2,
+        "temp_diff": 7.2,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -875,40 +641,77 @@
       "lat": 37.7381,
       "lon": 127.0339,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 31.7,
-        "current_feels_like": 36.9,
-        "max_temp": 31.7,
-        "feels_like_max": 37.0,
-        "max_uvi": 5.5,
+        "state_code": "UMBRELLA",
+        "title": "오후 4:00부터 비 소식이 있어요",
+        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+        "rain_start_time": "16:00",
+        "current_temp": 31.8,
+        "current_feels_like": 36.8,
+        "max_temp": 31.8,
+        "feels_like_max": 37.1,
+        "max_uvi": 2.2,
         "temp_diff": 7.1,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
+            "type": "UMBRELLA",
+            "title": "오후 4:00부터 비 소식이 있어요",
+            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+            "rain_start_time": "16:00"
           },
+          {
+            "type": "PARASOL",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
+            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+          }
+        ],
+        "is_night": false
+      },
+      "forecast": [
+        {
+          "date": "2026-08-25",
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": "16:00"
+        },
+        {
+          "date": "2026-08-26",
+          "pop": 0.09,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-08-27",
+          "pop": 0.04,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "incheon_center": {
+      "id": "incheon_center",
+      "name": "인천_남동",
+      "group": "인천",
+      "display_name": "남동",
+      "lat": 37.4475,
+      "lon": 126.7314,
+      "status": "ok",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
+      "recommendation": {
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 29.9,
+        "current_feels_like": 34.0,
+        "max_temp": 30.4,
+        "feels_like_max": 35.7,
+        "max_uvi": 3.0,
+        "temp_diff": 5.5,
+        "alert_event": null,
+        "preparations": [
           {
             "type": "PARASOL",
             "title": "볕이 뜨거워요. 양산 챙길까요?",
@@ -926,78 +729,7 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 0.01,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-08-27",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "incheon_center": {
-      "id": "incheon_center",
-      "name": "인천_남동",
-      "group": "인천",
-      "display_name": "남동",
-      "lat": 37.4475,
-      "lon": 126.7314,
-      "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 32.0,
-        "current_feels_like": 37.7,
-        "max_temp": 32.0,
-        "feels_like_max": 37.9,
-        "max_uvi": 7.5,
-        "temp_diff": 7.0,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
-          {
-            "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
-            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
-          }
-        ],
-        "is_night": false
-      },
-      "forecast": [
-        {
-          "date": "2026-08-25",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-08-26",
-          "pop": 0,
+          "pop": 0.07,
           "has_rain": false,
           "rain_start_time": null
         },
@@ -1017,40 +749,20 @@
       "lat": 37.5451,
       "lon": 126.676,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 31.9,
-        "current_feels_like": 37.5,
-        "max_temp": 31.9,
-        "feels_like_max": 37.9,
-        "max_uvi": 5.0,
-        "temp_diff": 6.4,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_temp": 29.8,
+        "current_feels_like": 34.2,
+        "max_temp": 30.6,
+        "feels_like_max": 36.7,
+        "max_uvi": 2.2,
+        "temp_diff": 5.0,
+        "alert_event": null,
         "preparations": [
-          {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
           {
             "type": "PARASOL",
             "title": "볕이 뜨거워요. 양산 챙길까요?",
@@ -1068,7 +780,7 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 0,
+          "pop": 0.33,
           "has_rain": false,
           "rain_start_time": null
         },
@@ -1088,49 +800,23 @@
       "lat": 35.1631,
       "lon": 129.0536,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 34.9,
-        "current_feels_like": 41.9,
-        "max_temp": 34.9,
-        "feels_like_max": 41.9,
-        "max_uvi": 7.5,
-        "temp_diff": 9.8,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보",
-          "폭염주의보",
-          "풍랑주의보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염",
-          "풍랑"
-        ],
+        "current_temp": 34.1,
+        "current_feels_like": 41.1,
+        "max_temp": 34.0,
+        "feels_like_max": 41.0,
+        "max_uvi": 2.1,
+        "temp_diff": 9.0,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보",
-              "폭염주의보",
-              "풍랑주의보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염",
-              "풍랑"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -1145,15 +831,15 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 0.68,
+          "pop": 0.72,
           "has_rain": true,
-          "rain_start_time": "19:00"
+          "rain_start_time": "20:00"
         },
         {
           "date": "2026-08-27",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "09:00"
+          "rain_start_time": "05:00"
         }
       ]
     },
@@ -1165,49 +851,23 @@
       "lat": 35.1631,
       "lon": 129.1636,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
         "current_temp": 35.0,
         "current_feels_like": 42.0,
-        "max_temp": 35.0,
-        "feels_like_max": 42.0,
-        "max_uvi": 7.5,
+        "max_temp": 34.8,
+        "feels_like_max": 41.8,
+        "max_uvi": 2.1,
         "temp_diff": 9.1,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보",
-          "폭염주의보",
-          "풍랑주의보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염",
-          "풍랑"
-        ],
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보",
-              "폭염주의보",
-              "풍랑주의보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염",
-              "풍랑"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -1222,15 +882,15 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 0.79,
+          "pop": 0.7,
           "has_rain": true,
-          "rain_start_time": "20:00"
+          "rain_start_time": "19:00"
         },
         {
           "date": "2026-08-27",
-          "pop": 0.96,
+          "pop": 1,
           "has_rain": true,
-          "rain_start_time": "11:00"
+          "rain_start_time": "03:00"
         }
       ]
     },
@@ -1242,49 +902,23 @@
       "lat": 35.1526,
       "lon": 128.9911,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
         "current_temp": 35.0,
         "current_feels_like": 42.0,
-        "max_temp": 35.0,
-        "feels_like_max": 42.0,
-        "max_uvi": 7.8,
+        "max_temp": 34.8,
+        "feels_like_max": 41.8,
+        "max_uvi": 3.1,
         "temp_diff": 9.6,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보",
-          "폭염주의보",
-          "풍랑주의보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염",
-          "풍랑"
-        ],
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보",
-              "폭염주의보",
-              "풍랑주의보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염",
-              "풍랑"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -1299,15 +933,15 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 0.64,
+          "pop": 0.73,
           "has_rain": true,
-          "rain_start_time": "19:00"
+          "rain_start_time": "20:00"
         },
         {
           "date": "2026-08-27",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "09:00"
+          "rain_start_time": "05:00"
         }
       ]
     },
@@ -1319,49 +953,23 @@
       "lat": 35.0912,
       "lon": 129.0679,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
         "current_temp": 34.7,
         "current_feels_like": 41.7,
-        "max_temp": 34.7,
-        "feels_like_max": 41.7,
-        "max_uvi": 7.5,
+        "max_temp": 34.1,
+        "feels_like_max": 41.1,
+        "max_uvi": 2.1,
         "temp_diff": 7.7,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보",
-          "폭염주의보",
-          "풍랑주의보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염",
-          "풍랑"
-        ],
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보",
-              "폭염주의보",
-              "풍랑주의보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염",
-              "풍랑"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -1384,7 +992,7 @@
           "date": "2026-08-27",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "12:00"
+          "rain_start_time": "05:00"
         }
       ]
     },
@@ -1396,48 +1004,29 @@
       "lat": 35.8669,
       "lon": 128.5942,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 33.9,
-        "current_feels_like": 36.9,
-        "max_temp": 34.9,
-        "feels_like_max": 41.9,
-        "max_uvi": 7.8,
-        "temp_diff": 9.9,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보",
-          "열대야주의보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염",
-          "열대야"
-        ],
+        "current_temp": 34.9,
+        "current_feels_like": 39.0,
+        "max_temp": 35.2,
+        "feels_like_max": 41.8,
+        "max_uvi": 3.0,
+        "temp_diff": 10.1,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보",
-              "열대야주의보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염",
-              "열대야"
-            ]
+            "type": "PARASOL",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
+            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           },
           {
-            "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
-            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": false
@@ -1451,15 +1040,15 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 0.82,
+          "pop": 1,
           "has_rain": true,
-          "rain_start_time": "22:00"
+          "rain_start_time": "20:00"
         },
         {
           "date": "2026-08-27",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "00:00"
         }
       ]
     },
@@ -1471,47 +1060,23 @@
       "lat": 35.8865,
       "lon": 128.6355,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 34.0,
-        "current_feels_like": 37.0,
-        "max_temp": 35.0,
+        "current_temp": 35.0,
+        "current_feels_like": 39.1,
+        "max_temp": 35.2,
         "feels_like_max": 42.0,
-        "max_uvi": 7.8,
-        "temp_diff": 10.0,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보",
-          "열대야주의보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염",
-          "열대야"
-        ],
+        "max_uvi": 3.0,
+        "temp_diff": 10.2,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보",
-              "열대야주의보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염",
-              "열대야"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           },
           {
@@ -1531,15 +1096,15 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 0.69,
+          "pop": 1,
           "has_rain": true,
-          "rain_start_time": "21:00"
+          "rain_start_time": "20:00"
         },
         {
           "date": "2026-08-27",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "00:00"
         }
       ]
     },
@@ -1551,47 +1116,23 @@
       "lat": 35.8299,
       "lon": 128.5326,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 33.9,
-        "current_feels_like": 36.9,
-        "max_temp": 34.9,
-        "feels_like_max": 41.7,
-        "max_uvi": 7.8,
-        "temp_diff": 10.0,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보",
-          "열대야주의보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염",
-          "열대야"
-        ],
+        "current_temp": 34.9,
+        "current_feels_like": 39.0,
+        "max_temp": 35.1,
+        "feels_like_max": 41.2,
+        "max_uvi": 3.0,
+        "temp_diff": 10.2,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보",
-              "열대야주의보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염",
-              "열대야"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           },
           {
@@ -1611,9 +1152,9 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 0.95,
+          "pop": 1,
           "has_rain": true,
-          "rain_start_time": "21:00"
+          "rain_start_time": "20:00"
         },
         {
           "date": "2026-08-27",
@@ -1631,40 +1172,20 @@
       "lat": 36.3554,
       "lon": 127.3838,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
         "current_temp": 32.6,
-        "current_feels_like": 39.6,
-        "max_temp": 32.9,
-        "feels_like_max": 39.9,
-        "max_uvi": 5.0,
-        "temp_diff": 8.5,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_feels_like": 38.3,
+        "max_temp": 32.7,
+        "feels_like_max": 39.5,
+        "max_uvi": 3.2,
+        "temp_diff": 8.3,
+        "alert_event": null,
         "preparations": [
-          {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
           {
             "type": "PARASOL",
             "title": "볕이 뜨거워요. 양산 챙길까요?",
@@ -1688,9 +1209,9 @@
         },
         {
           "date": "2026-08-27",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": "03:00"
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
         }
       ]
     },
@@ -1702,40 +1223,20 @@
       "lat": 36.3622,
       "lon": 127.3562,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
         "current_temp": 32.5,
-        "current_feels_like": 39.5,
-        "max_temp": 32.8,
-        "feels_like_max": 39.8,
-        "max_uvi": 5.0,
-        "temp_diff": 8.4,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_feels_like": 38.0,
+        "max_temp": 32.6,
+        "feels_like_max": 39.1,
+        "max_uvi": 3.2,
+        "temp_diff": 8.2,
+        "alert_event": null,
         "preparations": [
-          {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
           {
             "type": "PARASOL",
             "title": "볕이 뜨거워요. 양산 챙길까요?",
@@ -1759,9 +1260,9 @@
         },
         {
           "date": "2026-08-27",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": "03:00"
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
         }
       ]
     },
@@ -1773,43 +1274,23 @@
       "lat": 35.152,
       "lon": 126.8901,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 33.5,
-        "current_feels_like": 37.4,
-        "max_temp": 33.7,
-        "feels_like_max": 38.1,
-        "max_uvi": 7.4,
-        "temp_diff": 9.5,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_temp": 32.9,
+        "current_feels_like": 37.5,
+        "max_temp": 32.9,
+        "feels_like_max": 38.5,
+        "max_uvi": 3.4,
+        "temp_diff": 8.7,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -1824,7 +1305,7 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 0.95,
+          "pop": 0.99,
           "has_rain": true,
           "rain_start_time": "19:00"
         },
@@ -1844,43 +1325,23 @@
       "lat": 35.1396,
       "lon": 126.7936,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 33.0,
+        "current_temp": 32.1,
         "current_feels_like": 36.5,
-        "max_temp": 33.1,
-        "feels_like_max": 37.3,
-        "max_uvi": 7.4,
-        "temp_diff": 9.3,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "max_temp": 32.2,
+        "feels_like_max": 37.5,
+        "max_uvi": 3.4,
+        "temp_diff": 8.4,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -1895,15 +1356,15 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 0.81,
+          "pop": 0.86,
           "has_rain": true,
-          "rain_start_time": "20:00"
+          "rain_start_time": "19:00"
         },
         {
           "date": "2026-08-27",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "10:00"
+          "rain_start_time": "00:00"
         }
       ]
     },
@@ -1915,199 +1376,25 @@
       "lat": 35.5437,
       "lon": 129.33,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 33.5,
-        "current_feels_like": 40.5,
-        "max_temp": 33.6,
-        "feels_like_max": 40.6,
-        "max_uvi": 7.7,
-        "temp_diff": 8.5,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보",
-          "폭염주의보",
-          "풍랑주의보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염",
-          "풍랑"
-        ],
+        "state_code": "UMBRELLA",
+        "title": "오후 3:00부터 비 소식이 있어요",
+        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+        "rain_start_time": "15:00",
+        "current_temp": 34.2,
+        "current_feels_like": 41.2,
+        "max_temp": 34.2,
+        "feels_like_max": 41.2,
+        "max_uvi": 3.0,
+        "temp_diff": 9.0,
+        "alert_event": null,
         "preparations": [
-          {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보",
-              "폭염주의보",
-              "풍랑주의보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염",
-              "풍랑"
-            ]
-          },
-          {
-            "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
-            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
-          }
-        ],
-        "is_night": false
-      },
-      "forecast": [
-        {
-          "date": "2026-08-25",
-          "pop": 0.23,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-08-26",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": "17:00"
-        },
-        {
-          "date": "2026-08-27",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": "05:00"
-        }
-      ]
-    },
-    "ulsan_ulju": {
-      "id": "ulsan_ulju",
-      "name": "울산_울주",
-      "group": "울산",
-      "display_name": "울주",
-      "lat": 35.5387,
-      "lon": 129.1444,
-      "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "16:00",
-        "current_temp": 34.3,
-        "current_feels_like": 40.5,
-        "max_temp": 34.5,
-        "feels_like_max": 41.5,
-        "max_uvi": 7.7,
-        "temp_diff": 9.6,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보",
-          "폭염주의보",
-          "풍랑주의보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염",
-          "풍랑"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보",
-              "폭염주의보",
-              "풍랑주의보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염",
-              "풍랑"
-            ]
-          },
           {
             "type": "UMBRELLA",
-            "title": "오후 4:00부터 비 소식이 있어요",
+            "title": "오후 3:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "16:00"
-          },
-          {
-            "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
-            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
-          }
-        ],
-        "is_night": false
-      },
-      "forecast": [
-        {
-          "date": "2026-08-25",
-          "pop": 0.57,
-          "has_rain": true,
-          "rain_start_time": "16:00"
-        },
-        {
-          "date": "2026-08-26",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": "17:00"
-        },
-        {
-          "date": "2026-08-27",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": "05:00"
-        }
-      ]
-    },
-    "sejong_center": {
-      "id": "sejong_center",
-      "name": "세종",
-      "group": "세종",
-      "display_name": "세종",
-      "lat": 36.48,
-      "lon": 127.289,
-      "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 32.4,
-        "current_feels_like": 39.4,
-        "max_temp": 32.6,
-        "feels_like_max": 39.6,
-        "max_uvi": 5.0,
-        "temp_diff": 8.1,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
+            "rain_start_time": "15:00"
           },
           {
             "type": "PARASOL",
@@ -2120,7 +1407,115 @@
       "forecast": [
         {
           "date": "2026-08-25",
-          "pop": 0.05,
+          "pop": 0.45,
+          "has_rain": true,
+          "rain_start_time": "15:00"
+        },
+        {
+          "date": "2026-08-26",
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": "17:00"
+        },
+        {
+          "date": "2026-08-27",
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": "01:00"
+        }
+      ]
+    },
+    "ulsan_ulju": {
+      "id": "ulsan_ulju",
+      "name": "울산_울주",
+      "group": "울산",
+      "display_name": "울주",
+      "lat": 35.5387,
+      "lon": 129.1444,
+      "status": "ok",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
+      "recommendation": {
+        "state_code": "UMBRELLA",
+        "title": "오후 3:00부터 비 소식이 있어요",
+        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+        "rain_start_time": "15:00",
+        "current_temp": 34.3,
+        "current_feels_like": 41.3,
+        "max_temp": 34.3,
+        "feels_like_max": 41.3,
+        "max_uvi": 3.0,
+        "temp_diff": 9.4,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "UMBRELLA",
+            "title": "오후 3:00부터 비 소식이 있어요",
+            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+            "rain_start_time": "15:00"
+          },
+          {
+            "type": "PARASOL",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
+            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+          }
+        ],
+        "is_night": false
+      },
+      "forecast": [
+        {
+          "date": "2026-08-25",
+          "pop": 0.63,
+          "has_rain": true,
+          "rain_start_time": "15:00"
+        },
+        {
+          "date": "2026-08-26",
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": "18:00"
+        },
+        {
+          "date": "2026-08-27",
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": "00:00"
+        }
+      ]
+    },
+    "sejong_center": {
+      "id": "sejong_center",
+      "name": "세종",
+      "group": "세종",
+      "display_name": "세종",
+      "lat": 36.48,
+      "lon": 127.289,
+      "status": "ok",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
+      "recommendation": {
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 32.3,
+        "current_feels_like": 38.8,
+        "max_temp": 32.4,
+        "feels_like_max": 39.3,
+        "max_uvi": 3.2,
+        "temp_diff": 7.9,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "PARASOL",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
+            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+          }
+        ],
+        "is_night": false
+      },
+      "forecast": [
+        {
+          "date": "2026-08-25",
+          "pop": 0.44,
           "has_rain": false,
           "rain_start_time": null
         },
@@ -2132,9 +1527,9 @@
         },
         {
           "date": "2026-08-27",
-          "pop": 0.95,
-          "has_rain": true,
-          "rain_start_time": "03:00"
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
         }
       ]
     },
@@ -2146,49 +1541,29 @@
       "lat": 37.8813,
       "lon": 127.7298,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "16:00",
-        "current_temp": 31.3,
-        "current_feels_like": 36.8,
-        "max_temp": 31.4,
-        "feels_like_max": 37.6,
-        "max_uvi": 6.9,
-        "temp_diff": 6.6,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "state_code": "UMBRELLA",
+        "title": "오후 3:00부터 비 소식이 있어요",
+        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+        "rain_start_time": "15:00",
+        "current_temp": 31.1,
+        "current_feels_like": 37.7,
+        "max_temp": 31.2,
+        "feels_like_max": 38.1,
+        "max_uvi": 2.5,
+        "temp_diff": 6.4,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
-          {
             "type": "UMBRELLA",
-            "title": "오후 4:00부터 비 소식이 있어요",
+            "title": "오후 3:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "16:00"
+            "rain_start_time": "15:00"
           },
           {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -2199,13 +1574,13 @@
           "date": "2026-08-25",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "16:00"
+          "rain_start_time": "15:00"
         },
         {
           "date": "2026-08-26",
-          "pop": 0.9,
+          "pop": 0.86,
           "has_rain": true,
-          "rain_start_time": "04:00"
+          "rain_start_time": "16:00"
         },
         {
           "date": "2026-08-27",
@@ -2223,45 +1598,25 @@
       "lat": 37.3422,
       "lon": 127.9202,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "14:00",
-        "current_temp": 30.1,
-        "current_feels_like": 35.2,
+        "state_code": "UMBRELLA",
+        "title": "오후 3:00부터 비 소식이 있어요",
+        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+        "rain_start_time": "15:00",
+        "current_temp": 30,
+        "current_feels_like": 36.6,
         "max_temp": 30.1,
-        "feels_like_max": 36.2,
-        "max_uvi": 5.7,
-        "temp_diff": 6.4,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "feels_like_max": 37.0,
+        "max_uvi": 1.7,
+        "temp_diff": 6.3,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
-          {
             "type": "UMBRELLA",
-            "title": "오후 2:00부터 비 소식이 있어요",
+            "title": "오후 3:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "14:00"
+            "rain_start_time": "15:00"
           },
           {
             "type": "PARASOL",
@@ -2276,18 +1631,18 @@
           "date": "2026-08-25",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "14:00"
+          "rain_start_time": "15:00"
         },
         {
           "date": "2026-08-26",
-          "pop": 0,
+          "pop": 0.04,
           "has_rain": false,
           "rain_start_time": null
         },
         {
           "date": "2026-08-27",
-          "pop": 0.28,
-          "has_rain": true,
+          "pop": 0,
+          "has_rain": false,
           "rain_start_time": null
         }
       ]
@@ -2300,49 +1655,29 @@
       "lat": 37.7519,
       "lon": 128.8761,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "17:00",
-        "current_temp": 30.8,
-        "current_feels_like": 37.3,
-        "max_temp": 30.8,
-        "feels_like_max": 37.3,
-        "max_uvi": 6.5,
-        "temp_diff": 5.1,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "state_code": "UMBRELLA",
+        "title": "오후 3:00부터 비 소식이 있어요",
+        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+        "rain_start_time": "15:00",
+        "current_temp": 29.0,
+        "current_feels_like": 33.5,
+        "max_temp": 29.1,
+        "feels_like_max": 35.9,
+        "max_uvi": 2.8,
+        "temp_diff": 4.5,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
-          {
             "type": "UMBRELLA",
-            "title": "오후 5:00부터 비 소식이 있어요",
+            "title": "오후 3:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "17:00"
+            "rain_start_time": "15:00"
           },
           {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -2351,19 +1686,19 @@
       "forecast": [
         {
           "date": "2026-08-25",
-          "pop": 0.3,
+          "pop": 0.72,
           "has_rain": true,
-          "rain_start_time": "17:00"
+          "rain_start_time": "15:00"
         },
         {
           "date": "2026-08-26",
-          "pop": 0.2,
+          "pop": 0.37,
           "has_rain": true,
           "rain_start_time": "13:00"
         },
         {
           "date": "2026-08-27",
-          "pop": 0.44,
+          "pop": 0.9,
           "has_rain": true,
           "rain_start_time": null
         }
@@ -2377,23 +1712,29 @@
       "lat": 36.6424,
       "lon": 127.489,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "자외선이 '높음' 단계예요",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "rain_start_time": null,
-        "current_temp": 28.0,
-        "current_feels_like": 31.8,
-        "max_temp": 30.7,
+        "state_code": "UMBRELLA",
+        "title": "오후 4:00부터 비 소식이 있어요",
+        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+        "rain_start_time": "16:00",
+        "current_temp": 30.0,
+        "current_feels_like": 35.1,
+        "max_temp": 30.8,
         "feels_like_max": 37.7,
-        "max_uvi": 7.8,
+        "max_uvi": 3.2,
         "temp_diff": 6.7,
         "alert_event": null,
         "preparations": [
           {
+            "type": "UMBRELLA",
+            "title": "오후 4:00부터 비 소식이 있어요",
+            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+            "rain_start_time": "16:00"
+          },
+          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -2402,9 +1743,9 @@
       "forecast": [
         {
           "date": "2026-08-25",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
+          "pop": 0.73,
+          "has_rain": true,
+          "rain_start_time": "16:00"
         },
         {
           "date": "2026-08-26",
@@ -2414,9 +1755,9 @@
         },
         {
           "date": "2026-08-27",
-          "pop": 0.99,
-          "has_rain": true,
-          "rain_start_time": "03:00"
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
         }
       ]
     },
@@ -2428,29 +1769,29 @@
       "lat": 36.9911,
       "lon": 127.926,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오후 2:00부터 비 소식이 있어요",
+        "title": "오후 3:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "14:00",
-        "current_temp": 31.6,
-        "current_feels_like": 38.6,
-        "max_temp": 31.9,
-        "feels_like_max": 38.9,
-        "max_uvi": 7.5,
-        "temp_diff": 7.3,
+        "rain_start_time": "15:00",
+        "current_temp": 31.7,
+        "current_feels_like": 38.7,
+        "max_temp": 31.7,
+        "feels_like_max": 38.7,
+        "max_uvi": 2.9,
+        "temp_diff": 7.1,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오후 2:00부터 비 소식이 있어요",
+            "title": "오후 3:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "14:00"
+            "rain_start_time": "15:00"
           },
           {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -2461,7 +1802,7 @@
           "date": "2026-08-25",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "14:00"
+          "rain_start_time": "15:00"
         },
         {
           "date": "2026-08-26",
@@ -2471,7 +1812,7 @@
         },
         {
           "date": "2026-08-27",
-          "pop": 0.36,
+          "pop": 0,
           "has_rain": false,
           "rain_start_time": null
         }
@@ -2485,40 +1826,20 @@
       "lat": 36.8151,
       "lon": 127.1139,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "UMBRELLA",
+        "title": "오후 4:00부터 비 소식이 있어요",
+        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
         "rain_start_time": "16:00",
-        "current_temp": 30.8,
-        "current_feels_like": 37.1,
-        "max_temp": 31.4,
-        "feels_like_max": 38.4,
-        "max_uvi": 7.8,
-        "temp_diff": 6.8,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_temp": 32.8,
+        "current_feels_like": 37.4,
+        "max_temp": 32.7,
+        "feels_like_max": 39.2,
+        "max_uvi": 3.2,
+        "temp_diff": 8.2,
+        "alert_event": null,
         "preparations": [
-          {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
           {
             "type": "UMBRELLA",
             "title": "오후 4:00부터 비 소식이 있어요",
@@ -2527,7 +1848,7 @@
           },
           {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -2536,7 +1857,7 @@
       "forecast": [
         {
           "date": "2026-08-25",
-          "pop": 0.81,
+          "pop": 0.9,
           "has_rain": true,
           "rain_start_time": "16:00"
         },
@@ -2562,40 +1883,20 @@
       "lat": 36.7898,
       "lon": 127.0018,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "UMBRELLA",
+        "title": "오후 4:00부터 비 소식이 있어요",
+        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
         "rain_start_time": "16:00",
-        "current_temp": 30.9,
-        "current_feels_like": 37.4,
-        "max_temp": 31.6,
-        "feels_like_max": 38.6,
-        "max_uvi": 7.8,
-        "temp_diff": 6.6,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_temp": 32.9,
+        "current_feels_like": 37.7,
+        "max_temp": 32.8,
+        "feels_like_max": 39.5,
+        "max_uvi": 3.2,
+        "temp_diff": 7.9,
+        "alert_event": null,
         "preparations": [
-          {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
           {
             "type": "UMBRELLA",
             "title": "오후 4:00부터 비 소식이 있어요",
@@ -2604,7 +1905,7 @@
           },
           {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -2613,7 +1914,7 @@
       "forecast": [
         {
           "date": "2026-08-25",
-          "pop": 0.92,
+          "pop": 0.9,
           "has_rain": true,
           "rain_start_time": "16:00"
         },
@@ -2639,43 +1940,23 @@
       "lat": 36.7801,
       "lon": 126.4503,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 31.4,
-        "current_feels_like": 38.4,
-        "max_temp": 31.4,
-        "feels_like_max": 38.5,
-        "max_uvi": 8.0,
-        "temp_diff": 6.6,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_temp": 31.6,
+        "current_feels_like": 38.6,
+        "max_temp": 31.6,
+        "feels_like_max": 38.6,
+        "max_uvi": 3.4,
+        "temp_diff": 6.8,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -2710,44 +1991,20 @@
       "lat": 35.8242,
       "lon": 127.148,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 32.5,
-        "current_feels_like": 39.0,
-        "max_temp": 32.9,
-        "feels_like_max": 39.9,
-        "max_uvi": 5.7,
-        "temp_diff": 8.5,
-        "alert_event": "폭염주의보",
-        "alert_events": [
-          "폭염주의보",
-          "열대야주의보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염",
-          "열대야"
-        ],
+        "current_temp": 32.7,
+        "current_feels_like": 39.7,
+        "max_temp": 32.8,
+        "feels_like_max": 39.8,
+        "max_uvi": 2.9,
+        "temp_diff": 8.4,
+        "alert_event": null,
         "preparations": [
-          {
-            "type": "ALERT",
-            "title": "폭염주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염주의보",
-            "alert_events": [
-              "폭염주의보",
-              "열대야주의보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염",
-              "열대야"
-            ]
-          },
           {
             "type": "PARASOL",
             "title": "볕이 뜨거워요. 양산 챙길까요?",
@@ -2759,19 +2016,19 @@
       "forecast": [
         {
           "date": "2026-08-25",
-          "pop": 0,
+          "pop": 0.22,
           "has_rain": false,
           "rain_start_time": null
         },
         {
           "date": "2026-08-26",
-          "pop": 0.31,
-          "has_rain": true,
-          "rain_start_time": "23:00"
+          "pop": 0.19,
+          "has_rain": false,
+          "rain_start_time": null
         },
         {
           "date": "2026-08-27",
-          "pop": 1,
+          "pop": 0.47,
           "has_rain": true,
           "rain_start_time": "02:00"
         }
@@ -2785,47 +2042,23 @@
       "lat": 35.9677,
       "lon": 126.7366,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
         "current_temp": 32.0,
-        "current_feels_like": 37.6,
-        "max_temp": 32.0,
-        "feels_like_max": 38.9,
-        "max_uvi": 7.5,
+        "current_feels_like": 39.0,
+        "max_temp": 31.9,
+        "feels_like_max": 39.0,
+        "max_uvi": 3.3,
         "temp_diff": 7.3,
-        "alert_event": "폭염주의보",
-        "alert_events": [
-          "폭염주의보",
-          "열대야주의보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염",
-          "열대야"
-        ],
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염주의보",
-            "alert_events": [
-              "폭염주의보",
-              "열대야주의보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염",
-              "열대야"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -2846,7 +2079,7 @@
         },
         {
           "date": "2026-08-27",
-          "pop": 0.19,
+          "pop": 0,
           "has_rain": false,
           "rain_start_time": null
         }
@@ -2860,47 +2093,29 @@
       "lat": 35.9483,
       "lon": 126.9578,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
+        "state_code": "UMBRELLA",
+        "title": "오후 3:00부터 비 소식이 있어요",
+        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+        "rain_start_time": "15:00",
         "current_temp": 32.5,
         "current_feels_like": 39.5,
         "max_temp": 32.5,
         "feels_like_max": 39.5,
-        "max_uvi": 7.5,
+        "max_uvi": 3.3,
         "temp_diff": 8.1,
-        "alert_event": "폭염주의보",
-        "alert_events": [
-          "폭염주의보",
-          "열대야주의보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염",
-          "열대야"
-        ],
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염주의보",
-            "alert_events": [
-              "폭염주의보",
-              "열대야주의보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염",
-              "열대야"
-            ]
+            "type": "UMBRELLA",
+            "title": "오후 3:00부터 비 소식이 있어요",
+            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+            "rain_start_time": "15:00"
           },
           {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -2909,9 +2124,9 @@
       "forecast": [
         {
           "date": "2026-08-25",
-          "pop": 0.2,
+          "pop": 0.53,
           "has_rain": true,
-          "rain_start_time": null
+          "rain_start_time": "15:00"
         },
         {
           "date": "2026-08-26",
@@ -2921,9 +2136,9 @@
         },
         {
           "date": "2026-08-27",
-          "pop": 0.88,
+          "pop": 0.2,
           "has_rain": true,
-          "rain_start_time": "10:00"
+          "rain_start_time": "02:00"
         }
       ]
     },
@@ -2935,43 +2150,23 @@
       "lat": 34.8118,
       "lon": 126.3922,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 32.8,
-        "current_feels_like": 37.4,
-        "max_temp": 32.8,
-        "feels_like_max": 39.6,
-        "max_uvi": 8.1,
-        "temp_diff": 8.6,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_temp": 31.8,
+        "current_feels_like": 37.2,
+        "max_temp": 31.9,
+        "feels_like_max": 38.8,
+        "max_uvi": 3.5,
+        "temp_diff": 7.7,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '매우 높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -2992,9 +2187,9 @@
         },
         {
           "date": "2026-08-27",
-          "pop": 0.62,
+          "pop": 0.29,
           "has_rain": true,
-          "rain_start_time": "13:00"
+          "rain_start_time": null
         }
       ]
     },
@@ -3006,43 +2201,23 @@
       "lat": 34.7604,
       "lon": 127.6622,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 32.0,
-        "current_feels_like": 38.6,
-        "max_temp": 32.2,
-        "feels_like_max": 39.2,
-        "max_uvi": 8.0,
-        "temp_diff": 7.1,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_temp": 32.5,
+        "current_feels_like": 39.5,
+        "max_temp": 32.5,
+        "feels_like_max": 39.5,
+        "max_uvi": 3.1,
+        "temp_diff": 7.4,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '매우 높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -3057,7 +2232,7 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 0,
+          "pop": 0.12,
           "has_rain": false,
           "rain_start_time": null
         },
@@ -3065,7 +2240,7 @@
           "date": "2026-08-27",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "09:00"
+          "rain_start_time": "02:00"
         }
       ]
     },
@@ -3077,43 +2252,23 @@
       "lat": 34.9506,
       "lon": 127.4872,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 34.4,
-        "current_feels_like": 38.9,
-        "max_temp": 34.4,
-        "feels_like_max": 40.4,
-        "max_uvi": 8.1,
-        "temp_diff": 9.9,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염"
-        ],
+        "current_temp": 34.2,
+        "current_feels_like": 39.1,
+        "max_temp": 34.2,
+        "feels_like_max": 39.7,
+        "max_uvi": 3.3,
+        "temp_diff": 9.7,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '매우 높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -3128,15 +2283,15 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 0.11,
-          "has_rain": false,
-          "rain_start_time": null
+          "pop": 0.99,
+          "has_rain": true,
+          "rain_start_time": "18:00"
         },
         {
           "date": "2026-08-27",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": null
+          "rain_start_time": "02:00"
         }
       ]
     },
@@ -3148,47 +2303,23 @@
       "lat": 36.019,
       "lon": 129.3435,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 34.3,
-        "current_feels_like": 38.0,
-        "max_temp": 34.6,
-        "feels_like_max": 40.8,
-        "max_uvi": 7.7,
-        "temp_diff": 9.7,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보",
-          "열대야주의보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염",
-          "열대야"
-        ],
+        "current_temp": 34.6,
+        "current_feels_like": 38.6,
+        "max_temp": 34.7,
+        "feels_like_max": 40.9,
+        "max_uvi": 3.0,
+        "temp_diff": 9.8,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보",
-              "열대야주의보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염",
-              "열대야"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -3203,7 +2334,7 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 1,
+          "pop": 0.37,
           "has_rain": true,
           "rain_start_time": "17:00"
         },
@@ -3211,7 +2342,7 @@
           "date": "2026-08-27",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "00:00"
+          "rain_start_time": "03:00"
         }
       ]
     },
@@ -3223,47 +2354,23 @@
       "lat": 36.1195,
       "lon": 128.3445,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
         "current_temp": 31.8,
-        "current_feels_like": 35.2,
-        "max_temp": 34.3,
-        "feels_like_max": 40.7,
-        "max_uvi": 7.6,
-        "temp_diff": 9.6,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보",
-          "열대야주의보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염",
-          "열대야"
-        ],
+        "current_feels_like": 34.5,
+        "max_temp": 33.3,
+        "feels_like_max": 39.6,
+        "max_uvi": 3.1,
+        "temp_diff": 8.6,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보",
-              "열대야주의보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염",
-              "열대야"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -3278,7 +2385,7 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 1,
+          "pop": 0.69,
           "has_rain": true,
           "rain_start_time": "21:00"
         },
@@ -3298,44 +2405,20 @@
       "lat": 36.5684,
       "lon": 128.7294,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "UMBRELLA",
+        "title": "오후 5:00부터 비 소식이 있어요",
+        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
         "rain_start_time": "17:00",
-        "current_temp": 32.1,
-        "current_feels_like": 35.9,
-        "max_temp": 32.6,
-        "feels_like_max": 38.2,
-        "max_uvi": 6.2,
-        "temp_diff": 9.1,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보",
-          "열대야주의보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염",
-          "열대야"
-        ],
+        "current_temp": 32.7,
+        "current_feels_like": 36.5,
+        "max_temp": 32.7,
+        "feels_like_max": 38.6,
+        "max_uvi": 3.1,
+        "temp_diff": 9.2,
+        "alert_event": null,
         "preparations": [
-          {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보",
-              "열대야주의보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염",
-              "열대야"
-            ]
-          },
           {
             "type": "UMBRELLA",
             "title": "오후 5:00부터 비 소식이 있어요",
@@ -3344,7 +2427,7 @@
           },
           {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -3353,13 +2436,13 @@
       "forecast": [
         {
           "date": "2026-08-25",
-          "pop": 0.36,
+          "pop": 0.56,
           "has_rain": true,
           "rain_start_time": "17:00"
         },
         {
           "date": "2026-08-26",
-          "pop": 0.04,
+          "pop": 0,
           "has_rain": false,
           "rain_start_time": null
         },
@@ -3367,7 +2450,7 @@
           "date": "2026-08-27",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "01:00"
+          "rain_start_time": "03:00"
         }
       ]
     },
@@ -3379,55 +2462,24 @@
       "lat": 35.2279,
       "lon": 128.6811,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
         "current_temp": 34.8,
-        "current_feels_like": 40.7,
-        "max_temp": 35.9,
-        "feels_like_max": 42.9,
-        "max_uvi": 7.8,
-        "temp_diff": 10.5,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보",
-          "폭염주의보",
-          "풍랑주의보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염",
-          "풍랑"
-        ],
+        "current_feels_like": 41.5,
+        "max_temp": 35.1,
+        "feels_like_max": 42.1,
+        "max_uvi": 3.1,
+        "temp_diff": 9.6,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보",
-              "폭염주의보",
-              "풍랑주의보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염",
-              "풍랑"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
-          },
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 10°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": false
@@ -3441,15 +2493,15 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 1,
+          "pop": 0.88,
           "has_rain": true,
-          "rain_start_time": "20:00"
+          "rain_start_time": "18:00"
         },
         {
           "date": "2026-08-27",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "00:00"
+          "rain_start_time": "05:00"
         }
       ]
     },
@@ -3461,49 +2513,23 @@
       "lat": 35.1802,
       "lon": 128.1076,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 35.3,
-        "current_feels_like": 40.9,
-        "max_temp": 35.7,
-        "feels_like_max": 42.7,
-        "max_uvi": 7.9,
-        "temp_diff": 11.1,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보",
-          "폭염주의보",
-          "풍랑주의보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염",
-          "풍랑"
-        ],
+        "current_temp": 35.2,
+        "current_feels_like": 40.7,
+        "max_temp": 35.3,
+        "feels_like_max": 42.3,
+        "max_uvi": 3.2,
+        "temp_diff": 10.7,
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보",
-              "폭염주의보",
-              "풍랑주의보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염",
-              "풍랑"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           },
           {
@@ -3523,15 +2549,15 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 0.02,
-          "has_rain": false,
-          "rain_start_time": null
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": "19:00"
         },
         {
           "date": "2026-08-27",
-          "pop": 0.57,
+          "pop": 1,
           "has_rain": true,
-          "rain_start_time": "11:00"
+          "rain_start_time": "01:00"
         }
       ]
     },
@@ -3543,49 +2569,23 @@
       "lat": 33.4996,
       "lon": 126.5312,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
         "current_temp": 30.7,
         "current_feels_like": 35.8,
         "max_temp": 30.7,
-        "feels_like_max": 35.9,
-        "max_uvi": 8.2,
+        "feels_like_max": 36,
+        "max_uvi": 3.4,
         "temp_diff": 5.3,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보",
-          "폭염주의보",
-          "풍랑주의보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염",
-          "풍랑"
-        ],
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보",
-              "폭염주의보",
-              "풍랑주의보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염",
-              "풍랑"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '매우 높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -3600,15 +2600,15 @@
         },
         {
           "date": "2026-08-26",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
+          "pop": 0.26,
+          "has_rain": true,
+          "rain_start_time": "15:00"
         },
         {
           "date": "2026-08-27",
-          "pop": 1,
+          "pop": 0.91,
           "has_rain": true,
-          "rain_start_time": "05:00"
+          "rain_start_time": "08:00"
         }
       ]
     },
@@ -3620,49 +2620,23 @@
       "lat": 33.2541,
       "lon": 126.5601,
       "status": "ok",
-      "fetched_at": "2026-08-25T14:01:52+09:00",
+      "fetched_at": "2026-08-25T15:25:48+09:00",
       "recommendation": {
-        "state_code": "ALERT",
-        "title": "폭염경보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
         "current_temp": 30.6,
         "current_feels_like": 37.2,
-        "max_temp": 30.6,
-        "feels_like_max": 37.2,
-        "max_uvi": 8.2,
+        "max_temp": 30.4,
+        "feels_like_max": 37.0,
+        "max_uvi": 3.4,
         "temp_diff": 4.8,
-        "alert_event": "폭염경보",
-        "alert_events": [
-          "폭염경보",
-          "폭염주의보",
-          "풍랑주의보"
-        ],
-        "alert_type": "폭염",
-        "alert_types": [
-          "폭염",
-          "풍랑"
-        ],
+        "alert_event": null,
         "preparations": [
           {
-            "type": "ALERT",
-            "title": "폭염경보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "폭염경보",
-            "alert_events": [
-              "폭염경보",
-              "폭염주의보",
-              "풍랑주의보"
-            ],
-            "alert_type": "폭염",
-            "alert_types": [
-              "폭염",
-              "풍랑"
-            ]
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '매우 높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -3685,7 +2659,7 @@
           "date": "2026-08-27",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "03:00"
+          "rain_start_time": "07:00"
         }
       ]
     }
