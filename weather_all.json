@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "2.1",
-    "updated_at": "2026-09-03T02:02:08+09:00",
+    "updated_at": "2026-09-03T04:26:26+09:00",
     "status": "ok",
     "source": "OpenWeatherMap One Call API 3.0 50 + KMA Alerts (Hybrid Real Data - 50/50)",
     "providers": {
@@ -23,18 +23,18 @@
       "lat": 37.57,
       "lon": 126.9796,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 21.8,
-        "current_feels_like": 22.7,
-        "max_temp": 31.6,
-        "feels_like_max": 30.5,
-        "max_uvi": 7.6,
-        "temp_diff": 10.3,
+        "current_temp": 20.8,
+        "current_feels_like": 21.6,
+        "max_temp": 33.3,
+        "feels_like_max": 32.6,
+        "max_uvi": 7.7,
+        "temp_diff": 12.5,
         "alert_event": null,
         "preparations": [
           {
@@ -44,7 +44,7 @@
           },
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "title": "낮과 밤의 기온 차가 12°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -79,24 +79,29 @@
       "lat": 37.4979,
       "lon": 127.0276,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 21.9,
-        "current_feels_like": 22.8,
-        "max_temp": 31.4,
-        "feels_like_max": 30.7,
-        "max_uvi": 7.6,
-        "temp_diff": 9.9,
+        "current_temp": 20.9,
+        "current_feels_like": 21.6,
+        "max_temp": 33.7,
+        "feels_like_max": 33.6,
+        "max_uvi": 7.8,
+        "temp_diff": 12.8,
         "alert_event": null,
         "preparations": [
           {
             "type": "PARASOL",
             "title": "자외선이 '높음' 단계예요",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+          },
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 13°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": true
@@ -130,24 +135,29 @@
       "lat": 37.5145,
       "lon": 127.1066,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 22.1,
-        "current_feels_like": 23.0,
-        "max_temp": 31.5,
-        "feels_like_max": 30.9,
-        "max_uvi": 7.6,
-        "temp_diff": 10.0,
+        "current_temp": 22.9,
+        "current_feels_like": 23.7,
+        "max_temp": 33.9,
+        "feels_like_max": 34.3,
+        "max_uvi": 7.7,
+        "temp_diff": 11.3,
         "alert_event": null,
         "preparations": [
           {
             "type": "PARASOL",
             "title": "자외선이 '높음' 단계예요",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+          },
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": true
@@ -181,18 +191,18 @@
       "lat": 37.5509,
       "lon": 126.8495,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 22.0,
-        "current_feels_like": 22.9,
-        "max_temp": 32.0,
-        "feels_like_max": 31.0,
-        "max_uvi": 7.6,
-        "temp_diff": 10.3,
+        "current_temp": 21.0,
+        "current_feels_like": 21.8,
+        "max_temp": 33.6,
+        "feels_like_max": 32.9,
+        "max_uvi": 7.7,
+        "temp_diff": 12.6,
         "alert_event": null,
         "preparations": [
           {
@@ -202,7 +212,7 @@
           },
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "title": "낮과 밤의 기온 차가 13°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -237,18 +247,18 @@
       "lat": 37.6542,
       "lon": 127.0568,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 21.9,
-        "current_feels_like": 22.6,
-        "max_temp": 31.7,
-        "feels_like_max": 31.1,
-        "max_uvi": 7.6,
-        "temp_diff": 10.4,
+        "current_temp": 20.9,
+        "current_feels_like": 21.6,
+        "max_temp": 33.5,
+        "feels_like_max": 33.6,
+        "max_uvi": 7.7,
+        "temp_diff": 12.5,
         "alert_event": null,
         "preparations": [
           {
@@ -258,7 +268,7 @@
           },
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "title": "낮과 밤의 기온 차가 13°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -293,24 +303,29 @@
       "lat": 37.2636,
       "lon": 127.0286,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 22.2,
-        "current_feels_like": 23.1,
-        "max_temp": 30.9,
-        "feels_like_max": 31.1,
-        "max_uvi": 7.6,
-        "temp_diff": 9.2,
+        "current_temp": 20.8,
+        "current_feels_like": 21.5,
+        "max_temp": 33.7,
+        "feels_like_max": 34.2,
+        "max_uvi": 7.8,
+        "temp_diff": 12.9,
         "alert_event": null,
         "preparations": [
           {
             "type": "PARASOL",
             "title": "자외선이 '높음' 단계예요",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+          },
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 13°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": true
@@ -344,24 +359,29 @@
       "lat": 37.3827,
       "lon": 127.1189,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 21.8,
-        "current_feels_like": 22.7,
-        "max_temp": 31.2,
-        "feels_like_max": 30.9,
-        "max_uvi": 7.6,
-        "temp_diff": 9.8,
+        "current_temp": 22.7,
+        "current_feels_like": 23.5,
+        "max_temp": 34.0,
+        "feels_like_max": 34.3,
+        "max_uvi": 7.8,
+        "temp_diff": 11.6,
         "alert_event": null,
         "preparations": [
           {
             "type": "PARASOL",
             "title": "자외선이 '높음' 단계예요",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+          },
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 12°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": true
@@ -395,18 +415,18 @@
       "lat": 37.6583,
       "lon": 126.832,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 22.0,
-        "current_feels_like": 22.8,
-        "max_temp": 31.5,
-        "feels_like_max": 30.7,
-        "max_uvi": 7.6,
-        "temp_diff": 10.0,
+        "current_temp": 21.0,
+        "current_feels_like": 21.7,
+        "max_temp": 33.1,
+        "feels_like_max": 32.9,
+        "max_uvi": 7.7,
+        "temp_diff": 12.1,
         "alert_event": null,
         "preparations": [
           {
@@ -416,7 +436,7 @@
           },
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "title": "낮과 밤의 기온 차가 12°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -451,24 +471,29 @@
       "lat": 37.241,
       "lon": 127.1775,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
         "current_temp": 22.1,
-        "current_feels_like": 23.0,
-        "max_temp": 29.7,
-        "feels_like_max": 29.9,
-        "max_uvi": 7.6,
-        "temp_diff": 8.9,
+        "current_feels_like": 22.9,
+        "max_temp": 32.9,
+        "feels_like_max": 33.2,
+        "max_uvi": 7.8,
+        "temp_diff": 11.3,
         "alert_event": null,
         "preparations": [
           {
             "type": "PARASOL",
             "title": "자외선이 '높음' 단계예요",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+          },
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": true
@@ -502,24 +527,29 @@
       "lat": 37.5034,
       "lon": 126.766,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 22,
-        "current_feels_like": 22.9,
-        "max_temp": 31.6,
-        "feels_like_max": 30.8,
-        "max_uvi": 7.6,
-        "temp_diff": 9.8,
+        "current_temp": 21,
+        "current_feels_like": 21.8,
+        "max_temp": 33.4,
+        "feels_like_max": 33.2,
+        "max_uvi": 7.7,
+        "temp_diff": 12.4,
         "alert_event": null,
         "preparations": [
           {
             "type": "PARASOL",
             "title": "자외선이 '높음' 단계예요",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+          },
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 12°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": true
@@ -553,18 +583,18 @@
       "lat": 37.636,
       "lon": 127.2165,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 21.6,
-        "current_feels_like": 22.3,
-        "max_temp": 30.0,
-        "feels_like_max": 29.5,
-        "max_uvi": 7.6,
-        "temp_diff": 10.6,
+        "current_temp": 20.8,
+        "current_feels_like": 21.5,
+        "max_temp": 32.0,
+        "feels_like_max": 32.3,
+        "max_uvi": 7.7,
+        "temp_diff": 11.4,
         "alert_event": null,
         "preparations": [
           {
@@ -609,24 +639,29 @@
       "lat": 36.9921,
       "lon": 127.1129,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 22.9,
-        "current_feels_like": 23.7,
-        "max_temp": 29.3,
-        "feels_like_max": 31.2,
+        "current_temp": 20.9,
+        "current_feels_like": 21.7,
+        "max_temp": 32.5,
+        "feels_like_max": 37.9,
         "max_uvi": 7.6,
-        "temp_diff": 7.8,
+        "temp_diff": 11.6,
         "alert_event": null,
         "preparations": [
           {
             "type": "PARASOL",
             "title": "자외선이 '높음' 단계예요",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+          },
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 12°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": true
@@ -660,18 +695,18 @@
       "lat": 37.7381,
       "lon": 127.0339,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 21.7,
-        "current_feels_like": 22.4,
-        "max_temp": 30.8,
-        "feels_like_max": 30.3,
-        "max_uvi": 7.6,
-        "temp_diff": 10.2,
+        "current_temp": 20.7,
+        "current_feels_like": 21.4,
+        "max_temp": 32.5,
+        "feels_like_max": 32.6,
+        "max_uvi": 7.7,
+        "temp_diff": 11.8,
         "alert_event": null,
         "preparations": [
           {
@@ -681,7 +716,7 @@
           },
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "title": "낮과 밤의 기온 차가 12°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -716,24 +751,29 @@
       "lat": 37.4475,
       "lon": 126.7314,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 22.0,
-        "current_feels_like": 22.9,
-        "max_temp": 30.5,
-        "feels_like_max": 30.1,
-        "max_uvi": 7.6,
-        "temp_diff": 8.9,
+        "current_temp": 21.0,
+        "current_feels_like": 21.8,
+        "max_temp": 32.7,
+        "feels_like_max": 32.9,
+        "max_uvi": 7.8,
+        "temp_diff": 11.7,
         "alert_event": null,
         "preparations": [
           {
             "type": "PARASOL",
             "title": "자외선이 '높음' 단계예요",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+          },
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 12°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": true
@@ -767,24 +807,29 @@
       "lat": 37.5451,
       "lon": 126.676,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 21.9,
-        "current_feels_like": 22.8,
-        "max_temp": 30.5,
-        "feels_like_max": 30.4,
-        "max_uvi": 7.6,
-        "temp_diff": 8.8,
+        "current_temp": 20.9,
+        "current_feels_like": 21.7,
+        "max_temp": 32.7,
+        "feels_like_max": 33.5,
+        "max_uvi": 7.7,
+        "temp_diff": 11.8,
         "alert_event": null,
         "preparations": [
           {
             "type": "PARASOL",
             "title": "자외선이 '높음' 단계예요",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+          },
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 12°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": true
@@ -818,29 +863,23 @@
       "lat": 35.1631,
       "lon": 129.0536,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
-        "state_code": "UMBRELLA",
-        "title": "오전 2:00부터 비 소식이 있어요",
-        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:00",
+        "state_code": "PARASOL",
+        "title": "볕이 뜨거워요. 양산 챙길까요?",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
+        "rain_start_time": null,
         "current_temp": 25.9,
         "current_feels_like": 26.9,
-        "max_temp": 28.0,
-        "feels_like_max": 31.1,
-        "max_uvi": 7.5,
-        "temp_diff": 4.3,
+        "max_temp": 29.1,
+        "feels_like_max": 33.1,
+        "max_uvi": 5.3,
+        "temp_diff": 4.4,
         "alert_event": null,
         "preparations": [
           {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -851,18 +890,18 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": null
         },
         {
           "date": "2026-09-04",
-          "pop": 0.4,
-          "has_rain": true,
-          "rain_start_time": "00:00"
+          "pop": 0.09,
+          "has_rain": false,
+          "rain_start_time": null
         },
         {
           "date": "2026-09-05",
-          "pop": 0,
-          "has_rain": false,
+          "pop": 0.39,
+          "has_rain": true,
           "rain_start_time": null
         }
       ]
@@ -875,29 +914,29 @@
       "lat": 35.1631,
       "lon": 129.1636,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오전 2:00부터 비 소식이 있어요",
+        "title": "오전 4:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:00",
+        "rain_start_time": "04:00",
         "current_temp": 26.0,
         "current_feels_like": 26.0,
-        "max_temp": 28.2,
-        "feels_like_max": 32.2,
-        "max_uvi": 7.5,
-        "temp_diff": 3.6,
+        "max_temp": 29.0,
+        "feels_like_max": 34.2,
+        "max_uvi": 5.3,
+        "temp_diff": 3.8,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
+            "title": "오전 4:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
+            "rain_start_time": "04:00"
           },
           {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -908,18 +947,18 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "04:00"
         },
         {
           "date": "2026-09-04",
-          "pop": 0.79,
+          "pop": 0.49,
           "has_rain": true,
-          "rain_start_time": "00:00"
+          "rain_start_time": "01:00"
         },
         {
           "date": "2026-09-05",
-          "pop": 0,
-          "has_rain": false,
+          "pop": 0.43,
+          "has_rain": true,
           "rain_start_time": null
         }
       ]
@@ -932,29 +971,23 @@
       "lat": 35.1526,
       "lon": 128.9911,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
-        "state_code": "UMBRELLA",
-        "title": "오전 2:00부터 비 소식이 있어요",
-        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:00",
+        "state_code": "PARASOL",
+        "title": "자외선이 '높음' 단계예요",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
+        "rain_start_time": null,
         "current_temp": 26.0,
         "current_feels_like": 26.0,
-        "max_temp": 28.4,
-        "feels_like_max": 31.9,
-        "max_uvi": 8.4,
-        "temp_diff": 4.4,
+        "max_temp": 29.5,
+        "feels_like_max": 33.9,
+        "max_uvi": 6.5,
+        "temp_diff": 4.6,
         "alert_event": null,
         "preparations": [
           {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
-          },
-          {
             "type": "PARASOL",
-            "title": "자외선이 '매우 높음' 단계예요",
+            "title": "자외선이 '높음' 단계예요",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -965,18 +998,18 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": null
         },
         {
           "date": "2026-09-04",
-          "pop": 0.3,
-          "has_rain": true,
-          "rain_start_time": "00:00"
+          "pop": 0.03,
+          "has_rain": false,
+          "rain_start_time": null
         },
         {
           "date": "2026-09-05",
-          "pop": 0,
-          "has_rain": false,
+          "pop": 0.33,
+          "has_rain": true,
           "rain_start_time": null
         }
       ]
@@ -989,32 +1022,20 @@
       "lat": 35.0912,
       "lon": 129.0679,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
-        "state_code": "UMBRELLA",
-        "title": "오전 2:00부터 비 소식이 있어요",
-        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:00",
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
         "current_temp": 25.7,
         "current_feels_like": 26.7,
         "max_temp": 27.9,
-        "feels_like_max": 31.0,
-        "max_uvi": 7.5,
-        "temp_diff": 2.7,
+        "feels_like_max": 31.1,
+        "max_uvi": 5.3,
+        "temp_diff": 2.2,
         "alert_event": null,
-        "preparations": [
-          {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
-          },
-          {
-            "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
-            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
-          }
-        ],
+        "preparations": [],
         "is_night": true
       },
       "forecast": [
@@ -1022,18 +1043,18 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": null
         },
         {
           "date": "2026-09-04",
-          "pop": 0.64,
-          "has_rain": true,
-          "rain_start_time": "00:00"
+          "pop": 0.27,
+          "has_rain": false,
+          "rain_start_time": null
         },
         {
           "date": "2026-09-05",
-          "pop": 0,
-          "has_rain": false,
+          "pop": 0.37,
+          "has_rain": true,
           "rain_start_time": null
         }
       ]
@@ -1046,29 +1067,29 @@
       "lat": 35.8669,
       "lon": 128.5942,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오전 2:02부터 비 소식이 있어요",
+        "title": "오후 12:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:02",
+        "rain_start_time": "12:00",
         "current_temp": 24.9,
         "current_feels_like": 25.9,
-        "max_temp": 27.8,
-        "feels_like_max": 31.4,
-        "max_uvi": 6.7,
-        "temp_diff": 4.0,
+        "max_temp": 29.7,
+        "feels_like_max": 34.9,
+        "max_uvi": 5.0,
+        "temp_diff": 5.4,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오전 2:02부터 비 소식이 있어요",
+            "title": "오후 12:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:02"
+            "rain_start_time": "12:00"
           },
           {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -1079,7 +1100,7 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "12:00"
         },
         {
           "date": "2026-09-04",
@@ -1089,8 +1110,8 @@
         },
         {
           "date": "2026-09-05",
-          "pop": 0.2,
-          "has_rain": true,
+          "pop": 0.09,
+          "has_rain": false,
           "rain_start_time": null
         }
       ]
@@ -1103,29 +1124,29 @@
       "lat": 35.8865,
       "lon": 128.6355,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오전 2:02부터 비 소식이 있어요",
+        "title": "오후 1:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:02",
+        "rain_start_time": "13:00",
         "current_temp": 25.0,
         "current_feels_like": 26.0,
-        "max_temp": 27.8,
-        "feels_like_max": 31.4,
-        "max_uvi": 6.7,
-        "temp_diff": 4.0,
+        "max_temp": 29.7,
+        "feels_like_max": 34.7,
+        "max_uvi": 5.0,
+        "temp_diff": 5.4,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오전 2:02부터 비 소식이 있어요",
+            "title": "오후 1:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:02"
+            "rain_start_time": "13:00"
           },
           {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -1136,7 +1157,7 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "13:00"
         },
         {
           "date": "2026-09-04",
@@ -1160,29 +1181,29 @@
       "lat": 35.8299,
       "lon": 128.5326,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오전 2:02부터 비 소식이 있어요",
+        "title": "오후 1:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:02",
+        "rain_start_time": "13:00",
         "current_temp": 24.9,
         "current_feels_like": 25.9,
-        "max_temp": 27.7,
-        "feels_like_max": 30.9,
-        "max_uvi": 6.7,
-        "temp_diff": 4.0,
+        "max_temp": 29.7,
+        "feels_like_max": 34.8,
+        "max_uvi": 5.0,
+        "temp_diff": 5.5,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오전 2:02부터 비 소식이 있어요",
+            "title": "오후 1:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:02"
+            "rain_start_time": "13:00"
           },
           {
             "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -1193,7 +1214,7 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "13:00"
         },
         {
           "date": "2026-09-04",
@@ -1203,8 +1224,8 @@
         },
         {
           "date": "2026-09-05",
-          "pop": 0.2,
-          "has_rain": true,
+          "pop": 0.02,
+          "has_rain": false,
           "rain_start_time": null
         }
       ]
@@ -1217,25 +1238,25 @@
       "lat": 36.3554,
       "lon": 127.3838,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오후 5:00부터 비 소식이 있어요",
+        "title": "오후 4:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "17:00",
-        "current_temp": 23.0,
-        "current_feels_like": 23.8,
-        "max_temp": 29.4,
-        "feels_like_max": 32.0,
-        "max_uvi": 6.9,
-        "temp_diff": 7.3,
+        "rain_start_time": "16:00",
+        "current_temp": 22.7,
+        "current_feels_like": 23.5,
+        "max_temp": 30.3,
+        "feels_like_max": 34.3,
+        "max_uvi": 8.0,
+        "temp_diff": 7.9,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오후 5:00부터 비 소식이 있어요",
+            "title": "오후 4:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "17:00"
+            "rain_start_time": "16:00"
           },
           {
             "type": "PARASOL",
@@ -1248,9 +1269,9 @@
       "forecast": [
         {
           "date": "2026-09-03",
-          "pop": 0.37,
+          "pop": 0.83,
           "has_rain": true,
-          "rain_start_time": "17:00"
+          "rain_start_time": "16:00"
         },
         {
           "date": "2026-09-04",
@@ -1274,25 +1295,25 @@
       "lat": 36.3622,
       "lon": 127.3562,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오후 5:00부터 비 소식이 있어요",
+        "title": "오후 4:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "17:00",
-        "current_temp": 22.9,
-        "current_feels_like": 23.6,
-        "max_temp": 29.4,
-        "feels_like_max": 31.9,
-        "max_uvi": 6.9,
-        "temp_diff": 7.5,
+        "rain_start_time": "16:00",
+        "current_temp": 22.6,
+        "current_feels_like": 23.4,
+        "max_temp": 30.1,
+        "feels_like_max": 33.9,
+        "max_uvi": 8.0,
+        "temp_diff": 7.8,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오후 5:00부터 비 소식이 있어요",
+            "title": "오후 4:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "17:00"
+            "rain_start_time": "16:00"
           },
           {
             "type": "PARASOL",
@@ -1305,9 +1326,9 @@
       "forecast": [
         {
           "date": "2026-09-03",
-          "pop": 0.31,
+          "pop": 0.74,
           "has_rain": true,
-          "rain_start_time": "17:00"
+          "rain_start_time": "16:00"
         },
         {
           "date": "2026-09-04",
@@ -1331,25 +1352,25 @@
       "lat": 35.152,
       "lon": 126.8901,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오후 4:00부터 비 소식이 있어요",
+        "title": "오전 4:22부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "16:00",
-        "current_temp": 23.9,
-        "current_feels_like": 24.9,
-        "max_temp": 30.3,
-        "feels_like_max": 33.7,
-        "max_uvi": 7.1,
-        "temp_diff": 7.1,
+        "rain_start_time": "04:22",
+        "current_temp": 23.7,
+        "current_feels_like": 24.5,
+        "max_temp": 30.4,
+        "feels_like_max": 34.3,
+        "max_uvi": 6.2,
+        "temp_diff": 7.0,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오후 4:00부터 비 소식이 있어요",
+            "title": "오전 4:22부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "16:00"
+            "rain_start_time": "04:22"
           },
           {
             "type": "PARASOL",
@@ -1364,7 +1385,7 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "16:00"
+          "rain_start_time": "05:00"
         },
         {
           "date": "2026-09-04",
@@ -1388,25 +1409,25 @@
       "lat": 35.1396,
       "lon": 126.7936,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오후 4:00부터 비 소식이 있어요",
+        "title": "오후 1:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "16:00",
-        "current_temp": 23.6,
-        "current_feels_like": 24.4,
-        "max_temp": 29.7,
-        "feels_like_max": 33.1,
-        "max_uvi": 7.1,
+        "rain_start_time": "13:00",
+        "current_temp": 23.3,
+        "current_feels_like": 24.1,
+        "max_temp": 29.9,
+        "feels_like_max": 33.3,
+        "max_uvi": 6.2,
         "temp_diff": 6.9,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오후 4:00부터 비 소식이 있어요",
+            "title": "오후 1:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "16:00"
+            "rain_start_time": "13:00"
           },
           {
             "type": "PARASOL",
@@ -1421,11 +1442,11 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "16:00"
+          "rain_start_time": "13:00"
         },
         {
           "date": "2026-09-04",
-          "pop": 0,
+          "pop": 0.03,
           "has_rain": false,
           "rain_start_time": null
         },
@@ -1445,25 +1466,30 @@
       "lat": 35.5437,
       "lon": 129.33,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오전 2:00부터 비 소식이 있어요",
+        "title": "오후 2:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 24.2,
-        "current_feels_like": 25.2,
-        "max_temp": 27.2,
-        "feels_like_max": 30.4,
-        "max_uvi": 5.9,
-        "temp_diff": 3.7,
+        "rain_start_time": "14:00",
+        "current_temp": 24.1,
+        "current_feels_like": 25.0,
+        "max_temp": 28.1,
+        "feels_like_max": 32.8,
+        "max_uvi": 5.1,
+        "temp_diff": 4.1,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
+            "title": "오후 2:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
+            "rain_start_time": "14:00"
+          },
+          {
+            "type": "PARASOL",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
+            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
         "is_night": true
@@ -1473,17 +1499,17 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "14:00"
         },
         {
           "date": "2026-09-04",
-          "pop": 0.38,
-          "has_rain": false,
-          "rain_start_time": null
+          "pop": 0.46,
+          "has_rain": true,
+          "rain_start_time": "01:00"
         },
         {
           "date": "2026-09-05",
-          "pop": 0.47,
+          "pop": 0.75,
           "has_rain": true,
           "rain_start_time": null
         }
@@ -1497,25 +1523,30 @@
       "lat": 35.5387,
       "lon": 129.1444,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오전 2:00부터 비 소식이 있어요",
+        "title": "오후 2:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 24.1,
-        "current_feels_like": 25.0,
-        "max_temp": 27.5,
-        "feels_like_max": 31.4,
-        "max_uvi": 5.9,
-        "temp_diff": 4.6,
+        "rain_start_time": "14:00",
+        "current_temp": 23.9,
+        "current_feels_like": 24.9,
+        "max_temp": 28.4,
+        "feels_like_max": 34.7,
+        "max_uvi": 5.1,
+        "temp_diff": 5.1,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
+            "title": "오후 2:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
+            "rain_start_time": "14:00"
+          },
+          {
+            "type": "PARASOL",
+            "title": "볕이 뜨거워요. 양산 챙길까요?",
+            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
         "is_night": true
@@ -1525,17 +1556,17 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "14:00"
         },
         {
           "date": "2026-09-04",
-          "pop": 0.06,
-          "has_rain": false,
-          "rain_start_time": null
+          "pop": 0.21,
+          "has_rain": true,
+          "rain_start_time": "01:00"
         },
         {
           "date": "2026-09-05",
-          "pop": 0.37,
+          "pop": 0.23,
           "has_rain": true,
           "rain_start_time": null
         }
@@ -1549,25 +1580,25 @@
       "lat": 36.48,
       "lon": 127.289,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오후 5:00부터 비 소식이 있어요",
+        "title": "오후 4:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "17:00",
+        "rain_start_time": "16:00",
         "current_temp": 22.6,
         "current_feels_like": 23.4,
-        "max_temp": 29.7,
-        "feels_like_max": 32.5,
-        "max_uvi": 6.9,
-        "temp_diff": 7.9,
+        "max_temp": 30.1,
+        "feels_like_max": 34.7,
+        "max_uvi": 8.0,
+        "temp_diff": 7.8,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오후 5:00부터 비 소식이 있어요",
+            "title": "오후 4:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "17:00"
+            "rain_start_time": "16:00"
           },
           {
             "type": "PARASOL",
@@ -1580,9 +1611,9 @@
       "forecast": [
         {
           "date": "2026-09-03",
-          "pop": 0.37,
+          "pop": 0.31,
           "has_rain": true,
-          "rain_start_time": "17:00"
+          "rain_start_time": "16:00"
         },
         {
           "date": "2026-09-04",
@@ -1606,18 +1637,18 @@
       "lat": 37.8813,
       "lon": 127.7298,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 20.8,
-        "current_feels_like": 21.5,
-        "max_temp": 29.9,
-        "feels_like_max": 29.8,
-        "max_uvi": 7.8,
-        "temp_diff": 11.4,
+        "current_temp": 20.9,
+        "current_feels_like": 21.6,
+        "max_temp": 31.6,
+        "feels_like_max": 32.4,
+        "max_uvi": 7.9,
+        "temp_diff": 10.9,
         "alert_event": null,
         "preparations": [
           {
@@ -1662,18 +1693,18 @@
       "lat": 37.3422,
       "lon": 127.9202,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 20.6,
-        "current_feels_like": 21.3,
-        "max_temp": 29.7,
-        "feels_like_max": 30.7,
-        "max_uvi": 7.7,
-        "temp_diff": 10.0,
+        "current_temp": 20.5,
+        "current_feels_like": 21.2,
+        "max_temp": 31.1,
+        "feels_like_max": 31.8,
+        "max_uvi": 7.9,
+        "temp_diff": 10.8,
         "alert_event": null,
         "preparations": [
           {
@@ -1683,7 +1714,7 @@
           },
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -1692,7 +1723,7 @@
       "forecast": [
         {
           "date": "2026-09-03",
-          "pop": 0.02,
+          "pop": 0,
           "has_rain": false,
           "rain_start_time": null
         },
@@ -1718,18 +1749,18 @@
       "lat": 37.7519,
       "lon": 128.8761,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
         "title": "오전 7:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
         "rain_start_time": "07:00",
-        "current_temp": 21.6,
-        "current_feels_like": 22.5,
-        "max_temp": 24.2,
-        "feels_like_max": 24.8,
-        "max_uvi": 7.4,
-        "temp_diff": 3.0,
+        "current_temp": 21.9,
+        "current_feels_like": 22.8,
+        "max_temp": 24.8,
+        "feels_like_max": 25.5,
+        "max_uvi": 7.1,
+        "temp_diff": 3.6,
         "alert_event": null,
         "preparations": [
           {
@@ -1757,7 +1788,7 @@
           "date": "2026-09-04",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "00:00"
+          "rain_start_time": "05:00"
         },
         {
           "date": "2026-09-05",
@@ -1775,18 +1806,18 @@
       "lat": 36.6424,
       "lon": 127.489,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
         "title": "오후 4:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
         "rain_start_time": "16:00",
-        "current_temp": 22.0,
-        "current_feels_like": 22.7,
-        "max_temp": 29.5,
-        "feels_like_max": 32.3,
+        "current_temp": 21.0,
+        "current_feels_like": 21.8,
+        "max_temp": 30.6,
+        "feels_like_max": 35.5,
         "max_uvi": 7.6,
-        "temp_diff": 7.9,
+        "temp_diff": 9.6,
         "alert_event": null,
         "preparations": [
           {
@@ -1806,7 +1837,7 @@
       "forecast": [
         {
           "date": "2026-09-03",
-          "pop": 0.83,
+          "pop": 0.46,
           "has_rain": true,
           "rain_start_time": "16:00"
         },
@@ -1832,25 +1863,25 @@
       "lat": 36.9911,
       "lon": 127.926,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오후 4:00부터 비 소식이 있어요",
+        "title": "오후 5:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "16:00",
-        "current_temp": 21.8,
-        "current_feels_like": 22.5,
-        "max_temp": 30.3,
-        "feels_like_max": 32.4,
-        "max_uvi": 7.6,
-        "temp_diff": 9.3,
+        "rain_start_time": "17:00",
+        "current_temp": 22.0,
+        "current_feels_like": 22.8,
+        "max_temp": 31.5,
+        "feels_like_max": 35.0,
+        "max_uvi": 7.2,
+        "temp_diff": 9.8,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오후 4:00부터 비 소식이 있어요",
+            "title": "오후 5:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "16:00"
+            "rain_start_time": "17:00"
           },
           {
             "type": "PARASOL",
@@ -1863,9 +1894,9 @@
       "forecast": [
         {
           "date": "2026-09-03",
-          "pop": 0.77,
+          "pop": 0.46,
           "has_rain": true,
-          "rain_start_time": "16:00"
+          "rain_start_time": "17:00"
         },
         {
           "date": "2026-09-04",
@@ -1889,18 +1920,18 @@
       "lat": 36.8151,
       "lon": 127.1139,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 21.5,
-        "current_feels_like": 22.2,
-        "max_temp": 29.0,
-        "feels_like_max": 31.1,
+        "current_temp": 21.8,
+        "current_feels_like": 22.5,
+        "max_temp": 31.2,
+        "feels_like_max": 35.9,
         "max_uvi": 7.6,
-        "temp_diff": 8.2,
+        "temp_diff": 9.5,
         "alert_event": null,
         "preparations": [
           {
@@ -1940,18 +1971,18 @@
       "lat": 36.7898,
       "lon": 127.0018,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
         "current_temp": 21.9,
-        "current_feels_like": 22.7,
-        "max_temp": 29.0,
-        "feels_like_max": 31.4,
+        "current_feels_like": 22.6,
+        "max_temp": 31.2,
+        "feels_like_max": 35.7,
         "max_uvi": 7.6,
-        "temp_diff": 7.8,
+        "temp_diff": 9.4,
         "alert_event": null,
         "preparations": [
           {
@@ -1991,18 +2022,18 @@
       "lat": 36.7801,
       "lon": 126.4503,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 21.9,
-        "current_feels_like": 22.6,
-        "max_temp": 27.5,
-        "feels_like_max": 29.1,
+        "current_temp": 21.7,
+        "current_feels_like": 22.4,
+        "max_temp": 29.1,
+        "feels_like_max": 31.8,
         "max_uvi": 7.7,
-        "temp_diff": 6.1,
+        "temp_diff": 7.5,
         "alert_event": null,
         "preparations": [
           {
@@ -2042,18 +2073,18 @@
       "lat": 35.8242,
       "lon": 127.148,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
         "title": "오후 1:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
         "rain_start_time": "13:00",
-        "current_temp": 23.6,
-        "current_feels_like": 24.4,
-        "max_temp": 29.2,
-        "feels_like_max": 32.8,
-        "max_uvi": 7.4,
-        "temp_diff": 6.5,
+        "current_temp": 23.1,
+        "current_feels_like": 23.9,
+        "max_temp": 29.9,
+        "feels_like_max": 34.0,
+        "max_uvi": 7.3,
+        "temp_diff": 7.0,
         "alert_event": null,
         "preparations": [
           {
@@ -2073,7 +2104,7 @@
       "forecast": [
         {
           "date": "2026-09-03",
-          "pop": 0.56,
+          "pop": 0.93,
           "has_rain": true,
           "rain_start_time": "13:00"
         },
@@ -2099,18 +2130,18 @@
       "lat": 35.9677,
       "lon": 126.7366,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 23.6,
-        "current_feels_like": 24.4,
-        "max_temp": 28.5,
-        "feels_like_max": 32.0,
-        "max_uvi": 7.0,
-        "temp_diff": 5.7,
+        "current_temp": 24.0,
+        "current_feels_like": 24.7,
+        "max_temp": 28.7,
+        "feels_like_max": 32.1,
+        "max_uvi": 7.4,
+        "temp_diff": 5.5,
         "alert_event": null,
         "preparations": [
           {
@@ -2150,18 +2181,18 @@
       "lat": 35.9483,
       "lon": 126.9578,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
         "title": "오후 5:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
         "rain_start_time": "17:00",
-        "current_temp": 23.3,
-        "current_feels_like": 24.1,
-        "max_temp": 29.0,
-        "feels_like_max": 32.6,
-        "max_uvi": 7.0,
-        "temp_diff": 6.7,
+        "current_temp": 22.8,
+        "current_feels_like": 23.6,
+        "max_temp": 28.9,
+        "feels_like_max": 33.2,
+        "max_uvi": 7.4,
+        "temp_diff": 6.4,
         "alert_event": null,
         "preparations": [
           {
@@ -2207,25 +2238,25 @@
       "lat": 34.8118,
       "lon": 126.3922,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오후 5:00부터 비 소식이 있어요",
+        "title": "오후 1:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "17:00",
+        "rain_start_time": "13:00",
         "current_temp": 23.8,
-        "current_feels_like": 24.7,
+        "current_feels_like": 24.5,
         "max_temp": 29.3,
         "feels_like_max": 36.2,
-        "max_uvi": 7.9,
-        "temp_diff": 5.9,
+        "max_uvi": 7.8,
+        "temp_diff": 5.7,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오후 5:00부터 비 소식이 있어요",
+            "title": "오후 1:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "17:00"
+            "rain_start_time": "13:00"
           },
           {
             "type": "PARASOL",
@@ -2238,15 +2269,15 @@
       "forecast": [
         {
           "date": "2026-09-03",
-          "pop": 1,
+          "pop": 0.61,
           "has_rain": true,
-          "rain_start_time": "17:00"
+          "rain_start_time": "13:00"
         },
         {
           "date": "2026-09-04",
-          "pop": 0.83,
+          "pop": 0.6,
           "has_rain": true,
-          "rain_start_time": "00:00"
+          "rain_start_time": "16:00"
         },
         {
           "date": "2026-09-05",
@@ -2264,25 +2295,25 @@
       "lat": 34.7604,
       "lon": 127.6622,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오전 7:00부터 비 소식이 있어요",
+        "title": "오후 5:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "07:00",
-        "current_temp": 24.9,
-        "current_feels_like": 25.6,
+        "rain_start_time": "17:00",
+        "current_temp": 24.6,
+        "current_feels_like": 25.4,
         "max_temp": 28.4,
-        "feels_like_max": 32.2,
-        "max_uvi": 8.7,
-        "temp_diff": 4.0,
+        "feels_like_max": 32.5,
+        "max_uvi": 8.3,
+        "temp_diff": 3.9,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오전 7:00부터 비 소식이 있어요",
+            "title": "오후 5:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "07:00"
+            "rain_start_time": "17:00"
           },
           {
             "type": "PARASOL",
@@ -2297,11 +2328,11 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "07:00"
+          "rain_start_time": "17:00"
         },
         {
           "date": "2026-09-04",
-          "pop": 0.14,
+          "pop": 0,
           "has_rain": false,
           "rain_start_time": null
         },
@@ -2321,29 +2352,29 @@
       "lat": 34.9506,
       "lon": 127.4872,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오후 3:00부터 비 소식이 있어요",
+        "title": "오후 2:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "15:00",
-        "current_temp": 24.3,
-        "current_feels_like": 25.1,
-        "max_temp": 29.6,
-        "feels_like_max": 32.8,
-        "max_uvi": 8.3,
-        "temp_diff": 6.0,
+        "rain_start_time": "14:00",
+        "current_temp": 24.0,
+        "current_feels_like": 24.9,
+        "max_temp": 30.3,
+        "feels_like_max": 33.4,
+        "max_uvi": 7.9,
+        "temp_diff": 6.7,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오후 3:00부터 비 소식이 있어요",
+            "title": "오후 2:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "15:00"
+            "rain_start_time": "14:00"
           },
           {
             "type": "PARASOL",
-            "title": "자외선이 '매우 높음' 단계예요",
+            "title": "자외선이 '높음' 단계예요",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -2354,7 +2385,7 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "15:00"
+          "rain_start_time": "14:00"
         },
         {
           "date": "2026-09-04",
@@ -2378,25 +2409,25 @@
       "lat": 36.019,
       "lon": 129.3435,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오전 2:02부터 비 소식이 있어요",
+        "title": "오전 9:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:02",
-        "current_temp": 24.1,
-        "current_feels_like": 25.0,
-        "max_temp": 26.6,
-        "feels_like_max": 26.7,
-        "max_uvi": 6,
-        "temp_diff": 3.0,
+        "rain_start_time": "09:00",
+        "current_temp": 23.9,
+        "current_feels_like": 24.9,
+        "max_temp": 27.6,
+        "feels_like_max": 31.4,
+        "max_uvi": 6.4,
+        "temp_diff": 3.8,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오전 2:02부터 비 소식이 있어요",
+            "title": "오전 9:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:02"
+            "rain_start_time": "09:00"
           },
           {
             "type": "PARASOL",
@@ -2411,7 +2442,7 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "09:00"
         },
         {
           "date": "2026-09-04",
@@ -2421,7 +2452,7 @@
         },
         {
           "date": "2026-09-05",
-          "pop": 1,
+          "pop": 0.8,
           "has_rain": true,
           "rain_start_time": null
         }
@@ -2435,25 +2466,30 @@
       "lat": 36.1195,
       "lon": 128.3445,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오전 2:00부터 비 소식이 있어요",
+        "title": "오전 4:25부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 23.8,
-        "current_feels_like": 24.6,
-        "max_temp": 27.4,
-        "feels_like_max": 31.1,
-        "max_uvi": 4.5,
-        "temp_diff": 4.1,
+        "rain_start_time": "04:25",
+        "current_temp": 22.8,
+        "current_feels_like": 23.6,
+        "max_temp": 29.2,
+        "feels_like_max": 35.5,
+        "max_uvi": 7.1,
+        "temp_diff": 6.4,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
+            "title": "오전 4:25부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
+            "rain_start_time": "04:25"
+          },
+          {
+            "type": "PARASOL",
+            "title": "자외선이 '높음' 단계예요",
+            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
         "is_night": true
@@ -2463,7 +2499,7 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "05:00"
         },
         {
           "date": "2026-09-04",
@@ -2473,8 +2509,8 @@
         },
         {
           "date": "2026-09-05",
-          "pop": 0.2,
-          "has_rain": true,
+          "pop": 0,
+          "has_rain": false,
           "rain_start_time": null
         }
       ]
@@ -2487,25 +2523,30 @@
       "lat": 36.5684,
       "lon": 128.7294,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오전 2:02부터 비 소식이 있어요",
+        "title": "오전 4:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:02",
-        "current_temp": 22.3,
-        "current_feels_like": 23.1,
-        "max_temp": 26.0,
-        "feels_like_max": 26.8,
-        "max_uvi": 6.0,
-        "temp_diff": 4.3,
+        "rain_start_time": "04:00",
+        "current_temp": 22.2,
+        "current_feels_like": 23.0,
+        "max_temp": 26.7,
+        "feels_like_max": 29.4,
+        "max_uvi": 7.2,
+        "temp_diff": 4.8,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오전 2:02부터 비 소식이 있어요",
+            "title": "오전 4:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:02"
+            "rain_start_time": "04:00"
+          },
+          {
+            "type": "PARASOL",
+            "title": "자외선이 '높음' 단계예요",
+            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
         "is_night": true
@@ -2515,7 +2556,7 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "04:00"
         },
         {
           "date": "2026-09-04",
@@ -2539,29 +2580,29 @@
       "lat": 35.2279,
       "lon": 128.6811,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오전 2:00부터 비 소식이 있어요",
+        "title": "오후 2:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:00",
+        "rain_start_time": "14:00",
         "current_temp": 25.8,
         "current_feels_like": 26.9,
-        "max_temp": 29.7,
-        "feels_like_max": 34.5,
-        "max_uvi": 8.4,
-        "temp_diff": 5.9,
+        "max_temp": 30.7,
+        "feels_like_max": 37.7,
+        "max_uvi": 6.5,
+        "temp_diff": 6.5,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
+            "title": "오후 2:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
+            "rain_start_time": "14:00"
           },
           {
             "type": "PARASOL",
-            "title": "자외선이 '매우 높음' 단계예요",
+            "title": "자외선이 '높음' 단계예요",
             "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
@@ -2572,7 +2613,7 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "14:00"
         },
         {
           "date": "2026-09-04",
@@ -2596,25 +2637,25 @@
       "lat": 35.1802,
       "lon": 128.1076,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오전 2:00부터 비 소식이 있어요",
+        "title": "오후 2:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 24.0,
-        "current_feels_like": 24.9,
-        "max_temp": 29.4,
-        "feels_like_max": 33.2,
-        "max_uvi": 7.0,
-        "temp_diff": 7.0,
+        "rain_start_time": "14:00",
+        "current_temp": 23.9,
+        "current_feels_like": 24.8,
+        "max_temp": 30.0,
+        "feels_like_max": 37.0,
+        "max_uvi": 6.4,
+        "temp_diff": 7.4,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
+            "title": "오후 2:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
+            "rain_start_time": "14:00"
           },
           {
             "type": "PARASOL",
@@ -2629,7 +2670,7 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "14:00"
         },
         {
           "date": "2026-09-04",
@@ -2653,25 +2694,25 @@
       "lat": 33.4996,
       "lon": 126.5312,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오전 2:00부터 비 소식이 있어요",
+        "title": "오전 11:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 26.7,
-        "current_feels_like": 29,
-        "max_temp": 29.4,
-        "feels_like_max": 33.1,
-        "max_uvi": 9.2,
-        "temp_diff": 3.5,
+        "rain_start_time": "11:00",
+        "current_temp": 25.7,
+        "current_feels_like": 26.5,
+        "max_temp": 30.3,
+        "feels_like_max": 34.2,
+        "max_uvi": 9.3,
+        "temp_diff": 4.7,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
+            "title": "오전 11:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
+            "rain_start_time": "11:00"
           },
           {
             "type": "PARASOL",
@@ -2686,18 +2727,18 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "11:00"
         },
         {
           "date": "2026-09-04",
-          "pop": 0.8,
+          "pop": 1,
           "has_rain": true,
           "rain_start_time": "00:00"
         },
         {
           "date": "2026-09-05",
-          "pop": 0,
-          "has_rain": false,
+          "pop": 0.54,
+          "has_rain": true,
           "rain_start_time": null
         }
       ]
@@ -2710,25 +2751,25 @@
       "lat": 33.2541,
       "lon": 126.5601,
       "status": "ok",
-      "fetched_at": "2026-09-03T02:02:08+09:00",
+      "fetched_at": "2026-09-03T04:26:26+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오전 2:00부터 비 소식이 있어요",
+        "title": "오전 8:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 26.6,
-        "current_feels_like": 26.6,
-        "max_temp": 30.3,
-        "feels_like_max": 34.0,
-        "max_uvi": 9.2,
-        "temp_diff": 4.2,
+        "rain_start_time": "08:00",
+        "current_temp": 25.6,
+        "current_feels_like": 26.2,
+        "max_temp": 30.4,
+        "feels_like_max": 34.2,
+        "max_uvi": 9.3,
+        "temp_diff": 4.8,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
+            "title": "오전 8:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
+            "rain_start_time": "08:00"
           },
           {
             "type": "PARASOL",
@@ -2743,17 +2784,17 @@
           "date": "2026-09-03",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "08:00"
         },
         {
           "date": "2026-09-04",
-          "pop": 0.62,
+          "pop": 1,
           "has_rain": true,
-          "rain_start_time": "04:00"
+          "rain_start_time": "00:00"
         },
         {
           "date": "2026-09-05",
-          "pop": 0,
+          "pop": 0.3,
           "has_rain": false,
           "rain_start_time": null
         }
