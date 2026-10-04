@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "2.1",
-    "updated_at": "2026-10-05T02:02:14+09:00",
+    "updated_at": "2026-10-05T04:01:51+09:00",
     "status": "ok",
     "source": "OpenWeatherMap One Call API 3.0 50 + KMA Alerts (Hybrid Real Data - 50/50)",
     "providers": {
@@ -23,18 +23,18 @@
       "lat": 37.57,
       "lon": 126.9796,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 16.8,
-        "current_feels_like": 16.6,
-        "max_temp": 20.0,
-        "feels_like_max": 19.2,
-        "max_uvi": 4,
-        "temp_diff": 8.9,
+        "rain_start_time": null,
+        "current_temp": 14.8,
+        "current_feels_like": 14.7,
+        "max_temp": 21.9,
+        "feels_like_max": 21.2,
+        "max_uvi": 4.0,
+        "temp_diff": 9.9,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보"
@@ -56,12 +56,6 @@
             "alert_types": [
               "풍랑"
             ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
           }
         ],
         "is_night": true
@@ -71,7 +65,7 @@
           "date": "2026-10-05",
           "pop": 0.8,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": null
         },
         {
           "date": "2026-10-06",
@@ -95,18 +89,18 @@
       "lat": 37.4979,
       "lon": 127.0276,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:00",
+        "rain_start_time": null,
         "current_temp": 15.9,
-        "current_feels_like": 16.0,
-        "max_temp": 20.0,
-        "feels_like_max": 19.3,
-        "max_uvi": 3.4,
-        "temp_diff": 8.7,
+        "current_feels_like": 15.5,
+        "max_temp": 22.0,
+        "feels_like_max": 21.3,
+        "max_uvi": 4.7,
+        "temp_diff": 9.4,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보"
@@ -128,12 +122,6 @@
             "alert_types": [
               "풍랑"
             ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
           }
         ],
         "is_night": true
@@ -143,7 +131,7 @@
           "date": "2026-10-05",
           "pop": 0.8,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": null
         },
         {
           "date": "2026-10-06",
@@ -167,18 +155,18 @@
       "lat": 37.5145,
       "lon": 127.1066,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 16.0,
-        "current_feels_like": 16.1,
-        "max_temp": 19.9,
-        "feels_like_max": 19.2,
-        "max_uvi": 3.7,
-        "temp_diff": 8.7,
+        "rain_start_time": null,
+        "current_temp": 15.8,
+        "current_feels_like": 15.6,
+        "max_temp": 22.0,
+        "feels_like_max": 21.4,
+        "max_uvi": 3.4,
+        "temp_diff": 9.2,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보"
@@ -200,12 +188,6 @@
             "alert_types": [
               "풍랑"
             ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
           }
         ],
         "is_night": true
@@ -215,7 +197,7 @@
           "date": "2026-10-05",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": null
         },
         {
           "date": "2026-10-06",
@@ -239,18 +221,18 @@
       "lat": 37.5509,
       "lon": 126.8495,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 17.0,
-        "current_feels_like": 16.8,
-        "max_temp": 20.8,
-        "feels_like_max": 20.1,
-        "max_uvi": 4,
-        "temp_diff": 9.3,
+        "rain_start_time": null,
+        "current_temp": 15.0,
+        "current_feels_like": 14.8,
+        "max_temp": 22.6,
+        "feels_like_max": 21.9,
+        "max_uvi": 4.0,
+        "temp_diff": 10.4,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보"
@@ -274,10 +256,9 @@
             ]
           },
           {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": true
@@ -287,7 +268,7 @@
           "date": "2026-10-05",
           "pop": 0.9,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": null
         },
         {
           "date": "2026-10-06",
@@ -311,18 +292,18 @@
       "lat": 37.6542,
       "lon": 127.0568,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:00",
+        "rain_start_time": null,
         "current_temp": 15.9,
-        "current_feels_like": 15.7,
-        "max_temp": 19.7,
-        "feels_like_max": 18.9,
-        "max_uvi": 3.7,
-        "temp_diff": 9.0,
+        "current_feels_like": 15.6,
+        "max_temp": 22.0,
+        "feels_like_max": 21.3,
+        "max_uvi": 3.4,
+        "temp_diff": 9.4,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보"
@@ -344,12 +325,6 @@
             "alert_types": [
               "풍랑"
             ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
           }
         ],
         "is_night": true
@@ -359,7 +334,7 @@
           "date": "2026-10-05",
           "pop": 0.8,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": null
         },
         {
           "date": "2026-10-06",
@@ -383,1263 +358,18 @@
       "lat": 37.2636,
       "lon": 127.0286,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 15.7,
-        "current_feels_like": 15.9,
-        "max_temp": 19.6,
-        "feels_like_max": 18.9,
-        "max_uvi": 3.4,
-        "temp_diff": 7.5,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑"
-            ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": "02:00"
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "gyeonggi_seongnam": {
-      "id": "gyeonggi_seongnam",
-      "name": "경기_성남",
-      "group": "경기",
-      "display_name": "성남",
-      "lat": 37.3827,
-      "lon": 127.1189,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 15.8,
-        "current_feels_like": 15.9,
-        "max_temp": 19.7,
-        "feels_like_max": 19.0,
-        "max_uvi": 3.4,
-        "temp_diff": 8.1,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑"
-            ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": "02:00"
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "gyeonggi_goyang": {
-      "id": "gyeonggi_goyang",
-      "name": "경기_고양",
-      "group": "경기",
-      "display_name": "고양",
-      "lat": 37.6583,
-      "lon": 126.832,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 17.0,
-        "current_feels_like": 16.7,
-        "max_temp": 20.3,
-        "feels_like_max": 19.6,
-        "max_uvi": 4,
-        "temp_diff": 9.0,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑"
-            ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 0.85,
-          "has_rain": true,
-          "rain_start_time": "02:00"
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "gyeonggi_yongin": {
-      "id": "gyeonggi_yongin",
-      "name": "경기_용인",
-      "group": "경기",
-      "display_name": "용인",
-      "lat": 37.241,
-      "lon": 127.1775,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 15.2,
-        "current_feels_like": 15.2,
-        "max_temp": 18.5,
-        "feels_like_max": 17.7,
-        "max_uvi": 3.4,
-        "temp_diff": 7.5,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑"
-            ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": "02:00"
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "gyeonggi_bucheon": {
-      "id": "gyeonggi_bucheon",
-      "name": "경기_부천",
-      "group": "경기",
-      "display_name": "부천",
-      "lat": 37.5034,
-      "lon": 126.766,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 17,
-        "current_feels_like": 16.8,
-        "max_temp": 20.8,
-        "feels_like_max": 20.1,
-        "max_uvi": 4,
-        "temp_diff": 9.0,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑"
-            ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 0.86,
-          "has_rain": true,
-          "rain_start_time": "02:00"
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "gyeonggi_namyangju": {
-      "id": "gyeonggi_namyangju",
-      "name": "경기_남양주",
-      "group": "경기",
-      "display_name": "남양주",
-      "lat": 37.636,
-      "lon": 127.2165,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 15.6,
-        "current_feels_like": 15.6,
-        "max_temp": 17.7,
-        "feels_like_max": 16.8,
-        "max_uvi": 3.7,
-        "temp_diff": 9.2,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑"
-            ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": "02:00"
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "gyeonggi_pyeongtaek": {
-      "id": "gyeonggi_pyeongtaek",
-      "name": "경기_평택",
-      "group": "경기",
-      "display_name": "평택",
-      "lat": 36.9921,
-      "lon": 127.1129,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 16.9,
-        "current_feels_like": 16.8,
-        "max_temp": 18.9,
-        "feels_like_max": 18.5,
-        "max_uvi": 3.2,
-        "temp_diff": 7.1,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑"
-            ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": "02:00"
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "gyeonggi_uijeongbu": {
-      "id": "gyeonggi_uijeongbu",
-      "name": "경기_의정부",
-      "group": "경기",
-      "display_name": "의정부",
-      "lat": 37.7381,
-      "lon": 127.0339,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 16.7,
-        "current_feels_like": 16.7,
-        "max_temp": 18.6,
-        "feels_like_max": 17.7,
-        "max_uvi": 3.7,
-        "temp_diff": 9.2,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑"
-            ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 0.9,
-          "has_rain": true,
-          "rain_start_time": "02:00"
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "incheon_center": {
-      "id": "incheon_center",
-      "name": "인천_남동",
-      "group": "인천",
-      "display_name": "남동",
-      "lat": 37.4475,
-      "lon": 126.7314,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 17.0,
-        "current_feels_like": 16.8,
-        "max_temp": 20.1,
-        "feels_like_max": 19.4,
-        "max_uvi": 4.6,
-        "temp_diff": 8.7,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑"
-            ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 0.85,
-          "has_rain": true,
-          "rain_start_time": "02:00"
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "incheon_west": {
-      "id": "incheon_west",
-      "name": "인천_서구",
-      "group": "인천",
-      "display_name": "서구",
-      "lat": 37.5451,
-      "lon": 126.676,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "11:00",
-        "current_temp": 16.9,
-        "current_feels_like": 16.7,
-        "max_temp": 20.6,
-        "feels_like_max": 20.1,
-        "max_uvi": 4,
-        "temp_diff": 8.7,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑"
-            ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오전 11:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "11:00"
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 0.61,
-          "has_rain": true,
-          "rain_start_time": "11:00"
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "busan_center": {
-      "id": "busan_center",
-      "name": "부산_진구",
-      "group": "부산",
-      "display_name": "진구",
-      "lat": 35.1631,
-      "lon": 129.0536,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "NONE",
-        "title": "가볍게 빈손으로 나가도 좋아요",
-        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
-        "rain_start_time": null,
-        "current_temp": 17.9,
-        "current_feels_like": 18.0,
-        "max_temp": 22.3,
-        "feels_like_max": 21.6,
-        "max_uvi": 5.9,
-        "temp_diff": 6.8,
-        "alert_event": null,
-        "preparations": [],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "busan_east": {
-      "id": "busan_east",
-      "name": "부산_해운대",
-      "group": "부산",
-      "display_name": "해운대",
-      "lat": 35.1631,
-      "lon": 129.1636,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "NONE",
-        "title": "가볍게 빈손으로 나가도 좋아요",
-        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
-        "rain_start_time": null,
-        "current_temp": 18.0,
-        "current_feels_like": 18.1,
-        "max_temp": 23.1,
-        "feels_like_max": 22.5,
-        "max_uvi": 5.9,
-        "temp_diff": 5.9,
-        "alert_event": null,
-        "preparations": [],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "busan_west": {
-      "id": "busan_west",
-      "name": "부산_사상",
-      "group": "부산",
-      "display_name": "사상",
-      "lat": 35.1526,
-      "lon": 128.9911,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "NONE",
-        "title": "가볍게 빈손으로 나가도 좋아요",
-        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
-        "rain_start_time": null,
-        "current_temp": 18.0,
-        "current_feels_like": 18.1,
-        "max_temp": 22.6,
-        "feels_like_max": 21.9,
-        "max_uvi": 5.9,
-        "temp_diff": 6.9,
-        "alert_event": null,
-        "preparations": [],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "busan_south": {
-      "id": "busan_south",
-      "name": "부산_영도",
-      "group": "부산",
-      "display_name": "영도",
-      "lat": 35.0912,
-      "lon": 129.0679,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "NONE",
-        "title": "가볍게 빈손으로 나가도 좋아요",
-        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
-        "rain_start_time": null,
-        "current_temp": 17.7,
-        "current_feels_like": 17.9,
-        "max_temp": 22.9,
-        "feels_like_max": 22.4,
-        "max_uvi": 5.9,
-        "temp_diff": 5.9,
-        "alert_event": null,
-        "preparations": [],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "daegu_center": {
-      "id": "daegu_center",
-      "name": "대구_중구",
-      "group": "대구",
-      "display_name": "중구",
-      "lat": 35.8669,
-      "lon": 128.5942,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "NONE",
-        "title": "가볍게 빈손으로 나가도 좋아요",
-        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
-        "rain_start_time": null,
-        "current_temp": 16.9,
-        "current_feels_like": 16.8,
-        "max_temp": 21.9,
-        "feels_like_max": 21.2,
-        "max_uvi": 5.8,
-        "temp_diff": 8.7,
-        "alert_event": null,
-        "preparations": [],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "daegu_east": {
-      "id": "daegu_east",
-      "name": "대구_동구",
-      "group": "대구",
-      "display_name": "동구",
-      "lat": 35.8865,
-      "lon": 128.6355,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "NONE",
-        "title": "가볍게 빈손으로 나가도 좋아요",
-        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
-        "rain_start_time": null,
-        "current_temp": 17.0,
-        "current_feels_like": 16.9,
-        "max_temp": 21.8,
-        "feels_like_max": 21.1,
-        "max_uvi": 5.8,
-        "temp_diff": 9.0,
-        "alert_event": null,
-        "preparations": [],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "daegu_west": {
-      "id": "daegu_west",
-      "name": "대구_달서",
-      "group": "대구",
-      "display_name": "달서",
-      "lat": 35.8299,
-      "lon": 128.5326,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "NONE",
-        "title": "가볍게 빈손으로 나가도 좋아요",
-        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
-        "rain_start_time": null,
-        "current_temp": 16.9,
-        "current_feels_like": 16.8,
-        "max_temp": 22.0,
-        "feels_like_max": 21.3,
-        "max_uvi": 5.8,
-        "temp_diff": 9.0,
-        "alert_event": null,
-        "preparations": [],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "daejeon_center": {
-      "id": "daejeon_center",
-      "name": "대전_서구",
-      "group": "대전",
-      "display_name": "서구",
-      "lat": 36.3554,
-      "lon": 127.3838,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "강풍주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "14:00",
-        "current_temp": 15.6,
-        "current_feels_like": 15.5,
-        "max_temp": 19.3,
-        "feels_like_max": 18.6,
-        "max_uvi": 4.8,
-        "temp_diff": 8.5,
-        "alert_event": "강풍주의보",
-        "alert_events": [
-          "강풍주의보"
-        ],
-        "alert_type": "강풍",
-        "alert_types": [
-          "강풍"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "강풍주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "강풍주의보",
-            "alert_events": [
-              "강풍주의보"
-            ],
-            "alert_type": "강풍",
-            "alert_types": [
-              "강풍"
-            ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오후 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "14:00"
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 0.2,
-          "has_rain": true,
-          "rain_start_time": "14:00"
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "daejeon_yuseong": {
-      "id": "daejeon_yuseong",
-      "name": "대전_유성",
-      "group": "대전",
-      "display_name": "유성",
-      "lat": 36.3622,
-      "lon": 127.3562,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "강풍주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "09:00",
-        "current_temp": 15.5,
-        "current_feels_like": 15.4,
-        "max_temp": 19.2,
-        "feels_like_max": 18.6,
-        "max_uvi": 4.8,
-        "temp_diff": 8.5,
-        "alert_event": "강풍주의보",
-        "alert_events": [
-          "강풍주의보"
-        ],
-        "alert_type": "강풍",
-        "alert_types": [
-          "강풍"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "강풍주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "강풍주의보",
-            "alert_events": [
-              "강풍주의보"
-            ],
-            "alert_type": "강풍",
-            "alert_types": [
-              "강풍"
-            ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오전 9:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "09:00"
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 0.2,
-          "has_rain": true,
-          "rain_start_time": "09:00"
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "gwangju_center": {
-      "id": "gwangju_center",
-      "name": "광주_서구",
-      "group": "광주",
-      "display_name": "서구",
-      "lat": 35.152,
-      "lon": 126.8901,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 17.0,
-        "current_feels_like": 17.2,
-        "max_temp": 19.7,
-        "feels_like_max": 19.4,
-        "max_uvi": 4.6,
-        "temp_diff": 7.4,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑"
-            ]
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "gwangju_gwangsan": {
-      "id": "gwangju_gwangsan",
-      "name": "광주_광산",
-      "group": "광주",
-      "display_name": "광산",
-      "lat": 35.1396,
-      "lon": 126.7936,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": "12:00",
-        "current_temp": 16.9,
-        "current_feels_like": 17.1,
-        "max_temp": 19.6,
-        "feels_like_max": 19.2,
-        "max_uvi": 4.6,
-        "temp_diff": 7.0,
+        "current_temp": 15.8,
+        "current_feels_like": 15.9,
+        "max_temp": 21.6,
+        "feels_like_max": 21.0,
+        "max_uvi": 4.7,
+        "temp_diff": 8.4,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보"
@@ -1674,9 +404,1288 @@
       "forecast": [
         {
           "date": "2026-10-05",
-          "pop": 0.25,
+          "pop": 1,
           "has_rain": true,
           "rain_start_time": "12:00"
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeonggi_seongnam": {
+      "id": "gyeonggi_seongnam",
+      "name": "경기_성남",
+      "group": "경기",
+      "display_name": "성남",
+      "lat": 37.3827,
+      "lon": 127.1189,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 15.8,
+        "current_feels_like": 15.4,
+        "max_temp": 21.7,
+        "feels_like_max": 21.1,
+        "max_uvi": 4.7,
+        "temp_diff": 8.7,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑"
+            ]
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeonggi_goyang": {
+      "id": "gyeonggi_goyang",
+      "name": "경기_고양",
+      "group": "경기",
+      "display_name": "고양",
+      "lat": 37.6583,
+      "lon": 126.832,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 15.0,
+        "current_feels_like": 14.8,
+        "max_temp": 22.4,
+        "feels_like_max": 21.6,
+        "max_uvi": 4.0,
+        "temp_diff": 10.1,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑"
+            ]
+          },
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 0.89,
+          "has_rain": true,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeonggi_yongin": {
+      "id": "gyeonggi_yongin",
+      "name": "경기_용인",
+      "group": "경기",
+      "display_name": "용인",
+      "lat": 37.241,
+      "lon": 127.1775,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 14.2,
+        "current_feels_like": 14.3,
+        "max_temp": 20.6,
+        "feels_like_max": 19.9,
+        "max_uvi": 4.7,
+        "temp_diff": 8.3,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑"
+            ]
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeonggi_bucheon": {
+      "id": "gyeonggi_bucheon",
+      "name": "경기_부천",
+      "group": "경기",
+      "display_name": "부천",
+      "lat": 37.5034,
+      "lon": 126.766,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": "11:00",
+        "current_temp": 15,
+        "current_feels_like": 14.8,
+        "max_temp": 22.6,
+        "feels_like_max": 21.9,
+        "max_uvi": 4.0,
+        "temp_diff": 10.3,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑"
+            ]
+          },
+          {
+            "type": "UMBRELLA",
+            "title": "오전 11:00부터 비 소식이 있어요",
+            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+            "rain_start_time": "11:00"
+          },
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 0.86,
+          "has_rain": true,
+          "rain_start_time": "11:00"
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeonggi_namyangju": {
+      "id": "gyeonggi_namyangju",
+      "name": "경기_남양주",
+      "group": "경기",
+      "display_name": "남양주",
+      "lat": 37.636,
+      "lon": 127.2165,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": "12:00",
+        "current_temp": 15.6,
+        "current_feels_like": 15.3,
+        "max_temp": 20.1,
+        "feels_like_max": 19.4,
+        "max_uvi": 3.4,
+        "temp_diff": 9.0,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑"
+            ]
+          },
+          {
+            "type": "UMBRELLA",
+            "title": "오후 12:00부터 비 소식이 있어요",
+            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+            "rain_start_time": "12:00"
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": "12:00"
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeonggi_pyeongtaek": {
+      "id": "gyeonggi_pyeongtaek",
+      "name": "경기_평택",
+      "group": "경기",
+      "display_name": "평택",
+      "lat": 36.9921,
+      "lon": 127.1129,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": "08:00",
+        "current_temp": 16.9,
+        "current_feels_like": 16.8,
+        "max_temp": 21.1,
+        "feels_like_max": 20.6,
+        "max_uvi": 4.9,
+        "temp_diff": 8.5,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑"
+            ]
+          },
+          {
+            "type": "UMBRELLA",
+            "title": "오전 8:00부터 비 소식이 있어요",
+            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+            "rain_start_time": "08:00"
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": "08:00"
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeonggi_uijeongbu": {
+      "id": "gyeonggi_uijeongbu",
+      "name": "경기_의정부",
+      "group": "경기",
+      "display_name": "의정부",
+      "lat": 37.7381,
+      "lon": 127.0339,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 14.7,
+        "current_feels_like": 14.2,
+        "max_temp": 21.2,
+        "feels_like_max": 20.5,
+        "max_uvi": 3.4,
+        "temp_diff": 9.3,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑"
+            ]
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 0.8,
+          "has_rain": true,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "incheon_center": {
+      "id": "incheon_center",
+      "name": "인천_남동",
+      "group": "인천",
+      "display_name": "남동",
+      "lat": 37.4475,
+      "lon": 126.7314,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": "11:00",
+        "current_temp": 15.0,
+        "current_feels_like": 14.9,
+        "max_temp": 21.9,
+        "feels_like_max": 21.3,
+        "max_uvi": 4.8,
+        "temp_diff": 9.9,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑"
+            ]
+          },
+          {
+            "type": "UMBRELLA",
+            "title": "오전 11:00부터 비 소식이 있어요",
+            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+            "rain_start_time": "11:00"
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 0.85,
+          "has_rain": true,
+          "rain_start_time": "11:00"
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "incheon_west": {
+      "id": "incheon_west",
+      "name": "인천_서구",
+      "group": "인천",
+      "display_name": "서구",
+      "lat": 37.5451,
+      "lon": 126.676,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": "11:00",
+        "current_temp": 14.9,
+        "current_feels_like": 14.7,
+        "max_temp": 22.4,
+        "feels_like_max": 21.9,
+        "max_uvi": 4.0,
+        "temp_diff": 9.9,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑"
+            ]
+          },
+          {
+            "type": "UMBRELLA",
+            "title": "오전 11:00부터 비 소식이 있어요",
+            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+            "rain_start_time": "11:00"
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 0.79,
+          "has_rain": true,
+          "rain_start_time": "11:00"
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "busan_center": {
+      "id": "busan_center",
+      "name": "부산_진구",
+      "group": "부산",
+      "display_name": "진구",
+      "lat": 35.1631,
+      "lon": 129.0536,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "PARASOL",
+        "title": "자외선이 '높음' 단계예요",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 16.9,
+        "current_feels_like": 17.1,
+        "max_temp": 25.7,
+        "feels_like_max": 25.6,
+        "max_uvi": 6,
+        "temp_diff": 9.9,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "PARASOL",
+            "title": "자외선이 '높음' 단계예요",
+            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "busan_east": {
+      "id": "busan_east",
+      "name": "부산_해운대",
+      "group": "부산",
+      "display_name": "해운대",
+      "lat": 35.1631,
+      "lon": 129.1636,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "PARASOL",
+        "title": "자외선이 '높음' 단계예요",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 17.0,
+        "current_feels_like": 17.0,
+        "max_temp": 25.9,
+        "feels_like_max": 25.8,
+        "max_uvi": 6,
+        "temp_diff": 9.0,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "PARASOL",
+            "title": "자외선이 '높음' 단계예요",
+            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "busan_west": {
+      "id": "busan_west",
+      "name": "부산_사상",
+      "group": "부산",
+      "display_name": "사상",
+      "lat": 35.1526,
+      "lon": 128.9911,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 10°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 17.0,
+        "current_feels_like": 17.2,
+        "max_temp": 26.1,
+        "feels_like_max": 26.1,
+        "max_uvi": 5.9,
+        "temp_diff": 10.1,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "busan_south": {
+      "id": "busan_south",
+      "name": "부산_영도",
+      "group": "부산",
+      "display_name": "영도",
+      "lat": 35.0912,
+      "lon": 129.0679,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "PARASOL",
+        "title": "자외선이 '높음' 단계예요",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 16.7,
+        "current_feels_like": 16.9,
+        "max_temp": 23.0,
+        "feels_like_max": 22.5,
+        "max_uvi": 6,
+        "temp_diff": 6.2,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "PARASOL",
+            "title": "자외선이 '높음' 단계예요",
+            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "daegu_center": {
+      "id": "daegu_center",
+      "name": "대구_중구",
+      "group": "대구",
+      "display_name": "중구",
+      "lat": 35.8669,
+      "lon": 128.5942,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 11°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 16.9,
+        "current_feels_like": 16.9,
+        "max_temp": 24.5,
+        "feels_like_max": 24.3,
+        "max_uvi": 5.8,
+        "temp_diff": 11.0,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "daegu_east": {
+      "id": "daegu_east",
+      "name": "대구_동구",
+      "group": "대구",
+      "display_name": "동구",
+      "lat": 35.8865,
+      "lon": 128.6355,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 11°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 17.0,
+        "current_feels_like": 17.0,
+        "max_temp": 24.6,
+        "feels_like_max": 24.3,
+        "max_uvi": 5.8,
+        "temp_diff": 11.4,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "daegu_west": {
+      "id": "daegu_west",
+      "name": "대구_달서",
+      "group": "대구",
+      "display_name": "달서",
+      "lat": 35.8299,
+      "lon": 128.5326,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 11°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 16.9,
+        "current_feels_like": 16.9,
+        "max_temp": 24.3,
+        "feels_like_max": 24.0,
+        "max_uvi": 5.8,
+        "temp_diff": 11.1,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "daejeon_center": {
+      "id": "daejeon_center",
+      "name": "대전_서구",
+      "group": "대전",
+      "display_name": "서구",
+      "lat": 36.3554,
+      "lon": 127.3838,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "강풍주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": "04:00",
+        "current_temp": 16.6,
+        "current_feels_like": 16.5,
+        "max_temp": 20.6,
+        "feels_like_max": 20.2,
+        "max_uvi": 5.2,
+        "temp_diff": 9.3,
+        "alert_event": "강풍주의보",
+        "alert_events": [
+          "강풍주의보"
+        ],
+        "alert_type": "강풍",
+        "alert_types": [
+          "강풍"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "강풍주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "강풍주의보",
+            "alert_events": [
+              "강풍주의보"
+            ],
+            "alert_type": "강풍",
+            "alert_types": [
+              "강풍"
+            ]
+          },
+          {
+            "type": "UMBRELLA",
+            "title": "오전 4:00부터 비 소식이 있어요",
+            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+            "rain_start_time": "04:00"
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 0.8,
+          "has_rain": true,
+          "rain_start_time": "04:00"
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "daejeon_yuseong": {
+      "id": "daejeon_yuseong",
+      "name": "대전_유성",
+      "group": "대전",
+      "display_name": "유성",
+      "lat": 36.3622,
+      "lon": 127.3562,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "강풍주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": "04:00",
+        "current_temp": 16.5,
+        "current_feels_like": 16.4,
+        "max_temp": 20.5,
+        "feels_like_max": 20.1,
+        "max_uvi": 5.2,
+        "temp_diff": 9.3,
+        "alert_event": "강풍주의보",
+        "alert_events": [
+          "강풍주의보"
+        ],
+        "alert_type": "강풍",
+        "alert_types": [
+          "강풍"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "강풍주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "강풍주의보",
+            "alert_events": [
+              "강풍주의보"
+            ],
+            "alert_type": "강풍",
+            "alert_types": [
+              "강풍"
+            ]
+          },
+          {
+            "type": "UMBRELLA",
+            "title": "오전 4:00부터 비 소식이 있어요",
+            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+            "rain_start_time": "04:00"
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 0.89,
+          "has_rain": true,
+          "rain_start_time": "04:00"
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gwangju_center": {
+      "id": "gwangju_center",
+      "name": "광주_서구",
+      "group": "광주",
+      "display_name": "서구",
+      "lat": 35.152,
+      "lon": 126.8901,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": "04:00",
+        "current_temp": 17.3,
+        "current_feels_like": 17.3,
+        "max_temp": 21.9,
+        "feels_like_max": 21.6,
+        "max_uvi": 5,
+        "temp_diff": 7.7,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑"
+            ]
+          },
+          {
+            "type": "UMBRELLA",
+            "title": "오전 4:00부터 비 소식이 있어요",
+            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+            "rain_start_time": "04:00"
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 0.88,
+          "has_rain": true,
+          "rain_start_time": "04:00"
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gwangju_gwangsan": {
+      "id": "gwangju_gwangsan",
+      "name": "광주_광산",
+      "group": "광주",
+      "display_name": "광산",
+      "lat": 35.1396,
+      "lon": 126.7936,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": "04:00",
+        "current_temp": 17.1,
+        "current_feels_like": 17.1,
+        "max_temp": 21.7,
+        "feels_like_max": 21.4,
+        "max_uvi": 5,
+        "temp_diff": 7.4,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑"
+            ]
+          },
+          {
+            "type": "UMBRELLA",
+            "title": "오전 4:00부터 비 소식이 있어요",
+            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+            "rain_start_time": "04:00"
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 0.84,
+          "has_rain": true,
+          "rain_start_time": "04:00"
         },
         {
           "date": "2026-10-06",
@@ -1700,20 +1709,26 @@
       "lat": 35.5437,
       "lon": 129.33,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
-        "state_code": "NONE",
-        "title": "가볍게 빈손으로 나가도 좋아요",
-        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 11°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 17.0,
-        "current_feels_like": 17.1,
-        "max_temp": 23.1,
-        "feels_like_max": 22.5,
+        "current_temp": 16.6,
+        "current_feels_like": 16.7,
+        "max_temp": 24.7,
+        "feels_like_max": 24.3,
         "max_uvi": 5.8,
-        "temp_diff": 9.9,
+        "temp_diff": 11.1,
         "alert_event": null,
-        "preparations": [],
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
         "is_night": true
       },
       "forecast": [
@@ -1745,23 +1760,23 @@
       "lat": 35.5387,
       "lon": 129.1444,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 12°C나 돼요",
+        "title": "낮과 밤의 기온 차가 13°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 16.0,
-        "current_feels_like": 16.1,
-        "max_temp": 22.7,
-        "feels_like_max": 22.1,
+        "current_temp": 16.3,
+        "current_feels_like": 16.4,
+        "max_temp": 24.6,
+        "feels_like_max": 24.2,
         "max_uvi": 5.8,
-        "temp_diff": 11.9,
+        "temp_diff": 13.3,
         "alert_event": null,
         "preparations": [
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 12°C나 돼요",
+            "title": "낮과 밤의 기온 차가 13°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -1796,18 +1811,18 @@
       "lat": 36.48,
       "lon": 127.289,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "강풍주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "15:00",
-        "current_temp": 16.0,
-        "current_feels_like": 15.9,
-        "max_temp": 19.5,
-        "feels_like_max": 18.8,
-        "max_uvi": 4.8,
-        "temp_diff": 8.3,
+        "rain_start_time": "04:00",
+        "current_temp": 16.8,
+        "current_feels_like": 16.7,
+        "max_temp": 20.9,
+        "feels_like_max": 20.3,
+        "max_uvi": 5.2,
+        "temp_diff": 9.1,
         "alert_event": "강풍주의보",
         "alert_events": [
           "강풍주의보"
@@ -1832,9 +1847,9 @@
           },
           {
             "type": "UMBRELLA",
-            "title": "오후 3:00부터 비 소식이 있어요",
+            "title": "오전 4:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "15:00"
+            "rain_start_time": "04:00"
           }
         ],
         "is_night": true
@@ -1842,9 +1857,9 @@
       "forecast": [
         {
           "date": "2026-10-05",
-          "pop": 0.2,
+          "pop": 0.9,
           "has_rain": true,
-          "rain_start_time": "15:00"
+          "rain_start_time": "04:00"
         },
         {
           "date": "2026-10-06",
@@ -1868,32 +1883,20 @@
       "lat": 37.8813,
       "lon": 127.7298,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
-        "state_code": "UMBRELLA",
-        "title": "오전 2:00부터 비 소식이 있어요",
-        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 13.3,
-        "current_feels_like": 13.1,
-        "max_temp": 17.4,
-        "feels_like_max": 16.7,
-        "max_uvi": 3.1,
-        "temp_diff": 10.3,
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "current_temp": 14.7,
+        "current_feels_like": 14.4,
+        "max_temp": 19.6,
+        "feels_like_max": 19.0,
+        "max_uvi": 3.0,
+        "temp_diff": 9.6,
         "alert_event": null,
-        "preparations": [
-          {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
-          },
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 10°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
-          }
-        ],
+        "preparations": [],
         "is_night": true
       },
       "forecast": [
@@ -1901,7 +1904,7 @@
           "date": "2026-10-05",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": null
         },
         {
           "date": "2026-10-06",
@@ -1925,25 +1928,25 @@
       "lat": 37.3422,
       "lon": 127.9202,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오전 2:02부터 비 소식이 있어요",
+        "title": "오전 4:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:02",
-        "current_temp": 13.5,
-        "current_feels_like": 13.4,
-        "max_temp": 16.2,
-        "feels_like_max": 15.6,
-        "max_uvi": 4.0,
-        "temp_diff": 8.4,
+        "rain_start_time": "04:00",
+        "current_temp": 14.4,
+        "current_feels_like": 14.3,
+        "max_temp": 18.2,
+        "feels_like_max": 17.7,
+        "max_uvi": 3.9,
+        "temp_diff": 9.0,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오전 2:02부터 비 소식이 있어요",
+            "title": "오전 4:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:02"
+            "rain_start_time": "04:00"
           }
         ],
         "is_night": true
@@ -1953,7 +1956,7 @@
           "date": "2026-10-05",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "04:00"
         },
         {
           "date": "2026-10-06",
@@ -1977,28 +1980,35 @@
       "lat": 37.7519,
       "lon": 128.8761,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
-        "state_code": "NONE",
-        "title": "가볍게 빈손으로 나가도 좋아요",
-        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
-        "rain_start_time": null,
-        "current_temp": 15.6,
-        "current_feels_like": 15.2,
-        "max_temp": 19.4,
-        "feels_like_max": 18.7,
+        "state_code": "UMBRELLA",
+        "title": "오전 4:00부터 비 소식이 있어요",
+        "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+        "rain_start_time": "04:00",
+        "current_temp": 16.5,
+        "current_feels_like": 16.3,
+        "max_temp": 20.2,
+        "feels_like_max": 19.6,
         "max_uvi": 4.7,
         "temp_diff": 8.0,
         "alert_event": null,
-        "preparations": [],
+        "preparations": [
+          {
+            "type": "UMBRELLA",
+            "title": "오전 4:00부터 비 소식이 있어요",
+            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+            "rain_start_time": "04:00"
+          }
+        ],
         "is_night": true
       },
       "forecast": [
         {
           "date": "2026-10-05",
-          "pop": 0.42,
-          "has_rain": false,
-          "rain_start_time": null
+          "pop": 0.76,
+          "has_rain": true,
+          "rain_start_time": "04:00"
         },
         {
           "date": "2026-10-06",
@@ -2022,25 +2032,25 @@
       "lat": 36.6424,
       "lon": 127.489,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오전 2:02부터 비 소식이 있어요",
+        "title": "오전 4:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:02",
+        "rain_start_time": "04:00",
         "current_temp": 17.0,
-        "current_feels_like": 17.1,
-        "max_temp": 18.3,
-        "feels_like_max": 17.8,
-        "max_uvi": 3.2,
-        "temp_diff": 7.7,
+        "current_feels_like": 16.9,
+        "max_temp": 20.5,
+        "feels_like_max": 20.0,
+        "max_uvi": 4.9,
+        "temp_diff": 9.2,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오전 2:02부터 비 소식이 있어요",
+            "title": "오전 4:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:02"
+            "rain_start_time": "04:00"
           }
         ],
         "is_night": true
@@ -2048,9 +2058,9 @@
       "forecast": [
         {
           "date": "2026-10-05",
-          "pop": 0.81,
+          "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "04:00"
         },
         {
           "date": "2026-10-06",
@@ -2074,25 +2084,30 @@
       "lat": 36.9911,
       "lon": 127.926,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오전 2:57부터 비 소식이 있어요",
+        "title": "오전 4:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "02:57",
-        "current_temp": 14.8,
-        "current_feels_like": 14.8,
-        "max_temp": 18.8,
-        "feels_like_max": 18.2,
-        "max_uvi": 3.8,
-        "temp_diff": 9.2,
+        "rain_start_time": "04:00",
+        "current_temp": 16,
+        "current_feels_like": 16.0,
+        "max_temp": 20.2,
+        "feels_like_max": 19.7,
+        "max_uvi": 4.3,
+        "temp_diff": 10.0,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오전 2:57부터 비 소식이 있어요",
+            "title": "오전 4:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:57"
+            "rain_start_time": "04:00"
+          },
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": true
@@ -2102,7 +2117,7 @@
           "date": "2026-10-05",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "04:00"
         },
         {
           "date": "2026-10-06",
@@ -2126,18 +2141,18 @@
       "lat": 36.8151,
       "lon": 127.1139,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "강풍주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 15.2,
-        "current_feels_like": 15.1,
-        "max_temp": 18.0,
-        "feels_like_max": 17.6,
-        "max_uvi": 3.2,
-        "temp_diff": 6.7,
+        "rain_start_time": "11:00",
+        "current_temp": 16.8,
+        "current_feels_like": 16.7,
+        "max_temp": 20.5,
+        "feels_like_max": 20.2,
+        "max_uvi": 4.9,
+        "temp_diff": 8.8,
         "alert_event": "강풍주의보",
         "alert_events": [
           "강풍주의보"
@@ -2162,9 +2177,9 @@
           },
           {
             "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
+            "title": "오전 11:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
+            "rain_start_time": "11:00"
           }
         ],
         "is_night": true
@@ -2174,7 +2189,7 @@
           "date": "2026-10-05",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "11:00"
         },
         {
           "date": "2026-10-06",
@@ -2198,17 +2213,89 @@
       "lat": 36.7898,
       "lon": 127.0018,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "강풍주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 15.5,
-        "current_feels_like": 15.4,
-        "max_temp": 18.4,
-        "feels_like_max": 18.0,
-        "max_uvi": 3.2,
+        "rain_start_time": "11:00",
+        "current_temp": 16.9,
+        "current_feels_like": 16.8,
+        "max_temp": 20.8,
+        "feels_like_max": 20.5,
+        "max_uvi": 4.9,
+        "temp_diff": 8.4,
+        "alert_event": "강풍주의보",
+        "alert_events": [
+          "강풍주의보"
+        ],
+        "alert_type": "강풍",
+        "alert_types": [
+          "강풍"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "강풍주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "강풍주의보",
+            "alert_events": [
+              "강풍주의보"
+            ],
+            "alert_type": "강풍",
+            "alert_types": [
+              "강풍"
+            ]
+          },
+          {
+            "type": "UMBRELLA",
+            "title": "오전 11:00부터 비 소식이 있어요",
+            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
+            "rain_start_time": "11:00"
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-10-05",
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": "11:00"
+        },
+        {
+          "date": "2026-10-06",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-07",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "chungnam_seosan": {
+      "id": "chungnam_seosan",
+      "name": "충남_서산",
+      "group": "충남",
+      "display_name": "서산",
+      "lat": 36.7801,
+      "lon": 126.4503,
+      "status": "ok",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "강풍주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": "12:00",
+        "current_temp": 16.1,
+        "current_feels_like": 15.7,
+        "max_temp": 20.0,
+        "feels_like_max": 19.5,
+        "max_uvi": 4.9,
         "temp_diff": 6.1,
         "alert_event": "강풍주의보",
         "alert_events": [
@@ -2234,9 +2321,9 @@
           },
           {
             "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
+            "title": "오후 12:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
+            "rain_start_time": "12:00"
           }
         ],
         "is_night": true
@@ -2246,79 +2333,7 @@
           "date": "2026-10-05",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
-        },
-        {
-          "date": "2026-10-06",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-07",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "chungnam_seosan": {
-      "id": "chungnam_seosan",
-      "name": "충남_서산",
-      "group": "충남",
-      "display_name": "서산",
-      "lat": 36.7801,
-      "lon": 126.4503,
-      "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "강풍주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 15.5,
-        "current_feels_like": 15.2,
-        "max_temp": 18.4,
-        "feels_like_max": 17.9,
-        "max_uvi": 4.2,
-        "temp_diff": 4.9,
-        "alert_event": "강풍주의보",
-        "alert_events": [
-          "강풍주의보"
-        ],
-        "alert_type": "강풍",
-        "alert_types": [
-          "강풍"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "강풍주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "강풍주의보",
-            "alert_events": [
-              "강풍주의보"
-            ],
-            "alert_type": "강풍",
-            "alert_types": [
-              "강풍"
-            ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-10-05",
-          "pop": 0.92,
-          "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "12:00"
         },
         {
           "date": "2026-10-06",
@@ -2342,18 +2357,18 @@
       "lat": 35.8242,
       "lon": 127.148,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "강풍주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 16.5,
-        "current_feels_like": 16.6,
-        "max_temp": 18.5,
-        "feels_like_max": 18.0,
-        "max_uvi": 4.3,
-        "temp_diff": 7.5,
+        "rain_start_time": "04:00",
+        "current_temp": 16.7,
+        "current_feels_like": 16.8,
+        "max_temp": 20.3,
+        "feels_like_max": 19.9,
+        "max_uvi": 4.1,
+        "temp_diff": 8.3,
         "alert_event": "강풍주의보",
         "alert_events": [
           "강풍주의보"
@@ -2378,9 +2393,9 @@
           },
           {
             "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
+            "title": "오전 4:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
+            "rain_start_time": "04:00"
           }
         ],
         "is_night": true
@@ -2390,7 +2405,7 @@
           "date": "2026-10-05",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "04:00"
         },
         {
           "date": "2026-10-06",
@@ -2414,18 +2429,18 @@
       "lat": 35.9677,
       "lon": 126.7366,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "강풍주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:02",
+        "rain_start_time": "04:00",
         "current_temp": 19.0,
-        "current_feels_like": 19.1,
-        "max_temp": 19.5,
-        "feels_like_max": 19.1,
-        "max_uvi": 5.2,
-        "temp_diff": 4.8,
+        "current_feels_like": 18.8,
+        "max_temp": 20.5,
+        "feels_like_max": 20.2,
+        "max_uvi": 5.5,
+        "temp_diff": 5.5,
         "alert_event": "강풍주의보",
         "alert_events": [
           "강풍주의보"
@@ -2450,9 +2465,9 @@
           },
           {
             "type": "UMBRELLA",
-            "title": "오전 2:02부터 비 소식이 있어요",
+            "title": "오전 4:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:02"
+            "rain_start_time": "04:00"
           }
         ],
         "is_night": true
@@ -2462,7 +2477,7 @@
           "date": "2026-10-05",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "04:00"
         },
         {
           "date": "2026-10-06",
@@ -2472,7 +2487,7 @@
         },
         {
           "date": "2026-10-07",
-          "pop": 0,
+          "pop": 0.29,
           "has_rain": false,
           "rain_start_time": null
         }
@@ -2486,18 +2501,18 @@
       "lat": 35.9483,
       "lon": 126.9578,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "강풍주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:40",
-        "current_temp": 16.7,
+        "rain_start_time": "04:00",
+        "current_temp": 16.8,
         "current_feels_like": 16.7,
-        "max_temp": 19.4,
-        "feels_like_max": 18.8,
-        "max_uvi": 5.2,
-        "temp_diff": 7.4,
+        "max_temp": 20.8,
+        "feels_like_max": 20.3,
+        "max_uvi": 5.5,
+        "temp_diff": 8.0,
         "alert_event": "강풍주의보",
         "alert_events": [
           "강풍주의보"
@@ -2522,9 +2537,9 @@
           },
           {
             "type": "UMBRELLA",
-            "title": "오전 2:40부터 비 소식이 있어요",
+            "title": "오전 4:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:40"
+            "rain_start_time": "04:00"
           }
         ],
         "is_night": true
@@ -2534,7 +2549,7 @@
           "date": "2026-10-05",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "04:00"
         },
         {
           "date": "2026-10-06",
@@ -2558,18 +2573,18 @@
       "lat": 34.8118,
       "lon": 126.3922,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "02:00",
-        "current_temp": 16.8,
-        "current_feels_like": 17,
-        "max_temp": 20.5,
-        "feels_like_max": 20.1,
-        "max_uvi": 3.5,
-        "temp_diff": 3.7,
+        "rain_start_time": null,
+        "current_temp": 18.8,
+        "current_feels_like": 18.8,
+        "max_temp": 22.6,
+        "feels_like_max": 22.6,
+        "max_uvi": 3.8,
+        "temp_diff": 6.6,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보"
@@ -2591,12 +2606,6 @@
             "alert_types": [
               "풍랑"
             ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오전 2:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "02:00"
           }
         ],
         "is_night": true
@@ -2604,9 +2613,9 @@
       "forecast": [
         {
           "date": "2026-10-05",
-          "pop": 0.85,
+          "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": null
         },
         {
           "date": "2026-10-06",
@@ -2630,18 +2639,18 @@
       "lat": 34.7604,
       "lon": 127.6622,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 18.0,
-        "current_feels_like": 17.9,
-        "max_temp": 21.2,
-        "feels_like_max": 20.6,
-        "max_uvi": 6.1,
-        "temp_diff": 4.9,
+        "current_temp": 17.5,
+        "current_feels_like": 17.5,
+        "max_temp": 21.9,
+        "feels_like_max": 21.5,
+        "max_uvi": 6.0,
+        "temp_diff": 5.5,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보"
@@ -2663,11 +2672,6 @@
             "alert_types": [
               "풍랑"
             ]
-          },
-          {
-            "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
-            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
           }
         ],
         "is_night": true
@@ -2701,18 +2705,18 @@
       "lat": 34.9506,
       "lon": 127.4872,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 16.7,
-        "current_feels_like": 16.7,
-        "max_temp": 20.9,
-        "feels_like_max": 20.3,
-        "max_uvi": 5.7,
-        "temp_diff": 7.2,
+        "current_temp": 16.5,
+        "current_feels_like": 16.4,
+        "max_temp": 21.9,
+        "feels_like_max": 21.4,
+        "max_uvi": 5.3,
+        "temp_diff": 7.4,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보"
@@ -2767,18 +2771,18 @@
       "lat": 36.019,
       "lon": 129.3435,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 16.4,
-        "current_feels_like": 16.5,
-        "max_temp": 22.3,
-        "feels_like_max": 21.6,
+        "current_temp": 16.3,
+        "current_feels_like": 16.4,
+        "max_temp": 23.9,
+        "feels_like_max": 23.4,
         "max_uvi": 5.7,
-        "temp_diff": 8.3,
+        "temp_diff": 9.5,
         "alert_event": null,
         "preparations": [],
         "is_night": true
@@ -2812,26 +2816,32 @@
       "lat": 36.1195,
       "lon": 128.3445,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
-        "state_code": "NONE",
-        "title": "가볍게 빈손으로 나가도 좋아요",
-        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 11°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 17.8,
-        "current_feels_like": 17.8,
-        "max_temp": 20.8,
-        "feels_like_max": 20.1,
-        "max_uvi": 5.4,
-        "temp_diff": 8.3,
+        "current_temp": 18.8,
+        "current_feels_like": 18.9,
+        "max_temp": 23.3,
+        "feels_like_max": 23.0,
+        "max_uvi": 5.3,
+        "temp_diff": 10.5,
         "alert_event": null,
-        "preparations": [],
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
         "is_night": true
       },
       "forecast": [
         {
           "date": "2026-10-05",
-          "pop": 0.06,
+          "pop": 0,
           "has_rain": false,
           "rain_start_time": null
         },
@@ -2857,26 +2867,32 @@
       "lat": 36.5684,
       "lon": 128.7294,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
-        "state_code": "NONE",
-        "title": "가볍게 빈손으로 나가도 좋아요",
-        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 10°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 14.2,
-        "current_feels_like": 14.0,
-        "max_temp": 19.5,
-        "feels_like_max": 18.8,
-        "max_uvi": 4.5,
-        "temp_diff": 8.8,
+        "current_temp": 15.1,
+        "current_feels_like": 14.9,
+        "max_temp": 21.3,
+        "feels_like_max": 20.7,
+        "max_uvi": 5.2,
+        "temp_diff": 10.2,
         "alert_event": null,
-        "preparations": [],
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
         "is_night": true
       },
       "forecast": [
         {
           "date": "2026-10-05",
-          "pop": 0.26,
+          "pop": 0.34,
           "has_rain": false,
           "rain_start_time": null
         },
@@ -2902,20 +2918,26 @@
       "lat": 35.2279,
       "lon": 128.6811,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
-        "state_code": "NONE",
-        "title": "가볍게 빈손으로 나가도 좋아요",
-        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 11°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 17.8,
-        "current_feels_like": 18.1,
-        "max_temp": 22.6,
-        "feels_like_max": 22.0,
+        "current_temp": 16.8,
+        "current_feels_like": 17.0,
+        "max_temp": 25.3,
+        "feels_like_max": 25.0,
         "max_uvi": 5.9,
-        "temp_diff": 9.2,
+        "temp_diff": 11.3,
         "alert_event": null,
-        "preparations": [],
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
         "is_night": true
       },
       "forecast": [
@@ -2947,23 +2969,28 @@
       "lat": 35.1802,
       "lon": 128.1076,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
-        "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 10°C나 돼요",
-        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "state_code": "PARASOL",
+        "title": "자외선이 '높음' 단계예요",
+        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 15.9,
+        "current_temp": 16.0,
         "current_feels_like": 15.9,
-        "max_temp": 22.4,
-        "feels_like_max": 21.8,
-        "max_uvi": 5.9,
-        "temp_diff": 10.4,
+        "max_temp": 23.6,
+        "feels_like_max": 23.2,
+        "max_uvi": 6,
+        "temp_diff": 10.9,
         "alert_event": null,
         "preparations": [
           {
+            "type": "PARASOL",
+            "title": "자외선이 '높음' 단계예요",
+            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+          },
+          {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -2998,30 +3025,25 @@
       "lat": 33.4996,
       "lon": 126.5312,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오전 4:00부터 비 소식이 있어요",
+        "title": "오전 5:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "04:00",
-        "current_temp": 18.7,
-        "current_feels_like": 18.7,
-        "max_temp": 20.2,
-        "feels_like_max": 19.8,
-        "max_uvi": 6.5,
-        "temp_diff": 2.1,
+        "rain_start_time": "05:00",
+        "current_temp": 20.7,
+        "current_feels_like": 20.8,
+        "max_temp": 20.7,
+        "feels_like_max": 20.8,
+        "max_uvi": 5.8,
+        "temp_diff": 2.6,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오전 4:00부터 비 소식이 있어요",
+            "title": "오전 5:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "04:00"
-          },
-          {
-            "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
-            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
+            "rain_start_time": "05:00"
           }
         ],
         "is_night": true
@@ -3031,7 +3053,7 @@
           "date": "2026-10-05",
           "pop": 0.99,
           "has_rain": true,
-          "rain_start_time": "04:00"
+          "rain_start_time": "05:00"
         },
         {
           "date": "2026-10-06",
@@ -3055,32 +3077,26 @@
       "lat": 33.2541,
       "lon": 126.5601,
       "status": "ok",
-      "fetched_at": "2026-10-05T02:02:14+09:00",
+      "fetched_at": "2026-10-05T04:01:51+09:00",
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "자외선이 '높음' 단계예요",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 18.6,
-        "current_feels_like": 18.5,
-        "max_temp": 21.1,
-        "feels_like_max": 20.7,
-        "max_uvi": 6.5,
-        "temp_diff": 3.4,
+        "current_temp": 20.6,
+        "current_feels_like": 20.8,
+        "max_temp": 21.3,
+        "feels_like_max": 21.0,
+        "max_uvi": 5.8,
+        "temp_diff": 3.3,
         "alert_event": null,
-        "preparations": [
-          {
-            "type": "PARASOL",
-            "title": "자외선이 '높음' 단계예요",
-            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
-          }
-        ],
+        "preparations": [],
         "is_night": true
       },
       "forecast": [
         {
           "date": "2026-10-05",
-          "pop": 0.19,
+          "pop": 0.16,
           "has_rain": false,
           "rain_start_time": null
         },
