@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "2.1",
-    "updated_at": "2026-10-10T09:02:07+09:00",
+    "updated_at": "2026-10-10T10:02:01+09:00",
     "status": "ok",
     "source": "OpenWeatherMap One Call API 3.0 50 + KMA Alerts (Hybrid Real Data - 50/50)",
     "providers": {
@@ -23,23 +23,23 @@
       "lat": 37.57,
       "lon": 126.9796,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 15°C나 돼요",
+        "title": "낮과 밤의 기온 차가 14°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 13.8,
-        "current_feels_like": 13.9,
-        "max_temp": 26.6,
-        "feels_like_max": 26.6,
+        "current_temp": 17.8,
+        "current_feels_like": 17.8,
+        "max_temp": 26.0,
+        "feels_like_max": 26.0,
         "max_uvi": 5.1,
-        "temp_diff": 15.0,
+        "temp_diff": 14.4,
         "alert_event": null,
         "preparations": [
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 15°C나 돼요",
+            "title": "낮과 밤의 기온 차가 14°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -60,7 +60,7 @@
         },
         {
           "date": "2026-10-12",
-          "pop": 0.56,
+          "pop": 1,
           "has_rain": true,
           "rain_start_time": null
         }
@@ -74,23 +74,23 @@
       "lat": 37.4979,
       "lon": 127.0276,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 15°C나 돼요",
+        "title": "낮과 밤의 기온 차가 14°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 13.9,
-        "current_feels_like": 13.2,
-        "max_temp": 27.0,
-        "feels_like_max": 26.3,
+        "current_temp": 18.1,
+        "current_feels_like": 17.7,
+        "max_temp": 26.2,
+        "feels_like_max": 26.2,
         "max_uvi": 5.1,
-        "temp_diff": 15.0,
+        "temp_diff": 14.3,
         "alert_event": null,
         "preparations": [
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 15°C나 돼요",
+            "title": "낮과 밤의 기온 차가 14°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -111,7 +111,7 @@
         },
         {
           "date": "2026-10-12",
-          "pop": 0.82,
+          "pop": 1,
           "has_rain": true,
           "rain_start_time": null
         }
@@ -125,23 +125,23 @@
       "lat": 37.5145,
       "lon": 127.1066,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 15°C나 돼요",
+        "title": "낮과 밤의 기온 차가 14°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 12.9,
-        "current_feels_like": 12.7,
-        "max_temp": 27.3,
-        "feels_like_max": 26.5,
+        "current_temp": 16.9,
+        "current_feels_like": 16.5,
+        "max_temp": 26.4,
+        "feels_like_max": 26.4,
         "max_uvi": 5.1,
-        "temp_diff": 15.2,
+        "temp_diff": 14.3,
         "alert_event": null,
         "preparations": [
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 15°C나 돼요",
+            "title": "낮과 밤의 기온 차가 14°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -162,7 +162,7 @@
         },
         {
           "date": "2026-10-12",
-          "pop": 0.82,
+          "pop": 1,
           "has_rain": true,
           "rain_start_time": null
         }
@@ -176,18 +176,18 @@
       "lat": 37.5509,
       "lon": 126.8495,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 15°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 14.0,
-        "current_feels_like": 14.1,
-        "max_temp": 26.9,
-        "feels_like_max": 26.5,
+        "current_temp": 18.0,
+        "current_feels_like": 18.0,
+        "max_temp": 26.6,
+        "feels_like_max": 26.6,
         "max_uvi": 5.1,
-        "temp_diff": 15.1,
+        "temp_diff": 14.7,
         "alert_event": null,
         "preparations": [
           {
@@ -213,7 +213,7 @@
         },
         {
           "date": "2026-10-12",
-          "pop": 0.24,
+          "pop": 1,
           "has_rain": true,
           "rain_start_time": null
         }
@@ -227,271 +227,16 @@
       "lat": 37.6542,
       "lon": 127.0568,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
-      "recommendation": {
-        "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 15°C나 돼요",
-        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
-        "rain_start_time": null,
-        "current_temp": 13.9,
-        "current_feels_like": 13.5,
-        "max_temp": 27.0,
-        "feels_like_max": 26.4,
-        "max_uvi": 5.1,
-        "temp_diff": 15.1,
-        "alert_event": null,
-        "preparations": [
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 15°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
-          }
-        ],
-        "is_night": false
-      },
-      "forecast": [
-        {
-          "date": "2026-10-10",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-11",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-12",
-          "pop": 0.62,
-          "has_rain": true,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "gyeonggi_suwon": {
-      "id": "gyeonggi_suwon",
-      "name": "경기_수원",
-      "group": "경기",
-      "display_name": "수원",
-      "lat": 37.2636,
-      "lon": 127.0286,
-      "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
-      "recommendation": {
-        "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 15°C나 돼요",
-        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
-        "rain_start_time": null,
-        "current_temp": 13.8,
-        "current_feels_like": 13.6,
-        "max_temp": 26.7,
-        "feels_like_max": 26.3,
-        "max_uvi": 5.1,
-        "temp_diff": 15.0,
-        "alert_event": null,
-        "preparations": [
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 15°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
-          }
-        ],
-        "is_night": false
-      },
-      "forecast": [
-        {
-          "date": "2026-10-10",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-11",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-12",
-          "pop": 0.41,
-          "has_rain": true,
-          "rain_start_time": "07:00"
-        }
-      ]
-    },
-    "gyeonggi_seongnam": {
-      "id": "gyeonggi_seongnam",
-      "name": "경기_성남",
-      "group": "경기",
-      "display_name": "성남",
-      "lat": 37.3827,
-      "lon": 127.1189,
-      "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
-      "recommendation": {
-        "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 16°C나 돼요",
-        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
-        "rain_start_time": null,
-        "current_temp": 12.7,
-        "current_feels_like": 12.5,
-        "max_temp": 27.6,
-        "feels_like_max": 26.6,
-        "max_uvi": 5.1,
-        "temp_diff": 15.6,
-        "alert_event": null,
-        "preparations": [
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 16°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
-          }
-        ],
-        "is_night": false
-      },
-      "forecast": [
-        {
-          "date": "2026-10-10",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-11",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-12",
-          "pop": 0.64,
-          "has_rain": true,
-          "rain_start_time": "07:00"
-        }
-      ]
-    },
-    "gyeonggi_goyang": {
-      "id": "gyeonggi_goyang",
-      "name": "경기_고양",
-      "group": "경기",
-      "display_name": "고양",
-      "lat": 37.6583,
-      "lon": 126.832,
-      "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
-      "recommendation": {
-        "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 15°C나 돼요",
-        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
-        "rain_start_time": null,
-        "current_temp": 14.0,
-        "current_feels_like": 14.0,
-        "max_temp": 26.7,
-        "feels_like_max": 26.2,
-        "max_uvi": 5.1,
-        "temp_diff": 14.8,
-        "alert_event": null,
-        "preparations": [
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 15°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
-          }
-        ],
-        "is_night": false
-      },
-      "forecast": [
-        {
-          "date": "2026-10-10",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-11",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-12",
-          "pop": 0.26,
-          "has_rain": true,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "gyeonggi_yongin": {
-      "id": "gyeonggi_yongin",
-      "name": "경기_용인",
-      "group": "경기",
-      "display_name": "용인",
-      "lat": 37.241,
-      "lon": 127.1775,
-      "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
-      "recommendation": {
-        "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 15°C나 돼요",
-        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
-        "rain_start_time": null,
-        "current_temp": 12.2,
-        "current_feels_like": 11.9,
-        "max_temp": 25.9,
-        "feels_like_max": 25.3,
-        "max_uvi": 5.1,
-        "temp_diff": 15.1,
-        "alert_event": null,
-        "preparations": [
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 15°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
-          }
-        ],
-        "is_night": false
-      },
-      "forecast": [
-        {
-          "date": "2026-10-10",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-11",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-12",
-          "pop": 0.81,
-          "has_rain": true,
-          "rain_start_time": "07:00"
-        }
-      ]
-    },
-    "gyeonggi_bucheon": {
-      "id": "gyeonggi_bucheon",
-      "name": "경기_부천",
-      "group": "경기",
-      "display_name": "부천",
-      "lat": 37.5034,
-      "lon": 126.766,
-      "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 14°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 14,
-        "current_feels_like": 14.1,
-        "max_temp": 26.4,
-        "feels_like_max": 26.4,
+        "current_temp": 17.9,
+        "current_feels_like": 17.4,
+        "max_temp": 26.3,
+        "feels_like_max": 26.3,
         "max_uvi": 5.1,
         "temp_diff": 14.5,
         "alert_event": null,
@@ -519,32 +264,32 @@
         },
         {
           "date": "2026-10-12",
-          "pop": 0.3,
+          "pop": 1,
           "has_rain": true,
           "rain_start_time": null
         }
       ]
     },
-    "gyeonggi_namyangju": {
-      "id": "gyeonggi_namyangju",
-      "name": "경기_남양주",
+    "gyeonggi_suwon": {
+      "id": "gyeonggi_suwon",
+      "name": "경기_수원",
       "group": "경기",
-      "display_name": "남양주",
-      "lat": 37.636,
-      "lon": 127.2165,
+      "display_name": "수원",
+      "lat": 37.2636,
+      "lon": 127.0286,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 15°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 15.9,
-        "current_feels_like": 15.7,
-        "max_temp": 25.6,
-        "feels_like_max": 25.1,
+        "current_temp": 15.8,
+        "current_feels_like": 15.5,
+        "max_temp": 26.2,
+        "feels_like_max": 26.2,
         "max_uvi": 5.1,
-        "temp_diff": 15.1,
+        "temp_diff": 14.6,
         "alert_event": null,
         "preparations": [
           {
@@ -570,81 +315,30 @@
         },
         {
           "date": "2026-10-12",
-          "pop": 0.71,
+          "pop": 1,
           "has_rain": true,
           "rain_start_time": null
         }
       ]
     },
-    "gyeonggi_pyeongtaek": {
-      "id": "gyeonggi_pyeongtaek",
-      "name": "경기_평택",
+    "gyeonggi_seongnam": {
+      "id": "gyeonggi_seongnam",
+      "name": "경기_성남",
       "group": "경기",
-      "display_name": "평택",
-      "lat": 36.9921,
-      "lon": 127.1129,
+      "display_name": "성남",
+      "lat": 37.3827,
+      "lon": 127.1189,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 15°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 13.9,
-        "current_feels_like": 13.8,
-        "max_temp": 26.9,
-        "feels_like_max": 26.7,
-        "max_uvi": 5.2,
-        "temp_diff": 15.2,
-        "alert_event": null,
-        "preparations": [
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 15°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
-          }
-        ],
-        "is_night": false
-      },
-      "forecast": [
-        {
-          "date": "2026-10-10",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-11",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-12",
-          "pop": 0.87,
-          "has_rain": true,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "gyeonggi_uijeongbu": {
-      "id": "gyeonggi_uijeongbu",
-      "name": "경기_의정부",
-      "group": "경기",
-      "display_name": "의정부",
-      "lat": 37.7381,
-      "lon": 127.0339,
-      "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
-      "recommendation": {
-        "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 15°C나 돼요",
-        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
-        "rain_start_time": null,
-        "current_temp": 13.7,
-        "current_feels_like": 13.2,
-        "max_temp": 26.0,
-        "feels_like_max": 26.0,
+        "current_temp": 16.7,
+        "current_feels_like": 16.3,
+        "max_temp": 26.8,
+        "feels_like_max": 26.4,
         "max_uvi": 5.1,
         "temp_diff": 14.9,
         "alert_event": null,
@@ -672,32 +366,32 @@
         },
         {
           "date": "2026-10-12",
-          "pop": 0.25,
+          "pop": 1,
           "has_rain": true,
           "rain_start_time": null
         }
       ]
     },
-    "incheon_center": {
-      "id": "incheon_center",
-      "name": "인천_남동",
-      "group": "인천",
-      "display_name": "남동",
-      "lat": 37.4475,
-      "lon": 126.7314,
+    "gyeonggi_goyang": {
+      "id": "gyeonggi_goyang",
+      "name": "경기_고양",
+      "group": "경기",
+      "display_name": "고양",
+      "lat": 37.6583,
+      "lon": 126.832,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 14°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 14.0,
-        "current_feels_like": 14.1,
-        "max_temp": 25.5,
-        "feels_like_max": 25.3,
+        "current_temp": 18.0,
+        "current_feels_like": 18.0,
+        "max_temp": 26.2,
+        "feels_like_max": 26.2,
         "max_uvi": 5.1,
-        "temp_diff": 13.9,
+        "temp_diff": 14.4,
         "alert_event": null,
         "preparations": [
           {
@@ -723,7 +417,313 @@
         },
         {
           "date": "2026-10-12",
-          "pop": 0.23,
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeonggi_yongin": {
+      "id": "gyeonggi_yongin",
+      "name": "경기_용인",
+      "group": "경기",
+      "display_name": "용인",
+      "lat": 37.241,
+      "lon": 127.1775,
+      "status": "ok",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
+      "recommendation": {
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 15°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 16.1,
+        "current_feels_like": 15.7,
+        "max_temp": 25.3,
+        "feels_like_max": 24.5,
+        "max_uvi": 5.1,
+        "temp_diff": 14.7,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 15°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": false
+      },
+      "forecast": [
+        {
+          "date": "2026-10-10",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-11",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-12",
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeonggi_bucheon": {
+      "id": "gyeonggi_bucheon",
+      "name": "경기_부천",
+      "group": "경기",
+      "display_name": "부천",
+      "lat": 37.5034,
+      "lon": 126.766,
+      "status": "ok",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
+      "recommendation": {
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 14°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 18,
+        "current_feels_like": 18,
+        "max_temp": 25.6,
+        "feels_like_max": 25.3,
+        "max_uvi": 5.1,
+        "temp_diff": 13.6,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 14°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": false
+      },
+      "forecast": [
+        {
+          "date": "2026-10-10",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-11",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-12",
+          "pop": 0.82,
+          "has_rain": true,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeonggi_namyangju": {
+      "id": "gyeonggi_namyangju",
+      "name": "경기_남양주",
+      "group": "경기",
+      "display_name": "남양주",
+      "lat": 37.636,
+      "lon": 127.2165,
+      "status": "ok",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
+      "recommendation": {
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 14°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 17.6,
+        "current_feels_like": 17.3,
+        "max_temp": 24.5,
+        "feels_like_max": 23.9,
+        "max_uvi": 5.1,
+        "temp_diff": 14.1,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 14°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": false
+      },
+      "forecast": [
+        {
+          "date": "2026-10-10",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-11",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-12",
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeonggi_pyeongtaek": {
+      "id": "gyeonggi_pyeongtaek",
+      "name": "경기_평택",
+      "group": "경기",
+      "display_name": "평택",
+      "lat": 36.9921,
+      "lon": 127.1129,
+      "status": "ok",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
+      "recommendation": {
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 15°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 16.9,
+        "current_feels_like": 16.7,
+        "max_temp": 26.3,
+        "feels_like_max": 26.3,
+        "max_uvi": 5.2,
+        "temp_diff": 14.8,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 15°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": false
+      },
+      "forecast": [
+        {
+          "date": "2026-10-10",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-11",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-12",
+          "pop": 0.61,
+          "has_rain": true,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeonggi_uijeongbu": {
+      "id": "gyeonggi_uijeongbu",
+      "name": "경기_의정부",
+      "group": "경기",
+      "display_name": "의정부",
+      "lat": 37.7381,
+      "lon": 127.0339,
+      "status": "ok",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
+      "recommendation": {
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 14°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 17.7,
+        "current_feels_like": 17.3,
+        "max_temp": 25.1,
+        "feels_like_max": 24.5,
+        "max_uvi": 5.1,
+        "temp_diff": 14.1,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 14°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": false
+      },
+      "forecast": [
+        {
+          "date": "2026-10-10",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-11",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-12",
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "incheon_center": {
+      "id": "incheon_center",
+      "name": "인천_남동",
+      "group": "인천",
+      "display_name": "남동",
+      "lat": 37.4475,
+      "lon": 126.7314,
+      "status": "ok",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
+      "recommendation": {
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 13°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 18.0,
+        "current_feels_like": 18.0,
+        "max_temp": 24.7,
+        "feels_like_max": 24.3,
+        "max_uvi": 5.1,
+        "temp_diff": 13.1,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 13°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": false
+      },
+      "forecast": [
+        {
+          "date": "2026-10-10",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-11",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-12",
+          "pop": 0.68,
           "has_rain": true,
           "rain_start_time": null
         }
@@ -737,26 +737,71 @@
       "lat": 37.5451,
       "lon": 126.676,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 14°C나 돼요",
+        "title": "낮과 밤의 기온 차가 13°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 13.9,
-        "current_feels_like": 14.0,
-        "max_temp": 25.9,
-        "feels_like_max": 25.7,
+        "current_temp": 17.9,
+        "current_feels_like": 17.9,
+        "max_temp": 25,
+        "feels_like_max": 24.8,
         "max_uvi": 5.1,
-        "temp_diff": 13.7,
+        "temp_diff": 12.8,
         "alert_event": null,
         "preparations": [
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 14°C나 돼요",
+            "title": "낮과 밤의 기온 차가 13°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
+        "is_night": false
+      },
+      "forecast": [
+        {
+          "date": "2026-10-10",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-11",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-12",
+          "pop": 0.54,
+          "has_rain": true,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "busan_center": {
+      "id": "busan_center",
+      "name": "부산_진구",
+      "group": "부산",
+      "display_name": "진구",
+      "lat": 35.1631,
+      "lon": 129.0536,
+      "status": "ok",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
+      "recommendation": {
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
+        "rain_start_time": null,
+        "current_temp": 20.9,
+        "current_feels_like": 20.9,
+        "max_temp": 25.0,
+        "feels_like_max": 25.2,
+        "max_uvi": 5.9,
+        "temp_diff": 9.8,
+        "alert_event": null,
+        "preparations": [],
         "is_night": false
       },
       "forecast": [
@@ -776,58 +821,7 @@
           "date": "2026-10-12",
           "pop": 0.2,
           "has_rain": true,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "busan_center": {
-      "id": "busan_center",
-      "name": "부산_진구",
-      "group": "부산",
-      "display_name": "진구",
-      "lat": 35.1631,
-      "lon": 129.0536,
-      "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
-      "recommendation": {
-        "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 11°C나 돼요",
-        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
-        "rain_start_time": null,
-        "current_temp": 18.9,
-        "current_feels_like": 18.8,
-        "max_temp": 25.8,
-        "feels_like_max": 26.1,
-        "max_uvi": 5.9,
-        "temp_diff": 10.6,
-        "alert_event": null,
-        "preparations": [
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 11°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
-          }
-        ],
-        "is_night": false
-      },
-      "forecast": [
-        {
-          "date": "2026-10-10",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-11",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-12",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
+          "rain_start_time": "02:00"
         }
       ]
     },
@@ -839,26 +833,20 @@
       "lat": 35.1631,
       "lon": 129.1636,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
-        "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 10°C나 돼요",
-        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 19.0,
-        "current_feels_like": 18.9,
-        "max_temp": 26.3,
-        "feels_like_max": 26.3,
+        "current_temp": 21.0,
+        "current_feels_like": 21.0,
+        "max_temp": 25.7,
+        "feels_like_max": 26.1,
         "max_uvi": 5.9,
-        "temp_diff": 10.1,
+        "temp_diff": 9.5,
         "alert_event": null,
-        "preparations": [
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 10°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
-          }
-        ],
+        "preparations": [],
         "is_night": false
       },
       "forecast": [
@@ -876,9 +864,9 @@
         },
         {
           "date": "2026-10-12",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
+          "pop": 0.2,
+          "has_rain": true,
+          "rain_start_time": "02:00"
         }
       ]
     },
@@ -890,26 +878,20 @@
       "lat": 35.1526,
       "lon": 128.9911,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
-        "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 11°C나 돼요",
-        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "state_code": "NONE",
+        "title": "가볍게 빈손으로 나가도 좋아요",
+        "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 19.0,
-        "current_feels_like": 19.0,
-        "max_temp": 26.1,
-        "feels_like_max": 26.1,
+        "current_temp": 21.0,
+        "current_feels_like": 21.1,
+        "max_temp": 25.2,
+        "feels_like_max": 25.4,
         "max_uvi": 5.9,
-        "temp_diff": 10.7,
+        "temp_diff": 9.8,
         "alert_event": null,
-        "preparations": [
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 11°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
-          }
-        ],
+        "preparations": [],
         "is_night": false
       },
       "forecast": [
@@ -927,9 +909,9 @@
         },
         {
           "date": "2026-10-12",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
+          "pop": 0.2,
+          "has_rain": true,
+          "rain_start_time": "02:00"
         }
       ]
     },
@@ -941,18 +923,18 @@
       "lat": 35.0912,
       "lon": 129.0679,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 18.7,
-        "current_feels_like": 18.7,
-        "max_temp": 24.8,
-        "feels_like_max": 25.1,
+        "current_temp": 20.7,
+        "current_feels_like": 20.8,
+        "max_temp": 24.5,
+        "feels_like_max": 24.8,
         "max_uvi": 5.9,
-        "temp_diff": 6.1,
+        "temp_diff": 3.8,
         "alert_event": null,
         "preparations": [],
         "is_night": false
@@ -986,25 +968,20 @@
       "lat": 35.8669,
       "lon": 128.5942,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 14°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 15.9,
-        "current_feels_like": 15.4,
-        "max_temp": 28.2,
-        "feels_like_max": 28.8,
+        "current_temp": 18.9,
+        "current_feels_like": 18.4,
+        "max_temp": 27.6,
+        "feels_like_max": 28.9,
         "max_uvi": 5.5,
-        "temp_diff": 14.4,
+        "temp_diff": 14.3,
         "alert_event": null,
         "preparations": [
-          {
-            "type": "PARASOL",
-            "title": "볕이 뜨거워요. 양산 챙길까요?",
-            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
-          },
           {
             "type": "JACKET",
             "title": "낮과 밤의 기온 차가 14°C나 돼요",
@@ -1022,9 +999,9 @@
         },
         {
           "date": "2026-10-11",
-          "pop": 0.53,
+          "pop": 0.84,
           "has_rain": true,
-          "rain_start_time": "23:00"
+          "rain_start_time": "21:00"
         },
         {
           "date": "2026-10-12",
@@ -1042,28 +1019,23 @@
       "lat": 35.8865,
       "lon": 128.6355,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 15°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 16.0,
-        "current_feels_like": 15.5,
-        "max_temp": 28.1,
+        "current_temp": 19.0,
+        "current_feels_like": 18.5,
+        "max_temp": 27.7,
         "feels_like_max": 29.4,
         "max_uvi": 5.5,
-        "temp_diff": 14.4,
+        "temp_diff": 14.5,
         "alert_event": null,
         "preparations": [
           {
-            "type": "PARASOL",
-            "title": "볕이 뜨거워요. 양산 챙길까요?",
-            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
-          },
-          {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 14°C나 돼요",
+            "title": "낮과 밤의 기온 차가 15°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -1078,15 +1050,15 @@
         },
         {
           "date": "2026-10-11",
-          "pop": 0.46,
+          "pop": 0.73,
           "has_rain": true,
-          "rain_start_time": "16:00"
+          "rain_start_time": "21:00"
         },
         {
           "date": "2026-10-12",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "00:00"
+          "rain_start_time": null
         }
       ]
     },
@@ -1098,25 +1070,20 @@
       "lat": 35.8299,
       "lon": 128.5326,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 14°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 15.9,
-        "current_feels_like": 15.4,
-        "max_temp": 28.1,
+        "current_temp": 18.9,
+        "current_feels_like": 18.4,
+        "max_temp": 27.5,
         "feels_like_max": 28.4,
         "max_uvi": 5.5,
-        "temp_diff": 14.4,
+        "temp_diff": 14.3,
         "alert_event": null,
         "preparations": [
-          {
-            "type": "PARASOL",
-            "title": "볕이 뜨거워요. 양산 챙길까요?",
-            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
-          },
           {
             "type": "JACKET",
             "title": "낮과 밤의 기온 차가 14°C나 돼요",
@@ -1134,9 +1101,9 @@
         },
         {
           "date": "2026-10-11",
-          "pop": 0.78,
+          "pop": 0.94,
           "has_rain": true,
-          "rain_start_time": "22:00"
+          "rain_start_time": "21:00"
         },
         {
           "date": "2026-10-12",
@@ -1154,18 +1121,18 @@
       "lat": 36.3554,
       "lon": 127.3838,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 15°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 16.5,
-        "current_feels_like": 16.1,
-        "max_temp": 26.9,
-        "feels_like_max": 26.9,
+        "current_temp": 18.7,
+        "current_feels_like": 18.3,
+        "max_temp": 26.5,
+        "feels_like_max": 26.5,
         "max_uvi": 5.4,
-        "temp_diff": 15.3,
+        "temp_diff": 15.2,
         "alert_event": null,
         "preparations": [
           {
@@ -1185,15 +1152,15 @@
         },
         {
           "date": "2026-10-11",
-          "pop": 0.87,
+          "pop": 0.51,
           "has_rain": true,
-          "rain_start_time": "21:00"
+          "rain_start_time": "14:00"
         },
         {
           "date": "2026-10-12",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "03:00"
         }
       ]
     },
@@ -1205,18 +1172,18 @@
       "lat": 36.3622,
       "lon": 127.3562,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 15°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 16.4,
-        "current_feels_like": 16,
-        "max_temp": 26.7,
-        "feels_like_max": 26.8,
+        "current_temp": 18.6,
+        "current_feels_like": 18.2,
+        "max_temp": 26.4,
+        "feels_like_max": 26.4,
         "max_uvi": 5.4,
-        "temp_diff": 15.3,
+        "temp_diff": 15.2,
         "alert_event": null,
         "preparations": [
           {
@@ -1236,15 +1203,15 @@
         },
         {
           "date": "2026-10-11",
-          "pop": 0.91,
+          "pop": 0.41,
           "has_rain": true,
-          "rain_start_time": "21:00"
+          "rain_start_time": "17:00"
         },
         {
           "date": "2026-10-12",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "02:00"
+          "rain_start_time": "03:00"
         }
       ]
     },
@@ -1256,23 +1223,23 @@
       "lat": 35.152,
       "lon": 126.8901,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 12°C나 돼요",
+        "title": "낮과 밤의 기온 차가 11°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 18.1,
-        "current_feels_like": 17.9,
-        "max_temp": 25.8,
-        "feels_like_max": 25.7,
+        "current_temp": 20.9,
+        "current_feels_like": 20.6,
+        "max_temp": 24.8,
+        "feels_like_max": 24.7,
         "max_uvi": 5.9,
-        "temp_diff": 12.1,
+        "temp_diff": 11.4,
         "alert_event": null,
         "preparations": [
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 12°C나 돼요",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -1287,15 +1254,15 @@
         },
         {
           "date": "2026-10-11",
-          "pop": 0.94,
-          "has_rain": true,
-          "rain_start_time": "17:00"
+          "pop": 0.02,
+          "has_rain": false,
+          "rain_start_time": null
         },
         {
           "date": "2026-10-12",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "00:00"
+          "rain_start_time": null
         }
       ]
     },
@@ -1307,23 +1274,23 @@
       "lat": 35.1396,
       "lon": 126.7936,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 12°C나 돼요",
+        "title": "낮과 밤의 기온 차가 11°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 17.6,
-        "current_feels_like": 17.3,
-        "max_temp": 25.1,
-        "feels_like_max": 25.0,
+        "current_temp": 20.4,
+        "current_feels_like": 20.2,
+        "max_temp": 24.0,
+        "feels_like_max": 23.8,
         "max_uvi": 5.9,
-        "temp_diff": 11.9,
+        "temp_diff": 11.0,
         "alert_event": null,
         "preparations": [
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 12°C나 돼요",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -1338,15 +1305,15 @@
         },
         {
           "date": "2026-10-11",
-          "pop": 0.98,
+          "pop": 0.2,
           "has_rain": true,
-          "rain_start_time": "17:00"
+          "rain_start_time": "19:00"
         },
         {
           "date": "2026-10-12",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "00:00"
+          "rain_start_time": null
         }
       ]
     },
@@ -1358,18 +1325,69 @@
       "lat": 35.5437,
       "lon": 129.33,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
+      "recommendation": {
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 10°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 21.3,
+        "current_feels_like": 21.3,
+        "max_temp": 25.9,
+        "feels_like_max": 26.1,
+        "max_uvi": 5.5,
+        "temp_diff": 10.4,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": false
+      },
+      "forecast": [
+        {
+          "date": "2026-10-10",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-11",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-12",
+          "pop": 0.2,
+          "has_rain": true,
+          "rain_start_time": "08:00"
+        }
+      ]
+    },
+    "ulsan_ulju": {
+      "id": "ulsan_ulju",
+      "name": "울산_울주",
+      "group": "울산",
+      "display_name": "울주",
+      "lat": 35.5387,
+      "lon": 129.1444,
+      "status": "ok",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 11°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 19.7,
-        "current_feels_like": 19.7,
-        "max_temp": 26.4,
-        "feels_like_max": 26.4,
+        "current_temp": 20.9,
+        "current_feels_like": 20.8,
+        "max_temp": 26.0,
+        "feels_like_max": 26.0,
         "max_uvi": 5.5,
-        "temp_diff": 10.9,
+        "temp_diff": 11.2,
         "alert_event": null,
         "preparations": [
           {
@@ -1395,59 +1413,8 @@
         },
         {
           "date": "2026-10-12",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "ulsan_ulju": {
-      "id": "ulsan_ulju",
-      "name": "울산_울주",
-      "group": "울산",
-      "display_name": "울주",
-      "lat": 35.5387,
-      "lon": 129.1444,
-      "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
-      "recommendation": {
-        "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 12°C나 돼요",
-        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
-        "rain_start_time": null,
-        "current_temp": 19.3,
-        "current_feels_like": 19.2,
-        "max_temp": 26.5,
-        "feels_like_max": 26.5,
-        "max_uvi": 5.5,
-        "temp_diff": 11.7,
-        "alert_event": null,
-        "preparations": [
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 12°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
-          }
-        ],
-        "is_night": false
-      },
-      "forecast": [
-        {
-          "date": "2026-10-10",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-11",
-          "pop": 0.44,
+          "pop": 0.75,
           "has_rain": true,
-          "rain_start_time": "17:00"
-        },
-        {
-          "date": "2026-10-12",
-          "pop": 0,
-          "has_rain": false,
           "rain_start_time": null
         }
       ]
@@ -1460,18 +1427,18 @@
       "lat": 36.48,
       "lon": 127.289,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 15°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 16.4,
-        "current_feels_like": 16.0,
-        "max_temp": 26.7,
-        "feels_like_max": 26.7,
+        "current_temp": 18.7,
+        "current_feels_like": 18.3,
+        "max_temp": 26.4,
+        "feels_like_max": 26.4,
         "max_uvi": 5.4,
-        "temp_diff": 15.2,
+        "temp_diff": 15.1,
         "alert_event": null,
         "preparations": [
           {
@@ -1491,15 +1458,15 @@
         },
         {
           "date": "2026-10-11",
-          "pop": 0.48,
-          "has_rain": true,
-          "rain_start_time": "22:00"
+          "pop": 0.06,
+          "has_rain": false,
+          "rain_start_time": null
         },
         {
           "date": "2026-10-12",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": null
+          "rain_start_time": "04:00"
         }
       ]
     },
@@ -1511,16 +1478,169 @@
       "lat": 37.8813,
       "lon": 127.7298,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
+      "recommendation": {
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 15°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 18.8,
+        "current_feels_like": 18.4,
+        "max_temp": 25.4,
+        "feels_like_max": 25.0,
+        "max_uvi": 5.2,
+        "temp_diff": 14.7,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 15°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": false
+      },
+      "forecast": [
+        {
+          "date": "2026-10-10",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-11",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-12",
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": "08:00"
+        }
+      ]
+    },
+    "gangwon_wonju": {
+      "id": "gangwon_wonju",
+      "name": "강원_원주",
+      "group": "강원",
+      "display_name": "원주",
+      "lat": 37.3422,
+      "lon": 127.9202,
+      "status": "ok",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
+      "recommendation": {
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 14°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 17.7,
+        "current_feels_like": 17.4,
+        "max_temp": 23.7,
+        "feels_like_max": 23.2,
+        "max_uvi": 5.2,
+        "temp_diff": 13.8,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 14°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": false
+      },
+      "forecast": [
+        {
+          "date": "2026-10-10",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-11",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-12",
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": "06:00"
+        }
+      ]
+    },
+    "gangwon_gangneung": {
+      "id": "gangwon_gangneung",
+      "name": "강원_강릉",
+      "group": "강원",
+      "display_name": "강릉",
+      "lat": 37.7519,
+      "lon": 128.8761,
+      "status": "ok",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
+      "recommendation": {
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 11°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 20.6,
+        "current_feels_like": 20.1,
+        "max_temp": 23.1,
+        "feels_like_max": 22.9,
+        "max_uvi": 5.2,
+        "temp_diff": 11.0,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": false
+      },
+      "forecast": [
+        {
+          "date": "2026-10-10",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-11",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-12",
+          "pop": 0.89,
+          "has_rain": true,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "chungbuk_cheongju": {
+      "id": "chungbuk_cheongju",
+      "name": "충북_청주",
+      "group": "충북",
+      "display_name": "청주",
+      "lat": 36.6424,
+      "lon": 127.489,
+      "status": "ok",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 16°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 16.5,
-        "current_feels_like": 16.3,
-        "max_temp": 26.4,
-        "feels_like_max": 26.4,
+        "current_temp": 15.0,
+        "current_feels_like": 14.7,
+        "max_temp": 26.2,
+        "feels_like_max": 26.2,
         "max_uvi": 5.2,
         "temp_diff": 15.7,
         "alert_event": null,
@@ -1550,29 +1670,29 @@
           "date": "2026-10-12",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": null
+          "rain_start_time": "06:00"
         }
       ]
     },
-    "gangwon_wonju": {
-      "id": "gangwon_wonju",
-      "name": "강원_원주",
-      "group": "강원",
-      "display_name": "원주",
-      "lat": 37.3422,
-      "lon": 127.9202,
+    "chungbuk_chungju": {
+      "id": "chungbuk_chungju",
+      "name": "충북_충주",
+      "group": "충북",
+      "display_name": "충주",
+      "lat": 36.9911,
+      "lon": 127.926,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 14°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 15.7,
-        "current_feels_like": 15.5,
-        "max_temp": 24.4,
-        "feels_like_max": 23.9,
-        "max_uvi": 5.2,
+        "current_temp": 18.6,
+        "current_feels_like": 18.3,
+        "max_temp": 25.4,
+        "feels_like_max": 25.2,
+        "max_uvi": 5.3,
         "temp_diff": 14.4,
         "alert_event": null,
         "preparations": [
@@ -1605,127 +1725,25 @@
         }
       ]
     },
-    "gangwon_gangneung": {
-      "id": "gangwon_gangneung",
-      "name": "강원_강릉",
-      "group": "강원",
-      "display_name": "강릉",
-      "lat": 37.7519,
-      "lon": 128.8761,
+    "chungnam_cheonan": {
+      "id": "chungnam_cheonan",
+      "name": "충남_천안",
+      "group": "충남",
+      "display_name": "천안",
+      "lat": 36.8151,
+      "lon": 127.1139,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
-      "recommendation": {
-        "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 12°C나 돼요",
-        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
-        "rain_start_time": null,
-        "current_temp": 18.3,
-        "current_feels_like": 17.8,
-        "max_temp": 24.0,
-        "feels_like_max": 23.8,
-        "max_uvi": 5.2,
-        "temp_diff": 11.9,
-        "alert_event": null,
-        "preparations": [
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 12°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
-          }
-        ],
-        "is_night": false
-      },
-      "forecast": [
-        {
-          "date": "2026-10-10",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-11",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-12",
-          "pop": 0.96,
-          "has_rain": true,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "chungbuk_cheongju": {
-      "id": "chungbuk_cheongju",
-      "name": "충북_청주",
-      "group": "충북",
-      "display_name": "청주",
-      "lat": 36.6424,
-      "lon": 127.489,
-      "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
-      "recommendation": {
-        "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 16°C나 돼요",
-        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
-        "rain_start_time": null,
-        "current_temp": 12.0,
-        "current_feels_like": 11.5,
-        "max_temp": 26.5,
-        "feels_like_max": 26.5,
-        "max_uvi": 5.2,
-        "temp_diff": 15.7,
-        "alert_event": null,
-        "preparations": [
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 16°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
-          }
-        ],
-        "is_night": false
-      },
-      "forecast": [
-        {
-          "date": "2026-10-10",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-11",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-12",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "chungbuk_chungju": {
-      "id": "chungbuk_chungju",
-      "name": "충북_충주",
-      "group": "충북",
-      "display_name": "충주",
-      "lat": 36.9911,
-      "lon": 127.926,
-      "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 15°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 16.4,
-        "current_feels_like": 16.1,
+        "current_temp": 18.4,
+        "current_feels_like": 18.1,
         "max_temp": 25.9,
-        "feels_like_max": 25.6,
-        "max_uvi": 5.3,
+        "feels_like_max": 25.7,
+        "max_uvi": 5.2,
         "temp_diff": 14.8,
         "alert_event": null,
         "preparations": [
@@ -1752,60 +1770,9 @@
         },
         {
           "date": "2026-10-12",
-          "pop": 1,
+          "pop": 0.69,
           "has_rain": true,
-          "rain_start_time": "02:00"
-        }
-      ]
-    },
-    "chungnam_cheonan": {
-      "id": "chungnam_cheonan",
-      "name": "충남_천안",
-      "group": "충남",
-      "display_name": "천안",
-      "lat": 36.8151,
-      "lon": 127.1139,
-      "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
-      "recommendation": {
-        "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 15°C나 돼요",
-        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
-        "rain_start_time": null,
-        "current_temp": 16.5,
-        "current_feels_like": 16.3,
-        "max_temp": 26.3,
-        "feels_like_max": 26.3,
-        "max_uvi": 5.2,
-        "temp_diff": 15.1,
-        "alert_event": null,
-        "preparations": [
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 15°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
-          }
-        ],
-        "is_night": false
-      },
-      "forecast": [
-        {
-          "date": "2026-10-10",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-11",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-12",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": null
+          "rain_start_time": "05:00"
         }
       ]
     },
@@ -1817,18 +1784,18 @@
       "lat": 36.7898,
       "lon": 127.0018,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 15°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 17.0,
-        "current_feels_like": 16.8,
-        "max_temp": 26.6,
-        "feels_like_max": 26.6,
+        "current_temp": 18.8,
+        "current_feels_like": 18.6,
+        "max_temp": 26.1,
+        "feels_like_max": 26.1,
         "max_uvi": 5.2,
-        "temp_diff": 14.9,
+        "temp_diff": 14.6,
         "alert_event": null,
         "preparations": [
           {
@@ -1854,9 +1821,9 @@
         },
         {
           "date": "2026-10-12",
-          "pop": 0.84,
+          "pop": 0.51,
           "has_rain": true,
-          "rain_start_time": null
+          "rain_start_time": "05:00"
         }
       ]
     },
@@ -1868,18 +1835,18 @@
       "lat": 36.7801,
       "lon": 126.4503,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 13°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 17.2,
-        "current_feels_like": 16.9,
-        "max_temp": 25.4,
-        "feels_like_max": 25.1,
+        "current_temp": 18.8,
+        "current_feels_like": 18.5,
+        "max_temp": 24.9,
+        "feels_like_max": 24.7,
         "max_uvi": 5.2,
-        "temp_diff": 13.4,
+        "temp_diff": 13.1,
         "alert_event": null,
         "preparations": [
           {
@@ -1905,8 +1872,8 @@
         },
         {
           "date": "2026-10-12",
-          "pop": 0.2,
-          "has_rain": true,
+          "pop": 0,
+          "has_rain": false,
           "rain_start_time": null
         }
       ]
@@ -1919,18 +1886,18 @@
       "lat": 35.8242,
       "lon": 127.148,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 14°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 17.6,
-        "current_feels_like": 17.1,
-        "max_temp": 26.7,
-        "feels_like_max": 27.0,
+        "current_temp": 19.8,
+        "current_feels_like": 19.3,
+        "max_temp": 26.3,
+        "feels_like_max": 26.3,
         "max_uvi": 5.7,
-        "temp_diff": 13.8,
+        "temp_diff": 13.9,
         "alert_event": null,
         "preparations": [
           {
@@ -1950,15 +1917,15 @@
         },
         {
           "date": "2026-10-11",
-          "pop": 0.43,
-          "has_rain": true,
-          "rain_start_time": "15:00"
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
         },
         {
           "date": "2026-10-12",
-          "pop": 0.7,
+          "pop": 1,
           "has_rain": true,
-          "rain_start_time": "08:00"
+          "rain_start_time": null
         }
       ]
     },
@@ -1970,18 +1937,18 @@
       "lat": 35.9677,
       "lon": 126.7366,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 12°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 17.1,
-        "current_feels_like": 16.7,
-        "max_temp": 24.7,
-        "feels_like_max": 24.6,
+        "current_temp": 19.3,
+        "current_feels_like": 18.9,
+        "max_temp": 24.3,
+        "feels_like_max": 24.3,
         "max_uvi": 5.6,
-        "temp_diff": 11.9,
+        "temp_diff": 11.7,
         "alert_event": null,
         "preparations": [
           {
@@ -2001,15 +1968,15 @@
         },
         {
           "date": "2026-10-11",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
+          "pop": 0.2,
+          "has_rain": true,
+          "rain_start_time": "23:00"
         },
         {
           "date": "2026-10-12",
-          "pop": 0.96,
+          "pop": 0.98,
           "has_rain": true,
-          "rain_start_time": "06:00"
+          "rain_start_time": "00:00"
         }
       ]
     },
@@ -2021,16 +1988,16 @@
       "lat": 35.9483,
       "lon": 126.9578,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 14°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 17.0,
-        "current_feels_like": 16.5,
-        "max_temp": 26.1,
-        "feels_like_max": 26.1,
+        "current_temp": 19.3,
+        "current_feels_like": 18.8,
+        "max_temp": 25.7,
+        "feels_like_max": 25.6,
         "max_uvi": 5.6,
         "temp_diff": 13.6,
         "alert_event": null,
@@ -2052,15 +2019,15 @@
         },
         {
           "date": "2026-10-11",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
+          "pop": 0.2,
+          "has_rain": true,
+          "rain_start_time": "14:00"
         },
         {
           "date": "2026-10-12",
-          "pop": 0.79,
+          "pop": 1,
           "has_rain": true,
-          "rain_start_time": "08:00"
+          "rain_start_time": "00:00"
         }
       ]
     },
@@ -2072,18 +2039,18 @@
       "lat": 34.8118,
       "lon": 126.3922,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 14.8,
-        "current_feels_like": 14.6,
-        "max_temp": 23.5,
-        "feels_like_max": 23.7,
+        "current_temp": 18.8,
+        "current_feels_like": 18.6,
+        "max_temp": 22.6,
+        "feels_like_max": 22.7,
         "max_uvi": 6.0,
-        "temp_diff": 9.9,
+        "temp_diff": 9.1,
         "alert_event": null,
         "preparations": [],
         "is_night": false
@@ -2097,15 +2064,15 @@
         },
         {
           "date": "2026-10-11",
-          "pop": 0.34,
+          "pop": 0.91,
           "has_rain": true,
-          "rain_start_time": "13:00"
+          "rain_start_time": "14:00"
         },
         {
           "date": "2026-10-12",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "00:00"
+          "rain_start_time": "04:00"
         }
       ]
     },
@@ -2117,18 +2084,18 @@
       "lat": 34.7604,
       "lon": 127.6622,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 18.5,
-        "current_feels_like": 18.2,
-        "max_temp": 25.2,
-        "feels_like_max": 25.5,
+        "current_temp": 20.1,
+        "current_feels_like": 19.8,
+        "max_temp": 25.1,
+        "feels_like_max": 25.4,
         "max_uvi": 6.0,
-        "temp_diff": 9.5,
+        "temp_diff": 9.4,
         "alert_event": null,
         "preparations": [
           {
@@ -2148,15 +2115,15 @@
         },
         {
           "date": "2026-10-11",
-          "pop": 0.2,
+          "pop": 0.38,
           "has_rain": true,
-          "rain_start_time": "20:00"
+          "rain_start_time": "07:00"
         },
         {
           "date": "2026-10-12",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "04:00"
+          "rain_start_time": null
         }
       ]
     },
@@ -2168,18 +2135,18 @@
       "lat": 34.9506,
       "lon": 127.4872,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "PARASOL",
         "title": "자외선이 '높음' 단계예요",
         "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 18.9,
-        "current_feels_like": 18.4,
-        "max_temp": 26.9,
-        "feels_like_max": 27.4,
+        "current_temp": 21.2,
+        "current_feels_like": 20.8,
+        "max_temp": 26.5,
+        "feels_like_max": 26.5,
         "max_uvi": 6.0,
-        "temp_diff": 12.3,
+        "temp_diff": 12.1,
         "alert_event": null,
         "preparations": [
           {
@@ -2190,6 +2157,108 @@
           {
             "type": "JACKET",
             "title": "낮과 밤의 기온 차가 12°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": false
+      },
+      "forecast": [
+        {
+          "date": "2026-10-10",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-11",
+          "pop": 0.8,
+          "has_rain": true,
+          "rain_start_time": "04:00"
+        },
+        {
+          "date": "2026-10-12",
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": "01:00"
+        }
+      ]
+    },
+    "gyeongbuk_pohang": {
+      "id": "gyeongbuk_pohang",
+      "name": "경북_포항",
+      "group": "경북",
+      "display_name": "포항",
+      "lat": 36.019,
+      "lon": 129.3435,
+      "status": "ok",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
+      "recommendation": {
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 13°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 20.4,
+        "current_feels_like": 20.0,
+        "max_temp": 27.0,
+        "feels_like_max": 27.4,
+        "max_uvi": 5.8,
+        "temp_diff": 12.7,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 13°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
+          }
+        ],
+        "is_night": false
+      },
+      "forecast": [
+        {
+          "date": "2026-10-10",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-11",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-10-12",
+          "pop": 0.34,
+          "has_rain": true,
+          "rain_start_time": "07:00"
+        }
+      ]
+    },
+    "gyeongbuk_gumi": {
+      "id": "gyeongbuk_gumi",
+      "name": "경북_구미",
+      "group": "경북",
+      "display_name": "구미",
+      "lat": 36.1195,
+      "lon": 128.3445,
+      "status": "ok",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
+      "recommendation": {
+        "state_code": "JACKET",
+        "title": "낮과 밤의 기온 차가 15°C나 돼요",
+        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
+        "rain_start_time": null,
+        "current_temp": 18.8,
+        "current_feels_like": 18.3,
+        "max_temp": 27.8,
+        "feels_like_max": 28.2,
+        "max_uvi": 5.7,
+        "temp_diff": 15.4,
+        "alert_event": null,
+        "preparations": [
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 15°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -2216,113 +2285,6 @@
         }
       ]
     },
-    "gyeongbuk_pohang": {
-      "id": "gyeongbuk_pohang",
-      "name": "경북_포항",
-      "group": "경북",
-      "display_name": "포항",
-      "lat": 36.019,
-      "lon": 129.3435,
-      "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
-      "recommendation": {
-        "state_code": "JACKET",
-        "title": "낮과 밤의 기온 차가 12°C나 돼요",
-        "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
-        "rain_start_time": null,
-        "current_temp": 18.8,
-        "current_feels_like": 18.4,
-        "max_temp": 27.1,
-        "feels_like_max": 27.8,
-        "max_uvi": 5.8,
-        "temp_diff": 12.5,
-        "alert_event": null,
-        "preparations": [
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 12°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
-          }
-        ],
-        "is_night": false
-      },
-      "forecast": [
-        {
-          "date": "2026-10-10",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-11",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-12",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "gyeongbuk_gumi": {
-      "id": "gyeongbuk_gumi",
-      "name": "경북_구미",
-      "group": "경북",
-      "display_name": "구미",
-      "lat": 36.1195,
-      "lon": 128.3445,
-      "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
-      "recommendation": {
-        "state_code": "PARASOL",
-        "title": "볕이 뜨거워요. 양산 챙길까요?",
-        "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!",
-        "rain_start_time": null,
-        "current_temp": 15.8,
-        "current_feels_like": 15.3,
-        "max_temp": 28.2,
-        "feels_like_max": 28.3,
-        "max_uvi": 5.7,
-        "temp_diff": 15.3,
-        "alert_event": null,
-        "preparations": [
-          {
-            "type": "PARASOL",
-            "title": "볕이 뜨거워요. 양산 챙길까요?",
-            "message": "볕이 뜨거워요. 양산이나 모자를 챙기세요!"
-          },
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 15°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
-          }
-        ],
-        "is_night": false
-      },
-      "forecast": [
-        {
-          "date": "2026-10-10",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-10-11",
-          "pop": 0.46,
-          "has_rain": true,
-          "rain_start_time": "23:00"
-        },
-        {
-          "date": "2026-10-12",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": "00:00"
-        }
-      ]
-    },
     "gyeongbuk_andong": {
       "id": "gyeongbuk_andong",
       "name": "경북_안동",
@@ -2331,18 +2293,18 @@
       "lat": 36.5684,
       "lon": 128.7294,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 15°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 16.3,
-        "current_feels_like": 15.8,
-        "max_temp": 26.2,
-        "feels_like_max": 26.2,
+        "current_temp": 18.6,
+        "current_feels_like": 18.0,
+        "max_temp": 25.8,
+        "feels_like_max": 25.7,
         "max_uvi": 5.7,
-        "temp_diff": 14.9,
+        "temp_diff": 14.8,
         "alert_event": null,
         "preparations": [
           {
@@ -2368,8 +2330,8 @@
         },
         {
           "date": "2026-10-12",
-          "pop": 0.94,
-          "has_rain": true,
+          "pop": 0,
+          "has_rain": false,
           "rain_start_time": null
         }
       ]
@@ -2382,18 +2344,18 @@
       "lat": 35.2279,
       "lon": 128.6811,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 12°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 18.8,
-        "current_feels_like": 18.7,
-        "max_temp": 27.5,
-        "feels_like_max": 27.9,
+        "current_temp": 20.8,
+        "current_feels_like": 20.8,
+        "max_temp": 26.9,
+        "feels_like_max": 27.6,
         "max_uvi": 5.9,
-        "temp_diff": 12.4,
+        "temp_diff": 11.9,
         "alert_event": null,
         "preparations": [
           {
@@ -2413,14 +2375,14 @@
         },
         {
           "date": "2026-10-11",
-          "pop": 0.45,
-          "has_rain": true,
-          "rain_start_time": "18:00"
+          "pop": 0.12,
+          "has_rain": false,
+          "rain_start_time": null
         },
         {
           "date": "2026-10-12",
-          "pop": 0.46,
-          "has_rain": false,
+          "pop": 0.98,
+          "has_rain": true,
           "rain_start_time": null
         }
       ]
@@ -2433,18 +2395,18 @@
       "lat": 35.1802,
       "lon": 128.1076,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "JACKET",
         "title": "낮과 밤의 기온 차가 14°C나 돼요",
         "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!",
         "rain_start_time": null,
-        "current_temp": 17.4,
-        "current_feels_like": 17.1,
-        "max_temp": 28.0,
-        "feels_like_max": 28.6,
+        "current_temp": 19.9,
+        "current_feels_like": 19.6,
+        "max_temp": 27.8,
+        "feels_like_max": 28.5,
         "max_uvi": 5.9,
-        "temp_diff": 14.0,
+        "temp_diff": 14.1,
         "alert_event": null,
         "preparations": [
           {
@@ -2464,9 +2426,9 @@
         },
         {
           "date": "2026-10-11",
-          "pop": 0.74,
+          "pop": 0.21,
           "has_rain": true,
-          "rain_start_time": "18:00"
+          "rain_start_time": "19:00"
         },
         {
           "date": "2026-10-12",
@@ -2484,18 +2446,18 @@
       "lat": 33.4996,
       "lon": 126.5312,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
         "title": "오후 7:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
         "rain_start_time": "19:00",
         "current_temp": 21.7,
-        "current_feels_like": 21.7,
+        "current_feels_like": 21.6,
         "max_temp": 23.3,
         "feels_like_max": 23.4,
         "max_uvi": 5.4,
-        "temp_diff": 4.5,
+        "temp_diff": 4.7,
         "alert_event": null,
         "preparations": [
           {
@@ -2510,7 +2472,7 @@
       "forecast": [
         {
           "date": "2026-10-10",
-          "pop": 0.92,
+          "pop": 0.96,
           "has_rain": true,
           "rain_start_time": "19:00"
         },
@@ -2518,7 +2480,7 @@
           "date": "2026-10-11",
           "pop": 1,
           "has_rain": true,
-          "rain_start_time": "01:00"
+          "rain_start_time": "13:00"
         },
         {
           "date": "2026-10-12",
@@ -2536,25 +2498,25 @@
       "lat": 33.2541,
       "lon": 126.5601,
       "status": "ok",
-      "fetched_at": "2026-10-10T09:02:07+09:00",
+      "fetched_at": "2026-10-10T10:02:01+09:00",
       "recommendation": {
         "state_code": "UMBRELLA",
-        "title": "오후 7:00부터 비 소식이 있어요",
+        "title": "오후 4:00부터 비 소식이 있어요",
         "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-        "rain_start_time": "19:00",
+        "rain_start_time": "16:00",
         "current_temp": 21.6,
-        "current_feels_like": 21.7,
-        "max_temp": 23.6,
-        "feels_like_max": 23.8,
+        "current_feels_like": 21.6,
+        "max_temp": 23.0,
+        "feels_like_max": 23.2,
         "max_uvi": 5.4,
-        "temp_diff": 3.1,
+        "temp_diff": 2.8,
         "alert_event": null,
         "preparations": [
           {
             "type": "UMBRELLA",
-            "title": "오후 7:00부터 비 소식이 있어요",
+            "title": "오후 4:00부터 비 소식이 있어요",
             "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "19:00"
+            "rain_start_time": "16:00"
           }
         ],
         "is_night": false
@@ -2562,15 +2524,15 @@
       "forecast": [
         {
           "date": "2026-10-10",
-          "pop": 0.99,
+          "pop": 0.91,
           "has_rain": true,
-          "rain_start_time": "19:00"
+          "rain_start_time": "16:00"
         },
         {
           "date": "2026-10-11",
-          "pop": 0.87,
+          "pop": 1,
           "has_rain": true,
-          "rain_start_time": "00:00"
+          "rain_start_time": "09:00"
         },
         {
           "date": "2026-10-12",
