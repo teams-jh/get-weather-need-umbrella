@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "2.1",
-    "updated_at": "2026-11-07T06:02:29+09:00",
+    "updated_at": "2026-11-07T08:02:42+09:00",
     "status": "ok",
     "source": "OpenWeatherMap One Call API 3.0 50 + KMA Alerts (Hybrid Real Data - 50/50)",
     "providers": {
@@ -23,14 +23,14 @@
       "lat": 37.57,
       "lon": 126.9796,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": -0.2,
-        "current_feels_like": -2.7,
+        "current_feels_like": -3.3,
         "max_temp": 9.1,
         "feels_like_max": 6.8,
         "max_uvi": 2.8,
@@ -89,18 +89,18 @@
       "lat": 37.4979,
       "lon": 127.0276,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 1.9,
-        "current_feels_like": -0.3,
+        "current_temp": -0.1,
+        "current_feels_like": -0.1,
         "max_temp": 9.5,
         "feels_like_max": 7.4,
         "max_uvi": 2.9,
-        "temp_diff": 7.7,
+        "temp_diff": 9.5,
         "alert_event": "한파주의보",
         "alert_events": [
           "한파주의보"
@@ -155,18 +155,18 @@
       "lat": 37.5145,
       "lon": 127.1066,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 1.5,
-        "current_feels_like": -0.8,
+        "current_temp": -0.2,
+        "current_feels_like": -0.2,
         "max_temp": 9.8,
         "feels_like_max": 7.8,
         "max_uvi": 2.8,
-        "temp_diff": 8.4,
+        "temp_diff": 10.0,
         "alert_event": "한파주의보",
         "alert_events": [
           "한파주의보"
@@ -188,6 +188,11 @@
             "alert_types": [
               "한파"
             ]
+          },
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": false
@@ -221,14 +226,14 @@
       "lat": 37.5509,
       "lon": 126.8495,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": -0.0,
-        "current_feels_like": -1.8,
+        "current_feels_like": -3.1,
         "max_temp": 9.6,
         "feels_like_max": 7.3,
         "max_uvi": 2.8,
@@ -287,18 +292,18 @@
       "lat": 37.6542,
       "lon": 127.0568,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 1.9,
-        "current_feels_like": -0.8,
+        "current_temp": -0.1,
+        "current_feels_like": -2.7,
         "max_temp": 9.5,
         "feels_like_max": 7.3,
         "max_uvi": 2.8,
-        "temp_diff": 7.8,
+        "temp_diff": 9.6,
         "alert_event": "한파주의보",
         "alert_events": [
           "한파주의보"
@@ -353,18 +358,18 @@
       "lat": 37.2636,
       "lon": 127.0286,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": -2.2,
-        "current_feels_like": -2.2,
+        "current_temp": -1.8,
+        "current_feels_like": -1.8,
         "max_temp": 9.6,
         "feels_like_max": 7.8,
         "max_uvi": 2.9,
-        "temp_diff": 11.9,
+        "temp_diff": 11.4,
         "alert_event": "한파주의보",
         "alert_events": [
           "한파주의보"
@@ -389,7 +394,7 @@
           },
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 12°C나 돼요",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -424,18 +429,18 @@
       "lat": 37.3827,
       "lon": 127.1189,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 1.8,
-        "current_feels_like": -0.4,
+        "current_temp": -0.2,
+        "current_feels_like": -0.2,
         "max_temp": 9.9,
         "feels_like_max": 8.2,
         "max_uvi": 2.9,
-        "temp_diff": 8.3,
+        "temp_diff": 10.1,
         "alert_event": "한파주의보",
         "alert_events": [
           "한파주의보"
@@ -457,6 +462,11 @@
             "alert_types": [
               "한파"
             ]
+          },
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": false
@@ -490,14 +500,14 @@
       "lat": 37.6583,
       "lon": 126.832,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": -0.0,
-        "current_feels_like": -1.9,
+        "current_feels_like": -3.1,
         "max_temp": 9.4,
         "feels_like_max": 7.1,
         "max_uvi": 2.8,
@@ -556,7 +566,7 @@
       "lat": 37.241,
       "lon": 127.1775,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
@@ -567,7 +577,7 @@
         "max_temp": 9.1,
         "feels_like_max": 7.1,
         "max_uvi": 2.9,
-        "temp_diff": 10.9,
+        "temp_diff": 11.0,
         "alert_event": "한파주의보",
         "alert_events": [
           "한파주의보"
@@ -627,14 +637,14 @@
       "lat": 37.5034,
       "lon": 126.766,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 0,
-        "current_feels_like": -1.8,
+        "current_feels_like": -3.1,
         "max_temp": 9.5,
         "feels_like_max": 7.1,
         "max_uvi": 2.8,
@@ -693,18 +703,18 @@
       "lat": 37.636,
       "lon": 127.2165,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 1.6,
-        "current_feels_like": -0.1,
+        "current_temp": -0.4,
+        "current_feels_like": -2.2,
         "max_temp": 8.6,
         "feels_like_max": 6.2,
         "max_uvi": 2.8,
-        "temp_diff": 7.9,
+        "temp_diff": 9.2,
         "alert_event": "한파주의보",
         "alert_events": [
           "한파주의보"
@@ -759,18 +769,18 @@
       "lat": 36.9921,
       "lon": 127.1129,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 1.9,
-        "current_feels_like": 1.9,
-        "max_temp": 10.0,
-        "feels_like_max": 7.7,
+        "current_temp": -2.1,
+        "current_feels_like": -2.1,
+        "max_temp": 9.9,
+        "feels_like_max": 7.5,
         "max_uvi": 3.0,
-        "temp_diff": 8.4,
+        "temp_diff": 12.0,
         "alert_event": "한파주의보",
         "alert_events": [
           "한파주의보"
@@ -792,6 +802,11 @@
             "alert_types": [
               "한파"
             ]
+          },
+          {
+            "type": "JACKET",
+            "title": "낮과 밤의 기온 차가 12°C나 돼요",
+            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": false
@@ -825,14 +840,14 @@
       "lat": 37.7381,
       "lon": 127.0339,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": -0.3,
-        "current_feels_like": -3.1,
+        "current_feels_like": -2.8,
         "max_temp": 8.7,
         "feels_like_max": 6.4,
         "max_uvi": 2.8,
@@ -891,14 +906,14 @@
       "lat": 37.4475,
       "lon": 126.7314,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 0.0,
-        "current_feels_like": -1.8,
+        "current_feels_like": -3.1,
         "max_temp": 8.8,
         "feels_like_max": 6.1,
         "max_uvi": 2.8,
@@ -957,14 +972,14 @@
       "lat": 37.5451,
       "lon": 126.676,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": -0.1,
-        "current_feels_like": -1.9,
+        "current_feels_like": -3.2,
         "max_temp": 9.3,
         "feels_like_max": 6.6,
         "max_uvi": 2.8,
@@ -1023,27 +1038,25 @@
       "lat": 35.1631,
       "lon": 129.0536,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 4.9,
-        "current_feels_like": 1.9,
+        "current_feels_like": 2.3,
         "max_temp": 14.3,
         "feels_like_max": 12.4,
         "max_uvi": 3.7,
-        "temp_diff": 10.4,
+        "temp_diff": 11.2,
         "alert_event": "한파주의보",
         "alert_events": [
-          "한파주의보",
-          "풍랑주의보"
+          "한파주의보"
         ],
         "alert_type": "한파",
         "alert_types": [
-          "한파",
-          "풍랑"
+          "한파"
         ],
         "preparations": [
           {
@@ -1052,18 +1065,16 @@
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
             "alert_event": "한파주의보",
             "alert_events": [
-              "한파주의보",
-              "풍랑주의보"
+              "한파주의보"
             ],
             "alert_type": "한파",
             "alert_types": [
-              "한파",
-              "풍랑"
+              "한파"
             ]
           },
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -1098,27 +1109,25 @@
       "lat": 35.1631,
       "lon": 129.1636,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 5.0,
-        "current_feels_like": 1.5,
+        "current_feels_like": 2.1,
         "max_temp": 14.9,
         "feels_like_max": 12.8,
         "max_uvi": 3.7,
-        "temp_diff": 10.2,
+        "temp_diff": 10.9,
         "alert_event": "한파주의보",
         "alert_events": [
-          "한파주의보",
-          "풍랑주의보"
+          "한파주의보"
         ],
         "alert_type": "한파",
         "alert_types": [
-          "한파",
-          "풍랑"
+          "한파"
         ],
         "preparations": [
           {
@@ -1127,18 +1136,16 @@
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
             "alert_event": "한파주의보",
             "alert_events": [
-              "한파주의보",
-              "풍랑주의보"
+              "한파주의보"
             ],
             "alert_type": "한파",
             "alert_types": [
-              "한파",
-              "풍랑"
+              "한파"
             ]
           },
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -1173,27 +1180,25 @@
       "lat": 35.1526,
       "lon": 128.9911,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 5.0,
-        "current_feels_like": 2.1,
+        "current_feels_like": 2.4,
         "max_temp": 14.7,
         "feels_like_max": 12.7,
         "max_uvi": 3.7,
-        "temp_diff": 10.6,
+        "temp_diff": 11.4,
         "alert_event": "한파주의보",
         "alert_events": [
-          "한파주의보",
-          "풍랑주의보"
+          "한파주의보"
         ],
         "alert_type": "한파",
         "alert_types": [
-          "한파",
-          "풍랑"
+          "한파"
         ],
         "preparations": [
           {
@@ -1202,13 +1207,11 @@
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
             "alert_event": "한파주의보",
             "alert_events": [
-              "한파주의보",
-              "풍랑주의보"
+              "한파주의보"
             ],
             "alert_type": "한파",
             "alert_types": [
-              "한파",
-              "풍랑"
+              "한파"
             ]
           },
           {
@@ -1248,27 +1251,25 @@
       "lat": 35.0912,
       "lon": 129.0679,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 4.7,
-        "current_feels_like": 1.8,
+        "current_feels_like": 2.1,
         "max_temp": 13.1,
         "feels_like_max": 11,
         "max_uvi": 3.7,
         "temp_diff": 8.3,
         "alert_event": "한파주의보",
         "alert_events": [
-          "한파주의보",
-          "풍랑주의보"
+          "한파주의보"
         ],
         "alert_type": "한파",
         "alert_types": [
-          "한파",
-          "풍랑"
+          "한파"
         ],
         "preparations": [
           {
@@ -1277,13 +1278,11 @@
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
             "alert_event": "한파주의보",
             "alert_events": [
-              "한파주의보",
-              "풍랑주의보"
+              "한파주의보"
             ],
             "alert_type": "한파",
             "alert_types": [
-              "한파",
-              "풍랑"
+              "한파"
             ]
           }
         ],
@@ -1318,49 +1317,47 @@
       "lat": 35.8669,
       "lon": 128.5942,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
+        "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 1.9,
-        "current_feels_like": 0.3,
+        "current_temp": 0.9,
+        "current_feels_like": 0.9,
         "max_temp": 12.2,
         "feels_like_max": 10.1,
         "max_uvi": 3.5,
-        "temp_diff": 10.3,
-        "alert_event": "풍랑주의보",
+        "temp_diff": 11.3,
+        "alert_event": "한파주의보",
         "alert_events": [
-          "풍랑주의보",
           "한파주의보",
           "풍랑경보"
         ],
-        "alert_type": "풍랑",
+        "alert_type": "한파",
         "alert_types": [
-          "풍랑",
-          "한파"
+          "한파",
+          "풍랑"
         ],
         "preparations": [
           {
             "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
+            "title": "한파주의보 발령 중",
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
+            "alert_event": "한파주의보",
             "alert_events": [
-              "풍랑주의보",
               "한파주의보",
               "풍랑경보"
             ],
-            "alert_type": "풍랑",
+            "alert_type": "한파",
             "alert_types": [
-              "풍랑",
-              "한파"
+              "한파",
+              "풍랑"
             ]
           },
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -1395,49 +1392,47 @@
       "lat": 35.8865,
       "lon": 128.6355,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
+        "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 2.0,
-        "current_feels_like": 0.4,
+        "current_temp": 1.0,
+        "current_feels_like": 1.0,
         "max_temp": 12.2,
         "feels_like_max": 10.0,
         "max_uvi": 3.5,
-        "temp_diff": 10.2,
-        "alert_event": "풍랑주의보",
+        "temp_diff": 11.2,
+        "alert_event": "한파주의보",
         "alert_events": [
-          "풍랑주의보",
           "한파주의보",
           "풍랑경보"
         ],
-        "alert_type": "풍랑",
+        "alert_type": "한파",
         "alert_types": [
-          "풍랑",
-          "한파"
+          "한파",
+          "풍랑"
         ],
         "preparations": [
           {
             "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
+            "title": "한파주의보 발령 중",
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
+            "alert_event": "한파주의보",
             "alert_events": [
-              "풍랑주의보",
               "한파주의보",
               "풍랑경보"
             ],
-            "alert_type": "풍랑",
+            "alert_type": "한파",
             "alert_types": [
-              "풍랑",
-              "한파"
+              "한파",
+              "풍랑"
             ]
           },
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -1472,49 +1467,47 @@
       "lat": 35.8299,
       "lon": 128.5326,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
+        "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 1.9,
-        "current_feels_like": 0.3,
+        "current_temp": 0.9,
+        "current_feels_like": 0.9,
         "max_temp": 12.2,
         "feels_like_max": 10.0,
         "max_uvi": 3.5,
-        "temp_diff": 10.3,
-        "alert_event": "풍랑주의보",
+        "temp_diff": 11.3,
+        "alert_event": "한파주의보",
         "alert_events": [
-          "풍랑주의보",
           "한파주의보",
           "풍랑경보"
         ],
-        "alert_type": "풍랑",
+        "alert_type": "한파",
         "alert_types": [
-          "풍랑",
-          "한파"
+          "한파",
+          "풍랑"
         ],
         "preparations": [
           {
             "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
+            "title": "한파주의보 발령 중",
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
+            "alert_event": "한파주의보",
             "alert_events": [
-              "풍랑주의보",
               "한파주의보",
               "풍랑경보"
             ],
-            "alert_type": "풍랑",
+            "alert_type": "한파",
             "alert_types": [
-              "풍랑",
-              "한파"
+              "한파",
+              "풍랑"
             ]
           },
           {
             "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 10°C나 돼요",
+            "title": "낮과 밤의 기온 차가 11°C나 돼요",
             "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
@@ -1549,18 +1542,18 @@
       "lat": 36.3554,
       "lon": 127.3838,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 1.2,
-        "current_feels_like": 1.2,
+        "current_temp": 2.6,
+        "current_feels_like": 2.6,
         "max_temp": 10.7,
         "feels_like_max": 8.4,
         "max_uvi": 3.1,
-        "temp_diff": 9.4,
+        "temp_diff": 9.2,
         "alert_event": null,
         "preparations": [],
         "is_night": false
@@ -1594,18 +1587,18 @@
       "lat": 36.3622,
       "lon": 127.3562,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 1.1,
-        "current_feels_like": 1.1,
+        "current_temp": 2.5,
+        "current_feels_like": 2.5,
         "max_temp": 10.5,
         "feels_like_max": 8.3,
         "max_uvi": 3.1,
-        "temp_diff": 9.4,
+        "temp_diff": 9.2,
         "alert_event": null,
         "preparations": [],
         "is_night": false
@@ -1639,18 +1632,18 @@
       "lat": 35.152,
       "lon": 126.8901,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 5.6,
-        "current_feels_like": 3.8,
+        "current_feels_like": 4.0,
         "max_temp": 11.2,
         "feels_like_max": 9.3,
         "max_uvi": 3.6,
-        "temp_diff": 6.8,
+        "temp_diff": 7.0,
         "alert_event": "한파주의보",
         "alert_events": [
           "한파주의보"
@@ -1705,18 +1698,18 @@
       "lat": 35.1396,
       "lon": 126.7936,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 5.6,
-        "current_feels_like": 3.8,
+        "current_temp": 5.5,
+        "current_feels_like": 3.7,
         "max_temp": 10.8,
         "feels_like_max": 8.9,
         "max_uvi": 3.6,
-        "temp_diff": 6.5,
+        "temp_diff": 6.6,
         "alert_event": "한파주의보",
         "alert_events": [
           "한파주의보"
@@ -1771,27 +1764,25 @@
       "lat": 35.5437,
       "lon": 129.33,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 2.8,
-        "current_feels_like": -0.3,
+        "current_temp": 4.4,
+        "current_feels_like": 1.6,
         "max_temp": 13.2,
         "feels_like_max": 11.3,
         "max_uvi": 3.5,
-        "temp_diff": 10.5,
+        "temp_diff": 9.7,
         "alert_event": "한파주의보",
         "alert_events": [
-          "한파주의보",
-          "풍랑주의보"
+          "한파주의보"
         ],
         "alert_type": "한파",
         "alert_types": [
-          "한파",
-          "풍랑"
+          "한파"
         ],
         "preparations": [
           {
@@ -1800,19 +1791,12 @@
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
             "alert_event": "한파주의보",
             "alert_events": [
-              "한파주의보",
-              "풍랑주의보"
+              "한파주의보"
             ],
             "alert_type": "한파",
             "alert_types": [
-              "한파",
-              "풍랑"
+              "한파"
             ]
-          },
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 10°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": false
@@ -1846,27 +1830,25 @@
       "lat": 35.5387,
       "lon": 129.1444,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 1.9,
-        "current_feels_like": -0.8,
+        "current_temp": 3.9,
+        "current_feels_like": 1.8,
         "max_temp": 13.3,
         "feels_like_max": 11.3,
         "max_uvi": 3.5,
-        "temp_diff": 11.4,
+        "temp_diff": 10.7,
         "alert_event": "한파주의보",
         "alert_events": [
-          "한파주의보",
-          "풍랑주의보"
+          "한파주의보"
         ],
         "alert_type": "한파",
         "alert_types": [
-          "한파",
-          "풍랑"
+          "한파"
         ],
         "preparations": [
           {
@@ -1875,13 +1857,11 @@
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
             "alert_event": "한파주의보",
             "alert_events": [
-              "한파주의보",
-              "풍랑주의보"
+              "한파주의보"
             ],
             "alert_type": "한파",
             "alert_types": [
-              "한파",
-              "풍랑"
+              "한파"
             ]
           },
           {
@@ -1921,18 +1901,18 @@
       "lat": 36.48,
       "lon": 127.289,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 0.8,
-        "current_feels_like": 0.8,
-        "max_temp": 10.6,
-        "feels_like_max": 8.3,
+        "current_temp": 2.4,
+        "current_feels_like": 2.4,
+        "max_temp": 10.4,
+        "feels_like_max": 8.1,
         "max_uvi": 3.1,
-        "temp_diff": 9.8,
+        "temp_diff": 9.2,
         "alert_event": null,
         "preparations": [],
         "is_night": false
@@ -1966,54 +1946,47 @@
       "lat": 37.8813,
       "lon": 127.7298,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
+        "title": "건조주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": -0.4,
-        "current_feels_like": -0.4,
+        "current_temp": 1.1,
+        "current_feels_like": 1.1,
         "max_temp": 10.0,
-        "feels_like_max": 8.6,
+        "feels_like_max": 8.3,
         "max_uvi": 2.8,
-        "temp_diff": 10.5,
-        "alert_event": "풍랑주의보",
+        "temp_diff": 9.6,
+        "alert_event": "건조주의보",
         "alert_events": [
-          "풍랑주의보",
           "건조주의보",
           "풍랑경보",
           "한파주의보"
         ],
-        "alert_type": "풍랑",
+        "alert_type": "건조",
         "alert_types": [
-          "풍랑",
           "건조",
+          "풍랑",
           "한파"
         ],
         "preparations": [
           {
             "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
+            "title": "건조주의보 발령 중",
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
+            "alert_event": "건조주의보",
             "alert_events": [
-              "풍랑주의보",
               "건조주의보",
               "풍랑경보",
               "한파주의보"
             ],
-            "alert_type": "풍랑",
+            "alert_type": "건조",
             "alert_types": [
-              "풍랑",
               "건조",
+              "풍랑",
               "한파"
             ]
-          },
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 10°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": false
@@ -2047,54 +2020,47 @@
       "lat": 37.3422,
       "lon": 127.9202,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
+        "title": "건조주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": -1.5,
-        "current_feels_like": -1.5,
+        "current_temp": 0.2,
+        "current_feels_like": 0.2,
         "max_temp": 9.1,
         "feels_like_max": 8.0,
         "max_uvi": 2.9,
-        "temp_diff": 10.7,
-        "alert_event": "풍랑주의보",
+        "temp_diff": 9.8,
+        "alert_event": "건조주의보",
         "alert_events": [
-          "풍랑주의보",
           "건조주의보",
           "풍랑경보",
           "한파주의보"
         ],
-        "alert_type": "풍랑",
+        "alert_type": "건조",
         "alert_types": [
-          "풍랑",
           "건조",
+          "풍랑",
           "한파"
         ],
         "preparations": [
           {
             "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
+            "title": "건조주의보 발령 중",
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
+            "alert_event": "건조주의보",
             "alert_events": [
-              "풍랑주의보",
               "건조주의보",
               "풍랑경보",
               "한파주의보"
             ],
-            "alert_type": "풍랑",
+            "alert_type": "건조",
             "alert_types": [
-              "풍랑",
               "건조",
+              "풍랑",
               "한파"
             ]
-          },
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 11°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": false
@@ -2128,47 +2094,45 @@
       "lat": 37.7519,
       "lon": 128.8761,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
+        "title": "건조주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 1.1,
-        "current_feels_like": -3.0,
+        "current_temp": 2.2,
+        "current_feels_like": -1.4,
         "max_temp": 10.8,
         "feels_like_max": 9.9,
         "max_uvi": 2.8,
-        "temp_diff": 9.8,
-        "alert_event": "풍랑주의보",
+        "temp_diff": 9.1,
+        "alert_event": "건조주의보",
         "alert_events": [
-          "풍랑주의보",
           "건조주의보",
           "풍랑경보",
           "한파주의보"
         ],
-        "alert_type": "풍랑",
+        "alert_type": "건조",
         "alert_types": [
-          "풍랑",
           "건조",
+          "풍랑",
           "한파"
         ],
         "preparations": [
           {
             "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
+            "title": "건조주의보 발령 중",
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
+            "alert_event": "건조주의보",
             "alert_events": [
-              "풍랑주의보",
               "건조주의보",
               "풍랑경보",
               "한파주의보"
             ],
-            "alert_type": "풍랑",
+            "alert_type": "건조",
             "alert_types": [
-              "풍랑",
               "건조",
+              "풍랑",
               "한파"
             ]
           }
@@ -2204,18 +2168,18 @@
       "lat": 36.6424,
       "lon": 127.489,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": -2.0,
-        "current_feels_like": -2.0,
-        "max_temp": 10.7,
-        "feels_like_max": 8.3,
+        "current_temp": -3.0,
+        "current_feels_like": -3.0,
+        "max_temp": 10.4,
+        "feels_like_max": 8.2,
         "max_uvi": 3.0,
-        "temp_diff": 12.7,
+        "temp_diff": 13.4,
         "alert_event": "한파주의보",
         "alert_events": [
           "한파주의보"
@@ -2275,18 +2239,18 @@
       "lat": 36.9911,
       "lon": 127.926,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 0.1,
-        "current_feels_like": 0.1,
+        "current_temp": 1.7,
+        "current_feels_like": 1.7,
         "max_temp": 10.2,
         "feels_like_max": 8.2,
         "max_uvi": 3.0,
-        "temp_diff": 10.2,
+        "temp_diff": 9.5,
         "alert_event": "한파주의보",
         "alert_events": [
           "한파주의보"
@@ -2308,11 +2272,6 @@
             "alert_types": [
               "한파"
             ]
-          },
-          {
-            "type": "JACKET",
-            "title": "낮과 밤의 기온 차가 10°C나 돼요",
-            "message": "저녁에 쌀쌀할 수 있으니 가벼운 외투를 챙기세요!"
           }
         ],
         "is_night": false
@@ -2346,18 +2305,18 @@
       "lat": 36.8151,
       "lon": 127.1139,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 0.2,
-        "current_feels_like": -2.5,
-        "max_temp": 9.9,
-        "feels_like_max": 7.5,
+        "current_temp": 1.8,
+        "current_feels_like": -0.2,
+        "max_temp": 9.7,
+        "feels_like_max": 7.3,
         "max_uvi": 3.0,
-        "temp_diff": 9.7,
+        "temp_diff": 8.9,
         "alert_event": null,
         "preparations": [],
         "is_night": false
@@ -2391,18 +2350,18 @@
       "lat": 36.7898,
       "lon": 127.0018,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 0.9,
-        "current_feels_like": -2.4,
-        "max_temp": 10.0,
-        "feels_like_max": 7.7,
+        "current_temp": 2.4,
+        "current_feels_like": -0.6,
+        "max_temp": 9.8,
+        "feels_like_max": 7.4,
         "max_uvi": 3.0,
-        "temp_diff": 9.0,
+        "temp_diff": 8.4,
         "alert_event": null,
         "preparations": [],
         "is_night": false
@@ -2436,18 +2395,18 @@
       "lat": 36.7801,
       "lon": 126.4503,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 2.2,
-        "current_feels_like": -2.0,
+        "current_temp": 3.1,
+        "current_feels_like": -0.7,
         "max_temp": 8.9,
         "feels_like_max": 6.2,
         "max_uvi": 3.0,
-        "temp_diff": 6.8,
+        "temp_diff": 6.6,
         "alert_event": null,
         "preparations": [],
         "is_night": false
@@ -2481,18 +2440,18 @@
       "lat": 35.8242,
       "lon": 127.148,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 2.9,
-        "current_feels_like": 0.8,
+        "current_temp": 3.6,
+        "current_feels_like": 2.4,
         "max_temp": 10.7,
         "feels_like_max": 8.6,
         "max_uvi": 3.4,
-        "temp_diff": 7.8,
+        "temp_diff": 7.6,
         "alert_event": null,
         "preparations": [],
         "is_night": false
@@ -2526,18 +2485,18 @@
       "lat": 35.9677,
       "lon": 126.7366,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 3.6,
-        "current_feels_like": 0.2,
+        "current_temp": 4.2,
+        "current_feels_like": 1.5,
         "max_temp": 11.1,
         "feels_like_max": 9.1,
         "max_uvi": 3.4,
-        "temp_diff": 7.5,
+        "temp_diff": 7.4,
         "alert_event": null,
         "preparations": [],
         "is_night": false
@@ -2571,18 +2530,18 @@
       "lat": 35.9483,
       "lon": 126.9578,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
-        "current_temp": 2.7,
-        "current_feels_like": 0.2,
+        "current_temp": 3.5,
+        "current_feels_like": 1.9,
         "max_temp": 10.8,
         "feels_like_max": 8.8,
         "max_uvi": 3.4,
-        "temp_diff": 8.2,
+        "temp_diff": 7.8,
         "alert_event": null,
         "preparations": [],
         "is_night": false
@@ -2616,18 +2575,18 @@
       "lat": 34.8118,
       "lon": 126.3922,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 4.8,
-        "current_feels_like": 2.6,
+        "current_temp": 3.8,
+        "current_feels_like": 1.4,
         "max_temp": 11.2,
         "feels_like_max": 9.5,
         "max_uvi": 3.8,
-        "temp_diff": 6.4,
+        "temp_diff": 7.4,
         "alert_event": "한파주의보",
         "alert_events": [
           "한파주의보"
@@ -2682,14 +2641,14 @@
       "lat": 34.7604,
       "lon": 127.6622,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 5.9,
-        "current_feels_like": 2.5,
+        "current_temp": 6.1,
+        "current_feels_like": 3.4,
         "max_temp": 12.6,
         "feels_like_max": 10.7,
         "max_uvi": 3.8,
@@ -2748,14 +2707,14 @@
       "lat": 34.9506,
       "lon": 127.4872,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 4.3,
-        "current_feels_like": 2.1,
+        "current_temp": 4.7,
+        "current_feels_like": 2.6,
         "max_temp": 12.8,
         "feels_like_max": 10.8,
         "max_uvi": 3.8,
@@ -2814,44 +2773,42 @@
       "lat": 36.019,
       "lon": 129.3435,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
+        "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 2.8,
-        "current_feels_like": -0.6,
+        "current_temp": 3.7,
+        "current_feels_like": 0.4,
         "max_temp": 12.1,
         "feels_like_max": 10.0,
         "max_uvi": 3.3,
-        "temp_diff": 9.3,
-        "alert_event": "풍랑주의보",
+        "temp_diff": 9.0,
+        "alert_event": "한파주의보",
         "alert_events": [
-          "풍랑주의보",
           "한파주의보",
           "풍랑경보"
         ],
-        "alert_type": "풍랑",
+        "alert_type": "한파",
         "alert_types": [
-          "풍랑",
-          "한파"
+          "한파",
+          "풍랑"
         ],
         "preparations": [
           {
             "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
+            "title": "한파주의보 발령 중",
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
+            "alert_event": "한파주의보",
             "alert_events": [
-              "풍랑주의보",
               "한파주의보",
               "풍랑경보"
             ],
-            "alert_type": "풍랑",
+            "alert_type": "한파",
             "alert_types": [
-              "풍랑",
-              "한파"
+              "한파",
+              "풍랑"
             ]
           }
         ],
@@ -2886,44 +2843,42 @@
       "lat": 36.1195,
       "lon": 128.3445,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
+        "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 4.8,
-        "current_feels_like": 2.2,
+        "current_temp": 3.8,
+        "current_feels_like": 1.2,
         "max_temp": 12.0,
         "feels_like_max": 9.9,
         "max_uvi": 3.2,
-        "temp_diff": 8.2,
-        "alert_event": "풍랑주의보",
+        "temp_diff": 8.8,
+        "alert_event": "한파주의보",
         "alert_events": [
-          "풍랑주의보",
           "한파주의보",
           "풍랑경보"
         ],
-        "alert_type": "풍랑",
+        "alert_type": "한파",
         "alert_types": [
-          "풍랑",
-          "한파"
+          "한파",
+          "풍랑"
         ],
         "preparations": [
           {
             "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
+            "title": "한파주의보 발령 중",
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
+            "alert_event": "한파주의보",
             "alert_events": [
-              "풍랑주의보",
               "한파주의보",
               "풍랑경보"
             ],
-            "alert_type": "풍랑",
+            "alert_type": "한파",
             "alert_types": [
-              "풍랑",
-              "한파"
+              "한파",
+              "풍랑"
             ]
           }
         ],
@@ -2958,44 +2913,42 @@
       "lat": 36.5684,
       "lon": 128.7294,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
+        "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 1.0,
-        "current_feels_like": 1.0,
+        "current_temp": 2.0,
+        "current_feels_like": 2.0,
         "max_temp": 10.2,
         "feels_like_max": 7.9,
         "max_uvi": 3.2,
-        "temp_diff": 9.2,
-        "alert_event": "풍랑주의보",
+        "temp_diff": 8.9,
+        "alert_event": "한파주의보",
         "alert_events": [
-          "풍랑주의보",
           "한파주의보",
           "풍랑경보"
         ],
-        "alert_type": "풍랑",
+        "alert_type": "한파",
         "alert_types": [
-          "풍랑",
-          "한파"
+          "한파",
+          "풍랑"
         ],
         "preparations": [
           {
             "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
+            "title": "한파주의보 발령 중",
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
+            "alert_event": "한파주의보",
             "alert_events": [
-              "풍랑주의보",
               "한파주의보",
               "풍랑경보"
             ],
-            "alert_type": "풍랑",
+            "alert_type": "한파",
             "alert_types": [
-              "풍랑",
-              "한파"
+              "한파",
+              "풍랑"
             ]
           }
         ],
@@ -3030,27 +2983,25 @@
       "lat": 35.2279,
       "lon": 128.6811,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 4.8,
-        "current_feels_like": 2.2,
+        "current_feels_like": 2.1,
         "max_temp": 14.4,
         "feels_like_max": 12.5,
         "max_uvi": 3.7,
         "temp_diff": 11.4,
         "alert_event": "한파주의보",
         "alert_events": [
-          "한파주의보",
-          "풍랑주의보"
+          "한파주의보"
         ],
         "alert_type": "한파",
         "alert_types": [
-          "한파",
-          "풍랑"
+          "한파"
         ],
         "preparations": [
           {
@@ -3059,13 +3010,11 @@
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
             "alert_event": "한파주의보",
             "alert_events": [
-              "한파주의보",
-              "풍랑주의보"
+              "한파주의보"
             ],
             "alert_type": "한파",
             "alert_types": [
-              "한파",
-              "풍랑"
+              "한파"
             ]
           },
           {
@@ -3105,27 +3054,25 @@
       "lat": 35.1802,
       "lon": 128.1076,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 2.5,
-        "current_feels_like": 0.9,
+        "current_temp": 3.8,
+        "current_feels_like": 2.5,
         "max_temp": 13.1,
         "feels_like_max": 11.2,
         "max_uvi": 3.7,
         "temp_diff": 10.8,
         "alert_event": "한파주의보",
         "alert_events": [
-          "한파주의보",
-          "풍랑주의보"
+          "한파주의보"
         ],
         "alert_type": "한파",
         "alert_types": [
-          "한파",
-          "풍랑"
+          "한파"
         ],
         "preparations": [
           {
@@ -3134,13 +3081,11 @@
             "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
             "alert_event": "한파주의보",
             "alert_events": [
-              "한파주의보",
-              "풍랑주의보"
+              "한파주의보"
             ],
             "alert_type": "한파",
             "alert_types": [
-              "한파",
-              "풍랑"
+              "한파"
             ]
           },
           {
@@ -3180,18 +3125,18 @@
       "lat": 33.4996,
       "lon": 126.5312,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
         "current_temp": 10.7,
-        "current_feels_like": 9.2,
+        "current_feels_like": 9.3,
         "max_temp": 11.9,
-        "feels_like_max": 10.5,
+        "feels_like_max": 10.4,
         "max_uvi": 4.3,
-        "temp_diff": 1.6,
+        "temp_diff": 1.8,
         "alert_event": null,
         "preparations": [],
         "is_night": false
@@ -3225,18 +3170,18 @@
       "lat": 33.2541,
       "lon": 126.5601,
       "status": "ok",
-      "fetched_at": "2026-11-07T06:02:29+09:00",
+      "fetched_at": "2026-11-07T08:02:42+09:00",
       "recommendation": {
         "state_code": "NONE",
         "title": "가볍게 빈손으로 나가도 좋아요",
         "message": "날씨가 쾌적하여 기분 좋은 외출이 될 거예요.",
         "rain_start_time": null,
         "current_temp": 10.7,
-        "current_feels_like": 9.5,
+        "current_feels_like": 9.4,
         "max_temp": 14.4,
         "feels_like_max": 13.1,
         "max_uvi": 4.3,
-        "temp_diff": 3.9,
+        "temp_diff": 4.1,
         "alert_event": null,
         "preparations": [],
         "is_night": false
