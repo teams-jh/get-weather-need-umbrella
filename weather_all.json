@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "2.1",
-    "updated_at": "2026-11-28T23:02:42+09:00",
+    "updated_at": "2026-11-29T00:02:27+09:00",
     "status": "ok",
     "source": "OpenWeatherMap One Call API 3.0 50 + KMA Alerts (Hybrid Real Data - 50/50)",
     "providers": {
@@ -23,18 +23,18 @@
       "lat": 37.57,
       "lon": 126.9796,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 2.8,
-        "current_feels_like": -1.5,
-        "max_temp": 2.8,
-        "feels_like_max": -2.2,
-        "max_uvi": 0,
-        "temp_diff": 7.1,
+        "current_feels_like": -2.4,
+        "max_temp": 6.3,
+        "feels_like_max": 5.2,
+        "max_uvi": 1.8,
+        "temp_diff": 5.7,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
@@ -65,12 +65,6 @@
         "is_night": true
       },
       "forecast": [
-        {
-          "date": "2026-11-28",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
         {
           "date": "2026-11-29",
           "pop": 0,
@@ -82,6 +76,12 @@
           "pop": 0.71,
           "has_rain": true,
           "rain_start_time": "22:00"
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.94,
+          "has_rain": true,
+          "rain_start_time": null
         }
       ]
     },
@@ -93,647 +93,17 @@
       "lat": 37.4979,
       "lon": 127.0276,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 3.9,
-        "current_feels_like": 0.2,
-        "max_temp": 3.9,
-        "feels_like_max": -0.7,
-        "max_uvi": 0,
-        "temp_diff": 6.7,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보",
-          "한파주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑",
-          "한파"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보",
-              "한파주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑",
-              "한파"
-            ]
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-11-28",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-29",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-30",
-          "pop": 0.32,
-          "has_rain": true,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "seoul_east": {
-      "id": "seoul_east",
-      "name": "서울_송파",
-      "group": "서울",
-      "display_name": "송파",
-      "lat": 37.5145,
-      "lon": 127.1066,
-      "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 4.0,
-        "current_feels_like": 0.2,
-        "max_temp": 4.0,
-        "feels_like_max": -0.6,
-        "max_uvi": 0,
-        "temp_diff": 6.9,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보",
-          "한파주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑",
-          "한파"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보",
-              "한파주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑",
-              "한파"
-            ]
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-11-28",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-29",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-30",
-          "pop": 0.3,
-          "has_rain": true,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "seoul_west": {
-      "id": "seoul_west",
-      "name": "서울_강서",
-      "group": "서울",
-      "display_name": "강서",
-      "lat": 37.5509,
-      "lon": 126.8495,
-      "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 3.0,
-        "current_feels_like": -1.2,
-        "max_temp": 3.0,
-        "feels_like_max": -2.0,
-        "max_uvi": 0,
-        "temp_diff": 7.1,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보",
-          "한파주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑",
-          "한파"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보",
-              "한파주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑",
-              "한파"
-            ]
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-11-28",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-29",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-30",
-          "pop": 0.64,
-          "has_rain": true,
-          "rain_start_time": "15:00"
-        }
-      ]
-    },
-    "seoul_north": {
-      "id": "seoul_north",
-      "name": "서울_노원",
-      "group": "서울",
-      "display_name": "노원",
-      "lat": 37.6542,
-      "lon": 127.0568,
-      "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 3.9,
+        "current_temp": 2.9,
         "current_feels_like": -0.8,
-        "max_temp": 3.9,
-        "feels_like_max": -0.8,
-        "max_uvi": 0,
-        "temp_diff": 6.3,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보",
-          "한파주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑",
-          "한파"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보",
-              "한파주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑",
-              "한파"
-            ]
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-11-28",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-29",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-30",
-          "pop": 0.84,
-          "has_rain": true,
-          "rain_start_time": "16:00"
-        }
-      ]
-    },
-    "gyeonggi_suwon": {
-      "id": "gyeonggi_suwon",
-      "name": "경기_수원",
-      "group": "경기",
-      "display_name": "수원",
-      "lat": 37.2636,
-      "lon": 127.0286,
-      "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 4.2,
-        "current_feels_like": 0.1,
-        "max_temp": 4.2,
-        "feels_like_max": -0.2,
-        "max_uvi": 0,
-        "temp_diff": 6.4,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보",
-          "한파주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑",
-          "한파"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보",
-              "한파주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑",
-              "한파"
-            ]
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-11-28",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-29",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-30",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "gyeonggi_seongnam": {
-      "id": "gyeonggi_seongnam",
-      "name": "경기_성남",
-      "group": "경기",
-      "display_name": "성남",
-      "lat": 37.3827,
-      "lon": 127.1189,
-      "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 3.8,
-        "current_feels_like": 0.1,
-        "max_temp": 3.8,
-        "feels_like_max": -0.5,
-        "max_uvi": 0,
-        "temp_diff": 7.0,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보",
-          "한파주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑",
-          "한파"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보",
-              "한파주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑",
-              "한파"
-            ]
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-11-28",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-29",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-30",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "gyeonggi_goyang": {
-      "id": "gyeonggi_goyang",
-      "name": "경기_고양",
-      "group": "경기",
-      "display_name": "고양",
-      "lat": 37.6583,
-      "lon": 126.832,
-      "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 3.0,
-        "current_feels_like": -1.3,
-        "max_temp": 3.0,
-        "feels_like_max": -1.9,
-        "max_uvi": 0,
-        "temp_diff": 6.9,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보",
-          "한파주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑",
-          "한파"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보",
-              "한파주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑",
-              "한파"
-            ]
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-11-28",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-29",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-30",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": "15:00"
-        }
-      ]
-    },
-    "gyeonggi_yongin": {
-      "id": "gyeonggi_yongin",
-      "name": "경기_용인",
-      "group": "경기",
-      "display_name": "용인",
-      "lat": 37.241,
-      "lon": 127.1775,
-      "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 3.2,
-        "current_feels_like": 0.7,
-        "max_temp": 3.2,
-        "feels_like_max": -1.3,
-        "max_uvi": 0,
-        "temp_diff": 6.6,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보",
-          "한파주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑",
-          "한파"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보",
-              "한파주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑",
-              "한파"
-            ]
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-11-28",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-29",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-30",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "gyeonggi_bucheon": {
-      "id": "gyeonggi_bucheon",
-      "name": "경기_부천",
-      "group": "경기",
-      "display_name": "부천",
-      "lat": 37.5034,
-      "lon": 126.766,
-      "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 3,
-        "current_feels_like": -1.2,
-        "max_temp": 3,
-        "feels_like_max": -2.3,
-        "max_uvi": 0,
-        "temp_diff": 7.1,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보",
-          "한파주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑",
-          "한파"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보",
-              "한파주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑",
-              "한파"
-            ]
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-11-28",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-29",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-30",
-          "pop": 0.43,
-          "has_rain": true,
-          "rain_start_time": "15:00"
-        }
-      ]
-    },
-    "gyeonggi_namyangju": {
-      "id": "gyeonggi_namyangju",
-      "name": "경기_남양주",
-      "group": "경기",
-      "display_name": "남양주",
-      "lat": 37.636,
-      "lon": 127.2165,
-      "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 3.6,
-        "current_feels_like": -1.2,
-        "max_temp": 3.6,
-        "feels_like_max": -1.2,
-        "max_uvi": 0,
+        "max_temp": 6.7,
+        "feels_like_max": 6.1,
+        "max_uvi": 2.0,
         "temp_diff": 5.8,
         "alert_event": "풍랑주의보",
         "alert_events": [
@@ -766,12 +136,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -779,32 +143,38 @@
         },
         {
           "date": "2026-11-30",
-          "pop": 0.42,
+          "pop": 0.32,
+          "has_rain": true,
+          "rain_start_time": "23:00"
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.59,
           "has_rain": true,
           "rain_start_time": null
         }
       ]
     },
-    "gyeonggi_pyeongtaek": {
-      "id": "gyeonggi_pyeongtaek",
-      "name": "경기_평택",
-      "group": "경기",
-      "display_name": "평택",
-      "lat": 36.9921,
-      "lon": 127.1129,
+    "seoul_east": {
+      "id": "seoul_east",
+      "name": "서울_송파",
+      "group": "서울",
+      "display_name": "송파",
+      "lat": 37.5145,
+      "lon": 127.1066,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 4.9,
-        "current_feels_like": 0.9,
-        "max_temp": 4.9,
-        "feels_like_max": -0.1,
-        "max_uvi": 0,
-        "temp_diff": 6.1,
+        "current_temp": 3.1,
+        "current_feels_like": -0.5,
+        "max_temp": 6.8,
+        "feels_like_max": 5.9,
+        "max_uvi": 1.8,
+        "temp_diff": 6.0,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
@@ -836,11 +206,215 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0.2,
-          "has_rain": true,
+          "date": "2026-11-29",
+          "pop": 0,
+          "has_rain": false,
           "rain_start_time": null
         },
+        {
+          "date": "2026-11-30",
+          "pop": 0.3,
+          "has_rain": true,
+          "rain_start_time": "23:00"
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.58,
+          "has_rain": true,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "seoul_west": {
+      "id": "seoul_west",
+      "name": "서울_강서",
+      "group": "서울",
+      "display_name": "강서",
+      "lat": 37.5509,
+      "lon": 126.8495,
+      "status": "ok",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 3.0,
+        "current_feels_like": -2.1,
+        "max_temp": 7.1,
+        "feels_like_max": 6.1,
+        "max_uvi": 1.8,
+        "temp_diff": 5.8,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보",
+          "한파주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑",
+          "한파"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보",
+              "한파주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑",
+              "한파"
+            ]
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-11-29",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-11-30",
+          "pop": 0.64,
+          "has_rain": true,
+          "rain_start_time": "15:00"
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.79,
+          "has_rain": true,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "seoul_north": {
+      "id": "seoul_north",
+      "name": "서울_노원",
+      "group": "서울",
+      "display_name": "노원",
+      "lat": 37.6542,
+      "lon": 127.0568,
+      "status": "ok",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 2.9,
+        "current_feels_like": -1.9,
+        "max_temp": 6.4,
+        "feels_like_max": 5.0,
+        "max_uvi": 1.8,
+        "temp_diff": 5.8,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보",
+          "한파주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑",
+          "한파"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보",
+              "한파주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑",
+              "한파"
+            ]
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-11-29",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-11-30",
+          "pop": 0.84,
+          "has_rain": true,
+          "rain_start_time": "16:00"
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.97,
+          "has_rain": true,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeonggi_suwon": {
+      "id": "gyeonggi_suwon",
+      "name": "경기_수원",
+      "group": "경기",
+      "display_name": "수원",
+      "lat": 37.2636,
+      "lon": 127.0286,
+      "status": "ok",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 3.7,
+        "current_feels_like": -0.1,
+        "max_temp": 6.7,
+        "feels_like_max": 6.2,
+        "max_uvi": 2.0,
+        "temp_diff": 5.1,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보",
+          "한파주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑",
+          "한파"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보",
+              "한파주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑",
+              "한파"
+            ]
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
         {
           "date": "2026-11-29",
           "pop": 0,
@@ -851,6 +425,432 @@
           "date": "2026-11-30",
           "pop": 0,
           "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.2,
+          "has_rain": true,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeonggi_seongnam": {
+      "id": "gyeonggi_seongnam",
+      "name": "경기_성남",
+      "group": "경기",
+      "display_name": "성남",
+      "lat": 37.3827,
+      "lon": 127.1189,
+      "status": "ok",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 2.8,
+        "current_feels_like": -0.9,
+        "max_temp": 6.7,
+        "feels_like_max": 5.9,
+        "max_uvi": 2.0,
+        "temp_diff": 5.9,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보",
+          "한파주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑",
+          "한파"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보",
+              "한파주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑",
+              "한파"
+            ]
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-11-29",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.31,
+          "has_rain": true,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeonggi_goyang": {
+      "id": "gyeonggi_goyang",
+      "name": "경기_고양",
+      "group": "경기",
+      "display_name": "고양",
+      "lat": 37.6583,
+      "lon": 126.832,
+      "status": "ok",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 3.0,
+        "current_feels_like": -2.2,
+        "max_temp": 7.0,
+        "feels_like_max": 5.6,
+        "max_uvi": 1.8,
+        "temp_diff": 6.3,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보",
+          "한파주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑",
+          "한파"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보",
+              "한파주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑",
+              "한파"
+            ]
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-11-29",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-11-30",
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": "15:00"
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.97,
+          "has_rain": true,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeonggi_yongin": {
+      "id": "gyeonggi_yongin",
+      "name": "경기_용인",
+      "group": "경기",
+      "display_name": "용인",
+      "lat": 37.241,
+      "lon": 127.1775,
+      "status": "ok",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 3.1,
+        "current_feels_like": 3.1,
+        "max_temp": 5.8,
+        "feels_like_max": 4.8,
+        "max_uvi": 2.0,
+        "temp_diff": 5.7,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보",
+          "한파주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑",
+          "한파"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보",
+              "한파주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑",
+              "한파"
+            ]
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-11-29",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.2,
+          "has_rain": true,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeonggi_bucheon": {
+      "id": "gyeonggi_bucheon",
+      "name": "경기_부천",
+      "group": "경기",
+      "display_name": "부천",
+      "lat": 37.5034,
+      "lon": 126.766,
+      "status": "ok",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 3,
+        "current_feels_like": -2.1,
+        "max_temp": 7.4,
+        "feels_like_max": 6.1,
+        "max_uvi": 1.8,
+        "temp_diff": 5.8,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보",
+          "한파주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑",
+          "한파"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보",
+              "한파주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑",
+              "한파"
+            ]
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-11-29",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-11-30",
+          "pop": 0.43,
+          "has_rain": true,
+          "rain_start_time": "15:00"
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.55,
+          "has_rain": true,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeonggi_namyangju": {
+      "id": "gyeonggi_namyangju",
+      "name": "경기_남양주",
+      "group": "경기",
+      "display_name": "남양주",
+      "lat": 37.636,
+      "lon": 127.2165,
+      "status": "ok",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 2.6,
+        "current_feels_like": -2.3,
+        "max_temp": 4.9,
+        "feels_like_max": 3.4,
+        "max_uvi": 1.8,
+        "temp_diff": 6.4,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보",
+          "한파주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑",
+          "한파"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보",
+              "한파주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑",
+              "한파"
+            ]
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-11-29",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-11-30",
+          "pop": 0.42,
+          "has_rain": true,
+          "rain_start_time": "23:00"
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.61,
+          "has_rain": true,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeonggi_pyeongtaek": {
+      "id": "gyeonggi_pyeongtaek",
+      "name": "경기_평택",
+      "group": "경기",
+      "display_name": "평택",
+      "lat": 36.9921,
+      "lon": 127.1129,
+      "status": "ok",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 3.9,
+        "current_feels_like": 0.2,
+        "max_temp": 7.0,
+        "feels_like_max": 5.4,
+        "max_uvi": 2.1,
+        "temp_diff": 5.8,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보",
+          "한파주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑",
+          "한파"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보",
+              "한파주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑",
+              "한파"
+            ]
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-11-29",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.3,
+          "has_rain": true,
           "rain_start_time": null
         }
       ]
@@ -863,17 +863,157 @@
       "lat": 37.7381,
       "lon": 127.0339,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 2.7,
-        "current_feels_like": -2.4,
-        "max_temp": 2.7,
-        "feels_like_max": -2.4,
-        "max_uvi": 0,
+        "current_feels_like": -2.3,
+        "max_temp": 5.5,
+        "feels_like_max": 4.9,
+        "max_uvi": 1.8,
+        "temp_diff": 5.9,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보",
+          "한파주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑",
+          "한파"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보",
+              "한파주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑",
+              "한파"
+            ]
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-11-29",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-11-30",
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": "15:00"
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 1,
+          "has_rain": true,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "incheon_center": {
+      "id": "incheon_center",
+      "name": "인천_남동",
+      "group": "인천",
+      "display_name": "남동",
+      "lat": 37.4475,
+      "lon": 126.7314,
+      "status": "ok",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 3.0,
+        "current_feels_like": -2.1,
+        "max_temp": 7.2,
+        "feels_like_max": 5.5,
+        "max_uvi": 2,
+        "temp_diff": 5.6,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보",
+          "한파주의보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑",
+          "한파"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보",
+              "한파주의보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑",
+              "한파"
+            ]
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-11-29",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-11-30",
+          "pop": 0.23,
+          "has_rain": true,
+          "rain_start_time": "15:00"
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.33,
+          "has_rain": true,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "incheon_west": {
+      "id": "incheon_west",
+      "name": "인천_서구",
+      "group": "인천",
+      "display_name": "서구",
+      "lat": 37.5451,
+      "lon": 126.676,
+      "status": "ok",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 2.9,
+        "current_feels_like": -2.3,
+        "max_temp": 8.4,
+        "feels_like_max": 6.1,
+        "max_uvi": 1.8,
         "temp_diff": 6.5,
         "alert_event": "풍랑주의보",
         "alert_events": [
@@ -906,152 +1046,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-29",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-30",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": "15:00"
-        }
-      ]
-    },
-    "incheon_center": {
-      "id": "incheon_center",
-      "name": "인천_남동",
-      "group": "인천",
-      "display_name": "남동",
-      "lat": 37.4475,
-      "lon": 126.7314,
-      "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 3.0,
-        "current_feels_like": -1.2,
-        "max_temp": 3.0,
-        "feels_like_max": -2.6,
-        "max_uvi": 0,
-        "temp_diff": 6.6,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보",
-          "한파주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑",
-          "한파"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보",
-              "한파주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑",
-              "한파"
-            ]
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-11-28",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-29",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-30",
-          "pop": 0.23,
-          "has_rain": true,
-          "rain_start_time": "15:00"
-        }
-      ]
-    },
-    "incheon_west": {
-      "id": "incheon_west",
-      "name": "인천_서구",
-      "group": "인천",
-      "display_name": "서구",
-      "lat": 37.5451,
-      "lon": 126.676,
-      "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 2.9,
-        "current_feels_like": -1.4,
-        "max_temp": 2.9,
-        "feels_like_max": -2.8,
-        "max_uvi": 0,
-        "temp_diff": 7.1,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보",
-          "한파주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑",
-          "한파"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보",
-              "한파주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑",
-              "한파"
-            ]
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-11-28",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -1062,6 +1056,12 @@
           "pop": 0.3,
           "has_rain": true,
           "rain_start_time": "15:00"
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.37,
+          "has_rain": true,
+          "rain_start_time": null
         }
       ]
     },
@@ -1073,18 +1073,18 @@
       "lat": 35.1631,
       "lon": 129.0536,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 5.9,
-        "current_feels_like": 2.9,
-        "max_temp": 5.9,
-        "feels_like_max": 1.2,
-        "max_uvi": 0,
-        "temp_diff": 9.7,
+        "current_feels_like": 3.2,
+        "max_temp": 8.8,
+        "feels_like_max": 6.8,
+        "max_uvi": 2.5,
+        "temp_diff": 5.5,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
@@ -1118,12 +1118,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0.63,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -1131,6 +1125,12 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -1145,18 +1145,18 @@
       "lat": 35.1631,
       "lon": 129.1636,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 6.0,
-        "current_feels_like": 1.0,
-        "max_temp": 6.0,
-        "feels_like_max": 1.0,
-        "max_uvi": 0,
-        "temp_diff": 9.6,
+        "current_feels_like": 1.2,
+        "max_temp": 9.7,
+        "feels_like_max": 7.8,
+        "max_uvi": 2.5,
+        "temp_diff": 5.0,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
@@ -1190,12 +1190,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0.23,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -1203,6 +1197,12 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -1217,18 +1217,18 @@
       "lat": 35.1526,
       "lon": 128.9911,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 6.0,
-        "current_feels_like": 3.0,
-        "max_temp": 6.0,
-        "feels_like_max": 1.4,
-        "max_uvi": 0,
-        "temp_diff": 9.6,
+        "current_feels_like": 3.3,
+        "max_temp": 9.1,
+        "feels_like_max": 7.1,
+        "max_uvi": 2.5,
+        "temp_diff": 5.6,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
@@ -1262,12 +1262,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0.73,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -1275,6 +1269,12 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -1289,18 +1289,18 @@
       "lat": 35.0912,
       "lon": 129.0679,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 5.7,
-        "current_feels_like": 2.7,
-        "max_temp": 5.7,
-        "feels_like_max": 0.6,
-        "max_uvi": 0,
-        "temp_diff": 8.3,
+        "current_feels_like": 3,
+        "max_temp": 9.8,
+        "feels_like_max": 7.7,
+        "max_uvi": 2.5,
+        "temp_diff": 5.0,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
@@ -1334,12 +1334,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0.43,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -1347,6 +1341,12 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -1361,22 +1361,23 @@
       "lat": 35.8669,
       "lon": 128.5942,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 5.9,
-        "current_feels_like": 1.0,
-        "max_temp": 5.9,
-        "feels_like_max": 2.0,
-        "max_uvi": 0,
-        "temp_diff": 5.0,
+        "current_feels_like": 1.4,
+        "max_temp": 8.5,
+        "feels_like_max": 7.2,
+        "max_uvi": 2.3,
+        "temp_diff": 6.7,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
-          "강풍주의보"
+          "강풍주의보",
+          "풍랑경보"
         ],
         "alert_type": "풍랑",
         "alert_types": [
@@ -1391,7 +1392,8 @@
             "alert_event": "풍랑주의보",
             "alert_events": [
               "풍랑주의보",
-              "강풍주의보"
+              "강풍주의보",
+              "풍랑경보"
             ],
             "alert_type": "풍랑",
             "alert_types": [
@@ -1404,12 +1406,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -1417,6 +1413,12 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -1431,22 +1433,23 @@
       "lat": 35.8865,
       "lon": 128.6355,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 6.0,
-        "current_feels_like": 1.1,
-        "max_temp": 6.0,
-        "feels_like_max": 2.0,
-        "max_uvi": 0,
-        "temp_diff": 4.9,
+        "current_feels_like": 1.5,
+        "max_temp": 8.3,
+        "feels_like_max": 6.8,
+        "max_uvi": 2.3,
+        "temp_diff": 6.9,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
-          "강풍주의보"
+          "강풍주의보",
+          "풍랑경보"
         ],
         "alert_type": "풍랑",
         "alert_types": [
@@ -1461,7 +1464,8 @@
             "alert_event": "풍랑주의보",
             "alert_events": [
               "풍랑주의보",
-              "강풍주의보"
+              "강풍주의보",
+              "풍랑경보"
             ],
             "alert_type": "풍랑",
             "alert_types": [
@@ -1474,12 +1478,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0.95,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -1487,6 +1485,12 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -1501,22 +1505,23 @@
       "lat": 35.8299,
       "lon": 128.5326,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 5.9,
-        "current_feels_like": 1.0,
-        "max_temp": 5.9,
-        "feels_like_max": 2.0,
-        "max_uvi": 0,
-        "temp_diff": 4.9,
+        "current_feels_like": 1.4,
+        "max_temp": 8.7,
+        "feels_like_max": 7.8,
+        "max_uvi": 2.3,
+        "temp_diff": 7.0,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
-          "강풍주의보"
+          "강풍주의보",
+          "풍랑경보"
         ],
         "alert_type": "풍랑",
         "alert_types": [
@@ -1531,7 +1536,8 @@
             "alert_event": "풍랑주의보",
             "alert_events": [
               "풍랑주의보",
-              "강풍주의보"
+              "강풍주의보",
+              "풍랑경보"
             ],
             "alert_type": "풍랑",
             "alert_types": [
@@ -1544,12 +1550,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -1557,6 +1557,12 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -1571,18 +1577,18 @@
       "lat": 36.3554,
       "lon": 127.3838,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 3.5,
+        "current_temp": 3.6,
         "current_feels_like": -0.9,
-        "max_temp": 3.5,
-        "feels_like_max": -0.9,
-        "max_uvi": 0,
-        "temp_diff": 6.3,
+        "max_temp": 8.0,
+        "feels_like_max": 6.2,
+        "max_uvi": 2.2,
+        "temp_diff": 7.4,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보"
@@ -1610,12 +1616,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -1623,6 +1623,12 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -1637,18 +1643,18 @@
       "lat": 36.3622,
       "lon": 127.3562,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 3.4,
+        "current_temp": 3.5,
         "current_feels_like": -1.0,
-        "max_temp": 3.4,
-        "feels_like_max": -1.0,
-        "max_uvi": 0,
-        "temp_diff": 6.3,
+        "max_temp": 8.0,
+        "feels_like_max": 6.2,
+        "max_uvi": 2.2,
+        "temp_diff": 7.5,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보"
@@ -1676,12 +1682,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -1689,6 +1689,12 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -1703,18 +1709,18 @@
       "lat": 35.152,
       "lon": 126.8901,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "23:02",
-        "current_temp": 5.8,
-        "current_feels_like": 1.9,
-        "max_temp": 5.8,
-        "feels_like_max": 1.9,
-        "max_uvi": 0,
-        "temp_diff": 5.9,
+        "rain_start_time": null,
+        "current_temp": 6.1,
+        "current_feels_like": 1.8,
+        "max_temp": 9.7,
+        "feels_like_max": 7.8,
+        "max_uvi": 2.5,
+        "temp_diff": 5.8,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
@@ -1744,32 +1750,26 @@
               "풍랑",
               "강풍"
             ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오후 11:02부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "23:02"
           }
         ],
         "is_night": true
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": "23:00"
-        },
-        {
           "date": "2026-11-29",
-          "pop": 0.2,
-          "has_rain": true,
-          "rain_start_time": "00:00"
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
         },
         {
           "date": "2026-11-30",
           "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.09,
           "has_rain": false,
           "rain_start_time": null
         }
@@ -1783,18 +1783,18 @@
       "lat": 35.1396,
       "lon": 126.7936,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "23:02",
-        "current_temp": 5.9,
-        "current_feels_like": 1.9,
-        "max_temp": 5.9,
-        "feels_like_max": 1.9,
-        "max_uvi": 0,
-        "temp_diff": 6.1,
+        "rain_start_time": null,
+        "current_temp": 6.1,
+        "current_feels_like": 1.6,
+        "max_temp": 9.5,
+        "feels_like_max": 7.3,
+        "max_uvi": 2.5,
+        "temp_diff": 5.4,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
@@ -1824,32 +1824,26 @@
               "풍랑",
               "강풍"
             ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오후 11:02부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "23:02"
           }
         ],
         "is_night": true
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
-          "pop": 0.2,
-          "has_rain": true,
-          "rain_start_time": "01:00"
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
         },
         {
           "date": "2026-11-30",
           "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.01,
           "has_rain": false,
           "rain_start_time": null
         }
@@ -1863,17 +1857,89 @@
       "lat": 35.5437,
       "lon": 129.33,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 4.8,
-        "current_feels_like": 0.2,
-        "max_temp": 4.8,
-        "feels_like_max": 0.2,
-        "max_uvi": 0,
+        "current_temp": 4.7,
+        "current_feels_like": 0.1,
+        "max_temp": 8.9,
+        "feels_like_max": 8.5,
+        "max_uvi": 2.4,
+        "temp_diff": 6.7,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보",
+          "강풍주의보",
+          "풍랑경보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑",
+          "강풍"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보",
+              "강풍주의보",
+              "풍랑경보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑",
+              "강풍"
+            ]
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-11-29",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "ulsan_ulju": {
+      "id": "ulsan_ulju",
+      "name": "울산_울주",
+      "group": "울산",
+      "display_name": "울주",
+      "lat": 35.5387,
+      "lon": 129.1444,
+      "status": "ok",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 4.3,
+        "current_feels_like": -0.3,
+        "max_temp": 8.2,
+        "feels_like_max": 7,
+        "max_uvi": 2.4,
         "temp_diff": 7.7,
         "alert_event": "풍랑주의보",
         "alert_events": [
@@ -1908,12 +1974,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0.44,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -1924,75 +1984,9 @@
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
-        }
-      ]
-    },
-    "ulsan_ulju": {
-      "id": "ulsan_ulju",
-      "name": "울산_울주",
-      "group": "울산",
-      "display_name": "울주",
-      "lat": 35.5387,
-      "lon": 129.1444,
-      "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 4.4,
-        "current_feels_like": -0.2,
-        "max_temp": 4.4,
-        "feels_like_max": -0.2,
-        "max_uvi": 0,
-        "temp_diff": 7.9,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보",
-          "강풍주의보",
-          "풍랑경보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑",
-          "강풍"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보",
-              "강풍주의보",
-              "풍랑경보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑",
-              "강풍"
-            ]
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-11-28",
-          "pop": 0.52,
-          "has_rain": true,
-          "rain_start_time": null
         },
         {
-          "date": "2026-11-29",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-30",
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -2007,18 +2001,18 @@
       "lat": 36.48,
       "lon": 127.289,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 3.7,
-        "current_feels_like": -0.6,
-        "max_temp": 3.7,
-        "feels_like_max": -0.6,
-        "max_uvi": 0,
-        "temp_diff": 6.5,
+        "current_temp": 3.5,
+        "current_feels_like": -1.1,
+        "max_temp": 8.3,
+        "feels_like_max": 6.7,
+        "max_uvi": 2.2,
+        "temp_diff": 7.4,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보"
@@ -2046,12 +2040,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -2059,6 +2047,12 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -2073,22 +2067,23 @@
       "lat": 37.8813,
       "lon": 127.7298,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 1.7,
-        "current_feels_like": -2.7,
-        "max_temp": 1.7,
-        "feels_like_max": -2.7,
-        "max_uvi": 0,
-        "temp_diff": 6.9,
+        "current_temp": 1.1,
+        "current_feels_like": -3.4,
+        "max_temp": 5.9,
+        "feels_like_max": 3.6,
+        "max_uvi": 1.9,
+        "temp_diff": 7.5,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
-          "한파주의보"
+          "한파주의보",
+          "풍랑경보"
         ],
         "alert_type": "풍랑",
         "alert_types": [
@@ -2103,7 +2098,8 @@
             "alert_event": "풍랑주의보",
             "alert_events": [
               "풍랑주의보",
-              "한파주의보"
+              "한파주의보",
+              "풍랑경보"
             ],
             "alert_type": "풍랑",
             "alert_types": [
@@ -2116,12 +2112,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -2131,6 +2121,12 @@
           "date": "2026-11-30",
           "pop": 0,
           "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.2,
+          "has_rain": true,
           "rain_start_time": null
         }
       ]
@@ -2143,22 +2139,23 @@
       "lat": 37.3422,
       "lon": 127.9202,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 0.3,
-        "current_feels_like": -5.0,
-        "max_temp": 0.3,
-        "feels_like_max": -5.0,
-        "max_uvi": 0,
-        "temp_diff": 7.9,
+        "current_temp": 0.2,
+        "current_feels_like": -5.1,
+        "max_temp": 4.5,
+        "feels_like_max": 2.4,
+        "max_uvi": 2.0,
+        "temp_diff": 7.2,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
-          "한파주의보"
+          "한파주의보",
+          "풍랑경보"
         ],
         "alert_type": "풍랑",
         "alert_types": [
@@ -2173,7 +2170,8 @@
             "alert_event": "풍랑주의보",
             "alert_events": [
               "풍랑주의보",
-              "한파주의보"
+              "한파주의보",
+              "풍랑경보"
             ],
             "alert_type": "풍랑",
             "alert_types": [
@@ -2186,12 +2184,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0.02,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -2201,6 +2193,12 @@
           "date": "2026-11-30",
           "pop": 0,
           "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.2,
+          "has_rain": true,
           "rain_start_time": null
         }
       ]
@@ -2213,22 +2211,23 @@
       "lat": 37.7519,
       "lon": 128.8761,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 4.0,
-        "current_feels_like": -0.2,
-        "max_temp": 4.0,
-        "feels_like_max": -0.2,
-        "max_uvi": 0,
-        "temp_diff": 8.3,
+        "current_temp": 3.4,
+        "current_feels_like": -0.8,
+        "max_temp": 9.5,
+        "feels_like_max": 8.4,
+        "max_uvi": 1.9,
+        "temp_diff": 7.9,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
-          "한파주의보"
+          "한파주의보",
+          "풍랑경보"
         ],
         "alert_type": "풍랑",
         "alert_types": [
@@ -2243,7 +2242,8 @@
             "alert_event": "풍랑주의보",
             "alert_events": [
               "풍랑주의보",
-              "한파주의보"
+              "한파주의보",
+              "풍랑경보"
             ],
             "alert_type": "풍랑",
             "alert_types": [
@@ -2256,12 +2256,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0.01,
           "has_rain": false,
@@ -2269,6 +2263,12 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -2283,18 +2283,18 @@
       "lat": 36.6424,
       "lon": 127.489,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 3.0,
-        "current_feels_like": 0.0,
-        "max_temp": 3.0,
-        "feels_like_max": -1.8,
-        "max_uvi": 0,
-        "temp_diff": 7.1,
+        "current_feels_like": -1.2,
+        "max_temp": 7.1,
+        "feels_like_max": 4.8,
+        "max_uvi": 2.1,
+        "temp_diff": 7.2,
         "alert_event": "한파주의보",
         "alert_events": [
           "한파주의보"
@@ -2322,12 +2322,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0.67,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -2335,6 +2329,12 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -2349,18 +2349,18 @@
       "lat": 36.9911,
       "lon": 127.926,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "한파주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 2.3,
-        "current_feels_like": -2.5,
-        "max_temp": 2.3,
-        "feels_like_max": -2.5,
-        "max_uvi": 0,
-        "temp_diff": 7.2,
+        "current_temp": 2.1,
+        "current_feels_like": -2.7,
+        "max_temp": 6.2,
+        "feels_like_max": 3.6,
+        "max_uvi": 2.1,
+        "temp_diff": 7.6,
         "alert_event": "한파주의보",
         "alert_events": [
           "한파주의보"
@@ -2388,12 +2388,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0.58,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -2401,6 +2395,12 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -2415,18 +2415,18 @@
       "lat": 36.8151,
       "lon": 127.1139,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 3.4,
-        "current_feels_like": -2.0,
-        "max_temp": 3.4,
-        "feels_like_max": -2.0,
-        "max_uvi": 0,
-        "temp_diff": 6.9,
+        "current_temp": 3.2,
+        "current_feels_like": -2.3,
+        "max_temp": 6.9,
+        "feels_like_max": 5.4,
+        "max_uvi": 2.1,
+        "temp_diff": 6.1,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보"
@@ -2454,12 +2454,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0.8,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -2467,6 +2461,12 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -2481,18 +2481,18 @@
       "lat": 36.7898,
       "lon": 127.0018,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 4.0,
-        "current_feels_like": -1.4,
-        "max_temp": 4.0,
-        "feels_like_max": -1.4,
-        "max_uvi": 0,
-        "temp_diff": 6.8,
+        "current_temp": 3.6,
+        "current_feels_like": -1.8,
+        "max_temp": 7.7,
+        "feels_like_max": 6.5,
+        "max_uvi": 2.1,
+        "temp_diff": 5.6,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보"
@@ -2520,12 +2520,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0.98,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -2533,6 +2527,12 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -2547,18 +2547,18 @@
       "lat": 36.7801,
       "lon": 126.4503,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 4.8,
-        "current_feels_like": -0.8,
-        "max_temp": 4.8,
-        "feels_like_max": -0.8,
-        "max_uvi": 0,
-        "temp_diff": 5.0,
+        "current_temp": 4.2,
+        "current_feels_like": -1.6,
+        "max_temp": 8.2,
+        "feels_like_max": 6.0,
+        "max_uvi": 2.1,
+        "temp_diff": 4.9,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보"
@@ -2586,12 +2586,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0.98,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -2599,6 +2593,12 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -2613,18 +2613,18 @@
       "lat": 35.8242,
       "lon": 127.148,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 4.4,
-        "current_feels_like": 0.4,
-        "max_temp": 4.4,
-        "feels_like_max": 0.4,
-        "max_uvi": 0,
-        "temp_diff": 5.3,
+        "current_temp": 4.7,
+        "current_feels_like": 0.6,
+        "max_temp": 8.4,
+        "feels_like_max": 6.9,
+        "max_uvi": 2.3,
+        "temp_diff": 7.4,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
@@ -2658,12 +2658,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0.09,
           "has_rain": false,
@@ -2671,6 +2665,12 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -2685,89 +2685,17 @@
       "lat": 35.9677,
       "lon": 126.7366,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 6.9,
-        "current_feels_like": 1.9,
-        "max_temp": 6.9,
-        "feels_like_max": 1.9,
-        "max_uvi": 0,
-        "temp_diff": 4.2,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보",
-          "강풍주의보",
-          "풍랑경보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑",
-          "강풍"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보",
-              "강풍주의보",
-              "풍랑경보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑",
-              "강풍"
-            ]
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-11-28",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-29",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-30",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "jeonbuk_iksan": {
-      "id": "jeonbuk_iksan",
-      "name": "전북_익산",
-      "group": "전북",
-      "display_name": "익산",
-      "lat": 35.9483,
-      "lon": 126.9578,
-      "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 5.6,
-        "current_feels_like": 1.4,
-        "max_temp": 5.6,
-        "feels_like_max": 1.4,
-        "max_uvi": 0,
+        "current_temp": 6.6,
+        "current_feels_like": 1.6,
+        "max_temp": 8.8,
+        "feels_like_max": 6.9,
+        "max_uvi": 2.3,
         "temp_diff": 5.0,
         "alert_event": "풍랑주의보",
         "alert_events": [
@@ -2802,11 +2730,77 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 1,
-          "has_rain": true,
+          "date": "2026-11-29",
+          "pop": 0,
+          "has_rain": false,
           "rain_start_time": null
         },
+        {
+          "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "jeonbuk_iksan": {
+      "id": "jeonbuk_iksan",
+      "name": "전북_익산",
+      "group": "전북",
+      "display_name": "익산",
+      "lat": 35.9483,
+      "lon": 126.9578,
+      "status": "ok",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 5.4,
+        "current_feels_like": 1.1,
+        "max_temp": 9.0,
+        "feels_like_max": 7.5,
+        "max_uvi": 2.3,
+        "temp_diff": 7.5,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보",
+          "강풍주의보",
+          "풍랑경보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑",
+          "강풍"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보",
+              "강풍주의보",
+              "풍랑경보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑",
+              "강풍"
+            ]
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
         {
           "date": "2026-11-29",
           "pop": 0,
@@ -2815,6 +2809,12 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -2829,18 +2829,18 @@
       "lat": 34.8118,
       "lon": 126.3922,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 6.8,
-        "current_feels_like": 2.9,
-        "max_temp": 6.8,
-        "feels_like_max": 1.0,
-        "max_uvi": 0,
-        "temp_diff": 6.5,
+        "current_feels_like": 2.8,
+        "max_temp": 9.7,
+        "feels_like_max": 8.9,
+        "max_uvi": 2.6,
+        "temp_diff": 2.9,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
@@ -2876,12 +2876,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -2891,6 +2885,12 @@
           "date": "2026-11-30",
           "pop": 0,
           "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.29,
+          "has_rain": true,
           "rain_start_time": null
         }
       ]
@@ -2903,18 +2903,18 @@
       "lat": 34.7604,
       "lon": 127.6622,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 6.0,
-        "current_feels_like": 0.9,
-        "max_temp": 6.0,
-        "feels_like_max": 0.9,
-        "max_uvi": 0,
-        "temp_diff": 6.2,
+        "current_temp": 5.9,
+        "current_feels_like": 0.8,
+        "max_temp": 9.8,
+        "feels_like_max": 7.6,
+        "max_uvi": 2.6,
+        "temp_diff": 4.5,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
@@ -2950,12 +2950,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0.78,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -2965,6 +2959,12 @@
           "date": "2026-11-30",
           "pop": 0,
           "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.35,
+          "has_rain": true,
           "rain_start_time": null
         }
       ]
@@ -2977,18 +2977,18 @@
       "lat": 34.9506,
       "lon": 127.4872,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 4.4,
-        "current_feels_like": -0.6,
-        "max_temp": 4.4,
-        "feels_like_max": -0.6,
-        "max_uvi": 0,
-        "temp_diff": 7.2,
+        "current_temp": 4.5,
+        "current_feels_like": -0.4,
+        "max_temp": 9.3,
+        "feels_like_max": 7.5,
+        "max_uvi": 2.6,
+        "temp_diff": 6.0,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
@@ -3024,12 +3024,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -3037,6 +3031,12 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -3051,228 +3051,18 @@
       "lat": 36.019,
       "lon": 129.3435,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 4.4,
-        "current_feels_like": -0.6,
-        "max_temp": 4.4,
-        "feels_like_max": -0.6,
-        "max_uvi": 0,
-        "temp_diff": 6.7,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보",
-          "강풍주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑",
-          "강풍"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보",
-              "강풍주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑",
-              "강풍"
-            ]
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-11-28",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-29",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-30",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "gyeongbuk_gumi": {
-      "id": "gyeongbuk_gumi",
-      "name": "경북_구미",
-      "group": "경북",
-      "display_name": "구미",
-      "lat": 36.1195,
-      "lon": 128.3445,
-      "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 4.8,
-        "current_feels_like": 0.7,
-        "max_temp": 4.8,
-        "feels_like_max": 0.7,
-        "max_uvi": 0,
-        "temp_diff": 5.9,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보",
-          "강풍주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑",
-          "강풍"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보",
-              "강풍주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑",
-              "강풍"
-            ]
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-11-28",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-29",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-30",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "gyeongbuk_andong": {
-      "id": "gyeongbuk_andong",
-      "name": "경북_안동",
-      "group": "경북",
-      "display_name": "안동",
-      "lat": 36.5684,
-      "lon": 128.7294,
-      "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 2.3,
-        "current_feels_like": -2.7,
-        "max_temp": 2.3,
-        "feels_like_max": -2.7,
-        "max_uvi": 0,
-        "temp_diff": 7.4,
-        "alert_event": "풍랑주의보",
-        "alert_events": [
-          "풍랑주의보",
-          "강풍주의보"
-        ],
-        "alert_type": "풍랑",
-        "alert_types": [
-          "풍랑",
-          "강풍"
-        ],
-        "preparations": [
-          {
-            "type": "ALERT",
-            "title": "풍랑주의보 발령 중",
-            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-            "alert_event": "풍랑주의보",
-            "alert_events": [
-              "풍랑주의보",
-              "강풍주의보"
-            ],
-            "alert_type": "풍랑",
-            "alert_types": [
-              "풍랑",
-              "강풍"
-            ]
-          }
-        ],
-        "is_night": true
-      },
-      "forecast": [
-        {
-          "date": "2026-11-28",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-29",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        },
-        {
-          "date": "2026-11-30",
-          "pop": 0,
-          "has_rain": false,
-          "rain_start_time": null
-        }
-      ]
-    },
-    "gyeongnam_changwon": {
-      "id": "gyeongnam_changwon",
-      "name": "경남_창원",
-      "group": "경남",
-      "display_name": "창원",
-      "lat": 35.2279,
-      "lon": 128.6811,
-      "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
-      "recommendation": {
-        "state_code": "ALERT",
-        "title": "풍랑주의보 발령 중",
-        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": null,
-        "current_temp": 5.8,
-        "current_feels_like": 1.9,
-        "max_temp": 5.8,
-        "feels_like_max": 1.9,
-        "max_uvi": 0,
-        "temp_diff": 7.6,
+        "current_temp": 4.2,
+        "current_feels_like": -0.9,
+        "max_temp": 8.2,
+        "feels_like_max": 5.3,
+        "max_uvi": 2.3,
+        "temp_diff": 6.8,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
@@ -3306,12 +3096,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -3322,28 +3106,34 @@
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
         }
       ]
     },
-    "gyeongnam_jinju": {
-      "id": "gyeongnam_jinju",
-      "name": "경남_진주",
-      "group": "경남",
-      "display_name": "진주",
-      "lat": 35.1802,
-      "lon": 128.1076,
+    "gyeongbuk_gumi": {
+      "id": "gyeongbuk_gumi",
+      "name": "경북_구미",
+      "group": "경북",
+      "display_name": "구미",
+      "lat": 36.1195,
+      "lon": 128.3445,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
-        "current_temp": 4.9,
-        "current_feels_like": 1.8,
-        "max_temp": 4.9,
-        "feels_like_max": 1.8,
-        "max_uvi": 0,
+        "current_temp": 4.8,
+        "current_feels_like": 0.7,
+        "max_temp": 8.1,
+        "feels_like_max": 5.3,
+        "max_uvi": 2.2,
         "temp_diff": 6.9,
         "alert_event": "풍랑주의보",
         "alert_events": [
@@ -3378,11 +3168,77 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0.2,
-          "has_rain": true,
+          "date": "2026-11-29",
+          "pop": 0,
+          "has_rain": false,
           "rain_start_time": null
         },
+        {
+          "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeongbuk_andong": {
+      "id": "gyeongbuk_andong",
+      "name": "경북_안동",
+      "group": "경북",
+      "display_name": "안동",
+      "lat": 36.5684,
+      "lon": 128.7294,
+      "status": "ok",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 1.9,
+        "current_feels_like": -2.9,
+        "max_temp": 6.4,
+        "feels_like_max": 3.3,
+        "max_uvi": 2.2,
+        "temp_diff": 7.9,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보",
+          "강풍주의보",
+          "풍랑경보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑",
+          "강풍"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보",
+              "강풍주의보",
+              "풍랑경보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑",
+              "강풍"
+            ]
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
         {
           "date": "2026-11-29",
           "pop": 0,
@@ -3391,6 +3247,156 @@
         },
         {
           "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeongnam_changwon": {
+      "id": "gyeongnam_changwon",
+      "name": "경남_창원",
+      "group": "경남",
+      "display_name": "창원",
+      "lat": 35.2279,
+      "lon": 128.6811,
+      "status": "ok",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 5.8,
+        "current_feels_like": 2.2,
+        "max_temp": 9.7,
+        "feels_like_max": 8.4,
+        "max_uvi": 2.5,
+        "temp_diff": 7.3,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보",
+          "강풍주의보",
+          "풍랑경보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑",
+          "강풍"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보",
+              "강풍주의보",
+              "풍랑경보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑",
+              "강풍"
+            ]
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-11-29",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        }
+      ]
+    },
+    "gyeongnam_jinju": {
+      "id": "gyeongnam_jinju",
+      "name": "경남_진주",
+      "group": "경남",
+      "display_name": "진주",
+      "lat": 35.1802,
+      "lon": 128.1076,
+      "status": "ok",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
+      "recommendation": {
+        "state_code": "ALERT",
+        "title": "풍랑주의보 발령 중",
+        "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+        "rain_start_time": null,
+        "current_temp": 4.9,
+        "current_feels_like": 1.7,
+        "max_temp": 9.1,
+        "feels_like_max": 8.2,
+        "max_uvi": 2.5,
+        "temp_diff": 6.8,
+        "alert_event": "풍랑주의보",
+        "alert_events": [
+          "풍랑주의보",
+          "강풍주의보",
+          "풍랑경보"
+        ],
+        "alert_type": "풍랑",
+        "alert_types": [
+          "풍랑",
+          "강풍"
+        ],
+        "preparations": [
+          {
+            "type": "ALERT",
+            "title": "풍랑주의보 발령 중",
+            "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
+            "alert_event": "풍랑주의보",
+            "alert_events": [
+              "풍랑주의보",
+              "강풍주의보",
+              "풍랑경보"
+            ],
+            "alert_type": "풍랑",
+            "alert_types": [
+              "풍랑",
+              "강풍"
+            ]
+          }
+        ],
+        "is_night": true
+      },
+      "forecast": [
+        {
+          "date": "2026-11-29",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-11-30",
+          "pop": 0,
+          "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
           "pop": 0,
           "has_rain": false,
           "rain_start_time": null
@@ -3405,18 +3411,18 @@
       "lat": 33.4996,
       "lon": 126.5312,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
-        "rain_start_time": "23:00",
+        "rain_start_time": null,
         "current_temp": 9.7,
-        "current_feels_like": 5.7,
-        "max_temp": 9.7,
-        "feels_like_max": 5.5,
-        "max_uvi": 0,
-        "temp_diff": 5.6,
+        "current_feels_like": 5.8,
+        "max_temp": 10.6,
+        "feels_like_max": 9.5,
+        "max_uvi": 3.0,
+        "temp_diff": 2.3,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
@@ -3446,23 +3452,11 @@
               "풍랑",
               "강풍"
             ]
-          },
-          {
-            "type": "UMBRELLA",
-            "title": "오후 11:00부터 비 소식이 있어요",
-            "message": "외출 시 우산을 꼭 챙겨서 나가세요!",
-            "rain_start_time": "23:00"
           }
         ],
         "is_night": true
       },
       "forecast": [
-        {
-          "date": "2026-11-28",
-          "pop": 1,
-          "has_rain": true,
-          "rain_start_time": "23:00"
-        },
         {
           "date": "2026-11-29",
           "pop": 0.16,
@@ -3473,6 +3467,12 @@
           "date": "2026-11-30",
           "pop": 0,
           "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.21,
+          "has_rain": true,
           "rain_start_time": null
         }
       ]
@@ -3485,18 +3485,18 @@
       "lat": 33.2541,
       "lon": 126.5601,
       "status": "ok",
-      "fetched_at": "2026-11-28T23:02:42+09:00",
+      "fetched_at": "2026-11-29T00:02:27+09:00",
       "recommendation": {
         "state_code": "ALERT",
         "title": "풍랑주의보 발령 중",
         "message": "안전에 유의하시고 준비물을 꼭 점검하세요!",
         "rain_start_time": null,
         "current_temp": 9.7,
-        "current_feels_like": 6.0,
-        "max_temp": 9.7,
-        "feels_like_max": 6.0,
-        "max_uvi": 0,
-        "temp_diff": 5.5,
+        "current_feels_like": 6.1,
+        "max_temp": 11.7,
+        "feels_like_max": 10.3,
+        "max_uvi": 3.0,
+        "temp_diff": 3.6,
         "alert_event": "풍랑주의보",
         "alert_events": [
           "풍랑주의보",
@@ -3532,12 +3532,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-28",
-          "pop": 0.74,
-          "has_rain": true,
-          "rain_start_time": null
-        },
-        {
           "date": "2026-11-29",
           "pop": 0,
           "has_rain": false,
@@ -3547,6 +3541,12 @@
           "date": "2026-11-30",
           "pop": 0,
           "has_rain": false,
+          "rain_start_time": null
+        },
+        {
+          "date": "2026-12-01",
+          "pop": 0.4,
+          "has_rain": true,
           "rain_start_time": null
         }
       ]
